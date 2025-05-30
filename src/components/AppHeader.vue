@@ -1,16 +1,19 @@
 <template>
   <header class="header">
-    <div class="logo-wrapper">
-      <img src="@/assets/logo.svg" alt="Logo" class="logo" />
-    </div>
-    <nav class="nav">
-      <div v-for="(item, index) in menuItems" :key="item" class="nav-item">
-        <a href="#">{{ item }}</a>
-        <div v-if="index < menuItems.length - 1" class="separator">
-          <div v-for="n in 10" :key="n" class="dot" />
-        </div>
+    <div class="header-inner">
+      <div class="logo-container">
+        <img src="@/assets/logo.svg" alt="Logo" class="logo logo-left" />
+        <img src="@/assets/logo-opp.svg" alt="Logo Opp" class="logo logo-right" />
       </div>
-    </nav>
+      <nav class="nav">
+        <div v-for="(item, index) in menuItems" :key="item" class="nav-item">
+          <a href="#">{{ item }}</a>
+          <div v-if="index < menuItems.length - 1" class="separator">
+            <div v-for="n in 10" :key="n" class="dot" />
+          </div>
+        </div>
+      </nav>
+    </div>
   </header>
 </template>
 
@@ -38,19 +41,25 @@ const menuItems = [
   user-select: none;
   width: 100%;
   height: 16vh;
-  overflow-y: hidden;
+  overflow: visible;
+  align-items: center;
 }
 
-/* Logo separado, sem background */
-.logo-wrapper {
-  margin-bottom: 1rem;
-  /* Sem background */
-  /* Mantém só o logo */
+.header-inner {
+  width: 75%;
+  overflow: visible;
 }
 
+/* Novo container para os logos */
+.logo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Estilos dos logos */
 .logo {
-  height: 6vh;
-  width: auto;
+  height: 10vh; /* Ajuste conforme necessário para manter o alinhamento com a navbar */
 }
 
 /* Navbar ocupa toda a largura */
