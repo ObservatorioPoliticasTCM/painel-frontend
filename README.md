@@ -1,5 +1,88 @@
-# Vue 3 + TypeScript + Vite
+# Painel de Indicadores do Observatório de Políticas Públicas
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+O Painel de Indicadores do Observatório de Políticas Públicas é um painel interativo que apresenta diversos dashboards temáticos com indicadores selecionados sobre políticas públicas e contas governamentais do município de São Paulo.  
+  
+Desenvolvido pelo Observatório de Políticas Públicas do Tribunal de Contas do Município de São Paulo e seus parceiros, o painel utiliza **Vue.js** para a criação de componentes e **Qlik Sense** para a incorporação dos dashboards interativos.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## Temas Abordados
+
+Os dashboards refletem os mesmos temas dos Grupos de Trabalho do OPP:
+- **Educação**
+- **Gênero**
+- **Saúde**
+- **Urbanismo**
+- **Regionalização do Orçamento**
+
+## Requisitos
+
+- [Node.js](https://nodejs.org/) (versão 14 ou superior)
+- [npm](https://www.npmjs.com/) ou [Yarn](https://yarnpkg.com/)
+
+## Como Executar o Projeto Localmente
+
+1. **Clone o repositório**
+
+   ```bash
+   git clone https://github.com/seu-usuario/painel-frontend.git
+   cd painel-frontend
+   ```
+
+2. **Instale as dependências**
+
+   Usando npm:
+
+   ```bash
+   npm install
+   ```
+
+   Ou usando Yarn:
+
+   ```bash
+   yarn install
+   ```
+
+3. **Inicie o servidor de desenvolvimento**
+
+   Usando npm:
+
+   ```bash
+   npm run dev
+   ```
+
+   Ou usando Yarn:
+
+   ```bash
+   yarn dev
+   ```
+
+4. **Acesse o Projeto**
+
+   Abra o navegador e vá para [http://localhost:3000](http://localhost:3000) (ou a porta definida pelo seu terminal).
+
+## Build para Produção
+
+Para compilar o projeto para produção execute:
+
+Usando npm:
+
+    ```bash
+    npm run build
+    ```
+
+Ou usando Yarn:
+
+    ```bash
+    yarn build
+    ```
+
+Depois, pode servir os arquivos estáticos usando:
+
+    ```bash
+    npm run serve
+    ```
+
+ou
+
+    ```bash
+    yarn serve
+    ```
