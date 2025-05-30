@@ -1,5 +1,6 @@
 <template>
   <header class="header">
+    <div class="gradient-overlay"></div>
     <div class="header-inner">
       <div class="logo-container">
         <img src="@/assets/logo.svg" alt="Logo" class="logo logo-left" />
@@ -43,6 +44,24 @@ const menuItems = [
   height: 16vh;
   overflow: visible;
   align-items: center;
+}
+
+/* Gradient-overlay em plano intermediário */
+.gradient-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 40vh;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.1) 10%,
+    rgba(0, 0, 0, 0.3) 30%,
+    rgba(0, 0, 0, 0.3) 42%,
+    rgba(0, 0, 0, 0.1) 62%,
+    rgba(0, 0, 0, 0) 72%
+  );
 }
 
 .header-inner {
