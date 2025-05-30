@@ -55,14 +55,13 @@ const menuItems = [
 
 /* Navbar ocupa toda a largura */
 .nav {
+  position: relative;
   display: flex;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.2); /* transparência da navbar */
   padding: 0.5rem 1rem;
   box-sizing: border-box;
   align-items: center;
   justify-content: center;
-  gap: 1.5rem;
   flex-wrap: nowrap;
   overflow-x: auto; /* scroll horizontal se necessário */
   text-transform: uppercase;
@@ -73,12 +72,16 @@ const menuItems = [
   display: flex;
   align-items: center;
   white-space: nowrap;
+  position: relative;
+  z-index: 1;
 }
 
 .nav-item a {
   color: white;
   text-decoration: none;
   font-weight: 500;
+  position: relative;
+  z-index: 1;
 }
 
 .separator {
