@@ -49,7 +49,7 @@ const menuItems = [
 }
 
 .logo {
-  height: 48px;
+  height: 6vh;
   width: auto;
 }
 
