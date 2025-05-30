@@ -58,31 +58,3 @@ Os dashboards refletem os mesmos temas dos Grupos de Trabalho do OPP:
 4. **Acesse o Projeto**
 
    Abra o navegador e vá para [http://localhost:3000](http://localhost:3000) (ou a porta definida pelo seu terminal).
-
-## Build para Produção
-
-Para compilar o projeto para produção execute:
-
-Usando npm:
-
-    ```bash
-    npm run build
-    ```
-
-Ou usando Yarn:
-
-    ```bash
-    yarn build
-    ```
-
-Depois, pode servir os arquivos estáticos usando:
-
-    ```bash
-    npm run serve
-    ```
-
-ou
-
-    ```bash
-    yarn serve
-    ```
