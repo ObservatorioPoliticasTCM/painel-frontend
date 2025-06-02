@@ -58,3 +58,21 @@ Os dashboards refletem os mesmos temas dos Grupos de Trabalho do OPP:
 4. **Acesse o Projeto**
 
    Abra o navegador e vá para [http://localhost:3000](http://localhost:3000) (ou a porta definida pelo seu terminal).
+
+## Executando com Docker
+
+1. **Construa a imagem Docker**
+
+   ```bash
+   docker build -t painel-frontend .
+   ```
+
+2. **Inicie o container**
+
+   ```bash
+   docker run -d -p 3000:3000 painel-frontend
+   ```
+
+3. **Acesse o Projeto**
+
+   Abra o navegador e vá para [http://localhost:3000](http://localhost:3000)
