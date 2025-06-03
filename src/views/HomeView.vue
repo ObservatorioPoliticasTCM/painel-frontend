@@ -1,5 +1,6 @@
 <template>
   <main class="home-view">
+    <Background />
     <SnapContainer>
       <FrontCover />
       <CardGrid />
@@ -15,6 +16,7 @@ import FrontCover from '../components/FrontCover.vue'
 import CardGrid from '../components/CardGrid.vue'
 import DashboardFrame from '../components/DashboardFrame.vue'
 import SnapContainer from '../components/SnapContainer.vue'
+import Background from '../components/Background.vue'
 </script>
 
 <style scoped>
