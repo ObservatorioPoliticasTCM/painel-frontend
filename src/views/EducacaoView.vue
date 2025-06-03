@@ -4,8 +4,23 @@
       <AppHeader  />
       <DashboardFrame
       appid="21662bb0-1242-4c61-9668-d1ff76e8b530"
+      sheet="8a9478a1-23b6-4165-a526-12f9d736aaa0"
+      identity="1"
+      />
+      <DashboardFrame
+      appid="21662bb0-1242-4c61-9668-d1ff76e8b530"
+      sheet="nNpyj"
+      identity="2"
+      />
+      <DashboardFrame
+      appid="21662bb0-1242-4c61-9668-d1ff76e8b530"
       sheet="nvgxg"
-      style="z-index: 20;"
+      identity="3"
+      />
+      <DashboardFrame
+      appid="21662bb0-1242-4c61-9668-d1ff76e8b530"
+      sheet="PqxZb"
+      identity="4"
       />
     </SnapContainer>
     <Background />
@@ -16,6 +31,7 @@
 import AppHeader from '../components/AppHeader.vue';
 import Background from '../components/Background.vue';
 import DashboardFrame from '../components/DashboardFrame.vue'
+import MashupFrame from '../components/MashupFrame.vue';
 import SnapContainer from '../components/SnapContainer.vue';
 </script>
 
