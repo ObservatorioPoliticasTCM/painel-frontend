@@ -14,7 +14,7 @@ export default defineComponent({
   },
   setup(props) {
     const baseUrl = "https://qlik.tcm.sp.gov.br/jwt/single/"
-    const iframeSrc = computed(() => baseUrl + `?appid=${props.appid}&sheet=${props.sheet}&theme=horizon&opt=ctxmenu,currsel`)
+    const iframeSrc = computed(() => baseUrl + `?appid=${props.appid}&sheet=${props.sheet}&theme=card&opt=ctxmenu,currsel`)
     return { iframeSrc }
   }
 })
