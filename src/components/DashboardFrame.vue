@@ -10,11 +10,18 @@ export default defineComponent({
   name: 'DashboardFrame',
   props: {
     appid: { type: String, required: true },
-    sheet: { type: String, required: true }
+    sheet: { type: String, required: true },
+    identity: { type: String }
   },
   setup(props) {
     const baseUrl = "https://qlik.tcm.sp.gov.br/jwt/single/"
-    const iframeSrc = computed(() => baseUrl + `?appid=${props.appid}&sheet=${props.sheet}&theme=card&opt=ctxmenu,currsel`)
+    const iframeSrc = computed(() => {
+      let url = baseUrl + `?appid=${props.appid}&sheet=${props.sheet}&theme=card&opt=ctxmenu,currsel`
+      if (props.identity) {
+        url += `&identity=${props.identity}`
+      }
+      return url
+    })
     return { iframeSrc }
   }
 })
@@ -23,7 +30,7 @@ export default defineComponent({
 <style scoped>
 .frame-container {
   height: 90vh;
-  margin: 5vh;
+  padding: 5vh;
   position: relative;
   z-index: 20;
 }
