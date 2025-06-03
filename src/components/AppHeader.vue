@@ -7,8 +7,9 @@
         <img src="@/assets/logo-opp.svg" alt="Logo Opp" class="logo logo-right" />
       </div>
       <nav class="nav">
-        <div v-for="(item, index) in menuItems" :key="item" class="nav-item">
-          <a href="#">{{ item }}</a>
+        <div v-for="(item, index) in menuItems" :key="item.label" class="nav-item">
+          <router-link v-if="item.route" :to="item.route">{{ item.label }}</router-link>
+          <a v-else href="#">{{ item.label }}</a>
           <div v-if="index < menuItems.length - 1" class="separator">
             <div v-for="n in 10" :key="n" class="dot" />
           </div>
@@ -20,14 +21,14 @@
 
 <script setup lang="ts">
 const menuItems = [
-  'Apresentação',
-  'Educação',
-  'Gênero',
-  'Saúde',
-  'Urbanismo',
-  'Regionalização do Orçamento',
-  'Entendendo os Dados',
-  'Contato'
+  { label: 'Apresentação', route: '/' },
+  { label: 'Educação', route: '/educacao' },
+  { label: 'Gênero' },
+  { label: 'Saúde' },
+  { label: 'Urbanismo' },
+  { label: 'Regionalização do Orçamento' },
+  { label: 'Entendendo os Dados' },
+  { label: 'Contato' }
 ]
 </script>
 
