@@ -24,5 +24,7 @@ export default defineComponent({
 .frame-container {
   height: 90vh;
   margin: 5vh;
+  position: relative;
+  z-index: 20;
 }
 </style>
