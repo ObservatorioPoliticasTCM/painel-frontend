@@ -31,7 +31,6 @@
 import AppHeader from '../components/AppHeader.vue';
 import Background from '../components/Background.vue';
 import DashboardFrame from '../components/DashboardFrame.vue'
-import MashupFrame from '../components/MashupFrame.vue';
 import SnapContainer from '../components/SnapContainer.vue';
 </script>
 
