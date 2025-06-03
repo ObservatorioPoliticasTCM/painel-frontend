@@ -70,9 +70,9 @@ Os dashboards refletem os mesmos temas dos Grupos de Trabalho do OPP:
 2. **Inicie o container**
 
    ```bash
-   docker run -d -p 3000:3000 painel-frontend
+   docker run -d -p 8080:80 painel-frontend
    ```
 
 3. **Acesse o Projeto**
 
-   Abra o navegador e vá para [http://localhost:3000](http://localhost:3000)
+   Abra o navegador e vá para [http://localhost:8080](http://localhost:8080)
