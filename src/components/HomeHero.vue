@@ -1,15 +1,14 @@
 <template>
   <section class="hero-section">
-    <div class="overlay"></div> <!-- camada cinza -->
     <div class="hero-content">
       <h1 class="hero-title">PAINEL DE INDICADORES</h1>
       <p class="hero-subtitle">OBSERVATÓRIO DE POLÍTICAS PÚBLICAS</p>
     </div>
-    <img src="@/assets/background.jpg" alt="Fundo" class="hero-background" />
   </section>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+</script>
 
 <style scoped>
 .hero-section {
@@ -23,32 +22,7 @@
   align-items: center;
   color: white;
   text-align: center;
-  background-color: #000; /* fallback */
-}
-
-.hero-background {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  object-fit: cover;
-  z-index: 0; /* fundo atrás de tudo */
-  user-select: none;
-  pointer-events: none;
-}
-
-/* nova camada cinza translúcida */
-.overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background-color: #ababab; /* cinza com 40% de opacidade */
-  opacity: 0.5;
-  z-index: 5; /* entre o fundo (0) e o conteúdo (10) */
-  pointer-events: none; /* não bloqueia cliques */
+  background-color: transparent; /* fallback */
 }
 
 .hero-content {

@@ -9,14 +9,13 @@ import { defineComponent, computed } from 'vue'
 export default defineComponent({
   name: 'DashboardFrame',
   props: {
-    appid: { type: String, required: true },
-    sheet: { type: String, required: true },
+    mashup: { type: String, required: true },
     identity: { type: String }
   },
   setup(props) {
-    const baseUrl = "https://qlik.tcm.sp.gov.br/jwt/single/"
+    const baseUrl = "https://qlik.tcm.sp.gov.br/jwt/extensions/"
     const iframeSrc = computed(() => {
-      let url = baseUrl + `?appid=${props.appid}&sheet=${props.sheet}&theme=card&opt=ctxmenu,currsel`
+      let url = baseUrl + `${props.mashup}/${props.mashup}.html`
       if (props.identity) {
         url += `&identity=${props.identity}`
       }
