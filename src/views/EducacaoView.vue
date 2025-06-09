@@ -18,7 +18,7 @@
       <DashboardFrame
       appid="21662bb0-1242-4c61-9668-d1ff76e8b530"
       sheet="nvgxg"
-      title="Perfil dos deducadores da rede pública municipal"
+      title="Perfil dos educadores da rede pública municipal"
       identity="3"
       />
       <DashboardFrame
