@@ -23,7 +23,7 @@
 const menuItems = [
   { label: 'Apresentação', route: '/' },
   { label: 'Educação', route: '/educacao' },
-  { label: 'Gênero' },
+  { label: 'Gênero', route: '/genero' },
   { label: 'Saúde' },
   { label: 'Urbanismo' },
   { label: 'Regionalização do Orçamento' },

@@ -46,7 +46,7 @@ export default defineComponent({
 }
 .frame-header {
   display: flex;
-  align-items: baseline;
+  align-items: end;
   padding: 1rem;
 }
 .frame-header h1 {
