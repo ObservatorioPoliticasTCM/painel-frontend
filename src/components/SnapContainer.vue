@@ -11,6 +11,7 @@
 /* Container de scroll com snap */
 .snap-container {
   height: 100vh;
+  width: 101vw;
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
 }
