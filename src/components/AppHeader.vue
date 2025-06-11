@@ -25,7 +25,7 @@ const menuItems = [
   { label: 'Educação', route: '/educacao' },
   { label: 'Gênero', route: '/genero' },
   { label: 'Saúde' },
-  { label: 'Urbanismo' },
+  { label: 'Urbanismo', route: '/urbanismo'  },
   { label: 'Regionalização do Orçamento' },
   { label: 'Entendendo os Dados' },
   { label: 'Contato' }
