@@ -1,6 +1,17 @@
 <template>
   <div class="card-container">
-    <div class="card">
+    <router-link v-if="navLink" :to="navLink">
+      <div class="card">
+        <div class="card-face card-front" :style="{ background: bgColor }">
+          <div class="icon">{{ icon }}</div>
+          <div class="title">{{ title }}</div>
+        </div>
+        <div class="card-face card-back">
+          <div class="back-text">{{ backText }}</div>
+        </div>
+      </div>
+    </router-link>
+    <div v-else class="card">
       <div class="card-face card-front" :style="{ background: bgColor }">
         <div class="icon">{{ icon }}</div>
         <div class="title">{{ title }}</div>
@@ -13,11 +24,14 @@
 </template>
 
 <script lang="ts" setup>
+import { RouterLink } from 'vue-router'
+
 defineProps<{
   icon: string
   title: string
   backText: string
   bgColor?: string
+  navLink?: string
 }>()
 </script>
 
