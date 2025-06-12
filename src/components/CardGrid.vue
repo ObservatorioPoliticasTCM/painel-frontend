@@ -9,26 +9,30 @@
       <Card3D
         icon="📚"
         title="Educação"
-        backText="Texto adicional sobre ideias."
+        backText="Veja a quantidade de escolas, educandos, educadores de cada Subprefeitura."
         bgColor="#faca72"
+        navLink="/educacao"
       />
       <Card3D
         icon="♀️"
         title="Gênero"
         backText="Informações sobre o lançamento."
         bgColor="#7163aa"
+        navLink="/genero"
       />
       <Card3D
         icon="🩺"
         title="Saúde"
         backText="Detalhes dos componentes utilizados."
         bgColor="#87c8ef"
+        navLink="/saude"
       />
       <Card3D
         icon="🗺"
         title="Urbanismo"
         backText="Dados e gráficos de análise."
         bgColor="#a5bb5b"
+        navLink="/urbanismo"
       />
       <Card3D
         icon="💰"
