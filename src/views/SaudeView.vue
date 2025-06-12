@@ -20,6 +20,7 @@
       appid="585f0398-5876-4e29-98db-a53e3e013dc4"
       sheet="XFZvFPN"
       title="Despesas em atenção Básica e especializada"
+      subtitle="Inclui apenas unidades municipais"
       identity="3"
       />
     </SnapContainer>
