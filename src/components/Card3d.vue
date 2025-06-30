@@ -3,7 +3,8 @@
     <router-link v-if="navLink" :to="navLink">
       <div class="card">
         <div class="card-face card-front" :style="{ background: bgColor }">
-          <div class="icon">{{ icon }}</div>
+            <img class="icon-shadow" :src="iconSrc" alt="icon" />
+            <img class="icon" :src="iconSrc" alt="icon" />
           <div class="title">{{ title }}</div>
         </div>
         <div class="card-face card-back">
@@ -13,7 +14,8 @@
     </router-link>
     <div v-else class="card">
       <div class="card-face card-front" :style="{ background: bgColor }">
-        <div class="icon">{{ icon }}</div>
+          <img class="icon-shadow" :src="iconSrc" alt="icon" />
+          <img class="icon" :src="iconSrc" alt="icon" />
         <div class="title">{{ title }}</div>
       </div>
       <div class="card-face card-back">
@@ -24,15 +26,18 @@
 </template>
 
 <script lang="ts" setup>
+import { computed } from 'vue'
 import { RouterLink } from 'vue-router'
 
-defineProps<{
+const props = defineProps<{
   icon: string
   title: string
   backText: string
   bgColor?: string
   navLink?: string
 }>()
+
+const iconSrc = computed(() => new URL(`../assets/${props.icon}`, import.meta.url).href)
 </script>
 
 <style scoped>
@@ -99,10 +104,24 @@ defineProps<{
   opacity: 0.8;
 }
 
+.icon-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  transform: translateY(0.8rem) scale(0.9) translateZ(0.1px);
+  filter: invert(100%) saturate(0) blur(0.22rem) opacity(0.8);
+  max-width: 100%;
+  height: auto;
+}
+
 .icon {
+  z-index: 1;
   font-size: 2.5rem;
   margin-bottom: 0.5rem;
   transform: translateZ(3.75rem);
+  max-width: 100%;
+  height: auto;
 }
 
 .title {
@@ -111,5 +130,6 @@ defineProps<{
   color: #333;
   text-shadow: 0.125rem 0.125rem 0.375rem rgba(0, 0, 0, 0.3);
   transform: translateZ(3.75rem);
+  margin-top: -1.2rem;
 }
 </style>
