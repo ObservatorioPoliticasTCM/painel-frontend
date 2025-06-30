@@ -3,7 +3,7 @@
     <router-link v-if="navLink" :to="navLink">
       <div class="card">
         <div class="card-face card-front" :style="{ background: bgColor }">
-          <div class="icon">{{ icon }}</div>
+          <img class="icon" :src="iconSrc" alt="icon" />
           <div class="title">{{ title }}</div>
         </div>
         <div class="card-face card-back">
@@ -13,7 +13,7 @@
     </router-link>
     <div v-else class="card">
       <div class="card-face card-front" :style="{ background: bgColor }">
-        <div class="icon">{{ icon }}</div>
+        <img class="icon" :src="iconSrc" alt="icon" />
         <div class="title">{{ title }}</div>
       </div>
       <div class="card-face card-back">
@@ -24,15 +24,18 @@
 </template>
 
 <script lang="ts" setup>
+import { computed } from 'vue'
 import { RouterLink } from 'vue-router'
 
-defineProps<{
+const props = defineProps<{
   icon: string
   title: string
   backText: string
   bgColor?: string
   navLink?: string
 }>()
+
+const iconSrc = computed(() => new URL(`../assets/${props.icon}`, import.meta.url).href)
 </script>
 
 <style scoped>
@@ -103,6 +106,8 @@ defineProps<{
   font-size: 2.5rem;
   margin-bottom: 0.5rem;
   transform: translateZ(3.75rem);
+  max-width: 100%;
+  height: auto;
 }
 
 .title {
