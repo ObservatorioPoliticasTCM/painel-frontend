@@ -3,7 +3,8 @@
     <router-link v-if="navLink" :to="navLink">
       <div class="card">
         <div class="card-face card-front" :style="{ background: bgColor }">
-          <img class="icon" :src="iconSrc" alt="icon" />
+            <img class="icon-shadow" :src="iconSrc" alt="icon" />
+            <img class="icon" :src="iconSrc" alt="icon" />
           <div class="title">{{ title }}</div>
         </div>
         <div class="card-face card-back">
@@ -13,7 +14,8 @@
     </router-link>
     <div v-else class="card">
       <div class="card-face card-front" :style="{ background: bgColor }">
-        <img class="icon" :src="iconSrc" alt="icon" />
+          <img class="icon-shadow" :src="iconSrc" alt="icon" />
+          <img class="icon" :src="iconSrc" alt="icon" />
         <div class="title">{{ title }}</div>
       </div>
       <div class="card-face card-back">
@@ -102,7 +104,19 @@ const iconSrc = computed(() => new URL(`../assets/${props.icon}`, import.meta.ur
   opacity: 0.8;
 }
 
+.icon-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  transform: translateY(0.2rem) scale(0.9);
+  filter: invert(100%) saturate(0) blur(0.22rem) opacity(0.8);
+  max-width: 100%;
+  height: auto;
+}
+
 .icon {
+  z-index: 1;
   font-size: 2.5rem;
   margin-bottom: 0.5rem;
   transform: translateZ(3.75rem);
