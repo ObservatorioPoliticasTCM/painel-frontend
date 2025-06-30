@@ -7,35 +7,35 @@
   
       <!-- Cards com efeito 3D -->
       <Card3D
-        icon="📚"
+        icon="educacao.svg"
         title="Educação"
         backText="Veja a quantidade de escolas, educandos, educadores de cada Subprefeitura."
         bgColor="#faca72"
         navLink="/educacao"
       />
       <Card3D
-        icon="♀️"
+        icon="genero.svg"
         title="Gênero"
         backText="Informações sobre o lançamento."
         bgColor="#7163aa"
         navLink="/genero"
       />
       <Card3D
-        icon="🩺"
+        icon="saude.svg"
         title="Saúde"
         backText="Detalhes dos componentes utilizados."
         bgColor="#87c8ef"
         navLink="/saude"
       />
       <Card3D
-        icon="🗺"
+        icon="urbanismo.svg"
         title="Urbanismo"
         backText="Dados e gráficos de análise."
         bgColor="#a5bb5b"
         navLink="/urbanismo"
       />
       <Card3D
-        icon="💰"
+        icon="orcamento.svg"
         title="Regionalização do Orçamento"
         backText="Informações sobre configuração."
         bgColor="#e57c76"
