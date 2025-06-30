@@ -109,7 +109,7 @@ const iconSrc = computed(() => new URL(`../assets/${props.icon}`, import.meta.ur
   top: 0;
   left: 0;
   z-index: 0;
-  transform: translateY(0.2rem) scale(0.9);
+  transform: translateY(0.2rem) scale(0.9) translateZ(0.1px);
   filter: invert(100%) saturate(0) blur(0.22rem) opacity(0.8);
   max-width: 100%;
   height: auto;
@@ -130,5 +130,6 @@ const iconSrc = computed(() => new URL(`../assets/${props.icon}`, import.meta.ur
   color: #333;
   text-shadow: 0.125rem 0.125rem 0.375rem rgba(0, 0, 0, 0.3);
   transform: translateZ(3.75rem);
+  margin-top: -1.2rem;
 }
 </style>
