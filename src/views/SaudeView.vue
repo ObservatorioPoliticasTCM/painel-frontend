@@ -23,6 +23,7 @@
       subtitle="Inclui leitos das unidades municipais, estaduais e federais"
       identity="2"
       />
+      <Footer />
     </SnapContainer>
     <Background />
   </div>
@@ -31,8 +32,9 @@
 <script setup lang="ts">
 import AppHeader from '../components/AppHeader.vue';
 import Background from '../components/Background.vue';
-import DashboardFrame from '../components/DashboardFrame.vue'
+import DashboardFrame from '../components/DashboardFrame.vue';
 import SnapContainer from '../components/SnapContainer.vue';
+import Footer from '../components/Footer.vue';
 </script>
 
 <style scoped>
