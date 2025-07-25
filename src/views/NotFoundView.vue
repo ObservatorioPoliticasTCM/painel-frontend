@@ -1,14 +1,15 @@
-<!-- filepath: /c:/Users/855395/Git/painel-frontend/src/views/NotFound.vue -->
 <template>
   <Background />
   <AppHeader />
   <NotFoundHero />
+  <Footer />
 </template>
   
 <script setup lang="ts">
 import AppHeader from '../components/AppHeader.vue';
 import Background from '../components/Background.vue';
 import NotFoundHero from '../components/NotFoundHero.vue';
+import Footer from '../components/Footer.vue';
 
 // Use este espaço para lógica, se necessário.
 </script>
