@@ -7,6 +7,7 @@
       <DashboardFrame appid="13e05213-9609-45cd-86df-5cbf75836d79"
                       sheet="6afd5fd9-e62b-45d8-a4e9-808bf98d534d"
                       id="dashboard-home" />
+      <Footer />
     </SnapContainer>
   </main>
 </template>
@@ -17,6 +18,7 @@ import CardGrid from '../components/CardGrid.vue'
 import DashboardFrame from '../components/DashboardFrame.vue'
 import SnapContainer from '../components/SnapContainer.vue'
 import Background from '../components/Background.vue'
+import Footer from '../components/Footer.vue'
 </script>
 
 <style scoped>
