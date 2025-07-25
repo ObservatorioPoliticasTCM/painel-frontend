@@ -57,14 +57,16 @@ footer {
 }
 .footer-left img,
 .footer-right img {
-  /* max-height: 50px; */
   margin: 0 0.5rem;
+  width: 15rem;
+  height: 15rem;
+  object-fit: contain;
 }
 
 .footer-license {
   display: flex;
   align-items: center;
-  font-size: 0.9em; /* Fonte ligeiramente menor */
+  font-size: 0.9em;
 }
 
 .footer-license img {
@@ -74,6 +76,12 @@ footer {
 }
 
 .footer-version {
-  font-size: 0.7em; /* Fonte ligeiramente menor */
+  font-size: 0.7em;
+}
+
+.footer-right {
+  flex: 1;
+  display: flex; /* force images side by side */
+  gap: 0.5rem; /* optional: add spacing between images */
 }
 </style>
