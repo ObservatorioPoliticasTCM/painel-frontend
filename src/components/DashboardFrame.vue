@@ -1,12 +1,14 @@
 <template>
   <div class="dashboard-frame">
-    <div v-if="title || subtitle" class="frame-header">
+    <div v-if="title" class="frame-header">
       <h1 v-if="title">{{ title }}</h1>
-      <small v-if="subtitle">{{ subtitle }}</small>
       <button class="download-button">
         <img src="@/assets/download-icon.svg" alt="Download" class="download-icon"/>
         Arquivos CSV
       </button>
+    </div>
+    <div v-if="subtitle" class="frame-subtitle">
+      <small v-if="subtitle">{{ subtitle }}</small>
     </div>
     <div class="iframe-wrapper">
       <iframe :src="iframeSrc" frameborder="0" style="border:none;width:100%;height:100%;"></iframe>
@@ -64,10 +66,11 @@ export default defineComponent({
   text-align: left;
   font-weight: normal;
 }
-.frame-header small {
+.frame-subtitle {
   font-variant: small-caps;
   text-align: left;
-  margin-left: 1rem;
+  margin-left: 1.3rem;
+  font-size: x-large;
 }
 .download-button {
   position: absolute;
