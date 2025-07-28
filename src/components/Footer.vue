@@ -19,7 +19,7 @@
           Todo o conteúdo do OPP neste site está disponível sob a licença <a href='https://creativecommons.org/licenses/by/4.0/'>Creative Commons Atribuição 4.0 Internacional</a>, exceto quando especificada outra licença. O código-fonte da plataforma também é aberto e está disponível no Github sob a licença MIT.</p>
         </div>
         <div class="footer-version">
-          <p>Versão 0.1</p>
+          <p>Versão {{ pkg.version }}</p>
         </div>
       </div>
       <div class="footer-right">
@@ -31,6 +31,7 @@
 </template>
 
 <script setup lang="ts">
+import pkg from '../../package.json'
 </script>
 
 <style scoped>
