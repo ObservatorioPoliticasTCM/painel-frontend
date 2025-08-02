@@ -21,6 +21,8 @@
               :key="term.term"
               :term="term.term"
               :description="term.definition"
+              :expanded="expandedTerm === term.term"
+              @toggle="expandTerm(term.term)"
             />
           </GlossaryLetter>
         </div>
@@ -39,6 +41,11 @@ import GlossaryTerm from '../components/GlossaryTerm.vue'
 import glossary from '../assets/glossary.json'
 
 const searchValue = ref('')
+const expandedTerm = ref<string | null>(null)
+
+function expandTerm(term: string) {
+  expandedTerm.value = expandedTerm.value === term ? null : term
+}
 
 // Transforma o glossary.json em um array [{ letter, terms: [...] }]
 const glossaryArray = computed(() => {

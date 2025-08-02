@@ -1,6 +1,6 @@
 <template>
   <div class="glossary-term">
-    <div class="glossary-header" @click="toggle">
+    <div class="glossary-header" @click="$emit('toggle')">
       <span
         class="glossary-arrow"
         :class="{ expanded: expanded }"
@@ -21,12 +21,8 @@ import { ref } from 'vue';
 const props = defineProps<{
   term: string;
   description: string;
+  expanded: boolean;
 }>();
-
-const expanded = ref(false);
-function toggle() {
-  expanded.value = !expanded.value;
-}
 </script>
 
 <style scoped>
