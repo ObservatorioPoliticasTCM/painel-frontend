@@ -1,0 +1,35 @@
+{
+    "a":
+    [
+        {
+            "term": "API",
+            "definition": "Application Programming Interface, a set of rules that allows different software entities to communicate with each other."
+        },
+        {
+            "term": "Algorithm",
+            "definition": "A step-by-step procedure or formula for solving a problem or accomplishing a task."
+        }
+    ],
+    "b":
+    [
+        {
+            "term": "Backend",
+            "definition": "The server-side part of a web application that handles data storage, business logic, and server-side operations."
+        },
+        {
+            "term": "Bug",
+            "definition": "An error or flaw in software that causes it to produce incorrect or unexpected results."
+        }
+    ],
+    "c":
+    [
+        {
+            "term": "Cache",
+            "definition": "A storage layer that temporarily holds frequently accessed data to speed up retrieval."
+        },
+        {
+            "term": "Cloud Computing",
+            "definition": "The delivery of computing services over the internet, allowing for on-demand access to resources like servers, storage, and applications."
+        }
+    ]
+}
