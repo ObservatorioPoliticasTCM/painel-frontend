@@ -16,7 +16,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, defineProps } from 'vue';
+import { ref } from 'vue';
 
 const props = defineProps<{
   term: string;
@@ -52,7 +52,7 @@ function toggle() {
 }
 .glossary-title {
   font-weight: bold;
-  font-size: 1.1em;
+  font-size: 1.2em;
 }
 .glossary-content {
   margin-top: 0.7em;
@@ -62,6 +62,5 @@ function toggle() {
   width: 80%;
   padding-top: 0.7em;
   font-size: 1em;
-  color: #fff;
 }
 </style>

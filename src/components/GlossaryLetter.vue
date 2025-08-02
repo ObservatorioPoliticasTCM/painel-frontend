@@ -8,8 +8,6 @@
 </template>
 
 <script setup lang="ts">
-import { defineProps } from 'vue';
-
 const props = defineProps<{
   letter: string;
 }>();
@@ -24,9 +22,8 @@ const props = defineProps<{
   background: transparent;
 }
 .glossary-letter-title {
-  font-size: 1.3em;
+  font-size: 2em;
   font-weight: bold;
-  color: #fff;
   margin-bottom: 0.7em;
 }
 </style>
