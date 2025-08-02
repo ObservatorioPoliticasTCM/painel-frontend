@@ -1,35 +1,494 @@
 {
-    "a":
-    [
+    "A": [
         {
-            "term": "API",
-            "definition": "Application Programming Interface, a set of rules that allows different software entities to communicate with each other."
+            "term": "Atenção Básica",
+            "definition": "A Atenção Básica é o conjunto de ações de saúde individuais, familiares e coletivas que envolvem promoção, prevenção, proteção, diagnóstico, tratamento, reabilitação, redução de danos, cuidados paliativos e vigilância em saúde, desenvolvida por meio de práticas de cuidado integrado e gestão qualificada, realizada com equipe multiprofissional e dirigida à população em território definido, sobre as quais as equipes assumem responsabilidade sanitária."
         },
         {
-            "term": "Algorithm",
-            "definition": "A step-by-step procedure or formula for solving a problem or accomplishing a task."
+            "term": "Atenção Especializada",
+            "definition": "Atenção Especializada é o conjunto de conhecimentos, práticas assistenciais, ações, técnicas e serviços envolvidos na produção do cuidado em saúde marcados, caracteristicamente, por uma maior densidade tecnológica.\n\nA atenção especializada é dividida em dois elementos (atenção secundária e terciária), que são, respectivamente, média e alta complexidade (ambulatorial e especializada hospitalar). A média complexidade é composta por serviços especializados encontrados em hospitais e ambulatórios e envolve atendimento direcionado para áreas como pediatria, ortopedia, cardiologia, oncologia, neurologia, psiquiatria, ginecologia, oftalmologia entre outras especialidades médicas."
+        },
+        {
+            "term": "Atividade Complementar",
+            "definition": "Atividades complementares nos Centros de Educação Unificada"
+        },
+        {
+            "term": "Atualizado",
+            "definition": "É o valor orçado inicial após sofrer alterações, seja por acréscimos (como créditos adicionais) ou supressões (como cortes ou cancelamentos). "
+        },
+        {
+            "term": "Área de risco geológico",
+            "definition": "O risco geológico está associado a processos de instabilidade do terreno, como escorregamentos de encostas e solapamentos de margens de córregos e rios. Esses processos, muitas vezes induzidos pela ação humana, ocorrem principalmente em áreas com declividade acentuada, ocupadas de forma precária e sem infraestrutura adequada, como drenagem pluvial, contenções ou esgoto. Polígonos delimitam as áreas de risco em assentamentos precários, com estimativas do número de moradias afetadas. Essa estimativa é feita por setor, com base em imagens aéreas, considerando como moradias as estruturas cobertas por telha ou laje. Trata-se de uma contagem aproximada, que não representa o número exato de famílias ou indivíduos expostos, mas oferece subsídios para planejamento e ações preventivas."
+        },
+        {
+            "term": "Área de risco hidrológico",
+            "definition": "O risco hidrológico está relacionado à ocorrência de alagamentos, enxurradas e inundações, geralmente causadas por chuvas intensas, ocupação de fundos de vale, impermeabilização do solo e falhas no sistema de drenagem. Polígonos delimitam áreas de risco em assentamentos precários próximos a córregos. A estimativa de moradias por setor baseia-se em imagens aéreas, considerando como moradias estruturas com telha ou laje, sendo uma contagem aproximada. O método de mapeamento e a síntese dos resultados estão descritos no Relatório de Introdução de cada Subprefeitura. Ressalta-se que o trabalho está em andamento e os dados não representam o número exato de famílias ou indivíduos expostos."
+        },
+        {
+            "term": "Área dos parques municipais (%)",
+            "definition": "Parques municipais, estaduais e federais diferenciam-se pela esfera de gestão, objetivos e abrangência. Os parques municipais, criados e geridos por prefeituras, visam preservar ecossistemas naturais e promover educação ambiental e turismo ecológico, conforme a LM nº 16.050/14. Em São Paulo, a Portaria nº 047/SVMA.G/2023 regula o uso de compensações ambientais, obrigando que empreendimentos com impacto significativo apoiem financeiramente Unidades de Conservação Municipais. Os parques estaduais, regidos pela LE nº 6.884/62, permitem uso controlado e concessões limitadas. Já os parques federais, sob responsabilidade do ICMBio e conforme a Lei nº 9.985/2000, priorizam a preservação ecológica e são regidos por normas mais rígidas, incluindo planos de manejo, zonas de amortecimento e desapropriações."
+        },
+        {
+            "term": "Áreas de aplicação (Função)",
+            "definition": "Refere-se às atividades e tarefas que o governo desempenha para alcançar seus objetivos e pode envolver um ou mais orgãos de governo."
         }
     ],
-    "b":
-    [
+    "B": [
         {
-            "term": "Backend",
-            "definition": "The server-side part of a web application that handles data storage, business logic, and server-side operations."
-        },
-        {
-            "term": "Bug",
-            "definition": "An error or flaw in software that causes it to produce incorrect or unexpected results."
+            "term": null,
+            "definition": null
         }
     ],
-    "c":
-    [
+    "C": [
         {
-            "term": "Cache",
-            "definition": "A storage layer that temporarily holds frequently accessed data to speed up retrieval."
+            "term": "CCI/CIPS",
+            "definition": "Centro de Convivência Infantil/Centros Infantis de Proteção à Saúde"
         },
         {
-            "term": "Cloud Computing",
-            "definition": "The delivery of computing services over the internet, allowing for on-demand access to resources like servers, storage, and applications."
+            "term": "CEI DIRET",
+            "definition": "Centro de Educação Infantil da Rede Direta"
+        },
+        {
+            "term": "CEMEI",
+            "definition": "Centro Municipal de Educação Infantil"
+        },
+        {
+            "term": "CEU",
+            "definition": "Centro Educacional Unificado"
+        },
+        {
+            "term": "CEU AT COMPL",
+            "definition": "Atividades complementares nos Centros de Educação Unificada"
+        },
+        {
+            "term": "CEU CEI",
+            "definition": "Centro Educacional Unificado - Centro de Educação Infantil"
+        },
+        {
+            "term": "CEU CEMEI",
+            "definition": "Centro Educacional Unificado - Centro Municipal de Educação Infantil"
+        },
+        {
+            "term": "CEU EMEF",
+            "definition": "Centro Educacional Unificado - Escola Municipal de Ensino Fundamental"
+        },
+        {
+            "term": "CEU EMEI",
+            "definition": "Centro Educacional Unificado - Escolas Municipais de Educação Infantil"
+        },
+        {
+            "term": "CIEJA",
+            "definition": "Centro Integrado de Educação de Jovens e Adultos"
+        },
+        {
+            "term": "CMCT",
+            "definition": "Centro Municipal de Educação e Treinamento"
+        },
+        {
+            "term": "COORD",
+            "definition": null
+        },
+        {
+            "term": "Cargo atual",
+            "definition": "Cargo atualmente ocupado pelo servidor"
+        },
+        {
+            "term": "Cargo base",
+            "definition": "Cargo base de ingresso na carreira"
+        },
+        {
+            "term": "Casa da Mulher Brasileira",
+            "definition": "A Casa da Mulher Brasileira é um centro de atendimento humanizado e especializado no atendimento à mulher em situação de violência doméstica."
+        },
+        {
+            "term": "Convee",
+            "definition": "Turmas de Convênio de Educação Especial"
+        },
+        {
+            "term": "Conveniada",
+            "definition": "Antiga denominação das Escolas da Rede Parceira do tipo \"particular\""
+        },
+        {
+            "term": "Creche",
+            "definition": "Unidade Educacional destinada a bebês e crianças de zero até 5 (cinco) anos de idade."
+        }
+    ],
+    "D": [
+        {
+            "term": "DIR EDUC",
+            "definition": "NÃO LOCALIZADO"
+        },
+        {
+            "term": "DIVISAO",
+            "definition": "NÃO LOCALIZADO"
+        },
+        {
+            "term": "Descrição dos órgãos",
+            "definition": "Uma estrutura específica dentro da estrutura governamental, com competências e atribuições definidas, pode ser um ministério, uma secretaria, um departamento, etc. "
+        },
+        {
+            "term": "Direta",
+            "definition": "Unidades de Ensino administradas diretamente pela Secretaria Municipal de Educação"
+        }
+    ],
+    "E": [
+        {
+            "term": "EMEBS",
+            "definition": "Escolas Municipais de Educação Bilingue para Surdos"
+        },
+        {
+            "term": "EMEF",
+            "definition": "Escola Municipais de Ensino Fundamental"
+        },
+        {
+            "term": "EMEFM",
+            "definition": "Escola Municipal de Ensino Fundamental e Médio"
+        },
+        {
+            "term": "EMEI",
+            "definition": "Escolas Municipais de Educação Infantil"
+        },
+        {
+            "term": "Edprof",
+            "definition": "Educação Profissional"
+        },
+        {
+            "term": "Eja",
+            "definition": "Educação de Jovens e Adultos"
+        },
+        {
+            "term": "Empenhado",
+            "definition": "É o valor que o governo reserva para um pagamento, geralmente após um contrato ser assinado ou uma compra ser realizada. O empenho é um ato formal que garante que há recursos financeiros disponíveis para cobrir essa despesa específica. "
+        },
+        {
+            "term": "Espec",
+            "definition": "Turmas de Educação Especial (Surdos)"
+        }
+    ],
+    "F": [
+        {
+            "term": "FORA DE SME",
+            "definition": "NÃO LOCALIZADO"
+        },
+        {
+            "term": "Fund",
+            "definition": "Ensino Fundamental"
+        }
+    ],
+    "G": [
+        {
+            "term": null,
+            "definition": null
+        }
+    ],
+    "H": [
+        {
+            "term": null,
+            "definition": null
+        }
+    ],
+    "I": [
+        {
+            "term": "Indireta",
+            "definition": "Unidade de Ensino da Rede parceira, gerida por uma organização da sociedade civil, que funciona em um imóvel da  Prefeitura"
+        }
+    ],
+    "J": [
+        {
+            "term": null,
+            "definition": null
+        }
+    ],
+    "K": [
+        {
+            "term": null,
+            "definition": null
+        }
+    ],
+    "L": [
+        {
+            "term": "Leitos complementares",
+            "definition": null
+        },
+        {
+            "term": "Leitos de UTI",
+            "definition": null
+        },
+        {
+            "term": "Leitos de internação",
+            "definition": null
+        },
+        {
+            "term": "Liquidado",
+            "definition": "É o valor da despesa após a comprovação de que o credor (quem receberá o pagamento) cumpriu suas obrigações contratuais. A liquidação verifica se o produto ou serviço foi entregue conforme o combinado e se o valor a ser pago está correto. "
+        }
+    ],
+    "M": [
+        {
+            "term": "Manutenção e Operação da Casa da Mulher Brasileira",
+            "definition": "Refere-se aos recursos financeiros destinados a cobrir os custos operacionais e de manutenção da Casa da Mulher Brasileira, um espaço que oferece serviços especializados para mulheres em situação de violência. "
+        },
+        {
+            "term": "Manutenção e Operação de Equipamentos Públicos Voltados ao Atendimento de Mulheres",
+            "definition": "Refere-se a um recurso financeiro destinado à manutenção e operação de equipamentos e instalações públicas que são utilizados para prestar serviços e atendimento às mulheres. Isso inclui, por exemplo, centros de referência para mulheres vítimas de violência, casas abrigo, entre outros. "
+        },
+        {
+            "term": "Medio",
+            "definition": "Ensino Médio"
+        },
+        {
+            "term": "Mova",
+            "definition": "Movimento de Alfabetização de São Paulo"
+        }
+    ],
+    "N": [
+        {
+            "term": "Não urgência SMS",
+            "definition": null
+        },
+        {
+            "term": "Níveis de risco",
+            "definition": "Os graus de risco variam de R1 (baixo) a R4 (muito alto), conforme a estabilidade do terreno e a iminência de desastres. R1 indica estabilidade aparente e ausência de perigo. R2 envolve sinais parciais de instabilidade, com risco agravado por chuvas ou obras inadequadas. R3 apresenta evidências concretas de instabilidade, com risco significativo de escorregamentos, exigindo ações corretivas e acompanhamento técnico. R4 corresponde a uma situação crítica, com risco iminente à vida e danos materiais graves, demandando intervenção emergencial e, na prática, remoção preventiva das famílias expostas. Essa classificação é usada pela Defesa Civil para orientar medidas de prevenção, controle e resposta a desastres em áreas de risco geológico e hidrológico."
+        }
+    ],
+    "O": [
+        {
+            "term": "O que são as áreas do mapa Atende+",
+            "definition": null
+        },
+        {
+            "term": "O que é Atendido",
+            "definition": null
+        },
+        {
+            "term": "O que é o programa Atende+",
+            "definition": "O Serviço de Atendimento Especial - Atende+ foi criado por meio do decreto nº 36.071 de 09 de maio de 1996 e atualmente é regido pela Lei Municipal nº 16.337, de 30 de dezembro de 2015. É uma modalidade de transporte porta a porta, gratuito aos seus usuários, com regulamento próprio, oferecido pela Prefeitura do Município de São Paulo, gerenciado pela São Paulo Transporte S.A. e operado pelas empresas de transporte coletivo do município de São Paulo e cooperativa de táxis acessíveis. Destina-se às pessoas com autismo, surdocegueira ou deficiência física com alto grau de severidade e dependência, no horário das 7h às 20h, de segunda-feira a domingo, excetuando-se os feriados."
+        },
+        {
+            "term": "OUT-PMSP",
+            "definition": null
+        },
+        {
+            "term": "Orçado",
+            "definition": "É o valor inicial estabelecido no orçamento para uma despesa específica. Por exemplo, o valor inicialmente previsto para a construção de uma escola ou para a compra de equipamentos. "
+        },
+        {
+            "term": "Óbitos evitáveis",
+            "definition": "Trata-se de um agravo ou situação, prevenível pela atuação dos serviços de saúde que incidem, provavelmente, quando o sistema de saúde não consegue atender as necessidades de saúde e seus fatores determinantes são frágeis a identificação e a intervenção acertada. \n\nAs mortes evitáveis ou reduzíveis referem-se àquelas que podem ser prevenidas, total ou parcialmente, por ações de serviços de saúde acessíveis e efetivos."
+        },
+        {
+            "term": "Óbitos tratáveis",
+            "definition": null
+        }
+    ],
+    "P": [
+        {
+            "term": "Pago",
+            "definition": "É o valor efetivamente transferido para o credor, quando o pagamento é realizado. "
+        },
+        {
+            "term": "Parceira",
+            "definition": "Unidades de Ensino geridas por uma organização da sociedade civil. Essa unidades podem ser indiretas ou particulares"
+        },
+        {
+            "term": "Particular",
+            "definition": "Unidade de Ensino da Rede parceira, gerida por uma organização da sociedade civil, que funciona em um imóvel particular e com repasse de recursos por criança matriculada"
+        },
+        {
+            "term": "Políticas, Programas e Ações para Mulheres",
+            "definition": " Refere-se a um conjunto de recursos financeiros, iniciativas e ações implementadas pelo governo e outras entidades para promover a igualdade de gênero, garantir os direitos das mulheres e combater a violência de gênero."
+        },
+        {
+            "term": "Pre",
+            "definition": "Pré-Escola para atendimento de crianças de 4 e 5 anos"
+        },
+        {
+            "term": "Prof.1.Grau Nivel Ii",
+            "definition": "Professor de 1º Grau - Nível II"
+        },
+        {
+            "term": "Prof.Adj.De Ens.Fund. I",
+            "definition": "Professor Adjunto de Ensino Fundamental I"
+        },
+        {
+            "term": "Prof.Adj.Ens.Fund.Ii-Ciencias",
+            "definition": "Professor Adjunto de Esino Fundamental II, da área de Ciências"
+        },
+        {
+            "term": "Prof.Adj.Ens.Fund.Ii-Geografia",
+            "definition": "Professor Adjunto de Ensino Fundamental, da área de Geografia"
+        },
+        {
+            "term": "Prof.Adj.Ens.Fund.Ii-Matematica",
+            "definition": "Professor Adjunto de Ensino Fundamental II, da área de Matemática"
+        },
+        {
+            "term": "Prof.De Ed.Infantil",
+            "definition": "Professor de Educação Infantil"
+        },
+        {
+            "term": "Prof.Ed.Inf.E Ens.Fund.I",
+            "definition": "Professor de Educação Infantil e Ensino Fundamental I"
+        },
+        {
+            "term": "Prof.Ens.Fund.Ii E Med.-Artes",
+            "definition": "Professor de Ensino Fundamental II e Ensino Médio, da área de Artes"
+        },
+        {
+            "term": "Prof.Ens.Fund.Ii E Med.-Biologia",
+            "definition": "Professor de Ensino Fundamental II e Ensino Médio, da área de Biologia"
+        },
+        {
+            "term": "Prof.Ens.Fund.Ii E Med.-Ciencias",
+            "definition": "Professor de Ensino Fundamental II e Ensino Médio, da área de Ciências"
+        },
+        {
+            "term": "Prof.Ens.Fund.Ii E Med.-Cont.Custos",
+            "definition": "Professor de Ensino Fundamental II e Ensino Médio, da área de Contabilidade de Custos"
+        },
+        {
+            "term": "Prof.Ens.Fund.Ii E Med.-Ed.Fisica",
+            "definition": "Professor de Ensino Fundamental II e Ensino Médio, da área de Educação Física"
+        },
+        {
+            "term": "Prof.Ens.Fund.Ii E Med.-Espanhol",
+            "definition": "Professor de Ensino Fundamental II e Ensino Médio, da área de Língua Espanhola"
+        },
+        {
+            "term": "Prof.Ens.Fund.Ii E Med.-Filosofia",
+            "definition": "Professor de Ensino Fundamental II e Ensino Médio, da área de Filosofia"
+        },
+        {
+            "term": "Prof.Ens.Fund.Ii E Med.-Fisica",
+            "definition": "Professor de Ensino Fundamental II e Ensino Médio, da área de Física"
+        },
+        {
+            "term": "Prof.Ens.Fund.Ii E Med.-Geografia",
+            "definition": "Professor de Ensino Fundamental II e Ensino Médio, da área de Geografia"
+        },
+        {
+            "term": "Prof.Ens.Fund.Ii E Med.-Historia",
+            "definition": "Professor de Ensino Fundamental II e Ensino Médio, da área de História"
+        },
+        {
+            "term": "Prof.Ens.Fund.Ii E Med.-Ingles",
+            "definition": "Professor de Ensino Fundamental II e Ensino Médio, da área de Língua Inglesa"
+        },
+        {
+            "term": "Prof.Ens.Fund.Ii E Med.-Matematica",
+            "definition": "Professor de Ensino Fundamental II e Ensino Médio, da área de Matemática"
+        },
+        {
+            "term": "Prof.Ens.Fund.Ii E Med.-Portugues",
+            "definition": "Professor de Ensino Fundamental II e Ensino Médio, da área de Língua Portuguesa"
+        },
+        {
+            "term": "Prof.Ens.Fund.Ii E Med.-Psicologia",
+            "definition": "Professor de Ensino Fundamental II e Ensino Médio, da área de Psicologia"
+        },
+        {
+            "term": "Prof.Ens.Fund.Ii E Med.-Quimica",
+            "definition": "Professor de Ensino Fundamental II e Ensino Médio, da área de Química"
+        },
+        {
+            "term": "Prof.Ens.Fund.Ii E Med.-Sociologia",
+            "definition": "Professor de Ensino Fundamental II e Ensino Médio, da área de Sociologia"
+        },
+        {
+            "term": "Prof.Subst.De 1.Gr. Nivel I",
+            "definition": "Professor Substituto de 1º Grau - Nível I"
+        },
+        {
+            "term": "Prof.Subst.De Educacao Infantil",
+            "definition": "Professor Substituto de Educação Infantil"
+        },
+        {
+            "term": "Prof.Titular De Educacao Infantil",
+            "definition": "Professor Titular de Educação Infantil"
+        },
+        {
+            "term": "Prof.Titular De Ens.Fund.I",
+            "definition": "Professor Titular de Ensino Fundamental I"
+        },
+        {
+            "term": "Profissional De Eng. Arq. Agr. Geo. I",
+            "definition": "Profissional de Engenharia, Arquitetura, Agronomia e Geologia I"
+        }
+    ],
+    "Q": [
+        {
+            "term": null,
+            "definition": null
+        }
+    ],
+    "R": [
+        {
+            "term": "Rec",
+            "definition": "Turmas de Atividades Complementares - Recuperação Paralela"
+        },
+        {
+            "term": "Regionalização dos tipos de atenção",
+            "definition": null
+        }
+    ],
+    "S": [
+        {
+            "term": "SES",
+            "definition": "Secretaria de Estado da Saúde / \nSecretaria Estadual de Saúde"
+        },
+        {
+            "term": "SME",
+            "definition": "Secretaria Municipal de Educação"
+        },
+        {
+            "term": "SMS",
+            "definition": "Secretaria Municipal de Saúde"
+        },
+        {
+            "term": "Saai",
+            "definition": "Salas de Apoio e Acompanhamento à Inclusão para Turmas de Atendimento Educacional Especial"
+        }
+    ],
+    "T": [
+        {
+            "term": null,
+            "definition": null
+        }
+    ],
+    "U": [
+        {
+            "term": "Urgência SMS",
+            "definition": null
+        }
+    ],
+    "V": [
+        {
+            "term": "VIRTUAL",
+            "definition": "Ensino Virtual?"
+        }
+    ],
+    "W": [
+        {
+            "term": null,
+            "definition": null
+        }
+    ],
+    "X": [
+        {
+            "term": null,
+            "definition": null
+        }
+    ],
+    "Y": [
+        {
+            "term": null,
+            "definition": null
+        }
+    ],
+    "Z": [
+        {
+            "term": null,
+            "definition": null
         }
     ]
 }

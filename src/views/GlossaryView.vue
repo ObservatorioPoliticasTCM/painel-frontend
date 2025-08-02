@@ -45,7 +45,7 @@ const glossaryArray = computed(() => {
   return Object.entries(glossary).map(([letter, terms]) => ({
     letter: letter.toUpperCase(),
     terms: (terms as any[]).filter(term =>
-      term.term.toLowerCase().includes(searchValue.value.toLowerCase())
+      term.term !== null ? term.term.toLowerCase().includes(searchValue.value.toLowerCase()) : false
     )
   })).filter(item => item.terms.length > 0)
 })
