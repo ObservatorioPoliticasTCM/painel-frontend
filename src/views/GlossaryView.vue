@@ -61,7 +61,7 @@ const glossaryArray = computed(() => {
   if (searchValue.value.trim() === '') {
     filteredTerms = allTerms
   } else {
-    filteredTerms = miniSearch.search(searchValue.value, { prefix: true, fuzzy: 0.5, boost: { term: 2 } }).map(r => ({
+    filteredTerms = miniSearch.search(searchValue.value, { prefix: true, fuzzy: 0.3, boost: { term: 2 } }).map(r => ({
       term: r.term,
       definition: r.definition,
       letter: r.letter
