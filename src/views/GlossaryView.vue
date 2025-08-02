@@ -36,9 +36,9 @@ function expandTerm(term: string) {
   expandedTerm.value = expandedTerm.value === term ? null : term
 }
 
-// Função utilitária para remover acentuação
+// Ajustar função para transoformar texto em minúsculas e remover acentos
 function normalize(str: string): string {
-  return str ? str.normalize('NFD').replace(/[\u0300-\u036f]/g, '') : ''
+  return str ? str.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase() : ''
 }
 
 // Prepara todos os termos para indexação
