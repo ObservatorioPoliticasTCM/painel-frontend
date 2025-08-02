@@ -27,6 +27,7 @@ import GlossaryLetter from '../components/GlossaryLetter.vue'
 import GlossaryTerm from '../components/GlossaryTerm.vue'
 import glossary from '../assets/glossary.json'
 import MiniSearch from 'minisearch'
+import stopwords from '../data/stopwords_ptbr'
 
 const searchValue = ref('')
 const expandedTerm = ref<string | null>(null)
@@ -35,23 +36,44 @@ function expandTerm(term: string) {
   expandedTerm.value = expandedTerm.value === term ? null : term
 }
 
+// Função utilitária para remover acentuação
+function normalize(str: string): string {
+  return str ? str.normalize('NFD').replace(/[\u0300-\u036f]/g, '') : ''
+}
+
 // Prepara todos os termos para indexação
-const allTerms: Array<{ id: string, term: string, definition: string, letter: string }> = []
+const allTerms: Array<{
+  id: string,
+  term: string,
+  definition: string,
+  letter: string,
+  normalizedTerm: string,
+  normalizedDefinition: string
+}> = []
 Object.entries(glossary).forEach(([letter, terms]) => {
   (terms as any[]).forEach(termObj => {
     allTerms.push({
       id: termObj.term || letter.toUpperCase(),
       term: termObj.term || '',
-      definition: termObj.definition,
-      letter: letter.toUpperCase()
+      definition: termObj.definition || '',
+      letter: letter.toUpperCase(),
+      normalizedTerm: normalize(termObj.term || ''),
+      normalizedDefinition: normalize(termObj.definition || '')
     })
   })
 })
 
 // Configura MiniSearch
 const miniSearch = new MiniSearch({
-  fields: ['term', 'definition'],
-  storeFields: ['term', 'definition', 'letter']
+  fields: ['term', 'definition', 'normalizedTerm', 'normalizedDefinition'],
+  storeFields: ['term', 'definition', 'letter'],
+  searchOptions: { prefix: true, fuzzy: 0.3, boost: { term: 4, definition: 2 } },
+  processTerm: (term) => {
+    const normalizedStopwords: Set<string> = new Set(
+      Array.from(stopwords).map(word => normalize(word))
+    );
+    return stopwords.has(term) || normalizedStopwords.has(term) ? null : term
+  },
 })
 miniSearch.addAll(allTerms)
 
@@ -61,21 +83,23 @@ const glossaryArray = computed(() => {
   if (searchValue.value.trim() === '') {
     filteredTerms = allTerms
   } else {
-    filteredTerms = miniSearch.search(searchValue.value, { prefix: true, fuzzy: 0.3, boost: { term: 2 } }).map(r => ({
+    filteredTerms = miniSearch.search(searchValue.value).map(r => ({
       term: r.term,
       definition: r.definition,
       letter: r.letter
     }))
   }
-  // Gera todas as letras presentes no glossário e ordena
-  const allLetters = Object.keys(glossary).map(l => l.toUpperCase()).sort((a, b) => a.localeCompare(b))
   // Agrupa filteredTerms por letra
   const grouped: Record<string, Array<{ term: string, definition: string }>> = {}
   filteredTerms.forEach(item => {
     if (!grouped[item.letter]) grouped[item.letter] = []
     grouped[item.letter].push({ term: item.term, definition: item.definition })
   })
-  // Retorna todas as letras, ordenadas, e ordena os termos de cada letra
+  // Se não há busca, mostra todas as letras; se há busca, mostra só as letras com termos filtrados
+  const allLetters = searchValue.value.trim() === ''
+    ? Object.keys(glossary).map(l => l.toUpperCase()).sort((a, b) => a.localeCompare(b))
+    : Object.keys(grouped).sort((a, b) => a.localeCompare(b))
+  // Retorna letras e termos ordenados
   return allLetters.map(letter => ({
     letter,
     terms: (grouped[letter] || []).sort((a, b) => a.term.localeCompare(b.term))
@@ -121,13 +145,11 @@ const rows = computed(() => {
   margin: 2em auto;
 }
 
+/* Ajuste para grid de 3 colunas */
 .glossary-row {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 2em;
   margin-bottom: 2em;
-}
-
-.glossary-column {
-  flex: 1;
 }
 </style>
