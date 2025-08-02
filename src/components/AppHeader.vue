@@ -27,7 +27,7 @@ const menuItems = [
   { label: 'Saúde', route: '/saude' },
   { label: 'Urbanismo', route: '/urbanismo'  },
   { label: 'Regionalização do Orçamento' },
-  { label: 'Entendendo os Dados' },
+  { label: 'Glossário', route: '/glossario'   },
   { label: 'Contato' }
 ]
 </script>
