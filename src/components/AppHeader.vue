@@ -26,7 +26,7 @@ const menuItems = [
   { label: 'Gênero', route: '/genero' },
   { label: 'Saúde', route: '/saude' },
   { label: 'Urbanismo', route: '/urbanismo'  },
-  { label: 'Regionalização do Orçamento' },
+  { label: 'Regionalização do Orçamento', route: '/orcamento' },
   { label: 'Glossário', route: '/glossario'   },
   { label: 'Contato' }
 ]
