@@ -11,9 +11,7 @@
 </template>
 
 <script setup lang="ts">
-import { defineProps, defineEmits } from 'vue';
-
-const props = defineProps<{
+defineProps<{
   searchValue: string
 }>();
 
@@ -21,8 +19,9 @@ const emit = defineEmits<{
   (e: 'update:searchValue', value: string): void
 }>();
 
-function onInput(event: Event) {
-  emit('update:searchValue', (event.target as HTMLInputElement).value);
+const onInput = (event: Event) => {
+  const target = event.target as HTMLInputElement;
+  emit('update:searchValue', target.value);
 }
 </script>
 
