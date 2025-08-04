@@ -5,6 +5,7 @@ import NotFound from './views/NotFoundView.vue'
 import GeneroView from './views/GeneroView.vue'
 import UrbanismoView from './views/UrbanismoView.vue'
 import SaudeView from './views/SaudeView.vue'
+import GlossaryView from './views/GlossaryView.vue'
 
 const routes = [
   { path: '/', name: 'Home', component: HomeView },
@@ -12,6 +13,7 @@ const routes = [
   { path: '/genero', name: 'genero', component: GeneroView },
   { path: '/saude', name: 'saude', component: SaudeView },
   { path: '/urbanismo', name: 'urbanismo', component: UrbanismoView },
+  { path: '/glossario', name: 'glossario', component: GlossaryView },
   { path: '/:pathMatch(.*)*', name: 'NotFound', component: NotFound }
 ]
 
