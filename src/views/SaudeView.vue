@@ -2,6 +2,12 @@
   <SnapPage>
     <DashboardFrame
       appid="585f0398-5876-4e29-98db-a53e3e013dc4"
+      sheet="KRXJH"
+      title="Visão geral da saúde"
+      identity="1"
+    />
+    <DashboardFrame
+      appid="585f0398-5876-4e29-98db-a53e3e013dc4"
       sheet="XFZvFPN"
       title="Despesas em atenção Básica e especializada"
       subtitle="Inclui apenas despesas municipais"
