@@ -1,0 +1,44 @@
+name: Publish Docker image on new version
+
+# Este workflow roda quando uma nova tag que começa com 'v' (ex: v1.0.0, v2.3.4) é enviada para o repositório.
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build-and-push:
+    name: Build and Push to Docker Hub
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Faz o checkout do código do repositório
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. Extrai o nome da tag para usar como tag da imagem Docker
+      # A variável de ambiente GITHUB_REF contém a referência que disparou o workflow.
+      # Para uma tag 'v1.2.3', GITHUB_REF será 'refs/tags/v1.2.3'.
+      # Este comando remove o prefixo 'refs/tags/' para obter apenas 'v1.2.3'.
+      - name: Extract Docker tag
+        id: meta
+        run: echo "tag=${GITHUB_REF#refs/tags/}" >> $GITHUB_OUTPUT
+
+      # 3. Faz o login no Docker Hub usando os secrets configurados no repositório
+      - name: Log in to Docker Hub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+      # 4. Constrói a imagem Docker e a envia para o Docker Hub
+      # A tag da imagem será o nome da tag do Git (ex: v1.2.3)
+      # e também a tag 'latest'.
+      - name: Build and push Docker image
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          push: true
+          tags: |
+            ${{ secrets.DOCKERHUB_USERNAME }}/painel-frontend:${{ steps.meta.outputs.tag }}
+            ${{ secrets.DOCKERHUB_USERNAME }}/painel-frontend:latest
