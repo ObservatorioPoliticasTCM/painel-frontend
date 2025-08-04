@@ -1,6 +1,6 @@
 <template>
   <ScrollablePage>
-    <div class="glossary-bg glossary-content">
+    <div class="glossary-content">
       <h1 class="glossary-title">Glossário</h1>
       <div class="glossary-instruction">Digite abaixo o termo que deseja encontrar</div>
       <SearchBar v-model:searchValue="searchValue" />
@@ -36,7 +36,7 @@ function expandTerm(term: string) {
   expandedTerm.value = expandedTerm.value === term ? null : term
 }
 
-// Ajustar função para transoformar texto em minúsculas e remover acentos
+// Função para transformar texto em minúsculas e remover acentos
 function normalize(str: string): string {
   return str ? str.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase() : ''
 }
@@ -126,7 +126,7 @@ const rows = computed(() => {
 .glossary-content,
 .glossary-content :deep(*) {
   position: relative;
-  z-index: 10;
+  z-index: 30;
   text-align: left;
 }
 
@@ -143,9 +143,9 @@ const rows = computed(() => {
 
 .glossary-list {
   margin: 2em auto;
+  flex: 1 0 auto;
 }
 
-/* Ajuste para grid de 3 colunas */
 .glossary-row {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

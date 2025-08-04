@@ -33,7 +33,8 @@ footer {
   text-align: center;
   background-color: #f5f5f5;
   position: relative;
-  z-index: 10; /* Ajuste o valor conforme necessário */
+  z-index: 10;
+  margin-top: auto;
 }
 
 .footer-container {

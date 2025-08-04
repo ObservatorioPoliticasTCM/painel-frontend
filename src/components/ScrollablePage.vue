@@ -1,7 +1,9 @@
 <template>
     <div class="scrollable-page">
         <AppHeader />
-        <slot />
+        <div class="scrollable-content">
+            <slot />
+        </div>
         <Footer />
         <Background />
     </div>
@@ -16,6 +18,13 @@ import Background from './Background.vue';
 <style scoped>
 .scrollable-page {
     min-height: 100vh;
-    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.scrollable-content {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 </style>
