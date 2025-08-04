@@ -1,42 +1,29 @@
 <template>
-  <div class="urbanismo-view">
-    <SnapContainer>
-      <AppHeader  />
-      <DashboardFrame
+  <SnapPage>
+    <DashboardFrame
       appid="3fc394bc-d567-4b1b-94f4-3f87ea76a450"
       sheet="b779c56d-dee5-4a71-a575-d7e42afa8789"
       title="População em áreas de risco"
       identity="1"
-      />
-      <DashboardFrame
+    />
+    <DashboardFrame
       appid="73f920a4-af97-412a-82d0-a12c13dd9ec0"
       sheet="QMPruE"
       title="Área de parques municipais"
       identity="2"
-      />
-      <DashboardFrame
+    />
+    <DashboardFrame
       appid="fee34b2e-4e55-4960-8358-c2a9178642ff"
       sheet="bjqsPD"
       title="Quantidade de pessoas atendidas no programa Atende+"
       identity="3"
-      />
-      <Footer />
-    </SnapContainer>
-    <Background />
-  </div>
+    />
+  </SnapPage>
 </template>
 
 <script setup lang="ts">
-import AppHeader from '../components/AppHeader.vue';
-import Background from '../components/Background.vue';
-import DashboardFrame from '../components/DashboardFrame.vue';
-import SnapContainer from '../components/SnapContainer.vue';
-import Footer from '../components/Footer.vue';
+import DashboardFrame from '../components/DashboardFrame.vue'
+import SnapPage from '../components/SnapPage.vue'
 </script>
 
-<style scoped>
-.urbanismo-view {
-  min-height: 100vh;
-  overflow: hidden;
-}
-</style>
+<style scoped></style>
