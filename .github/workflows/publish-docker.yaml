@@ -40,5 +40,5 @@ jobs:
           context: .
           push: true
           tags: |
-            ${{ secrets.DOCKERHUB_USERNAME }}/painel-frontend:${{ steps.meta.outputs.tag }}
-            ${{ secrets.DOCKERHUB_USERNAME }}/painel-frontend:latest
+            ${{ secrets.DOCKERHUB_USERNAME }}/painel:${{ steps.meta.outputs.tag }}
+            ${{ secrets.DOCKERHUB_USERNAME }}/painel:latest
