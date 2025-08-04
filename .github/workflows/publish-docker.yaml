@@ -4,7 +4,7 @@ name: Publish Docker image on new version
 on:
   push:
     tags:
-      - 'v*'
+      - v*
 
 jobs:
   build-and-push:
