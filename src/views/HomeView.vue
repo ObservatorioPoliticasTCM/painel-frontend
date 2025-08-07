@@ -1,7 +1,7 @@
 <template>
   <main class="home-view">
-    <Background />
-    <SnapContainer>
+    <SnapContainer class="snap-container">
+      <Background :version="backgroundVersion" />
       <FrontCover />
       <CardGrid />
       <DashboardFrame appid="13e05213-9609-45cd-86df-5cbf75836d79"
@@ -9,6 +9,13 @@
                       id="dashboard-home" />
       <Footer />
     </SnapContainer>
+    <ToggleSwitch
+      class="design-toggle"
+      title="Altere a versão do design"
+      leftButtonText="Versão com foto"
+      rightButtonText="Versão com marca d'água"
+      v-model="isV2"
+    />
   </main>
 </template>
 
@@ -19,13 +26,27 @@ import DashboardFrame from '../components/DashboardFrame.vue'
 import SnapContainer from '../components/SnapContainer.vue'
 import Background from '../components/Background.vue'
 import Footer from '../components/Footer.vue'
+import ToggleSwitch from '../components/ToggleSwitch.vue'
+import { useDesignVersion } from '../composables/useDesignVersion'
+
+const { isV2, backgroundVersion } = useDesignVersion()
 </script>
 
 <style scoped>
 .home-view {
   min-height: 100vh;
   overflow: hidden;
-  background-color: #121212; /* fundo escuro */
+}
+
+.snap-container {
+  position: relative;
+}
+
+.design-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 100;
 }
 
 #dashboard-home {
