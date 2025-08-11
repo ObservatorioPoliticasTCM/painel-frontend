@@ -15,21 +15,27 @@
     />
     <DashboardFrame
       appid="21662bb0-1242-4c61-9668-d1ff76e8b530"
-      sheet="nNpyj"
-      title="Perfil dos educandos da rede pública municipal"
+      sheet="nvgxg"
+      title="Perfil dos educadores da rede pública municipal"
       identity="3"
     />
     <DashboardFrame
       appid="21662bb0-1242-4c61-9668-d1ff76e8b530"
-      sheet="nvgxg"
-      title="Perfil dos educadores da rede pública municipal"
+      sheet="nNpyj"
+      title="Perfil dos educandos da rede pública municipal"
       identity="4"
+    />
+    <DashboardFrame
+      appid="21662bb0-1242-4c61-9668-d1ff76e8b530"
+      sheet="jRpJk"
+      title="Alunos da rede pública municipal beneficiários do Bolsa Família"
+      identity="5"
     />
     <DashboardFrame
       appid="21662bb0-1242-4c61-9668-d1ff76e8b530"
       sheet="PqxZb"
       title="Educandos estrangeiros na rede pública municipal"
-      identity="5"
+      identity="6"
     />
   </SnapPage>
 </template>
