@@ -52,7 +52,7 @@ footer {
 .footer-left img,
 .footer-right img {
   margin: 0 1rem;
-  height: 4rem;
+  width: 11.2rem;
   object-fit: contain;
 }
 
