@@ -4,6 +4,7 @@
             <Background :version="backgroundVersion" />
             <AppHeader />
             <slot />
+            <Sitemap />
             <Footer />
         </SnapContainer>
         <ToggleSwitch
@@ -17,12 +18,13 @@
 </template>
 
 <script setup lang="ts">
-import SnapContainer from './SnapContainer.vue';
-import AppHeader from './AppHeader.vue';
-import Footer from './Footer.vue';
-import Background from './Background.vue';
-import ToggleSwitch from './ToggleSwitch.vue';
-import { useDesignVersion } from '../composables/useDesignVersion';
+import SnapContainer from './SnapContainer.vue'
+import AppHeader from './AppHeader.vue'
+import Footer from './Footer.vue'
+import Sitemap from './Sitemap.vue'
+import Background from './Background.vue'
+import ToggleSwitch from './ToggleSwitch.vue'
+import { useDesignVersion } from '../composables/useDesignVersion'
 
 const { isV2, backgroundVersion } = useDesignVersion()
 </script>
