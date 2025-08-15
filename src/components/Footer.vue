@@ -17,8 +17,6 @@
           <p>Versão {{ pkg.version }}</p>
         </div>
       </div>
-      <div class="footer-right">
-      </div>
     </div>
   </footer>
 </template>
@@ -31,7 +29,7 @@ import pkg from '../../package.json'
 footer {
   font-size: 0.7em;
   text-align: center;
-  background-color: #f5f5f5;
+  background-color: #d6d6d6;
   position: relative;
   z-index: 10;
   margin-top: auto;
@@ -49,6 +47,7 @@ footer {
 .footer-center {
   flex: 2;
   text-align: left;
+  font-size: 1.4em;
 }
 .footer-left img,
 .footer-right img {
