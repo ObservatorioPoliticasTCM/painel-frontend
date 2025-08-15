@@ -5,6 +5,7 @@
             <Background :version="backgroundVersion" />
             <slot />
         </div>
+        <Sitemap />
         <Footer />
         <ToggleSwitch
             class="design-toggle"
@@ -17,11 +18,12 @@
 </template>
 
 <script setup lang="ts">
-import AppHeader from './AppHeader.vue';
-import Footer from './Footer.vue';
-import Background from './Background.vue';
-import ToggleSwitch from './ToggleSwitch.vue';
-import { useDesignVersion } from '../composables/useDesignVersion';
+import AppHeader from './AppHeader.vue'
+import Footer from './Footer.vue'
+import Background from './Background.vue'
+import ToggleSwitch from './ToggleSwitch.vue'
+import { useDesignVersion } from '../composables/useDesignVersion'
+import Sitemap from './Sitemap.vue'
 
 const { isV2, backgroundVersion } = useDesignVersion()
 </script>
