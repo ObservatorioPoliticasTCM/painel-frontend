@@ -66,7 +66,6 @@ const menuItems = [
 }
 
 .header-inner {
-  width: 75%;
   overflow: visible;
 }
 
