@@ -2,7 +2,8 @@
     <div class="grid">
       <!-- Célula de informação -->
       <div class="info-cell">
-        <p>Você pode consultar os indicadores específicos de cada tema...</p>
+        <h2>Dados</h2>
+        <p>Você pode consultar nos cards os indicadores específicos de cada tema...</p>
       </div>
   
       <!-- Cards com efeito 3D -->
@@ -56,7 +57,7 @@
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: 1fr; /* Adicionado para células com altura uniforme */
     gap: 1.5rem;
-    max-width: 62.5rem;
+    max-width: 74.2rem;
     margin: 5vh auto;
     padding: 2rem;
     background-color: transparent;
@@ -65,12 +66,25 @@
   /* Nova célula para texto */
   .info-cell {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     border-radius: 0.75rem;
     padding: 1.5rem;
     text-align: center;
     z-index: 12;
+    font-size: 1.5rem;
+  }
+  
+  .info-cell h2 {
+    margin: 0 0 0.5rem 0;
+    font-size: 3.6rem;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+  
+  .info-cell p {
+    margin: 0;
   }
   
   .text-area-container {
