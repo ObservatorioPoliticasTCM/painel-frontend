@@ -10,35 +10,35 @@
       <Card3D
         icon="educacao.svg"
         title="Educação"
-        backText="Veja a quantidade de escolas, educandos, educadores de cada Subprefeitura."
+        backText="Veja a informações sobre as escolas, o orçamento destinado a educação, os professores e os alunos de cada Subprefeitura."
         bgColor="#faca72"
         navLink="/educacao"
       />
       <Card3D
         icon="genero.svg"
         title="Gênero"
-        backText="Informações sobre o lançamento."
+        backText="Veja qual o orçamento destinado pela Prefeitura às mulheres em políticas públicas específicas ou focalizações em políticas públicas mais amplas."
         bgColor="#7163aa"
         navLink="/genero"
       />
       <Card3D
         icon="saude.svg"
         title="Saúde"
-        backText="Detalhes dos componentes utilizados."
+        backText="Veja informações detalhadas sobre o orçamento destinado à saúde, a quantidade de consultas e leitos disponíveis em cada Subprefeitura."
         bgColor="#87c8ef"
         navLink="/saude"
       />
       <Card3D
         icon="urbanismo.svg"
         title="Urbanismo"
-        backText="Dados e gráficos de análise."
+        backText="Veja informações sobre os parques, áreas de risco e políticas públicas de habitação no município de São Paulo."
         bgColor="#a5bb5b"
         navLink="/urbanismo"
       />
       <Card3D
         icon="orcamento.svg"
         title="Regionalização do Orçamento"
-        backText="Informações sobre configuração."
+        backText="Veja como o orçamento da Prefeitura se distribuiu entre as diferentes áreas e como evoluiu ao longo de 2024."
         bgColor="#e57c76"
       />
     </div>
