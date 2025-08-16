@@ -3,8 +3,10 @@
     <router-link v-if="navLink" :to="navLink">
       <div class="card">
         <div class="card-face card-front" :style="{ background: bgColor }">
+          <div class="icon-wrapper">
             <img class="icon-shadow" :src="iconSrc" alt="icon" />
             <img class="icon" :src="iconSrc" alt="icon" />
+          </div>
           <div class="title">{{ title }}</div>
         </div>
         <div class="card-face card-back">
@@ -14,8 +16,10 @@
     </router-link>
     <div v-else class="card">
       <div class="card-face card-front" :style="{ background: bgColor }">
+        <div class="icon-wrapper">
           <img class="icon-shadow" :src="iconSrc" alt="icon" />
           <img class="icon" :src="iconSrc" alt="icon" />
+        </div>
         <div class="title">{{ title }}</div>
       </div>
       <div class="card-face card-back">
@@ -71,13 +75,12 @@ const iconSrc = computed(() => new URL(`../assets/${props.icon}`, import.meta.ur
   box-sizing: border-box; /* respeita os paddings e gaps do grid */
   backface-visibility: hidden;
   background: white;
-  border-radius: 0.75rem;
   box-shadow: 0 0.625rem 1.5625rem rgba(0, 0, 0, 0.15);
   padding: 1.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   transform-style: preserve-3d;
 }
 
@@ -104,15 +107,26 @@ const iconSrc = computed(() => new URL(`../assets/${props.icon}`, import.meta.ur
   opacity: 0.8;
 }
 
+.icon-wrapper {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  transform-style: preserve-3d;
+}
+
 .icon-shadow {
   position: absolute;
-  top: 0;
-  left: 0;
+  /* top: 50%; */
+  /* left: 50%; */
   z-index: 0;
-  transform: translateY(0.8rem) scale(0.9) translateZ(0.1px);
-  filter: invert(100%) saturate(0) blur(0.22rem) opacity(0.8);
-  max-width: 100%;
-  height: auto;
+  transform: translateY(0.6rem) translateX(0rem) scale(1.1)
+    translateZ(0.1px);
+  filter: invert(100%) saturate(0) blur(0.22rem) opacity(0.5);
+  max-width: 130%;
+  max-height: 130%;
 }
 
 .icon {
@@ -120,16 +134,24 @@ const iconSrc = computed(() => new URL(`../assets/${props.icon}`, import.meta.ur
   font-size: 2.5rem;
   margin-bottom: 0.5rem;
   transform: translateZ(3.75rem);
-  max-width: 100%;
-  height: auto;
+  max-width: 130%;
+  max-height: 130%;
 }
 
 .title {
+  z-index: 2;
+  position: absolute;
+  bottom: 1.5rem;
+  left: 0;
+  right: 0;
+  color: black;
   font-size: 1.2rem;
-  font-weight: bold;
-  color: #333;
-  text-shadow: 0.125rem 0.125rem 0.375rem rgba(0, 0, 0, 0.3);
+  font-weight: 500;
+  text-transform: uppercase;
   transform: translateZ(3.75rem);
-  margin-top: -1.2rem;
+  text-align: center;
+  width: 100%;
+  padding: 0 1.5rem;
+  box-sizing: border-box;
 }
 </style>
