@@ -3,8 +3,12 @@
     <div class="gradient-overlay"></div>
     <div class="header-inner">
       <div class="logo-container">
-        <img src="@/assets/logo.svg" alt="Logo" class="logo logo-left" />
-        <img src="@/assets/logo-opp.svg" alt="Logo Opp" class="logo logo-right" />
+        <router-link to="/">
+          <img src="@/assets/logo.svg" alt="Logo" class="logo logo-left" />
+        </router-link>
+        <a href="https://observatorio.tcm.sp.gov.br/" target="_blank" rel="noopener noreferrer">
+          <img src="@/assets/logo-opp.svg" alt="Logo OPP" class="logo logo-right" />
+        </a>
       </div>
       <nav class="nav">
         <div v-for="(item, index) in menuItems" :key="item.label" class="nav-item">
@@ -21,7 +25,7 @@
 
 <script setup lang="ts">
 const menuItems = [
-  { label: 'Apresentação', route: '/' },
+  { label: 'Apresentação' },
   { label: 'Educação', route: '/educacao' },
   { label: 'Gênero', route: '/genero' },
   { label: 'Saúde', route: '/saude' },
@@ -66,8 +70,9 @@ const menuItems = [
 }
 
 .header-inner {
-  width: 75%;
   overflow: visible;
+  position: relative;
+  z-index: 1;
 }
 
 /* Novo container para os logos */
