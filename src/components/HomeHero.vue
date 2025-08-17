@@ -1,8 +1,8 @@
 <template>
   <section class="hero-section">
     <div class="hero-content">
-      <h1 class="hero-title">PAINEL DE INDICADORES</h1>
-      <p class="hero-subtitle">OBSERVATÓRIO DE POLÍTICAS PÚBLICAS</p>
+      <h1 class="hero-title">D<span class="hero-title-smallcaps">ata</span>SP</h1>
+      <p class="hero-subtitle">Mapa de Dados da Cidade</p>
     </div>
   </section>
 </template>
@@ -34,10 +34,17 @@
 }
 
 .hero-title {
-  font-size: 8rem;
+  font-size: 12rem;
   margin-bottom: 0;
   font-weight: 400;
   color: black;
+}
+
+.hero-title-smallcaps {
+  font-variant: small-caps;
+  font-weight: 500;
+  font-size: 70%;
+  text-transform: uppercase;
 }
 
 .hero-subtitle {
@@ -45,5 +52,6 @@
   font-weight: 500;
   color: black;
   margin: 0;
+  text-transform: uppercase;
 }
 </style>
