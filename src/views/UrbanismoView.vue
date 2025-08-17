@@ -1,22 +1,16 @@
 <template>
   <SnapPage>
     <DashboardFrame
-      appid="3fc394bc-d567-4b1b-94f4-3f87ea76a450"
-      sheet="b779c56d-dee5-4a71-a575-d7e42afa8789"
-      title="População em áreas de risco"
+      appid="e03b5a17-290f-49a7-8202-e9a05b446f35"
+      sheet="e9731105-32d5-45a6-a2ac-972df82b3d6b"
+      title="População em risco geológico e hidrológico (2025)"
       identity="1"
     />
     <DashboardFrame
-      appid="73f920a4-af97-412a-82d0-a12c13dd9ec0"
+      appid="b4ec6f8c-40e8-473f-b130-359e44df750e"
       sheet="QMPruE"
-      title="Área de parques municipais"
+      title="Área de parques municipais e estaduais (2024)"
       identity="2"
-    />
-    <DashboardFrame
-      appid="fee34b2e-4e55-4960-8358-c2a9178642ff"
-      sheet="bjqsPD"
-      title="Quantidade de pessoas atendidas no programa Atende+"
-      identity="3"
     />
   </SnapPage>
 </template>
