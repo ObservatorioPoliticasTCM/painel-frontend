@@ -31,16 +31,22 @@
       identity="5"
     />
     <DashboardFrame
+      appid="5894c40c-193a-4bfc-8b05-0cec25c9a09c"
+      sheet="da5e8886-a388-4a4d-9835-8990c3744f2a"
+      title="Unidades habitacionais entregues ou contratadas (2024)"
+      identity="6"
+    />
+    <DashboardFrame
       appid="2be0f077-d541-4b52-a2bf-7b05c1b72400"
       sheet="NAtPM"
       title="Famílias beneficiadas por regularização fundiária e obras em assentamentos precários (2024)"
-      identity="6"
+      identity="7"
     />
     <DashboardFrame
       appid="18956ab0-d917-475f-8c94-aba437c955fc"
       sheet="SHsCbm"
       title="Despesas liquidadas na função Habitação em 2024"
-      identity="7"
+      identity="8"
     />
   </SnapPage>
 </template>
