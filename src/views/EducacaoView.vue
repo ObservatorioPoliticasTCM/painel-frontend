@@ -15,19 +15,19 @@
     <DashboardFrame
       appid="ee3bc48f-da4d-403a-a4fe-4da01cb29ee9"
       sheet="8a9478a1-23b6-4165-a526-12f9d736aaa0"
-      title="Número de unidades escolares da rede pública municipal em 2024"
+      title="Número de escolas da rede pública municipal em 2024"
       identity="3"
     />
     <DashboardFrame
       appid="ee3bc48f-da4d-403a-a4fe-4da01cb29ee9"
       sheet="nvgxg"
-      title="Perfil dos educadores da rede pública municipal em 2024"
+      title="Perfil dos professores da rede pública municipal em 2024"
       identity="4"
     />
     <DashboardFrame
       appid="ee3bc48f-da4d-403a-a4fe-4da01cb29ee9"
       sheet="nNpyj"
-      title="Perfil dos educandos da rede pública municipal em 2024"
+      title="Perfil dos alunos da rede pública municipal em 2024"
       identity="5"
     />
     <DashboardFrame
@@ -39,7 +39,7 @@
     <DashboardFrame
       appid="ee3bc48f-da4d-403a-a4fe-4da01cb29ee9"
       sheet="PqxZb"
-      title="Educandos estrangeiros na rede pública municipal em 2024"
+      title="Alunos estrangeiros na rede pública municipal em 2024"
       identity="7"
     />
   </SnapPage>
