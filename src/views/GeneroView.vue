@@ -1,10 +1,10 @@
 <template>
   <SnapPage>
     <DashboardFrame
-      appid="4835ca37-8af2-4b04-aea1-57d99911f3f5"
-      sheet="a0e0c147-849d-4ab9-a43d-369e0c1e0af3"
-      title="Orçamento aplicado em Ações Sensíveis a Políticas para Mulheres"
-      subtitle="Inclui apenas ações voltadas exclusivamente a políticas de combate à violência contra a mulher"
+      appid="e808b4ea-ded0-41c6-b5b0-8845934d8369"
+      sheet="c609507f-709a-434f-8430-5f1f74121740"
+      title="Despesas em ações voltadas exclusivamente a políticas de promoção aos direitos das mulheres"
+      identity="1"
     />
   </SnapPage>
 </template>
