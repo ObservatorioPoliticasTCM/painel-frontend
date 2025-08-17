@@ -12,6 +12,12 @@
       title="Área de parques municipais e estaduais (2024)"
       identity="2"
     />
+    <DashboardFrame
+      appid="22a261d9-7064-4232-956f-232f78547e51"
+      sheet="1f71d49e-422e-4314-aa8b-259b8f948658"
+      title="Parques novos e requalificados, áreas permeáveis e despesas liquidadas com parques (2024)"
+      identity="2"
+    />
   </SnapPage>
 </template>
 
