@@ -2,10 +2,21 @@
   <div class="dashboard-frame">
     <div v-if="title" class="frame-header">
       <h1 v-if="title">{{ title }}</h1>
-      <button class="download-button">
-        <img src="@/assets/download-icon.svg" alt="Download" class="download-icon"/>
-        Arquivos CSV
-      </button>
+      <div class="frame-actions">
+        <a
+          class="pdf-button"
+          href="https://tcmspgovbr-my.sharepoint.com/:f:/g/personal/bruno_balzano_tcmsp_tc_br/Es3nGrJ9JRxMsiS_JFtYSb0BuOKH2yUNOX2HevUc4TM2Cw?e=bVupcT"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="@/assets/pdf-icon.svg" alt="PDF" class="pdf-icon"/>
+          Notas metodológicas
+        </a>
+        <button class="download-button">
+          <img src="@/assets/download-icon.svg" alt="Download" class="download-icon"/>
+          Arquivos CSV
+        </button>
+      </div>
     </div>
     <div v-if="subtitle" class="frame-subtitle">
       <small v-if="subtitle">{{ subtitle }}</small>
@@ -51,14 +62,16 @@ export default defineComponent({
   flex-direction: column;
   height: 90vh;
   padding: 5vh;
-  position: relative; /* adiciona posicionamento para que z-index funcione */
+  position: relative;
   z-index: 20;
 }
 .frame-header {
-  position: relative; /* permite posicionar o botão de forma absoluta */
   display: flex;
-  align-items: end;
+  align-items: center;
+  justify-content: space-between; /* Título à esquerda, botões à direita */
   padding: 1rem;
+  gap: 1rem;
+  position: relative;
 }
 .frame-header h1 {
   margin: 0;
@@ -72,10 +85,31 @@ export default defineComponent({
   margin-left: 1.3rem;
   font-size: x-large;
 }
-.download-button {
-  position: absolute;
+.pdf-button {
+  /* position: absolute;
   bottom: 1rem;
-  right: 1rem;
+  right: 10.5rem; */
+  display: flex;
+  align-items: center;
+  background-color: #213547;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 1rem;
+}
+.pdf-icon {
+  width: 21px;
+  height: 21px;
+  margin-right: 0.5rem;
+  filter: brightness(0) invert(1);
+}
+.download-button {
+  /* position: absolute;
+  bottom: 1rem;
+  right: 1rem; */
   display: flex;
   align-items: center;
   background-color: #213547;
@@ -92,5 +126,9 @@ export default defineComponent({
 }
 .iframe-wrapper {
   flex: 1;
+}
+.frame-actions {
+  display: flex;
+  gap: 1rem;
 }
 </style>
