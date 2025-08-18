@@ -1,7 +1,7 @@
 <template>
   <SnapPage>
     <DashboardFrame
-      appid="e03b5a17-290f-49a7-8202-e9a05b446f35"
+      appid="ae6af572-20d7-4971-87ca-c472c0bde58a"
       sheet="e9731105-32d5-45a6-a2ac-972df82b3d6b"
       title="População em risco geológico e hidrológico (2025)"
       identity="1"
@@ -31,8 +31,8 @@
       identity="5"
     />
     <DashboardFrame
-      appid="5894c40c-193a-4bfc-8b05-0cec25c9a09c"
-      sheet="da5e8886-a388-4a4d-9835-8990c3744f2a"
+      appid="97daaa3e-d91e-4eaf-aa6b-1cb4772239bb"
+      sheet="hJfCYXg"
       title="Unidades habitacionais entregues ou contratadas (2024)"
       identity="6"
     />
