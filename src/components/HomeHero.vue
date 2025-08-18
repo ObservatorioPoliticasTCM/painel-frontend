@@ -34,9 +34,9 @@
 }
 
 .hero-title {
-  font-size: 12rem;
+  font-size: 13rem;
   margin-bottom: 0;
-  font-weight: 400;
+  font-weight: 600;
   color: black;
 }
 
