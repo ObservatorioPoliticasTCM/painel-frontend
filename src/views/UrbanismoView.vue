@@ -3,7 +3,7 @@
     <DashboardFrame
       appid="ae6af572-20d7-4971-87ca-c472c0bde58a"
       sheet="e9731105-32d5-45a6-a2ac-972df82b3d6b"
-      title="População em risco geológico e hidrológico (2025)"
+      title="População em risco geológico e \n hidrológico (2025)"
       identity="1"
     />
     <DashboardFrame
