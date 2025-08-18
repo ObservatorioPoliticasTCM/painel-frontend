@@ -42,7 +42,7 @@
 
 .hero-title-smallcaps {
   font-variant: small-caps;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 70%;
   text-transform: uppercase;
 }
