@@ -21,7 +21,7 @@
     <DashboardFrame
       appid="14f47000-5a08-4b2a-b198-d7ae6b6d55b2"
       sheet="5de719a0-3b7d-4000-a4ec-64c9e35d9ad4"
-      title="Despesas liquidadas em Gestão dos Riscos e Promoção da Resiliência a Desastres e Eventos Críticos (2024)"
+      title="Despesas em Gestão dos Riscos e Promoção da Resiliência a Desastres e Eventos Críticos (2024)"
       identity="4"
     />
     <DashboardFrame
@@ -64,8 +64,8 @@
 </template>
 
 <script setup lang="ts">
-import DashboardFrame from '../components/DashboardFrame.vue'
-import SnapPage from '../components/SnapPage.vue'
+import DashboardFrame from '@/components/DashboardFrame.vue'
+import SnapPage from '@/components/SnapPage.vue'
 </script>
 
 <style scoped></style>
