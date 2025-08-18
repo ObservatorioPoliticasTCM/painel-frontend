@@ -34,22 +34,22 @@
 }
 
 .hero-title {
-  font-size: 12rem;
+  font-size: 13rem;
   margin-bottom: 0;
-  font-weight: 400;
+  margin-top: 0.36em;
+  font-weight: 600;
   color: black;
 }
 
 .hero-title-smallcaps {
-  font-variant: small-caps;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 70%;
   text-transform: uppercase;
 }
 
 .hero-subtitle {
   font-size: 3.75rem;
-  font-weight: 500;
+  font-weight: 300;
   color: black;
   margin: 0;
   text-transform: uppercase;
