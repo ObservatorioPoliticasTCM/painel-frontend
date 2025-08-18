@@ -36,6 +36,7 @@
 .hero-title {
   font-size: 13rem;
   margin-bottom: 0;
+  margin-top: 0.36em;
   font-weight: 600;
   color: black;
 }
