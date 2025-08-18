@@ -40,12 +40,13 @@
         title="Regionalização do Orçamento"
         backText="Veja como o orçamento da Prefeitura se distribuiu entre as diferentes áreas e como evoluiu ao longo de 2024."
         bgColor="#e57c76"
+        navLink="/orcamento"
       />
     </div>
   </template>
   
   <script lang="ts" setup>
-  import Card3D from './Card3d.vue'
+  import Card3D from '@/components/Card3D.vue'
   </script>
   
   <style scoped>
