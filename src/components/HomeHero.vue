@@ -49,7 +49,7 @@
 
 .hero-subtitle {
   font-size: 3.75rem;
-  font-weight: 500;
+  font-weight: 300;
   color: black;
   margin: 0;
   text-transform: uppercase;
