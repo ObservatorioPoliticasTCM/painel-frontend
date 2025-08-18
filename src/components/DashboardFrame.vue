@@ -1,7 +1,7 @@
 <template>
   <div class="dashboard-frame">
     <div v-if="title" class="frame-header">
-      <h1 v-if="title">{{ title }}</h1>
+      <h1 v-if="title">{{ displayTitle }}</h1>
       <div class="frame-actions">
         <a
           class="pdf-button"
@@ -51,7 +51,9 @@ export default defineComponent({
       }
       return url
     })
-    return { iframeSrc, ...props }
+    // convert literal "\n" into real newlines for rendering
+    const displayTitle = computed(() => props.title.replace(/\\n/g, '\n'))
+    return { iframeSrc, displayTitle, ...props }
   }
 })
 </script>
@@ -78,6 +80,7 @@ export default defineComponent({
   text-transform: uppercase;
   text-align: left;
   font-weight: normal;
+  white-space: pre-line;
 }
 .frame-subtitle {
   font-variant: small-caps;
