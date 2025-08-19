@@ -27,7 +27,6 @@ import GlossaryLetter from '../components/GlossaryLetter.vue'
 import GlossaryTerm from '../components/GlossaryTerm.vue'
 import MiniSearch from 'minisearch'
 import stopwords from '../data/stopwords_ptbr'
-import pkg from '../../package.json'
 
 const searchValue = ref('')
 const expandedTerm = ref<string | null>(null)
@@ -55,8 +54,7 @@ const miniSearch = ref<any>(null)
 
 onMounted(async () => {
   try {
-    const versionTag = `v${(pkg as any).version}`
-    const url = `https://raw.githubusercontent.com/ObservatorioPoliticasTCM/painel-frontend/refs/tags/${versionTag}/src/assets/glossary.json`
+    const url = 'https://raw.githubusercontent.com/ObservatorioPoliticasTCM/painel-frontend/temp-glossary-source/src/assets/glossary.json'
     const res = await fetch(url)
     if (!res.ok) throw new Error(`Failed to fetch glossary: ${res.status}`)
     const data = await res.json()
