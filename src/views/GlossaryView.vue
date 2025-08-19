@@ -20,12 +20,11 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed } from 'vue'
+import { ref, computed, onMounted } from 'vue'
 import ScrollablePage from '../components/ScrollablePage.vue'
 import SearchBar from '../components/SearchBar.vue'
 import GlossaryLetter from '../components/GlossaryLetter.vue'
 import GlossaryTerm from '../components/GlossaryTerm.vue'
-import glossary from '../assets/glossary.json'
 import MiniSearch from 'minisearch'
 import stopwords from '../data/stopwords_ptbr'
 
@@ -41,53 +40,81 @@ function normalize(str: string): string {
   return str ? str.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase() : ''
 }
 
-// Prepara todos os termos para indexação
-const allTerms: Array<{
+// Dados carregados remotamente e índice de busca
+const glossaryData = ref<Record<string, any[]>>({})
+const allTerms = ref<Array<{
   id: string,
   term: string,
   definition: string,
   letter: string,
   normalizedTerm: string,
   normalizedDefinition: string
-}> = []
-Object.entries(glossary).forEach(([letter, terms]) => {
-  (terms as any[]).forEach(termObj => {
-    allTerms.push({
-      id: termObj.term || letter.toUpperCase(),
-      term: termObj.term || '',
-      definition: termObj.definition || '',
-      letter: letter.toUpperCase(),
-      normalizedTerm: normalize(termObj.term || ''),
-      normalizedDefinition: normalize(termObj.definition || '')
-    })
-  })
-})
+}>>([])
+const miniSearch = ref<any>(null)
 
-// Configura MiniSearch
-const miniSearch = new MiniSearch({
-  fields: ['term', 'definition', 'normalizedTerm', 'normalizedDefinition'],
-  storeFields: ['term', 'definition', 'letter'],
-  searchOptions: { prefix: true, fuzzy: 0.3, boost: { term: 4, definition: 2 } },
-  processTerm: (term) => {
+onMounted(async () => {
+  try {
+    const url = 'https://raw.githubusercontent.com/ObservatorioPoliticasTCM/painel-frontend/temp-glossary-source/src/assets/glossary.json'
+    const res = await fetch(url)
+    if (!res.ok) throw new Error(`Failed to fetch glossary: ${res.status}`)
+    const data = await res.json()
+    glossaryData.value = data
+
+    const arr: Array<{
+      id: string,
+      term: string,
+      definition: string,
+      letter: string,
+      normalizedTerm: string,
+      normalizedDefinition: string
+    }> = []
+    Object.entries(data).forEach(([letter, terms]) => {
+      ;(terms as any[]).forEach(termObj => {
+        arr.push({
+          id: termObj.term || letter.toUpperCase(),
+          term: termObj.term || '',
+          definition: termObj.definition || '',
+          letter: letter.toUpperCase(),
+          normalizedTerm: normalize(termObj.term || ''),
+          normalizedDefinition: normalize(termObj.definition || '')
+        })
+      })
+    })
+    allTerms.value = arr
+
     const normalizedStopwords: Set<string> = new Set(
       Array.from(stopwords).map(word => normalize(word))
-    );
-    return stopwords.has(term) || normalizedStopwords.has(term) ? null : term
-  },
+    )
+    const ms = new MiniSearch({
+      fields: ['term', 'definition', 'normalizedTerm', 'normalizedDefinition'],
+      storeFields: ['term', 'definition', 'letter'],
+      searchOptions: { prefix: true, fuzzy: 0.3, boost: { term: 4, definition: 2 } },
+      processTerm: (term) =>
+        stopwords.has(term) || normalizedStopwords.has(term) ? null : term,
+    })
+    ms.addAll(arr)
+    miniSearch.value = ms
+  } catch (e) {
+    console.error(e)
+    glossaryData.value = {}
+    allTerms.value = []
+    miniSearch.value = null
+  }
 })
-miniSearch.addAll(allTerms)
 
 // Computed para filtrar usando MiniSearch
 const glossaryArray = computed(() => {
   let filteredTerms: Array<{ term: string, definition: string, letter: string }>
   if (searchValue.value.trim() === '') {
-    filteredTerms = allTerms
+    filteredTerms = allTerms.value
   } else {
-    filteredTerms = miniSearch.search(searchValue.value).map(r => ({
-      term: r.term,
-      definition: r.definition,
-      letter: r.letter
-    }))
+    filteredTerms = miniSearch.value
+      ? miniSearch.value.search(searchValue.value).map((r: any) => ({
+          term: r.term,
+          definition: r.definition,
+          letter: r.letter
+        }))
+      : []
   }
   // Agrupa filteredTerms por letra
   const grouped: Record<string, Array<{ term: string, definition: string }>> = {}
@@ -97,7 +124,7 @@ const glossaryArray = computed(() => {
   })
   // Se não há busca, mostra todas as letras; se há busca, mostra só as letras com termos filtrados
   const allLetters = searchValue.value.trim() === ''
-    ? Object.keys(glossary).map(l => l.toUpperCase()).sort((a, b) => a.localeCompare(b))
+    ? Object.keys(glossaryData.value || {}).map(l => l.toUpperCase()).sort((a, b) => a.localeCompare(b))
     : Object.keys(grouped).sort((a, b) => a.localeCompare(b))
   // Retorna letras e termos ordenados
   return allLetters.map(letter => ({
