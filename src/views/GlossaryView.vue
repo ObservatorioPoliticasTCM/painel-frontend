@@ -154,7 +154,7 @@ const rows = computed(() => {
 .glossary-content :deep(*) {
   position: relative;
   z-index: 30;
-  text-align: left;
+  /* text-align: left; */
 }
 
 .glossary-title {

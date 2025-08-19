@@ -53,7 +53,6 @@ export default defineComponent({
       }
       return url
     })
-    // convert literal "\n" into real newlines for rendering
     const displayTitle = computed(() => props.title.replace(/\\n/g, '\n'))
     return { iframeSrc, displayTitle, ...props }
   }
@@ -72,7 +71,7 @@ export default defineComponent({
 .frame-header {
   display: flex;
   align-items: center;
-  justify-content: space-between; /* Título à esquerda, botões à direita */
+  justify-content: space-between; 
   padding: 1rem;
   gap: 1rem;
   position: relative;
