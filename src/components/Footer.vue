@@ -10,7 +10,7 @@
           <p>
           <img src="@/assets/cc-icons.svg#cc-logo" alt="CC Logo" />
           <img src="@/assets/cc-icons.svg#cc-by" alt="CC BY" />
-          Todo o conteúdo do OPP neste site está disponível sob a licença <a href='https://creativecommons.org/licenses/by/4.0/'>Creative Commons Atribuição 4.0 Internacional</a>, exceto quando especificada outra licença.
+          Todo o conteúdo do OPP neste site está disponível sob a licença <a href='https://creativecommons.org/licenses/by/4.0/' target="_blank" rel="noopener noreferrer">Creative Commons Atribuição 4.0 Internacional</a>, exceto quando especificada outra licença.
           <br>O código-fonte da plataforma também é aberto e está disponível no Github sob a licença MIT.</p>
         </div>
         <div class="footer-version">

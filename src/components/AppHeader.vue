@@ -13,6 +13,7 @@
       <nav class="nav">
         <div v-for="(item, index) in menuItems" :key="item.label" class="nav-item">
           <router-link v-if="item.route" :to="item.route">{{ item.label }}</router-link>
+          <a v-else-if="item.href" :href="item.href" target="_blank" rel="noopener noreferrer">{{ item.label }}</a>
           <a v-else href="#">{{ item.label }}</a>
           <div v-if="index < menuItems.length - 1" class="separator">
             <div v-for="n in 10" :key="n" class="dot" />
@@ -32,7 +33,7 @@ const menuItems = [
   { label: 'Urbanismo', route: '/urbanismo'  },
   { label: 'Regionalização do Orçamento', route: '/orcamento' },
   { label: 'Glossário', route: '/glossario'   },
-  { label: 'Contato' }
+  { label: 'Contato', href: 'https://observatorio.tcm.sp.gov.br/ObservatorioItem/156570' }
 ]
 </script>
 
