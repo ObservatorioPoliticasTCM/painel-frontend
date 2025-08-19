@@ -15,7 +15,7 @@
             <li><router-link to="/genero">Gênero</router-link></li>
             <li><router-link to="/saude">Saúde</router-link></li>
             <li><router-link to="/urbanismo">Urbanismo</router-link></li>
-            <li><router-link to="/orcamento">Orçamento</router-link></li>
+            <li><router-link to="/orcamento">Regionalização do Orçamento</router-link></li>
         </ul>
         </div>
         <div class="sitemap-column">
@@ -60,7 +60,7 @@ import { RouterLink } from 'vue-router'
   flex-wrap: wrap;
   gap: 1rem;
   line-height: 1rem;
-  width: 75%;
+  width: 85%;
 }
 
 .sitemap-column {
