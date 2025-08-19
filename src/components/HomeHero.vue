@@ -1,8 +1,11 @@
 <template>
   <section class="hero-section">
     <div class="hero-content">
-      <h1 class="hero-title">D<span class="hero-title-smallcaps">ata</span>SP</h1>
-      <p class="hero-subtitle">Mapa de Dados da Cidade</p>
+      <div class="hero-heading">
+        <h1 class="hero-title">DataSP</h1>
+        <hr class="hero-divider" />
+        <p class="hero-subtitle">Mapa de Dados da Cidade</p>
+      </div>
     </div>
   </section>
 </template>
@@ -33,25 +36,33 @@
   z-index: 10; /* acima da overlay e fundo */
 }
 
+.hero-heading {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 1.25rem; /* espaço para o divisor absoluto */
+  text-align: left;
+}
+
 .hero-title {
   font-size: 13rem;
-  margin-bottom: 0;
-  margin-top: 0.36em;
-  font-weight: 600;
+  margin: 0.36em 0 0 -0.06em;
+  font-weight: 500;
   color: black;
 }
 
-.hero-title-smallcaps {
-  font-weight: 700;
-  font-size: 70%;
-  text-transform: uppercase;
+.hero-divider {
+  top: calc(100% + 0.5rem);
+  width: calc(100% + 2rem); /* ligeiramente maior que o título */
+  margin: 0 0 0 0.5em;
+  border: none;
+  border-top: 2px solid black;
 }
 
 .hero-subtitle {
-  font-size: 3.75rem;
+  font-family: 'Montserrat';
+  font-size: 3.04rem;
   font-weight: 300;
   color: black;
   margin: 0;
-  text-transform: uppercase;
 }
 </style>
