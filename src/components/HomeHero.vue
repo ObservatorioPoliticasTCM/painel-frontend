@@ -45,7 +45,7 @@
 
 .hero-title {
   font-size: 13rem;
-  margin: 0.36em 0 0 -0.06em;
+  margin: 0.36em 0 -0.08em -0.06em;
   font-weight: 500;
   color: black;
 }
@@ -63,6 +63,6 @@
   font-size: 3.04rem;
   font-weight: 300;
   color: black;
-  margin: 0;
+  margin: -0.08em 0 0 0;
 }
 </style>
