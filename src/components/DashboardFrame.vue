@@ -12,10 +12,12 @@
           <img src="@/assets/pdf-icon.svg" alt="PDF" class="pdf-icon"/>
           Notas metodológicas
         </a>
+        <!--
         <button class="download-button">
           <img src="@/assets/download-icon.svg" alt="Download" class="download-icon"/>
           Arquivos CSV
         </button>
+        -->
       </div>
     </div>
     <div v-if="subtitle" class="frame-subtitle">
