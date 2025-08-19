@@ -1,16 +1,13 @@
 <template>
   <section class="hero-section">
     <div class="hero-content">
-      <div class="hero-heading">
-        <h1 class="hero-title">DataSP</h1>
-        <hr class="hero-divider" />
-        <p class="hero-subtitle">Mapa de Dados da Cidade</p>
-      </div>
+      <img class="hero-logo" :src="logoUrl" alt="DataSP logo" />
     </div>
   </section>
 </template>
 
 <script setup lang="ts">
+import logoUrl from '../assets/logo.svg';
 </script>
 
 <style scoped>
@@ -36,33 +33,10 @@
   z-index: 10; /* acima da overlay e fundo */
 }
 
-.hero-heading {
-  display: inline-block;
-  position: relative;
-  padding-bottom: 1.25rem; /* espaço para o divisor absoluto */
-  text-align: left;
-}
-
-.hero-title {
-  font-size: 13rem;
-  margin: 0.36em 0 -0.08em -0.06em;
-  font-weight: 500;
-  color: black;
-}
-
-.hero-divider {
-  top: calc(100% + 0.5rem);
-  width: calc(100% + 2rem); /* ligeiramente maior que o título */
-  margin: 0 0 0 0.5em;
-  border: none;
-  border-top: 2px solid black;
-}
-
-.hero-subtitle {
-  font-family: 'Montserrat';
-  font-size: 3.04rem;
-  font-weight: 300;
-  color: black;
-  margin: -0.08em 0 0 0;
+.hero-logo {
+  display: block;
+  width: min(80vw, 1200px);
+  height: auto;
+  margin: 0 auto;
 }
 </style>
