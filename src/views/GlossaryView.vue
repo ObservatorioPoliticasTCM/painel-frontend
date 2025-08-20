@@ -158,7 +158,7 @@ const rows = computed(() => {
 }
 
 .glossary-title {
-  font-size: 5rem;
+  font-size: 4rem;
   margin-bottom: 0;
   font-weight: 400;
   text-transform: uppercase;

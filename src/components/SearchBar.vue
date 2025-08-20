@@ -29,6 +29,7 @@ const onInput = (event: Event) => {
 .search-bar {
     background-color: #D6D6D6;
     padding: 0.5em 2%;
+    border-radius: 0.25em;
 }
 
 .search-bar label {
@@ -40,6 +41,7 @@ const onInput = (event: Event) => {
     padding: 0.5em;
     font-size: 1em;
     border: none;
+    border-radius: 0.2em;
 }
 
 ::placeholder {
