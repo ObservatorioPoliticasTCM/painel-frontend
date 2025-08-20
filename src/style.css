@@ -81,3 +81,9 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+@media (display-mode: fullscreen) {
+  :root {
+    font-size: clamp(10px, 2.2vh, 32px);
+  }
+}
