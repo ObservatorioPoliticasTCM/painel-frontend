@@ -46,7 +46,7 @@ defineProps<{
 }
 .glossary-title {
   font-weight: bold;
-  font-size: 1.2em;
+  text-align: left;
 }
 .glossary-content {
   margin-top: 0.7em;

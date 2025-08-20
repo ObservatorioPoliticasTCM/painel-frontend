@@ -66,9 +66,10 @@ export default defineComponent({
   height: 90vh;
   padding: 5vh;
   position: relative;
-  z-index: 20;
+  z-index: 20;  
 }
 .frame-header {
+  font-size: 0.6em;
   display: flex;
   align-items: center;
   justify-content: space-between; 
@@ -87,12 +88,13 @@ export default defineComponent({
   font-variant: small-caps;
   text-align: left;
   margin-left: 1.3rem;
-  font-size: x-large;
+  font-size: 1.3em;
 }
 .pdf-button {
   /* position: absolute;
   bottom: 1rem;
   right: 10.5rem; */
+  min-width: 13em;
   display: flex;
   align-items: center;
   background-color: #213547;
@@ -103,10 +105,11 @@ export default defineComponent({
   border-radius: 4px;
   text-decoration: none;
   font-size: 1rem;
+  text-align: center;
 }
 .pdf-icon {
-  width: 21px;
-  height: 21px;
+  width: 1.4em;
+  height: auto;
   margin-right: 0.5rem;
   filter: brightness(0) invert(1);
 }

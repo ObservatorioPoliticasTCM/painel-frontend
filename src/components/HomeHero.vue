@@ -35,8 +35,8 @@ import logoUrl from '@/assets/logo.svg';
 
 .hero-logo {
   display: block;
-  width: min(80vw, 1200px);
-  height: auto;
+  width: auto;
+  height: 77vh;
   margin: 0 auto;
 }
 </style>
