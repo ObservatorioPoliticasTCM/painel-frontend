@@ -31,12 +31,6 @@
       identity="5"
     />
     <DashboardFrame
-      appid="58f8b63f-5302-4e4b-9260-dc74b69c57f9"
-      sheet="6fe6d2e2-43de-4c67-8aba-6bd99ad3ba74"
-      title="Famílias beneficiárias do programa de Auxílio Aluguel (2024)"
-      identity="6"
-    />
-    <DashboardFrame
       appid="97daaa3e-d91e-4eaf-aa6b-1cb4772239bb"
       sheet="hJfCYXg"
       title="Unidades habitacionais entregues ou contratadas (2024)"
@@ -47,6 +41,12 @@
       sheet="NAtPM"
       title="Famílias beneficiadas por regularização fundiária e obras em assentamentos precários (2024)"
       identity="8"
+    />
+    <DashboardFrame
+      appid="58f8b63f-5302-4e4b-9260-dc74b69c57f9"
+      sheet="6fe6d2e2-43de-4c67-8aba-6bd99ad3ba74"
+      title="Famílias beneficiárias do programa de Auxílio Aluguel (2024)"
+      identity="6"
     />
     <DashboardFrame
       appid="f571d56a-108d-4a83-b865-45255c72b23d"
