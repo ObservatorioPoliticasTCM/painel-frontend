@@ -94,6 +94,7 @@ export default defineComponent({
   /* position: absolute;
   bottom: 1rem;
   right: 10.5rem; */
+  min-width: 13em;
   display: flex;
   align-items: center;
   background-color: #213547;
@@ -104,10 +105,11 @@ export default defineComponent({
   border-radius: 4px;
   text-decoration: none;
   font-size: 1rem;
+  text-align: center;
 }
 .pdf-icon {
-  width: 21px;
-  height: 21px;
+  width: 1.4em;
+  height: auto;
   margin-right: 0.5rem;
   filter: brightness(0) invert(1);
 }
