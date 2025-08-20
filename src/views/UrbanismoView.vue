@@ -7,6 +7,12 @@
       identity="1"
     />
     <DashboardFrame
+      appid="14f47000-5a08-4b2a-b198-d7ae6b6d55b2"
+      sheet="5de719a0-3b7d-4000-a4ec-64c9e35d9ad4"
+      title="Despesas em Gestão dos Riscos e Promoção da Resiliência a Desastres e Eventos Críticos (2024)"
+      identity="4"
+    />
+    <DashboardFrame
       appid="b4ec6f8c-40e8-473f-b130-359e44df750e"
       sheet="QMPruE"
       title="Área de parques municipais e estaduais (2024)"
@@ -17,12 +23,6 @@
       sheet="1f71d49e-422e-4314-aa8b-259b8f948658"
       title="Parques novos e requalificados, áreas permeáveis e despesas liquidadas com parques (2024)"
       identity="3"
-    />
-    <DashboardFrame
-      appid="14f47000-5a08-4b2a-b198-d7ae6b6d55b2"
-      sheet="5de719a0-3b7d-4000-a4ec-64c9e35d9ad4"
-      title="Despesas em Gestão dos Riscos e Promoção da Resiliência a Desastres e Eventos Críticos (2024)"
-      identity="4"
     />
     <DashboardFrame
       appid="5894c40c-193a-4bfc-8b05-0cec25c9a09c"
