@@ -66,9 +66,10 @@ export default defineComponent({
   height: 90vh;
   padding: 5vh;
   position: relative;
-  z-index: 20;
+  z-index: 20;  
 }
 .frame-header {
+  font-size: 0.6em;
   display: flex;
   align-items: center;
   justify-content: space-between; 
@@ -87,7 +88,7 @@ export default defineComponent({
   font-variant: small-caps;
   text-align: left;
   margin-left: 1.3rem;
-  font-size: x-large;
+  font-size: 1.3em;
 }
 .pdf-button {
   /* position: absolute;
