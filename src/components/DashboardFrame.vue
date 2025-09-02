@@ -12,10 +12,12 @@
           <img src="@/assets/pdf-icon.svg" alt="PDF" class="pdf-icon"/>
           Notas metodológicas
         </a>
+        <!--
         <button class="download-button">
           <img src="@/assets/download-icon.svg" alt="Download" class="download-icon"/>
           Arquivos CSV
         </button>
+        -->
       </div>
     </div>
     <div v-if="subtitle" class="frame-subtitle">
@@ -51,7 +53,6 @@ export default defineComponent({
       }
       return url
     })
-    // convert literal "\n" into real newlines for rendering
     const displayTitle = computed(() => props.title.replace(/\\n/g, '\n'))
     return { iframeSrc, displayTitle, ...props }
   }
@@ -65,12 +66,13 @@ export default defineComponent({
   height: 90vh;
   padding: 5vh;
   position: relative;
-  z-index: 20;
+  z-index: 20;  
 }
 .frame-header {
+  font-size: 0.6em;
   display: flex;
   align-items: center;
-  justify-content: space-between; /* Título à esquerda, botões à direita */
+  justify-content: space-between; 
   padding: 1rem;
   gap: 1rem;
   position: relative;
@@ -86,12 +88,13 @@ export default defineComponent({
   font-variant: small-caps;
   text-align: left;
   margin-left: 1.3rem;
-  font-size: x-large;
+  font-size: 1.3em;
 }
 .pdf-button {
   /* position: absolute;
   bottom: 1rem;
   right: 10.5rem; */
+  min-width: 13em;
   display: flex;
   align-items: center;
   background-color: #213547;
@@ -102,10 +105,11 @@ export default defineComponent({
   border-radius: 4px;
   text-decoration: none;
   font-size: 1rem;
+  text-align: center;
 }
 .pdf-icon {
-  width: 21px;
-  height: 21px;
+  width: 1.4em;
+  height: auto;
   margin-right: 0.5rem;
   filter: brightness(0) invert(1);
 }

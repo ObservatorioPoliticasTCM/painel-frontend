@@ -16,7 +16,7 @@ defineProps<{
 <style scoped>
 .glossary-letter {
   border: 0.1em solid #fff;
-  padding: 1em;
+  padding: 0.5em;
   margin-bottom: 1.5em;
   border-radius: 0.3em;
   background: transparent;
@@ -24,6 +24,5 @@ defineProps<{
 .glossary-letter-title {
   font-size: 2em;
   font-weight: bold;
-  margin-bottom: 0.7em;
 }
 </style>

@@ -1,20 +1,48 @@
 {
     "A": [
         {
+            "term": "Admitido",
+            "definition": "Admitido na PMSP através de portaria de admissão"
+        },
+        {
+            "term": "Admitido estável",
+            "definition": "Servidores  admitidos que, em 1988, possuiam 05 anos de prestação de serviços e possuem estabilidade."
+        },
+        {
+            "term": "Assentamentos precários",
+            "definition": "Segundo a Política Nacional de Habitação, são “porções do território urbano com dimensões e tipologias variadas, habitadas por famílias de baixa renda, com precariedade nas condições de moradia, incluindo irregularidade fundiária, ausência de infraestrutura de saneamento, localização em áreas mal servidas por transporte e equipamentos sociais, terrenos sujeitos a riscos geotécnicos e adensamento.\""
+        },
+        {
+            "term": "Atendimento habitacional provisório",
+            "definition": "Segundo a Portaria nº 131/SEHAB/2015, alterada pela Portaria nº 68/SEHAB/2019, trata-se de \"um benefício temporário destinado a famílias em situação de vulnerabilidade habitacional, especialmente aquelas removidas de áreas de risco ou afetadas por intervenções urbanas, quando não há disponibilidade imediata de moradia definitiva\"."
+        },
+        {
             "term": "Atenção Básica",
             "definition": "A Atenção Básica é o conjunto de ações de saúde individuais, familiares e coletivas que envolvem promoção, prevenção, proteção, diagnóstico, tratamento, reabilitação, redução de danos, cuidados paliativos e vigilância em saúde, desenvolvida por meio de práticas de cuidado integrado e gestão qualificada, realizada com equipe multiprofissional e dirigida à população em território definido, sobre as quais as equipes assumem responsabilidade sanitária."
         },
         {
             "term": "Atenção Especializada",
-            "definition": "Atenção Especializada é o conjunto de conhecimentos, práticas assistenciais, ações, técnicas e serviços envolvidos na produção do cuidado em saúde marcados, caracteristicamente, por uma maior densidade tecnológica.\n\nA atenção especializada é dividida em dois elementos (atenção secundária e terciária), que são, respectivamente, média e alta complexidade (ambulatorial e especializada hospitalar). A média complexidade é composta por serviços especializados encontrados em hospitais e ambulatórios e envolve atendimento direcionado para áreas como pediatria, ortopedia, cardiologia, oncologia, neurologia, psiquiatria, ginecologia, oftalmologia entre outras especialidades médicas."
+            "definition": "Atenção Especializada é o conjunto de conhecimentos, práticas assistenciais, ações, técnicas e serviços envolvidos na produção do cuidado em saúde marcados, caracteristicamente, por uma maior densidade tecnológica. A atenção especializada é dividida em dois elementos (atenção secundária e terciária), que são, respectivamente, média e alta complexidade (ambulatorial e especializada hospitalar). A média complexidade é composta por serviços especializados encontrados em hospitais e ambulatórios e envolve atendimento direcionado para áreas como pediatria, ortopedia, cardiologia, oncologia, neurologia, psiquiatria, ginecologia, oftalmologia entre outras especialidades médicas."
         },
         {
-            "term": "Atividade Complementar",
+            "term": "Atividade",
+            "definition": "É um instrumento de programação orçamentária para alcançar o objetivo de um programa por meio de ações contínuas e permanentes.\nCorresponde à manutenção de serviços já existentes, como custear o funcionamento de escolas, hospitais, coleta de lixo ou programas sociais."
+        },
+        {
+            "term": "Atividade complementar",
             "definition": "Atividades complementares nos Centros de Educação Unificada"
         },
         {
             "term": "Atualizado",
             "definition": "É o valor orçado inicial após sofrer alterações, seja por acréscimos (como créditos adicionais) ou supressões (como cortes ou cancelamentos). "
+        },
+        {
+            "term": "Auxíllio aluguel",
+            "definition": "É um benefício social mensal, atualmente no valor de R$ 400,00, destinado a famílias que:\n1.\tSofreram perdas habitacionais por desastres como desabamentos, inundações, incêndios ou contaminações;\n2.\tEstão em áreas com intervenção de programas de urbanização de assentamentos precários.\n3.\tMulheres vítimas de violência.\nOs casos 1 e 2 são regulados pela Portaria SEHAB nº 131/2015 em caráter temporário ou continuado, dependendo da situação da família e da disponibilidade orçamentária.\nO caso 4 é regulamentado pela Lei 17.320/2020, Decreto Municipal 60.111/2021 e Portaria 028/SMDHC/2021, para mulheres com renda igual ou inferior a ¼ do salário mínimo, residentes em São Paulo, por 12 meses prorrogáveis até outros 12."
+        },
+        {
+            "term": "Área de risco",
+            "definition": "Segundo a Lei Federal nº 12.608/2012, que institui a Política Nacional de Proteção e Defesa Civil (PNPDEC):\nArt. 1º, § único, inciso XIII –\n\"Risco de desastre: probabilidade de ocorrência de significativos danos sociais, econômicos, materiais ou ambientais decorrentes de evento adverso, de origem natural ou induzido pela ação humana, sobre ecossistemas e populações vulneráveis.\"\nArt. 2º –\n\"É dever da União, dos Estados, do Distrito Federal e dos Municípios adotar as medidas necessárias à redução dos riscos de acidentes ou desastres.\"\nArt. 8º, inciso IV –\n\"Compete aos Municípios: identificar e mapear as áreas de risco de desastres.\"\nO Plano Diretor Estratégico do Município de São Paulo, lei 16.050/2012, associa \"Área de Risco\" aos riscos geológicos de deslizamento de terra e de inundações, solapamentos de margens de rios e córregos onde há habitações. Tais áreas são mapeadas pela Prefeitura em parceria com o Instituto de Pesquisas Tecnológicas (IPT), e são classificadas em risco muito baixo (R1), baixo (R2), alto (R3) e muito alto (R4)."
         },
         {
             "term": "Área de risco geológico",
@@ -101,12 +129,32 @@
             "definition": "A Casa da Mulher Brasileira é um centro de atendimento humanizado e especializado no atendimento à mulher em situação de violência doméstica."
         },
         {
+            "term": "Causas Evitáveis de óbito",
+            "definition": "Mortalidade evitável: Causas de morte que podem ser evitadas principalmente por meio de intervenções eficazes de saúde pública e prevenção primária (ou seja, ANTES DO INÍCIO de doenças/lesões, para reduzir a incidência)."
+        },
+        {
+            "term": "Causas Tratáveis de óbito",
+            "definition": "Mortalidade tratável (ou amenizável): Causas de morte que podem ser evitadas principalmente por meio de intervenções de saúde oportunas e eficazes, incluindo prevenção e tratamento secundários (ou seja, DEPOIS DO INÍCIO das doenças, para reduzir a letalidade)."
+        },
+        {
+            "term": "Comissão estável",
+            "definition": "Servidores nomeados em comissão ou admitidos que, em 1988, possuiam 05 anos de prestação de serviços e possuem estabilidade."
+        },
+        {
+            "term": "Contratado",
+            "definition": "Servidores contratados em caráter emergencial"
+        },
+        {
             "term": "Convee",
             "definition": "Turmas de Convênio de Educação Especial"
         },
         {
             "term": "Conveniada",
             "definition": "Antiga denominação das Escolas da Rede Parceira do tipo \"particular\""
+        },
+        {
+            "term": "Convênios e transferências (no contexto do orçamento público)",
+            "definition": "Os convênios são acordos firmados entre órgãos ou entidades da administração pública e outros entes públicos ou privados, com o objetivo de executar programas, projetos ou atividades de interesse recíproco, em regime de mútua colaboração. Eles envolvem a transferência de recursos financeiros provenientes do orçamento público, mas exigem contrapartida e prestação de contas por parte do convenente, de acordo com o Decreto nº 11.531/2023.\n\nSegundo o Ministério de Planejamento e Orçamento, as transferências podem ser classificadas em:\n•\tConstitucionais: obrigatórias, como o Fundo de Participação dos Municípios (FPM);\n•\tLegais: previstas em leis específicas;\n•\tVoluntárias: realizadas por meio de convênios, contratos de repasse ou termos de parceria, sem imposição legal ou constitucional."
         },
         {
             "term": "Creche",
@@ -116,11 +164,7 @@
     "D": [
         {
             "term": "DIR EDUC",
-            "definition": "NÃO LOCALIZADO"
-        },
-        {
-            "term": "DIVISAO",
-            "definition": "NÃO LOCALIZADO"
+            "definition": "Diretoria Regional de Educação"
         },
         {
             "term": "Descrição dos órgãos",
@@ -129,6 +173,22 @@
         {
             "term": "Direta",
             "definition": "Unidades de Ensino administradas diretamente pela Secretaria Municipal de Educação"
+        },
+        {
+            "term": "Domicílio",
+            "definition": "É o local estruturalmente separado e independente que se destina a servir de habitação a uma ou mais pessoas, ou que esteja sendo utilizado como tal, na data de referência. Estão classificados como Particular (espécie 1) ou Coletivo (espécie 2)"
+        },
+        {
+            "term": "Domicílio em favela",
+            "definition": "Favelas e comunidades urbanas são territórios populares originados das diversas estratégias utilizadas pela população para atender, geralmente de forma autônoma e coletiva, às suas necessidades de moradia e usos associados (como comércio, serviços, lazer e cultura), diante da insuficiência ou inadequação das políticas públicas e dos investimentos privados voltados à garantia do direito à cidade.\n\nEsses territórios são caracterizados por:\n•\tInsegurança jurídica da posse dos imóveis;\n•\tOferta incompleta ou precária de serviços públicos, como água, esgoto, iluminação, drenagem e coleta de lixo;\n•\tInfraestrutura construída pela própria comunidade, com padrões distintos dos definidos pelos órgãos públicos;\n•\tLocalização em áreas com restrição à ocupação, como margens de rodovias, ferrovias, áreas de risco ou protegidas.\nAlém disso, o IBGE reconhece que esses espaços possuem identidade comunitária, forte engajamento social e são marcados por relações de vizinhança intensas, sendo expressões da desigualdade socioespacial da urbanização brasileira."
+        },
+        {
+            "term": "Domicílio não ocupado (vago)",
+            "definition": "De acordo com o IBGE, \"é o domicílio particular permanente que não tinha morador na data de referência, mesmo que, posteriormente, durante o período da coleta, tivesse sido ocupado\". "
+        },
+        {
+            "term": "Déficit habitacional",
+            "definition": "Os dados do IBGE consideram a metodologia da Fundação João Pinheiro para identificar a demanda habitacional reprimida. A reposição de estoque contempla a necessidade de repor as habitações em função da sua precariedade e desgaste de uso. O incremento de estoque refere-se a demanda por novas moradias decorrente de: (a) coabitação forçada (aquela na qual a família convivente deseja constituir novo domicílio, mas não possui condições necessárias para tal); (b) famílias que residem em imóveis locados, com valores que comprometem mais de 30% da renda familiar; e (c) o adensamento excessivo em imóveis locados."
         }
     ],
     "E": [
@@ -153,8 +213,16 @@
             "definition": "Educação Profissional"
         },
         {
+            "term": "Efetivo",
+            "definition": "Servidores nomeados através de concurso público de acesso ou ingresso"
+        },
+        {
             "term": "Eja",
             "definition": "Educação de Jovens e Adultos"
+        },
+        {
+            "term": "Em comissão",
+            "definition": "Admitido na PMSP através de portaria de nomeação para exercer cargo em comissão "
         },
         {
             "term": "Empenhado",
@@ -167,12 +235,20 @@
     ],
     "F": [
         {
-            "term": "FORA DE SME",
-            "definition": "NÃO LOCALIZADO"
-        },
-        {
             "term": "Fund",
             "definition": "Ensino Fundamental"
+        },
+        {
+            "term": "Fundos (no contexto do orçamento público)",
+            "definition": "Instrumentos orçamentários criados por lei para a vinculação de recursos ou conjunto de recursos à implementação de programas, projetos ou atividades com objetivos devidamente caracterizados. Em São Paulo, no orçamento referente à Política Habitacional predominam o Fundo de Urbanização do Município (FUNDURB), o Fundo Municipal de Saneamento e Infraestrutura ((FMSAI), o Fundo Municipal de Habitação, entre outros."
+        },
+        {
+            "term": "Função",
+            "definition": "É o maior nível de agregação das áreas de despesa pública. Representa a finalidade básica da atuação governamental, como saúde, educação, urbanismo ou segurança pública. Sua função é permitir uma visão ampla de para onde vão os recursos públicos, organizando o orçamento por grandes áreas de política pública."
+        },
+        {
+            "term": "Função habitação (no contexto do orçamento público)",
+            "definition": "A função no orçamento público representa a área de atuação governamental onde a despesa será realizada. A função Habitação está relacionada à missão institucional de prover moradia digna, sendo uma das classificações funcionais da despesa pública. Ela agrega ações voltadas à construção, reforma, financiamento e subsídio habitaciona"
         }
     ],
     "G": [
@@ -208,15 +284,15 @@
     "L": [
         {
             "term": "Leitos complementares",
-            "definition": null
+            "definition": "Leitos hospitalares adicionais, além dos leitos regulares, destinados a pacientes com necessidades especiais ou que requerem cuidados específicos, como em unidades de isolamento, terapia intensiva ou semi-intensiva. Também podem ser leitos de observação, utilizados para pacientes sob supervisão médica por pelo menos 24 horas. "
         },
         {
             "term": "Leitos de UTI",
-            "definition": null
+            "definition": "Leito de internação hospitalar em uma área específica, projetado para pacientes graves ou potencialmente graves que requerem cuidados intensivos e monitoramento constante. Leitos de UTI são fornecidos com equipamentos de monitorização contínua, como aparelhos de suporte ventilatório, bombas de infusão, monitores cardíacos, entre outros."
         },
         {
             "term": "Leitos de internação",
-            "definition": null
+            "definition": "Leitos numerados e identificados em um hospital, destinadas à permanência de pacientes durante o período de tratamento ou diagnóstico que requerem uma estadia superior a 24 horas. Eles são vinculados a uma unidade de internação específica dentro do hospital e podem ser classificados em diferentes tipos, como clínicos, cirúrgicos, obstétricos, pediátricos, etc."
         },
         {
             "term": "Liquidado",
@@ -224,6 +300,10 @@
         }
     ],
     "M": [
+        {
+            "term": "Macroáreas do PDE",
+            "definition": "De acordo com o Plano Diretor Estratégico (PDE) do Município de São Paulo, as Macrozonas e Macroáreas são elementos fundamentais da estratégia territorial adotada para orientar o desenvolvimento urbano e ambiental da cidade.\nMacrozonas\nAs Macrozonas são grandes divisões territoriais que agrupam áreas com características semelhantes e objetivos estratégicos comuns. O território do município é dividido em duas macrozonas principais: a Macrozona de Estruturação e Qualificação Urbana que abrange a zona urbana consolidada da cidade, e a Macrozona de Proteção e Recuperação Ambiental, que compreende áreas ambientalmente frágeis, como regiões de mananciais e alta biodiversidade.\nAs Macrozonas se subdividem em Macroáreas:\n•\tMacroárea de Preservação de Ecossistemas Naturais – voltada à preservação integral do meio ambiente.\n•\tMacroárea de Contenção Urbana e Uso Sustentável – busca impedir a expansão urbana e promover o uso sustentável dos recursos naturais.\n•\tMacroárea de Recuperação Urbana e Ambiental – foca na requalificação de áreas urbanas precárias e ambientalmente degradadas.\n•\tMacroárea de Redução da Vulnerabilidade Urbana – visa melhorar a infraestrutura e serviços em áreas com alta vulnerabilidade social.\n•\tMacroárea de Qualificação da Urbanização Consolidada – busca otimizar o uso do solo em áreas com boa oferta de serviços.\n•\tMacroárea de Estruturação Metropolitana – promove a desconcentração econômica e a transformação urbana em regiões periféricas."
+        },
         {
             "term": "Manutenção e Operação da Casa da Mulher Brasileira",
             "definition": "Refere-se aos recursos financeiros destinados a cobrir os custos operacionais e de manutenção da Casa da Mulher Brasileira, um espaço que oferece serviços especializados para mulheres em situação de violência. "
@@ -244,41 +324,53 @@
     "N": [
         {
             "term": "Não urgência SMS",
-            "definition": null
+            "definition": "Atendimento que pode ser PROGRAMADO ou AGENDADO com antecedência, ao contrário de um atendimento de urgência ou emergência, que exige intervenção imediata. As Unidades do SUS construídas e equipadas especialmente para esse fim são as Unidades Básicas de Saúde (UBS) com ou sem Estratégia Saúde da Família (ESF), unidades de Atendimento Médico Ambulatorial (AMA) selecionadas, unidades de Atendimento Médico Especializado (AME) e Ambulatórios de Especialidades, que podem ser isolados ou estarem dentro das dependências de um Hospital. "
         },
         {
             "term": "Níveis de risco",
             "definition": "Os graus de risco variam de R1 (baixo) a R4 (muito alto), conforme a estabilidade do terreno e a iminência de desastres. R1 indica estabilidade aparente e ausência de perigo. R2 envolve sinais parciais de instabilidade, com risco agravado por chuvas ou obras inadequadas. R3 apresenta evidências concretas de instabilidade, com risco significativo de escorregamentos, exigindo ações corretivas e acompanhamento técnico. R4 corresponde a uma situação crítica, com risco iminente à vida e danos materiais graves, demandando intervenção emergencial e, na prática, remoção preventiva das famílias expostas. Essa classificação é usada pela Defesa Civil para orientar medidas de prevenção, controle e resposta a desastres em áreas de risco geológico e hidrológico."
+        },
+        {
+            "term": "Núcleos urbanos informais",
+            "definition": "São conjuntos de moradias constituídos sem o devido processo legal de parcelamento do solo e sem titulação formal dos ocupantes.\nA Portaria SEHAB nº 73/2022 define que núcleos urbanos informais são aqueles que:\n•\tForam autuados para fins de regularização fundiária antes da promulgação da Lei Municipal nº 17.734/2022;\n•\tEstão localizados em áreas com zoneamento definido como ZEIS, conforme a Lei Municipal nº 16.402/2016 (Lei de Parcelamento, Uso e Ocupação do Solo);\n•\tApresentam ocupação consolidada por moradias, mas sem registro formal da propriedade ou da infraestrutura urbana adequada.\nEsses núcleos podem ser classificados como Reurb-S (Regularização Fundiária Urbana de Interesse Social), conforme previsto na legislação federal (Lei nº 13.465/2017) e municipal, desde que atendam aos critérios de vulnerabilidade e interesse social."
         }
     ],
     "O": [
         {
-            "term": "O que são as áreas do mapa Atende+",
-            "definition": null
-        },
-        {
-            "term": "O que é Atendido",
-            "definition": null
-        },
-        {
-            "term": "O que é o programa Atende+",
-            "definition": "O Serviço de Atendimento Especial - Atende+ foi criado por meio do decreto nº 36.071 de 09 de maio de 1996 e atualmente é regido pela Lei Municipal nº 16.337, de 30 de dezembro de 2015. É uma modalidade de transporte porta a porta, gratuito aos seus usuários, com regulamento próprio, oferecido pela Prefeitura do Município de São Paulo, gerenciado pela São Paulo Transporte S.A. e operado pelas empresas de transporte coletivo do município de São Paulo e cooperativa de táxis acessíveis. Destina-se às pessoas com autismo, surdocegueira ou deficiência física com alto grau de severidade e dependência, no horário das 7h às 20h, de segunda-feira a domingo, excetuando-se os feriados."
-        },
-        {
             "term": "OUT-PMSP",
-            "definition": null
+            "definition": "Outras - Prefeitura Municipal de São Paulo"
+        },
+        {
+            "term": "Operações Urbanas",
+            "definition": "Segundo o art. 32 do Estatuto da Cidade, considera-se Operação Urbana Consorciada o conjunto de intervenções coordenadas pelo Poder Público municipal, com a participação de proprietários, moradores, usuários permanentes e investidores privados, com o objetivo de promover:\n•\tTransformações urbanísticas estruturais;\n•\tMelhorias sociais;\n•\tValorização ambiental em áreas específicas da cidade."
+        },
+        {
+            "term": "Operações de crédito (no contexto do orçamento público)",
+            "definition": "São compromissos financeiros assumidos pela administração pública para obter recursos por meio de empréstimos ou financiamentos, com o objetivo de financiar despesas ou cobrir insuficiências de caixa. Estão sujeitas à Lei de Responsabilidade Fiscal (LRF) e à chamada Regra de Ouro, que limita o endividamento público"
         },
         {
             "term": "Orçado",
             "definition": "É o valor inicial estabelecido no orçamento para uma despesa específica. Por exemplo, o valor inicialmente previsto para a construção de uma escola ou para a compra de equipamentos. "
         },
         {
-            "term": "Óbitos evitáveis",
-            "definition": "Trata-se de um agravo ou situação, prevenível pela atuação dos serviços de saúde que incidem, provavelmente, quando o sistema de saúde não consegue atender as necessidades de saúde e seus fatores determinantes são frágeis a identificação e a intervenção acertada. \n\nAs mortes evitáveis ou reduzíveis referem-se àquelas que podem ser prevenidas, total ou parcialmente, por ações de serviços de saúde acessíveis e efetivos."
+            "term": "Orçado Atualizado",
+            "definition": "Valor que resulta após todas as alterações orçamentárias durante o ano (suplementações, créditos adicionais, remanejamentos). Mostra quanto realmente está autorizado para gastar em cada função de governo, refletindo ajustes feitos frente às necessidades."
         },
         {
-            "term": "Óbitos tratáveis",
-            "definition": null
+            "term": "Orçado Inicial",
+            "definition": "É o valor aprovado na Lei Orçamentária Anual (LOA) no começo do ano. Representa a previsão oficial de quanto a prefeitura pretendia gastar e arrecadar em cada área antes de qualquer mudança. Serve como ponto de partida para acompanhar a execução orçamentária."
+        },
+        {
+            "term": "Orçamento regionalizado",
+            "definition": "De acordo com a Prefeitura, o orçamento regionalizado é uma iniciativa inédita no Brasil, implementada por meio do Plano Plurianual (PPA) 2022–2025, com o objetivo de garantir que os investimentos e a expansão dos serviços públicos sejam estruturados e sistemáticos, atendendo às necessidades específicas de cada região da cidade.\n"
+        },
+        {
+            "term": "Outras vinculações (no contexto do orçamento público)",
+            "definition": "Ver \"vinculações orçamentárias\""
+        },
+        {
+            "term": "Órgão",
+            "definition": "É a unidade da administração pública responsável por planejar e executar parte do orçamento. Cada órgão representa uma estrutura formal do governo (como secretarias, autarquias, câmaras ou agências) e tem funções específicas. No orçamento, o “órgão” é quem recebe recursos e responde pela aplicação deles em projetos e atividades."
         }
     ],
     "P": [
@@ -303,116 +395,28 @@
             "definition": "Pré-Escola para atendimento de crianças de 4 e 5 anos"
         },
         {
-            "term": "Prof.1.Grau Nivel Ii",
-            "definition": "Professor de 1º Grau - Nível II"
+            "term": "Programa (no contexto do orçamento público)",
+            "definition": "Um programa é um conjunto de ações orçamentárias (atividades, projetos ou operações especiais) que contribuem para atender a um objetivo de política pública. É a unidade básica do orçamento-programa, metodologia adotada pela Lei nº 4.320/1964, que integra planejamento e orçamento, permitindo a definição de metas e avaliação de resultados"
         },
         {
-            "term": "Prof.Adj.De Ens.Fund. I",
-            "definition": "Professor Adjunto de Ensino Fundamental I"
+            "term": "Programa 3002",
+            "definition": "Acesso à Moradia Adequada"
         },
         {
-            "term": "Prof.Adj.Ens.Fund.Ii-Ciencias",
-            "definition": "Professor Adjunto de Esino Fundamental II, da área de Ciências"
+            "term": "Programa 3005",
+            "definition": "Promoção da Sustentabilidade Ambiental"
         },
         {
-            "term": "Prof.Adj.Ens.Fund.Ii-Geografia",
-            "definition": "Professor Adjunto de Ensino Fundamental, da área de Geografia"
+            "term": "Programa de Metas",
+            "definition": "Art. 69-A. O Prefeito, eleito ou reeleito, apresentará o Programa de Metas de sua gestão, até noventa dias após sua posse, que conterá as prioridades: as ações estratégicas, os indicadores e metas quantitativas para cada um dos setores da Administração Pública Municipal, Subprefeituras e Distritos da cidade, observando, no mínimo, as diretrizes de sua campanha eleitoral e os objetivos, as diretrizes, as ações estratégicas e as demais normas da lei do Plano Diretor Estratégico.\n§ 1º O Programa de Metas será amplamente divulgado, por meio eletrônico, pela mídia impressa, radiofônica e televisiva e publicado no Diário Oficial da Cidade no dia imediatamente seguinte ao do término do prazo a que se refere o \"caput\" deste artigo.\n§ 2º O Poder Executivo promoverá, dentro de trinta dias após o término do prazo a que se refere este artigo, o debate público sobre o Programa de Metas mediante audiências públicas gerais, temáticas e regionais, inclusive nas Subprefeituras.\n§ 3º O Poder Executivo divulgará semestralmente os indicadores de desempenho relativos à execução dos diversos itens do Programa de Metas. [...]\n"
         },
         {
-            "term": "Prof.Adj.Ens.Fund.Ii-Matematica",
-            "definition": "Professor Adjunto de Ensino Fundamental II, da área de Matemática"
+            "term": "Projeto",
+            "definition": "É um instrumento de programação orçamentária usado para alcançar o objetivo de um programa por meio de ações limitadas no tempo.\nNormalmente envolve um conjunto de operações que resultam em um produto específico, como a construção de um hospital, de uma escola ou a implantação de um sistema de saneamento."
         },
         {
-            "term": "Prof.De Ed.Infantil",
-            "definition": "Professor de Educação Infantil"
-        },
-        {
-            "term": "Prof.Ed.Inf.E Ens.Fund.I",
-            "definition": "Professor de Educação Infantil e Ensino Fundamental I"
-        },
-        {
-            "term": "Prof.Ens.Fund.Ii E Med.-Artes",
-            "definition": "Professor de Ensino Fundamental II e Ensino Médio, da área de Artes"
-        },
-        {
-            "term": "Prof.Ens.Fund.Ii E Med.-Biologia",
-            "definition": "Professor de Ensino Fundamental II e Ensino Médio, da área de Biologia"
-        },
-        {
-            "term": "Prof.Ens.Fund.Ii E Med.-Ciencias",
-            "definition": "Professor de Ensino Fundamental II e Ensino Médio, da área de Ciências"
-        },
-        {
-            "term": "Prof.Ens.Fund.Ii E Med.-Cont.Custos",
-            "definition": "Professor de Ensino Fundamental II e Ensino Médio, da área de Contabilidade de Custos"
-        },
-        {
-            "term": "Prof.Ens.Fund.Ii E Med.-Ed.Fisica",
-            "definition": "Professor de Ensino Fundamental II e Ensino Médio, da área de Educação Física"
-        },
-        {
-            "term": "Prof.Ens.Fund.Ii E Med.-Espanhol",
-            "definition": "Professor de Ensino Fundamental II e Ensino Médio, da área de Língua Espanhola"
-        },
-        {
-            "term": "Prof.Ens.Fund.Ii E Med.-Filosofia",
-            "definition": "Professor de Ensino Fundamental II e Ensino Médio, da área de Filosofia"
-        },
-        {
-            "term": "Prof.Ens.Fund.Ii E Med.-Fisica",
-            "definition": "Professor de Ensino Fundamental II e Ensino Médio, da área de Física"
-        },
-        {
-            "term": "Prof.Ens.Fund.Ii E Med.-Geografia",
-            "definition": "Professor de Ensino Fundamental II e Ensino Médio, da área de Geografia"
-        },
-        {
-            "term": "Prof.Ens.Fund.Ii E Med.-Historia",
-            "definition": "Professor de Ensino Fundamental II e Ensino Médio, da área de História"
-        },
-        {
-            "term": "Prof.Ens.Fund.Ii E Med.-Ingles",
-            "definition": "Professor de Ensino Fundamental II e Ensino Médio, da área de Língua Inglesa"
-        },
-        {
-            "term": "Prof.Ens.Fund.Ii E Med.-Matematica",
-            "definition": "Professor de Ensino Fundamental II e Ensino Médio, da área de Matemática"
-        },
-        {
-            "term": "Prof.Ens.Fund.Ii E Med.-Portugues",
-            "definition": "Professor de Ensino Fundamental II e Ensino Médio, da área de Língua Portuguesa"
-        },
-        {
-            "term": "Prof.Ens.Fund.Ii E Med.-Psicologia",
-            "definition": "Professor de Ensino Fundamental II e Ensino Médio, da área de Psicologia"
-        },
-        {
-            "term": "Prof.Ens.Fund.Ii E Med.-Quimica",
-            "definition": "Professor de Ensino Fundamental II e Ensino Médio, da área de Química"
-        },
-        {
-            "term": "Prof.Ens.Fund.Ii E Med.-Sociologia",
-            "definition": "Professor de Ensino Fundamental II e Ensino Médio, da área de Sociologia"
-        },
-        {
-            "term": "Prof.Subst.De 1.Gr. Nivel I",
-            "definition": "Professor Substituto de 1º Grau - Nível I"
-        },
-        {
-            "term": "Prof.Subst.De Educacao Infantil",
-            "definition": "Professor Substituto de Educação Infantil"
-        },
-        {
-            "term": "Prof.Titular De Educacao Infantil",
-            "definition": "Professor Titular de Educação Infantil"
-        },
-        {
-            "term": "Prof.Titular De Ens.Fund.I",
-            "definition": "Professor Titular de Ensino Fundamental I"
-        },
-        {
-            "term": "Profissional De Eng. Arq. Agr. Geo. I",
-            "definition": "Profissional de Engenharia, Arquitetura, Agronomia e Geologia I"
+            "term": "Projeto/ atividade (no contexto do orçamento público)",
+            "definition": "Projeto: ação orçamentária com início, meio e fim definidos, voltada à implantação de novos serviços ou obras. Exemplo: construção de unidades habitacionais.\nAtividade: ação orçamentária de caráter contínuo, voltada à manutenção de serviços já existentes. Exemplo: gestão de programas habitacionais.\nAmbos são categorias de programação que detalham como os recursos serão aplicados para alcançar os objetivos dos programas "
         }
     ],
     "Q": [
@@ -427,14 +431,22 @@
             "definition": "Turmas de Atividades Complementares - Recuperação Paralela"
         },
         {
+            "term": "Recursos não vinculados (no contexto do orçamento público)",
+            "definition": "Ver \"vinculações orçamentárias\""
+        },
+        {
             "term": "Regionalização dos tipos de atenção",
-            "definition": null
+            "definition": "A regionalização envolve a criação de Regiões de Saúde , que são espaços territoriais delimitados para a organização e planejamento das ações e serviços de saúde. Essas regiões podem abranger mais de um município e até mesmo atravessar fronteiras estaduais, desde que haja uma delimitação específica e funcional. Dentro das Regiões de Saúde, são organizadas Redes de Atenção à Saúde (RAS), que conectam os diferentes pontos de atenção, desde a atenção básica até os serviços de mídia e alta complexidade. A atenção primária atua como coordenadora do cuidado, encaminhando os pacientes para os serviços especializados quando necessário. "
+        },
+        {
+            "term": "Regularização fundiária",
+            "definition": "Este instrumento visa integrar áreas urbanas ocupadas irregularmente à cidade formal, garantindo o direito à moradia e à infraestrutura urbana adequada.\nDe acordo com o art. 2º, inciso XIV, a política urbana deve promover:\n\n“A regularização fundiária e urbanização de áreas ocupadas por população de baixa renda mediante o estabelecimento de normas especiais de urbanização, uso e ocupação do solo e edificação, consideradas a situação socioeconômica da população e as normas ambientais” 2.\nEsse instrumento permite:\n•\tAdoção de parâmetros urbanísticos diferenciados;\n•\tReconhecimento da posse e propriedade;\n•\tInclusão de áreas informais no planejamento urbano."
         }
     ],
     "S": [
         {
             "term": "SES",
-            "definition": "Secretaria de Estado da Saúde / \nSecretaria Estadual de Saúde"
+            "definition": "Secretaria de Estado da Saúde / Secretaria Estadual de Saúde"
         },
         {
             "term": "SME",
@@ -457,14 +469,34 @@
     ],
     "U": [
         {
+            "term": "Unidades habitacionais entregues e contratadas",
+            "definition": "Segundo a meta 12 do Programa de Metas 2021-24:                                                                              c) Contratar unidades habitacionais nas modalidades de construção direta, aquisição, locação social e carta de crédito;\n d) Entregar unidades habitacionais nas modalidades de construção direta, aquisição, locação social e carta de crédito."
+        },
+        {
             "term": "Urgência SMS",
-            "definition": null
+            "definition": "Atendimento realizados em situações que representam RISCO IMEDIATO à vida ou à saúde do paciente. Essas situações são descritas por condições graves que podem levar à morte ou lesões permanentes se não forem tratadas rapidamente. As Unidades do SUS construídas e equipadas especialmente para esse fim são as Unidades de Pronto Atendimento (UPA), Pronto-Socorros (PS) e algumas unidades de Atendimento Médico Ambulatorial (AMA) selecionadas. "
         }
     ],
     "V": [
         {
-            "term": "VIRTUAL",
-            "definition": "Ensino Virtual?"
+            "term": "Valor liquidado (no contexto do orçamento público)",
+            "definition": "Conforme definido pela Lei nº 4.320/1964. A liquidação ocorre quando se verifica que o bem foi entregue ou o serviço foi prestado, conforme o contrato ou empenho realizado. É a etapa em que se confirma que a obrigação assumida pelo poder público foi cumprida pelo fornecedor ou prestador de serviço."
+        },
+        {
+            "term": "Variação da participação relativa no orçamento (%)",
+            "definition": "Mostra se determinada função passou a representar uma fatia maior ou menor do total do orçamento após as alterações. Ou seja, indica mudança no peso relativo daquela área no conjunto das despesas municipais."
+        },
+        {
+            "term": "Variação em relação ao inicial (%)",
+            "definition": "Diferença percentual entre o orçamento atualizado e o inicial. Permite avaliar a proporção do aumento ou redução em cada função, independente do valor absoluto."
+        },
+        {
+            "term": "Variação em relação ao inicial (R$)",
+            "definition": "Diferença, em valores absolutos (reais), entre o orçamento atualizado e o orçamento inicial. Indica o quanto foi acrescido ou retirado de cada área em termos financeiros concretos."
+        },
+        {
+            "term": "Vinculações orçamentárias",
+            "definition": "vinculações orçamentárias são obrigações legais ou constitucionais que determinam que certas receitas públicas sejam destinadas a finalidades específicas, como saúde, educação ou seguridade social. Essas vinculações são exceções ao princípio da não afetação de receitas, previsto no artigo 167, inciso IV, da Constituição Federal, que em regra proíbe a destinação de receitas a despesas específicas, salvo nos casos previstos pela própria Constituição."
         }
     ],
     "W": [

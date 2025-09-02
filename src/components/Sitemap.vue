@@ -11,19 +11,30 @@
         </div>
         <div class="sitemap-column">
         <ul>
-            <li><router-link to="/saude">Saúde</router-link></li>
-            <li><router-link to="/genero">Gênero</router-link></li>
             <li><router-link to="/educacao">Educação</router-link></li>
-            <li><router-link to="/orcamento">Orçamento</router-link></li>
+            <li><router-link to="/genero">Gênero</router-link></li>
+            <li><router-link to="/saude">Saúde</router-link></li>
             <li><router-link to="/urbanismo">Urbanismo</router-link></li>
+            <li><router-link to="/orcamento">Regionalização do Orçamento</router-link></li>
         </ul>
         </div>
         <div class="sitemap-column">
         <ul>
             <li><router-link to="/glossario">Glossário</router-link></li>
-            <li><router-link to="/metadados">Metadados</router-link></li>
-            <li><router-link to="/ficha-tecnica">Ficha Técnica</router-link></li>
-            <li><router-link to="/contato">Contato</router-link></li>
+            <li>
+              <a href="https://tcmspgovbr-my.sharepoint.com/:x:/g/personal/bruno_balzano_tcmsp_tc_br/EaZTZuxZM6pEgqNZZHcW1c4BtAEThZYGRB9yXderg0DUCA?e=aEhdXF" 
+              target="_blank" 
+              rel="noopener noreferrer">
+                Metadados
+              </a>
+            </li>
+            <li><router-link to="#">Ficha Técnica</router-link></li>
+            <li>
+              <a href="https://observatorio.tcm.sp.gov.br/ObservatorioItem/156570" 
+              target="_blank" 
+              rel="nooper noreferrer">
+              Contato</a>
+            </li>
         </ul>
         </div>
     </div>
@@ -49,7 +60,7 @@ import { RouterLink } from 'vue-router'
   flex-wrap: wrap;
   gap: 1rem;
   line-height: 1rem;
-  width: 75%;
+  width: 85%;
 }
 
 .sitemap-column {

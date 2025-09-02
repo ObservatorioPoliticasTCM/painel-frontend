@@ -1,13 +1,13 @@
 <template>
   <section class="hero-section">
     <div class="hero-content">
-      <h1 class="hero-title">D<span class="hero-title-smallcaps">ata</span>SP</h1>
-      <p class="hero-subtitle">Mapa de Dados da Cidade</p>
+      <img class="hero-logo" :src="logoUrl" alt="DataSP logo" />
     </div>
   </section>
 </template>
 
 <script setup lang="ts">
+import logoUrl from '@/assets/logo.svg';
 </script>
 
 <style scoped>
@@ -33,25 +33,10 @@
   z-index: 10; /* acima da overlay e fundo */
 }
 
-.hero-title {
-  font-size: 13rem;
-  margin-bottom: 0;
-  margin-top: 0.36em;
-  font-weight: 600;
-  color: black;
-}
-
-.hero-title-smallcaps {
-  font-weight: 700;
-  font-size: 70%;
-  text-transform: uppercase;
-}
-
-.hero-subtitle {
-  font-size: 3.75rem;
-  font-weight: 300;
-  color: black;
-  margin: 0;
-  text-transform: uppercase;
+.hero-logo {
+  display: block;
+  width: auto;
+  height: 77vh;
+  margin: 0 auto;
 }
 </style>

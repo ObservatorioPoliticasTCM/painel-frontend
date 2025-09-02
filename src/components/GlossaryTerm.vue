@@ -46,15 +46,16 @@ defineProps<{
 }
 .glossary-title {
   font-weight: bold;
-  font-size: 1.2em;
+  text-align: left;
 }
 .glossary-content {
   margin-top: 0.7em;
+  text-align: justify;
 }
 .glossary-definition {
   border-top: 0.1em solid #fff;
-  width: 80%;
   padding-top: 0.7em;
   font-size: 1em;
+  text-align: justify;
 }
 </style>
