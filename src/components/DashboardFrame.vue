@@ -63,8 +63,9 @@ export default defineComponent({
 .dashboard-frame {
   display: flex;
   flex-direction: column;
-  height: 90vh;
-  padding: 5vh;
+  height: 96vh;
+  width: calc(100vw - 4vh);
+  padding: 2vh;
   position: relative;
   z-index: 20;  
 }
