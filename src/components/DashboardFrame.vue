@@ -74,7 +74,6 @@ export default defineComponent({
   display: flex;
   align-items: center;
   justify-content: space-between; 
-  padding: 1rem;
   gap: 1rem;
   position: relative;
 }
@@ -88,7 +87,6 @@ export default defineComponent({
 .frame-subtitle {
   font-variant: small-caps;
   text-align: left;
-  margin-left: 1.3rem;
   font-size: 1.3em;
 }
 .pdf-button {
