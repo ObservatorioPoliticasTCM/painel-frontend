@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 
@@ -67,6 +68,46 @@ button:focus-visible {
   margin: 0 auto;
   text-align: center;
   width: 100vw;
+}
+
+
+/* Indicador de scroll fixo */
+.scroll-indicator {
+  position: fixed; 
+  bottom: 20px; 
+  right: 20px; 
+  display: flex;
+  flex-direction: column;
+  gap: 5px; 
+  z-index: 1000;
+}
+
+.scroll-indicator .square-down {
+  width: 40px;
+  height: 40px;
+  background-color: #213547;
+  border-radius: 2px;
+  opacity: 0.8; 
+  animation: pulse 1.0s infinite;
+  &:hover {
+    opacity: 1;
+    transform: scale(1.1);
+    transition: transform 0.3s, opacity 0.3s;
+  }
+}
+
+.scroll-indicator .square-home {
+  width: 40px;
+  height: 40px;
+  background-color: #213547;
+  border-radius: 2px;
+  opacity: 0.8; 
+  animation: pulse 1.0s infinite;
+  &:hover {
+    opacity: 1;
+    transform: scale(1.1);
+    transition: transform 0.3s, opacity 0.3s;
+  }
 }
 
 @media (prefers-color-scheme: light) {
