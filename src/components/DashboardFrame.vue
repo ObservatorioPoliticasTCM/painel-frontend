@@ -1,7 +1,7 @@
 <template>
   <div class="dashboard-frame">
     <div v-if="title" class="frame-header">
-      <h1 v-if="title">{{ displayTitle }}</h1>
+      <a :href="dash_href"><h1 v-if="title">{{ displayTitle }}</h1></a>
       <div class="frame-actions">
         <a
           class="pdf-button"
@@ -53,8 +53,9 @@ export default defineComponent({
       }
       return url
     })
+    const dash_href = "#" + props.identity
     const displayTitle = computed(() => props.title.replace(/\\n/g, '\n'))
-    return { iframeSrc, displayTitle, ...props }
+    return { iframeSrc, displayTitle, dash_href, ...props }
   }
 })
 </script>
@@ -74,7 +75,6 @@ export default defineComponent({
   display: flex;
   align-items: center;
   justify-content: space-between; 
-  padding: 1rem;
   gap: 1rem;
   position: relative;
 }
@@ -88,7 +88,6 @@ export default defineComponent({
 .frame-subtitle {
   font-variant: small-caps;
   text-align: left;
-  margin-left: 1.3rem;
   font-size: 1.3em;
 }
 .pdf-button {
