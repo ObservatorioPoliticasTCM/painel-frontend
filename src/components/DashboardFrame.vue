@@ -1,7 +1,7 @@
 <template>
   <div class="dashboard-frame">
     <div v-if="title" class="frame-header">
-      <a :href="dash_href"><h1 v-if="title">{{ displayTitle }}</h1></a>
+      <h1 v-if="title">{{ displayTitle }}</h1>
       <div class="frame-actions">
         <a
           class="pdf-button"
@@ -53,9 +53,8 @@ export default defineComponent({
       }
       return url
     })
-    const dash_href = "#" + props.identity
     const displayTitle = computed(() => props.title.replace(/\\n/g, '\n'))
-    return { iframeSrc, displayTitle, dash_href, ...props }
+    return { iframeSrc, displayTitle, ...props }
   }
 })
 </script>
