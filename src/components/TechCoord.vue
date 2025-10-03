@@ -8,6 +8,6 @@
 </template>
 
 <script setup lang="ts">
-import NameGroup from './NameGroup.vue'
-import NameAndTitle from './NameAndTitle.vue'
+import NameGroup from '@/components/NameGroup.vue'
+import NameAndTitle from '@/components/NameAndTitle.vue'
 </script>
