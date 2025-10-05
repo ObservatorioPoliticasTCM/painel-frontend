@@ -7,7 +7,7 @@ import UrbanismoView from '@/views/UrbanismoView.vue'
 import OrcamentoView from '@/views/OrcamentoView.vue'
 import GlossaryView from '@/views/GlossaryView.vue'
 import NotFound from './views/NotFoundView.vue'
-import ImprintPage from '@/views/ImprintPage.vue'
+import ImprintPage from '@/views/ImprintPageView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
