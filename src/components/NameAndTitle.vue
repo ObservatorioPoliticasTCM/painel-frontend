@@ -1,31 +1,33 @@
 <template>
-  <div class="name-and-title" :class="{ 'with-border': showBottomBorder, 'bottom-padding': !removeBottomPadding }">
-    <div class="name">{{ name }}</div>
+  <div class="name-and-title" :class="{ 'with-border': showBottomBorder, 'bottom-margin': !removeBottomMargin }">
+    <div class="name" :class="{ 'bottom-margin': !removeBottomMargin }">{{ name }}</div>
     <div class="title">{{ title }}</div>
   </div>
 </template>
 
 <script setup lang="ts">
-const { name, title, showBottomBorder = false, removeBottomPadding = false } = defineProps<{
-  name: string; title: string; showBottomBorder?: boolean; removeBottomPadding?: boolean
+const { name, title, showBottomBorder = false, removeBottomMargin = false } = defineProps<{
+  name: string; title: string; showBottomBorder?: boolean; removeBottomMargin?: boolean
 }>()
 </script>
 
 <style scoped>
 .name-and-title {
-  padding: 0em 0;
+  margin: 0em 0;
   text-align: left;
 }
 .name-and-title.with-border {
   border-bottom: 0.0625em solid #fff;
 }
-.name-and-title.bottom-padding {
+.name-and-title.bottom-margin {
   margin-bottom: 0.4em;
 }
 .name {
   font-weight: bold;
   font-size: 1.05em;
-  margin-bottom: 0.35em;
+}
+.name.bottom-margin {
+  margin-bottom: 0.2em;
 }
 .title {
   font-size: 0.95em;
