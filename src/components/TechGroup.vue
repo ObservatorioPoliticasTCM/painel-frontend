@@ -1,10 +1,9 @@
 <template>
   <div class="tech-group">
     <div class="group-title">{{ name }}</div>
-    <!-- Slot expects one or more <NameAndTitle .../> components -->
     <slot />
     <a v-if="url" :href="url" class="members-link" target="_blank" rel="noopener noreferrer">
-      Membros do GT <span aria-hidden="true" class="ext-icon">↗</span>
+      Membros do GT <img src="@/assets/external-link.svg" alt="external link" class="ext-icon" aria-hidden="true" />
     </a>
   </div>
 </template>
@@ -16,22 +15,26 @@ const { name, url } = defineProps<{ name: string; url?: string }>()
 <style scoped>
 .tech-group {
   text-align: left;
-  margin: 0.75em 0 1.5em;
+  margin: 0.75em 0;
+  border-bottom: 0.0625em solid #fff;
 }
 .group-title {
   font-weight: 700;
   text-transform: uppercase;
   font-size: 1.05em;
-  margin-bottom: 0.35em;
 }
 .members-link {
   display: inline-block;
-  margin-top: 0.4em;
-  color: #99b3ff;
   text-decoration: none;
   font-weight: 600;
   font-size: 0.95em;
+  text-decoration: underline;
+  margin-bottom: 0.25rem;
 }
 .members-link:hover { text-decoration: underline; }
-.ext-icon { font-size: 0.85em; margin-left: 0.2em; }
+.ext-icon {
+  height: 0.75em;
+  vertical-align: super;
+  margin-bottom: -0.15em;
+}
 </style>

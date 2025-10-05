@@ -1,5 +1,5 @@
 <template>
-  <div class="name-group">
+  <div class="name-group" :class="{ 'border': border }">
     <div class="name-group-header">{{ name }}</div>
     <div class="name-group-content">
       <slot />
@@ -8,16 +8,13 @@
 </template>
 
 <script setup lang="ts">
-interface Props { name: string }
-const { name } = defineProps<Props>()
+interface Props { name: string, border?: boolean }
+const { name, border = true } = defineProps<Props>()
 </script>
 
 <style scoped>
 .name-group {
   text-align: left;
-  border: 0.0625rem solid #fff; /* 1px */
-  border-radius: 0.5rem;
-  padding: 1em;
 }
 .name-group-header {
   font-weight: bold;
@@ -27,5 +24,10 @@ const { name } = defineProps<Props>()
   border-bottom: 0.0625em solid #fff;
   padding: 0.6em 0 0.5em;
   margin-bottom: 0.4em;
+}
+.name-group.border {
+  border: 0.0625rem solid #fff; /* 1px */
+  border-radius: 0.5rem;
+  padding: 1em;
 }
 </style>
