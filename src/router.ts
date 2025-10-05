@@ -7,9 +7,11 @@ import UrbanismoView from '@/views/UrbanismoView.vue'
 import OrcamentoView from '@/views/OrcamentoView.vue'
 import GlossaryView from '@/views/GlossaryView.vue'
 import NotFound from './views/NotFoundView.vue'
+import ImprintPage from '@/views/ImprintPageView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
+  scrollBehavior() { return { top: 0 } },
   routes: [
     {
       path: '/',
@@ -52,6 +54,12 @@ const router = createRouter({
       name: 'glossario',
       component: GlossaryView,
       meta: { title: 'Glossário – DataSP' }
+    },
+    {
+      path: '/fichatecnica',
+      name: 'ficha-tecnica',
+      component: ImprintPage,
+      meta: { title: 'Ficha Técnica – DataSP' }
     },
     {
       path: '/:pathMatch(.*)*',
