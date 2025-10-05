@@ -2,27 +2,27 @@
     <div class="tech-team">
         <div class="team-title">Equipe Técnica</div>
 
-        <TechGroup name="GT Educação" url="https://exemplo.org/gt-educacao">
+        <TechGroup name="GT Educação" url="https://observatorio.tcm.sp.gov.br/Educacao">
             <NameAndTitle name="Rômulo Felipe Manzatto" title="Coordenador" remove-bottom-margin />
             <NameAndTitle name="Fredy Miller" title="Coordenador Adjunto" remove-bottom-margin />
         </TechGroup>
 
-        <TechGroup name="GT Gênero" url="https://exemplo.org/gt-genero">
+        <TechGroup name="GT Gênero" url="https://observatorio.tcm.sp.gov.br/Genero">
             <NameAndTitle name="Maria Angélica Fernandes" title="Coordenadora" remove-bottom-margin />
             <NameAndTitle name="Suelen Lima Benicio" title="Coordenadora Adjunta" remove-bottom-margin />
         </TechGroup>
 
-        <TechGroup name="GT Saúde" url="https://exemplo.org/gt-saude">
+        <TechGroup name="GT Saúde" url="https://observatorio.tcm.sp.gov.br/Saude">
             <NameAndTitle name="Luciana Berardi" title="Coordenadora" remove-bottom-margin />
             <NameAndTitle name="Mariana Mendes Cruz Ferreira" title="Coordenadora Adjunta" remove-bottom-margin />
         </TechGroup>
 
-        <TechGroup name="GT Urbanismo" url="https://exemplo.org/gt-urbanismo">
+        <TechGroup name="GT Urbanismo" url="https://observatorio.tcm.sp.gov.br/Urbanismo">
             <NameAndTitle name="Egle Monteiro" title="Coordenadora" remove-bottom-margin />
             <NameAndTitle name="Harmi Takiya" title="Coordenadora Adjunta" remove-bottom-margin />
         </TechGroup>
 
-        <TechGroup name="GT Regionalização do Orçamento" url="https://exemplo.org/gt-regionalizacao-orcamento">
+        <TechGroup name="GT Regionalização do Orçamento" url="https://observatorio.tcm.sp.gov.br/Regionalizacao">
             <NameAndTitle name="Danilo Fuster" title="Coordenador" remove-bottom-margin />
         </TechGroup>
 
