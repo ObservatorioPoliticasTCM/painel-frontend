@@ -1,7 +1,7 @@
 <template>
   <div class="name-group" :class="{ 'border': border }">
-    <div class="name-group-header">{{ name }}</div>
-    <div class="name-group-content">
+    <div class="name-group-header" :class="{ 'border': border }">{{ name }}</div>
+    <div class="name-group-content" :class="{ 'border': border }">
       <slot />
     </div>
   </div>
@@ -15,11 +15,14 @@ const { name, border = true } = defineProps<Props>()
 <style scoped>
 .name-group {
   text-align: left;
+  border-bottom: 0.0625em solid #fff;
 }
 .name-group-header {
   font-weight: bold;
   font-size: 1.05em;
   text-transform: uppercase;
+}
+.name-group-header.border {
   border-top: 0.1em solid #fff;
   border-bottom: 0.0625em solid #fff;
   padding: 0.6em 0 0.5em;
