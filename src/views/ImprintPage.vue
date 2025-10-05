@@ -3,18 +3,10 @@
         <div class="imprint-wrapper">
             <h1 class="imprint-title">Ficha Técnica</h1>
             <div class="imprint-grid">
-                <div class="imprint-panel">
-                    <TechCoord />
-                </div>
-                <div class="imprint-panel">
-                    <TechTeam />
-                </div>
-                <div class="imprint-panel">
-                    <Specialists />
-                </div>
-                <div class="imprint-panel imprint-panel--wide">
-                    <Contributors />
-                </div>
+                <div class="imprint-panel col1"><TechCoord /></div>
+                <div class="imprint-panel col2"><TechTeam /></div>
+                <div class="imprint-panel col2"><Contributors /></div>
+                <div class="imprint-panel col3"><Specialists /></div>
             </div>
         </div>
     </ScrollablePage>
@@ -44,23 +36,21 @@ import Contributors from '@/components/Contributors.vue'
 
 .imprint-grid {
     display: grid;
-    gap: 2.2em 2em;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 0 2em;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: start;
 }
 
-.imprint-panel--wide {
-    grid-column: 1 / -1;
-    max-width: 520px;
+.col1 {
+    grid-column: 1;
 }
 
-@media (min-width: 1100px) {
-    .imprint-grid {
-        grid-template-columns: repeat(3, 1fr);
-    }
+.col2 {
+    grid-column: 2;
+}
 
-    .imprint-panel--wide {
-        grid-column: 2;
-    }
+.col3 {
+    grid-column: 3;
+    grid-row: 1 / span 2;
 }
 </style>
