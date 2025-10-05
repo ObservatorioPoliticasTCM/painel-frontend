@@ -7,7 +7,7 @@
     <NameAndTitle name="Fredy Henrique Miller" title="Coordenador de Controle Externo II" showBottomBorder />
     <NameAndTitle name="Luiz Gustavo de Oliveira Vieira" title="Coordenador de Controle Externo IV" showBottomBorder />
     <NameAndTitle name="Rafael Rocha Lins" title="Coordenador de Controle Externo VI" showBottomBorder />
-    <NameAndTitle name="Dimitri Fabricio Carvalho Rodermel" title="Coordenador de Controle Externo VII" />
+    <NameAndTitle name="Dimitri Fabricio Carvalho Rodermel" title="Coordenador de Controle Externo VII" showBottomBorder />
   </NameGroup>
 </template>
 
