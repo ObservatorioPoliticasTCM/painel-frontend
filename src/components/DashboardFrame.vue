@@ -49,7 +49,7 @@ const props = withDefaults(defineProps<DashboardFrameProps>(), {
   title: '',
   subtitle: ''
 })
-const emit = defineEmits<{ (e: typeof fullyVisibleEvent, anchorId: string): void }>()
+const emit = defineEmits<{ (e: 'fully-visible', anchorId: string): void }>()
 
 const { appid, sheet, identity, title, subtitle, select } = toRefs(props)
 
@@ -95,7 +95,12 @@ const onScroll = () => {
   if (ticking) return
   ticking = true
   requestAnimationFrame(() => {
-    if (fullyVisible()) emit(fullyVisibleEvent, anchorId.value)
+    if (fullyVisible()) {
+      emit(fullyVisibleEvent, anchorId.value)
+      if (rootEl.value) {
+        rootEl.value.dispatchEvent(new CustomEvent(fullyVisibleEvent, { bubbles: true, detail: { anchorId: anchorId.value } }))
+      }
+    }
     ticking = false
   })
 }
@@ -107,7 +112,12 @@ onMounted(() => {
     targetScrollEl.addEventListener('scroll', onScroll, { passive: true })
     scrollListenerAttached = true
   }
-  if (fullyVisible()) emit(fullyVisibleEvent, anchorId.value)
+  if (fullyVisible()) {
+    emit(fullyVisibleEvent, anchorId.value)
+    if (rootEl.value) {
+      rootEl.value.dispatchEvent(new CustomEvent(fullyVisibleEvent, { bubbles: true, detail: { anchorId: anchorId.value } }))
+    }
+  }
 })
 
 onBeforeUnmount(() => {
