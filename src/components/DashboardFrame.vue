@@ -31,89 +31,90 @@
   </div>
 </template>
 
-<script lang="ts">
-import { defineComponent, computed, onMounted, onBeforeUnmount, ref } from 'vue'
+<script setup lang="ts">
+import { computed, onMounted, onBeforeUnmount, ref, toRefs, withDefaults } from 'vue'
+
 const fullyVisibleEvent = 'fully-visible'
 
-export default defineComponent({
-  name: 'DashboardFrame',
-  props: {
-    appid: { type: String, required: true },
-    sheet: { type: String, required: true },
-    identity: { type: String },
-    title: { type: String, default: '' },
-    subtitle: { type: String, default: '' },
-    select: { type: String }
-  },
-  emits: [fullyVisibleEvent],
-  setup(props, { emit }) {
-    const baseUrl = "https://qlik.tcm.sp.gov.br/jwt/single/"
-    const iframeSrc = computed(() => {
-      let url = baseUrl + `?appid=${props.appid}&sheet=${props.sheet}&theme=card&opt=ctxmenu,currsel`
-      if (props.identity) url += `&identity=${props.identity}`
-      if (props.select) url += `&secret=${props.select}`
-      return url
-    })
-    const displayTitle = computed(() => props.title.replace(/\\n/g, '\n'))
-    const anchorId = computed(() => props.title
-      .toLowerCase()
-      .replace(/\n/g, ' ')
-      .normalize('NFD')
-      .replace(/[\u0300-\u036f]/g, '')
-      .replace(/[^a-z0-9 ]/g, '')
-      .trim()
-      .replace(/\s+/g, '-')
-    )
+interface DashboardFrameProps {
+  appid: string
+  sheet: string
+  identity?: string
+  title?: string
+  subtitle?: string
+  select?: string
+}
 
-    const rootEl = ref<HTMLElement | null>(null)
-    let observer: IntersectionObserver | null = null
-    let scrollRoot: HTMLElement | null = null
-    let scrollListenerAttached = false
-    let ticking = false
+const props = withDefaults(defineProps<DashboardFrameProps>(), {
+  title: '',
+  subtitle: ''
+})
+const emit = defineEmits<{ (e: typeof fullyVisibleEvent, anchorId: string): void }>()
 
-    const fullyVisible = (): boolean => {
-      if (!rootEl.value) return false
-      const elRect = rootEl.value.getBoundingClientRect()
-      const rootRect = (scrollRoot ? scrollRoot.getBoundingClientRect() : { top: 0, bottom: window.innerHeight }) as DOMRect | { top: number; bottom: number }
-      const elTop = Math.round(elRect.top)
-      const elBottom = Math.round(elRect.bottom)
-      const rootTop = Math.round(rootRect.top)
-      const rootBottom = Math.round(rootRect.bottom)
-      return elTop >= rootTop && elBottom <= rootBottom && (elBottom - elTop) > 0
-    }
+const { appid, sheet, identity, title, subtitle, select } = toRefs(props)
 
-    const onScroll = () => {
-      if (ticking) return
-      ticking = true
-      requestAnimationFrame(() => {
-        if (fullyVisible()) emit(fullyVisibleEvent, anchorId.value)
-        ticking = false
-      })
-    }
+const baseUrl = 'https://qlik.tcm.sp.gov.br/jwt/single/'
+const iframeSrc = computed(() => {
+  let url = baseUrl + `?appid=${appid.value}&sheet=${sheet.value}&theme=card&opt=ctxmenu,currsel`
+  if (identity.value) url += `&identity=${identity.value}`
+  if (select.value) url += `&secret=${select.value}`
+  return url
+})
 
-    onMounted(() => {
-      scrollRoot = document.querySelector('.snap-container') as HTMLElement | null
+const displayTitle = computed(() => title.value.replace(/\n/g, '\n'))
 
-      const targetScrollEl = scrollRoot || window
-      if (!scrollListenerAttached) {
-        targetScrollEl.addEventListener('scroll', onScroll, { passive: true })
-        scrollListenerAttached = true
-      }
+const anchorId = computed(() => title.value
+  .toLowerCase()
+  .replace(/\n/g, ' ')
+  .normalize('NFD')
+  .replace(/[\u0300-\u036f]/g, '')
+  .replace(/[^a-z0-9 ]/g, '')
+  .trim()
+  .replace(/\s+/g, '-')
+)
 
-      if (fullyVisible()) emit(fullyVisibleEvent, anchorId.value)
-    })
+const rootEl = ref<HTMLElement | null>(null)
+let scrollRoot: HTMLElement | null = null
+let scrollListenerAttached = false
+let ticking = false
 
-    onBeforeUnmount(() => {
-      if (observer && rootEl.value) observer.unobserve(rootEl.value)
-      observer = null
-      const targetScrollEl = scrollRoot || window
-      if (scrollListenerAttached) {
-        targetScrollEl.removeEventListener('scroll', onScroll)
-        scrollListenerAttached = false
-      }
-    })
+const fullyVisible = (): boolean => {
+  if (!rootEl.value) return false
+  const elRect = rootEl.value.getBoundingClientRect()
+  const rootRect = (scrollRoot
+    ? scrollRoot.getBoundingClientRect()
+    : { top: 0, bottom: window.innerHeight }) as DOMRect | { top: number; bottom: number }
+  const elTop = Math.round(elRect.top)
+  const elBottom = Math.round(elRect.bottom)
+  const rootTop = Math.round(rootRect.top)
+  const rootBottom = Math.round(rootRect.bottom)
+  return elTop >= rootTop && elBottom <= rootBottom && (elBottom - elTop) > 0
+}
 
-    return { iframeSrc, displayTitle, anchorId, rootEl, ...props }
+const onScroll = () => {
+  if (ticking) return
+  ticking = true
+  requestAnimationFrame(() => {
+    if (fullyVisible()) emit(fullyVisibleEvent, anchorId.value)
+    ticking = false
+  })
+}
+
+onMounted(() => {
+  scrollRoot = document.querySelector('.snap-container') as HTMLElement | null
+  const targetScrollEl = scrollRoot || window
+  if (!scrollListenerAttached) {
+    targetScrollEl.addEventListener('scroll', onScroll, { passive: true })
+    scrollListenerAttached = true
+  }
+  if (fullyVisible()) emit(fullyVisibleEvent, anchorId.value)
+})
+
+onBeforeUnmount(() => {
+  const targetScrollEl = scrollRoot || window
+  if (scrollListenerAttached) {
+    targetScrollEl.removeEventListener('scroll', onScroll)
+    scrollListenerAttached = false
   }
 })
 </script>
