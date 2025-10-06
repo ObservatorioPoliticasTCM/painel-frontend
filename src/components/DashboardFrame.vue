@@ -33,6 +33,8 @@
 
 <script lang="ts">
 import { defineComponent, computed, onMounted, onBeforeUnmount, ref } from 'vue'
+const fullyVisibleEvent = 'fully-visible'
+
 export default defineComponent({
   name: 'DashboardFrame',
   props: {
@@ -43,7 +45,8 @@ export default defineComponent({
     subtitle: { type: String, default: '' },
     select: { type: String }
   },
-  setup(props) {
+  emits: [fullyVisibleEvent],
+  setup(props, { emit }) {
     const baseUrl = "https://qlik.tcm.sp.gov.br/jwt/single/"
     const iframeSrc = computed(() => {
       let url = baseUrl + `?appid=${props.appid}&sheet=${props.sheet}&theme=card&opt=ctxmenu,currsel`
@@ -68,13 +71,6 @@ export default defineComponent({
     let scrollListenerAttached = false
     let ticking = false
 
-    const updateHash = () => {
-      const expected = '#' + anchorId.value
-      if (window.location.hash !== expected) {
-        history.replaceState(null, '', expected)
-      }
-    }
-
     const fullyVisible = (): boolean => {
       if (!rootEl.value) return false
       const elRect = rootEl.value.getBoundingClientRect()
@@ -90,7 +86,7 @@ export default defineComponent({
       if (ticking) return
       ticking = true
       requestAnimationFrame(() => {
-        if (fullyVisible()) updateHash()
+        if (fullyVisible()) emit(fullyVisibleEvent, anchorId.value)
         ticking = false
       })
     }
@@ -98,24 +94,13 @@ export default defineComponent({
     onMounted(() => {
       scrollRoot = document.querySelector('.snap-container') as HTMLElement | null
 
-      if (rootEl.value) {
-        observer = new IntersectionObserver((entries) => {
-          entries.forEach(entry => {
-            if (entry.intersectionRatio > 0.95) {
-              updateHash()
-            }
-          })
-        }, { root: scrollRoot, threshold: 1.0 })
-        observer.observe(rootEl.value)
-      }
-
       const targetScrollEl = scrollRoot || window
       if (!scrollListenerAttached) {
         targetScrollEl.addEventListener('scroll', onScroll, { passive: true })
         scrollListenerAttached = true
       }
 
-      if (fullyVisible()) updateHash()
+      if (fullyVisible()) emit(fullyVisibleEvent, anchorId.value)
     })
 
     onBeforeUnmount(() => {
