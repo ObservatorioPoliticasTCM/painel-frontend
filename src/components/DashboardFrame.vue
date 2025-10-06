@@ -1,7 +1,9 @@
 <template>
-  <div class="dashboard-frame">
+  <div class="dashboard-frame" ref="rootEl">
     <div v-if="title" class="frame-header">
-      <h1 v-if="title">{{ displayTitle }}</h1>
+      <h1 v-if="title">
+        <a :id="anchorId" :href="'#' + anchorId" class="title-anchor">{{ displayTitle }}</a>
+      </h1>
       <div class="frame-actions">
         <a
           class="pdf-button"
@@ -30,7 +32,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, computed } from 'vue'
+import { defineComponent, computed, onMounted, onBeforeUnmount, ref } from 'vue'
 export default defineComponent({
   name: 'DashboardFrame',
   props: {
@@ -45,16 +47,88 @@ export default defineComponent({
     const baseUrl = "https://qlik.tcm.sp.gov.br/jwt/single/"
     const iframeSrc = computed(() => {
       let url = baseUrl + `?appid=${props.appid}&sheet=${props.sheet}&theme=card&opt=ctxmenu,currsel`
-      if (props.identity) {
-        url += `&identity=${props.identity}`
-      }
-      if (props.select) {
-        url += `&secret=${props.select}`
-      }
+      if (props.identity) url += `&identity=${props.identity}`
+      if (props.select) url += `&secret=${props.select}`
       return url
     })
     const displayTitle = computed(() => props.title.replace(/\\n/g, '\n'))
-    return { iframeSrc, displayTitle, ...props }
+    const anchorId = computed(() => props.title
+      .toLowerCase()
+      .replace(/\n/g, ' ')
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .replace(/[^a-z0-9 ]/g, '')
+      .trim()
+      .replace(/\s+/g, '-')
+    )
+
+    const rootEl = ref<HTMLElement | null>(null)
+    let observer: IntersectionObserver | null = null
+    let scrollRoot: HTMLElement | null = null
+    let scrollListenerAttached = false
+    let ticking = false
+
+    const updateHash = () => {
+      const expected = '#' + anchorId.value
+      if (window.location.hash !== expected) {
+        history.replaceState(null, '', expected)
+      }
+    }
+
+    const fullyVisible = (): boolean => {
+      if (!rootEl.value) return false
+      const elRect = rootEl.value.getBoundingClientRect()
+      const rootRect = (scrollRoot ? scrollRoot.getBoundingClientRect() : { top: 0, bottom: window.innerHeight }) as DOMRect | { top: number; bottom: number }
+      const elTop = Math.round(elRect.top)
+      const elBottom = Math.round(elRect.bottom)
+      const rootTop = Math.round(rootRect.top)
+      const rootBottom = Math.round(rootRect.bottom)
+      return elTop >= rootTop && elBottom <= rootBottom && (elBottom - elTop) > 0
+    }
+
+    const onScroll = () => {
+      if (ticking) return
+      ticking = true
+      requestAnimationFrame(() => {
+        if (fullyVisible()) updateHash()
+        ticking = false
+      })
+    }
+
+    onMounted(() => {
+      scrollRoot = document.querySelector('.snap-container') as HTMLElement | null
+
+      if (rootEl.value) {
+        observer = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            if (entry.intersectionRatio > 0.95) {
+              updateHash()
+            }
+          })
+        }, { root: scrollRoot, threshold: 1.0 })
+        observer.observe(rootEl.value)
+      }
+
+      const targetScrollEl = scrollRoot || window
+      if (!scrollListenerAttached) {
+        targetScrollEl.addEventListener('scroll', onScroll, { passive: true })
+        scrollListenerAttached = true
+      }
+
+      if (fullyVisible()) updateHash()
+    })
+
+    onBeforeUnmount(() => {
+      if (observer && rootEl.value) observer.unobserve(rootEl.value)
+      observer = null
+      const targetScrollEl = scrollRoot || window
+      if (scrollListenerAttached) {
+        targetScrollEl.removeEventListener('scroll', onScroll)
+        scrollListenerAttached = false
+      }
+    })
+
+    return { iframeSrc, displayTitle, anchorId, rootEl, ...props }
   }
 })
 </script>
@@ -85,6 +159,8 @@ export default defineComponent({
   font-weight: normal;
   white-space: pre-line;
 }
+.title-anchor { color: inherit; text-decoration: none; }
+.title-anchor:hover { text-decoration: underline; }
 .frame-subtitle {
   font-variant: small-caps;
   text-align: left;
