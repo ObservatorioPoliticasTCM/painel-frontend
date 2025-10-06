@@ -2,7 +2,15 @@
   <div class="dashboard-frame" ref="rootEl">
     <div v-if="title" class="frame-header">
       <h1 v-if="title">
-        <a :id="anchorId" :href="'#' + anchorId" class="title-anchor">{{ displayTitle }}</a>
+        <span class="title-anchor-wrapper">
+          <a :id="anchorId" :href="'#' + anchorId" class="title-anchor" title="Copiar o link para este dashboard" @click="copyDashboardLink">
+            {{ displayTitle }}
+            <img src="@/assets/copy-icon.svg" class="copy-icon" alt="Copiar link" />
+          </a>
+          <transition name="fade">
+            <span v-if="showCopied" class="copy-popup">Link copiado</span>
+          </transition>
+        </span>
       </h1>
       <div class="frame-actions">
         <a
@@ -32,7 +40,7 @@
 </template>
 
 <script setup lang="ts">
-import { computed, onMounted, onBeforeUnmount, ref, toRefs } from 'vue'
+import { computed, onMounted, onBeforeUnmount, ref, toRefs, nextTick } from 'vue'
 
 const fullyVisibleEvent = 'fully-visible'
 
@@ -77,6 +85,8 @@ const rootEl = ref<HTMLElement | null>(null)
 let scrollRoot: HTMLElement | null = null
 let scrollListenerAttached = false
 let ticking = false
+const showCopied = ref(false)
+let copyToastTimeout: number | null = null
 
 const fullyVisible = (): boolean => {
   if (!rootEl.value) return false
@@ -105,6 +115,32 @@ const onScroll = () => {
   })
 }
 
+const copyDashboardLink = () => {
+  const fullUrl = `${window.location.origin}${window.location.pathname}#${anchorId.value}`
+  const tryClipboard = async () => {
+    try {
+      await navigator.clipboard.writeText(fullUrl)
+    } catch {
+      const temp = document.createElement('textarea')
+      temp.value = fullUrl
+      temp.style.position = 'fixed'
+      temp.style.opacity = '0'
+      document.body.appendChild(temp)
+      temp.select()
+      try { document.execCommand('copy') } catch { /* ignore */ }
+      document.body.removeChild(temp)
+    }
+    // mostrar toast
+    showCopied.value = false
+    void nextTick(() => { // garantir reinício de transição
+      showCopied.value = true
+      if (copyToastTimeout) clearTimeout(copyToastTimeout)
+      copyToastTimeout = window.setTimeout(() => { showCopied.value = false }, 1800)
+    })
+  }
+  tryClipboard()
+}
+
 onMounted(() => {
   scrollRoot = document.querySelector('.snap-container') as HTMLElement | null
   const targetScrollEl = scrollRoot || window
@@ -126,6 +162,7 @@ onBeforeUnmount(() => {
     targetScrollEl.removeEventListener('scroll', onScroll)
     scrollListenerAttached = false
   }
+  if (copyToastTimeout) clearTimeout(copyToastTimeout)
 })
 </script>
 
@@ -155,7 +192,12 @@ onBeforeUnmount(() => {
   font-weight: normal;
   white-space: pre-line;
 }
-.title-anchor { color: inherit; text-decoration: none; }
+.copy-icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: top;
+}
+.title-anchor { color: inherit; text-decoration: none; cursor: pointer; }
 .title-anchor:hover { text-decoration: underline; }
 .frame-subtitle {
   font-variant: small-caps;
@@ -211,4 +253,21 @@ onBeforeUnmount(() => {
   display: flex;
   gap: 1rem;
 }
+.title-anchor-wrapper { position: relative; display: inline-block; }
+.copy-popup {
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translate(-50%, 0.6rem);
+  background: #242424;
+  color: #fff;
+  padding: 0.4rem 0.6rem;
+  border-radius: 6px;
+  font-size: 0.7em;
+  white-space: nowrap;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+  pointer-events: none;
+}
+.fade-enter-active, .fade-leave-active { transition: opacity 0.5s ease; }
+.fade-enter-from, .fade-leave-to { opacity: 0; }
 </style>
