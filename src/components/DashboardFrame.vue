@@ -32,7 +32,7 @@
 </template>
 
 <script setup lang="ts">
-import { computed, onMounted, onBeforeUnmount, ref, toRefs, withDefaults } from 'vue'
+import { computed, onMounted, onBeforeUnmount, ref, toRefs } from 'vue'
 
 const fullyVisibleEvent = 'fully-visible'
 
