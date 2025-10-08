@@ -9,8 +9,7 @@
     <DashboardFrame
       appid="aa9f4f6c-2007-47d9-ab3a-588c87a4d50e"
       sheet="b5eaabe4-7475-4e0f-ab78-92f912214961"
-      title="Despesas municipais em ações parcialmente focalizadas por iniciativa discricionária da Gestão Municipal (2023)"
-      subtitle="Despesas municipais em a sem foco exclusivo nas mulheres, mas que podem contribuir para essa agenda por iniciativa discricionária da Gestão Municipal, considerando a transversalidade de gênero"
+      title="Despesas municipais sensíveis a gênero em projetos/atividades sem foco exclusivo em políticas para mulheres (2023)"
       identity="2"
     />
     <DashboardFrame
