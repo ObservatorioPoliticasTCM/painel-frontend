@@ -3,7 +3,7 @@
     <DashboardFrame
       appid="e808b4ea-ded0-41c6-b5b0-8845934d8369"
       sheet="c609507f-709a-434f-8430-5f1f74121740"
-      title="Despesas municipais em ações voltadas exclusivamente a políticas de promoção aos direitos das mulheres"
+      title="Despesas municipais sensíveis a gênero em projetos/atividades com foco exclusivo em políticas para as mulheres"
       identity="1"
     />
     <DashboardFrame
