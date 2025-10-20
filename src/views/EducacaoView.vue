@@ -21,7 +21,7 @@
     <DashboardFrame
       appid="ee3bc48f-da4d-403a-a4fe-4da01cb29ee9"
       sheet="nvgxg"
-      title="Perfil dos professores da rede pública municipal em 2024"
+      title="Perfil dos professores da rede direta municipal em 2024"
       identity="4"
     />
     <DashboardFrame
