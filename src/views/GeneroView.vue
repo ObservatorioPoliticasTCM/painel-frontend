@@ -1,5 +1,10 @@
 <template>
   <SnapPage>
+    <IntroPanel
+      title="Gênero — Introdução"
+      text="Esta seção reúne painéis sobre orçamento e políticas municipais sensíveis a gênero. Navegue para ver despesas exclusivas e parcialmente focalizadas, além de iniciativas do PMPM."
+      :icon="generoIcon"
+    />
     <DashboardFrame
       appid="e808b4ea-ded0-41c6-b5b0-8845934d8369"
       sheet="c609507f-709a-434f-8430-5f1f74121740"
@@ -54,6 +59,8 @@
 <script setup lang="ts">
 import DashboardFrame from '../components/DashboardFrame.vue'
 import SnapPage from '../components/SnapPage.vue'
+import IntroPanel from '../components/IntroPanel.vue'
+import generoIcon from '@/assets/genero.svg'
 </script>
 
 <style scoped></style>
