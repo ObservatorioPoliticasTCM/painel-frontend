@@ -13,21 +13,11 @@
         </span>
       </h1>
       <div class="frame-actions">
-        <a
-          class="pdf-button"
-          href="https://tcmspgovbr-my.sharepoint.com/:f:/g/personal/bruno_balzano_tcmsp_tc_br/Es3nGrJ9JRxMsiS_JFtYSb0BuOKH2yUNOX2HevUc4TM2Cw?e=bVupcT"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src="@/assets/pdf-icon.svg" alt="PDF" class="pdf-icon"/>
-          Notas metodológicas
-        </a>
-        <!--
-        <button class="download-button">
-          <img src="@/assets/download-icon.svg" alt="Download" class="download-icon"/>
-          Arquivos CSV
-        </button>
-        -->
+        <AdditionalInfoMenu
+          :metadata-link="metadataLink"
+          :methodology-link="methodologyLink"
+          :download-link="downloadLink"
+        />
       </div>
     </div>
     <div v-if="subtitle" class="frame-subtitle">
@@ -37,10 +27,12 @@
       <iframe :src="iframeSrc" frameborder="0" style="border:none;width:100%;height:100%;"></iframe>
     </div>
   </div>
+  
 </template>
 
 <script setup lang="ts">
 import { computed, onMounted, onBeforeUnmount, ref, toRefs, nextTick } from 'vue'
+import AdditionalInfoMenu from './AdditionalInfoMenu.vue'
 
 const fullyVisibleEvent = 'fully-visible'
 
@@ -51,6 +43,9 @@ interface DashboardFrameProps {
   title?: string
   subtitle?: string
   select?: string
+  metadataLink?: string
+  methodologyLink?: string
+  downloadLink?: string
 }
 
 const props = withDefaults(defineProps<DashboardFrameProps>(), {
@@ -60,6 +55,7 @@ const props = withDefaults(defineProps<DashboardFrameProps>(), {
 const emit = defineEmits<{ (e: 'fully-visible', anchorId: string): void }>()
 
 const { appid, sheet, identity, title, subtitle, select } = toRefs(props)
+const { metadataLink, methodologyLink, downloadLink } = toRefs(props)
 
 const baseUrl = 'https://qlik.tcm.sp.gov.br/jwt/single/'
 const iframeSrc = computed(() => {
@@ -203,47 +199,6 @@ onBeforeUnmount(() => {
   text-align: left;
   font-size: 1.3em;
 }
-.pdf-button {
-  /* position: absolute;
-  bottom: 1rem;
-  right: 10.5rem; */
-  min-width: 13em;
-  display: flex;
-  align-items: center;
-  background-color: #213547;
-  color: white;
-  border: none;
-  padding: 0.5rem 1rem;
-  cursor: pointer;
-  border-radius: 4px;
-  text-decoration: none;
-  font-size: 1rem;
-  text-align: center;
-}
-.pdf-icon {
-  width: 1.4em;
-  height: auto;
-  margin-right: 0.5rem;
-  filter: brightness(0) invert(1);
-}
-.download-button {
-  /* position: absolute;
-  bottom: 1rem;
-  right: 1rem; */
-  display: flex;
-  align-items: center;
-  background-color: #213547;
-  color: white;
-  border: none;
-  padding: 0.5rem 1rem;
-  cursor: pointer;
-  border-radius: 4px;
-}
-.download-button .download-icon {
-  width: 1rem;
-  height: 1rem;
-  margin-right: 0.5rem;
-}
 .iframe-wrapper {
   flex: 1;
 }
@@ -269,3 +224,4 @@ onBeforeUnmount(() => {
 .fade-enter-active, .fade-leave-active { transition: opacity 0.5s ease; }
 .fade-enter-from, .fade-leave-to { opacity: 0; }
 </style>
+
