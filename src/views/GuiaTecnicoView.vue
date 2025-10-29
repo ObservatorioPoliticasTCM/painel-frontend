@@ -60,7 +60,7 @@ function select(id: string) {
 }
 
 function embedUrl(id: string) {
-  return `https://www.youtube.com/embed/${id}?rel=0&modestbranding=1&playsinline=1`
+  return `https://www.youtube.com/embed/${id}?rel=0&modestbranding=1&playsinline=1&autoplay=1`
 }
 
 function thumbUrl(id: string) {
