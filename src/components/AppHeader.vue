@@ -31,7 +31,7 @@ const menuItems = [
   { label: 'Gênero', route: '/genero' },
   { label: 'Saúde', route: '/saude' },
   { label: 'Urbanismo', route: '/urbanismo'  },
-  { label: 'Regionalização do Orçamento', route: '/orcamento' },
+  { label: 'Orçamento', route: '/orcamento' },
   { label: 'Glossário', route: '/glossario'   },
   { label: 'Contato', href: 'https://observatorio.tcm.sp.gov.br/ObservatorioItem/156570' },
   { label: 'Guia técnico', route: '/guia-tecnico' }
@@ -42,13 +42,13 @@ const menuItems = [
 .header {
   position: relative;
   z-index: 20;
-  padding: 1.2vh 0;
+  padding: 2vh 0;
   display: flex;
   flex-direction: column;
   color: white;
   user-select: none;
   width: 100%;
-  height: 12vh;
+  height: 16vh;
   overflow: visible;
   align-items: center;
 }
@@ -86,7 +86,7 @@ const menuItems = [
 
 /* Estilos dos logos */
 .logo {
-  height: 8vh; /* reduzido para encolher a navbar */
+  height: 10vh; /* Ajuste conforme necessário para manter o alinhamento com a navbar */
 }
 
 /* Navbar ocupa toda a largura */
@@ -94,16 +94,15 @@ const menuItems = [
   position: relative;
   display: flex;
   width: 100%;
-  padding: 0.35rem 0.8rem; /* compactado */
+  padding: 0.5rem 1rem;
   box-sizing: border-box;
   align-items: center;
   justify-content: center;
   flex-wrap: nowrap;
-  overflow-x: auto; /* scroll horizontal se necess�rio */
+  overflow-x: auto; /* scroll horizontal se necessário */
   text-transform: uppercase;
-  font-size: 1.05rem; /* reduzido */
+  font-size: 1.2rem;
 }
-
 
 .nav-item {
   display: flex;
@@ -124,9 +123,8 @@ const menuItems = [
 .separator {
   display: flex;
   flex-direction: column;
-  margin: 0 0.75rem; /* mais estreito */
+  margin: 0 1rem;
 }
-
 
 .dot {
   width: 2px;
@@ -136,22 +134,3 @@ const menuItems = [
   border-radius: 1px;
 }
 </style>
-
-/* Responsivo: reduzir ainda mais em telas menores */
-@media (max-width: 1024px) {
-  .header { height: 11vh; padding: 1vh 0; }
-  .logo { height: 7vh; }
-  .nav { font-size: 1rem; padding: 0.3rem 0.7rem; }
-}
-
-@media (max-width: 768px) {
-  .header { height: 10vh; padding: 0.8vh 0; }
-  .logo { height: 6.5vh; }
-  .nav { font-size: 0.95rem; padding: 0.25rem 0.6rem; }
-}
-
-@media (max-width: 480px) {
-  .header { height: 9vh; padding: 0.6vh 0; }
-  .logo { height: 6vh; }
-  .nav { font-size: 0.9rem; }
-}
