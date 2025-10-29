@@ -1,6 +1,5 @@
 <template>
   <div>
-    <div class="overlay"></div> <!-- camada cinza -->
     <img src="@/assets/background.jpg" alt="Fundo" class="hero-background" />
   </div>
 </template>

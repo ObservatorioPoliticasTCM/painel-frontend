@@ -82,7 +82,7 @@ onBeforeUnmount(() => {
 <style scoped>
 .snap-container {
   height: 100vh;
-  width: 101vw;
+  width: 100vw; /* evita leve deslocamento horizontal */
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
 }
