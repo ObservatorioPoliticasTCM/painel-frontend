@@ -8,7 +8,7 @@ import OrcamentoView from '@/views/OrcamentoView.vue'
 import GlossaryView from '@/views/GlossaryView.vue'
 import NotFound from './views/NotFoundView.vue'
 import ImprintPage from '@/views/ImprintPageView.vue'
-import GuiaTecnicoView from '@/views/GuiaTecnicoView.vue'
+import TechGuideView from '@/views/TechGuideView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -23,7 +23,7 @@ const router = createRouter({
     {
       path: '/guia-tecnico',
       name: 'guia-tecnico',
-      component: GuiaTecnicoView,
+      component: TechGuideView,
       meta: { title: 'Guia técnico – DataSP' }
     },
     {
