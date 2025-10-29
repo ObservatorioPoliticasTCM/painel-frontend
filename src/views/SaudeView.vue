@@ -18,7 +18,7 @@
     appid="585f0398-5876-4e29-98db-a53e3e013dc4"
     sheet="hSjCf"
     title="Óbitos"
-    subtitle="Inclui leitos das unidades municipais, estaduais e federais"
+    subtitle="Inclui óbitos de residentes do município de São Paulo"
     identity="3"
     />
     <DashboardFrame
