@@ -62,7 +62,7 @@ function thumbUrl(id: string) {
 <style scoped>
 .guide {
   --feature-max: 60rem;
-  width: 100%;
+  /* width: 100%; */
   max-width: 80rem;
   margin: 2rem auto;
   padding: 1em 5vw;
@@ -88,9 +88,9 @@ function thumbUrl(id: string) {
 .media-layout {
   width: 100%;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
-  gap: 1.5rem;
+  gap: 2rem;
 }
 
 .feature {
@@ -134,10 +134,9 @@ function thumbUrl(id: string) {
 
 .thumb-strip {
   flex: 0 0 19rem;
-  width: 100%;
+  /* width: 100%; */
   max-width: 24rem;
   align-self: stretch;
-  padding-top: 2rem;
 }
 
 .thumb-grid {
@@ -146,7 +145,7 @@ function thumbUrl(id: string) {
   gap: 0.75rem;
   max-height: 100%;
   overflow-y: auto;
-  padding: 3rem 0rem 0rem 3rem;
+  padding: 3rem 0rem 3rem 3rem;
 }
 
 .thumb {
@@ -179,13 +178,13 @@ function thumbUrl(id: string) {
 
 .thumb[data-active='true'] {
   transform: translateX(-0.625rem);
-  box-shadow: 0 0.5rem 1.125rem rgba(0, 0, 0, 0.25);
+  box-shadow: -0.5rem 0 1.125rem rgba(0, 0, 0, 0.75);
   z-index: 3;
 }
 
 .thumb:hover {
-  transform: translateY(-0.625rem);
-  box-shadow: 0 0.5rem 1.125rem rgba(0, 0, 0, 0.75);
+  transform: translateX(-0.625rem);
+  box-shadow: -0.5rem 0 1.125rem rgba(0, 0, 0, 0.75);
   z-index: 3;
 }
 
