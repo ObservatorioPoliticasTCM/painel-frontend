@@ -1,10 +1,9 @@
 ﻿<template>
   <SnapPage>
     <div class="guide">
-      <h1 class="title">Guia técnico</h1>
+      <h1 class="title">Guia técnico &mdash; {{ featured?.title }}</h1>
       <div class="media-layout">
         <section class="feature">
-          <!-- <h3 class="feature-title">{{ featured?.title }}</h3> -->
           <div class="feature-video">
             <VideoFrame :video-id="selectedId" :autoplay="autoplay" />
           </div>
@@ -22,7 +21,6 @@
               :aria-label="`Assistir ${video.title}`"
             >
               <img :src="thumbUrl(video.id)" :alt="`Miniatura de ${video.title}`" />
-              <span class="thumb-label">{{ video.title }}</span>
             </button>
           </div>
         </section>
@@ -39,10 +37,10 @@ import VideoFrame from '@/components/VideoFrame.vue'
 type Video = { id: string; title: string }
 
 const videos = reactive<Video[]>([
-  { id: 'z8Otk01Xi-U', title: 'Testamento 1' },
-  { id: 'QovocBPyQac', title: 'Testamento 2' },
-  { id: 'IXXOTatnVcA', title: 'Testamento 3' },
-  { id: 'uYIDfBbgVVI', title: 'Testamento 4' }
+  { id: 'z8Otk01Xi-U', title: 'Introdução' },
+  { id: 'QovocBPyQac', title: 'Políticas Públicas' },
+  { id: 'IXXOTatnVcA', title: 'Orçamento' },
+  { id: 'uYIDfBbgVVI', title: 'Execução do orçamento  ' }
 ])
 
 const selectedId = ref(videos[0].id)
