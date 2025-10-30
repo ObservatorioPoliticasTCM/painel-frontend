@@ -32,9 +32,9 @@ const menuItems = [
   { label: 'Saúde', route: '/saude' },
   { label: 'Urbanismo', route: '/urbanismo'  },
   { label: 'Orçamento', route: '/orcamento' },
+  { label: 'Guia técnico', route: '/guia-tecnico' },
   { label: 'Glossário', route: '/glossario'   },
-  { label: 'Contato', href: 'https://observatorio.tcm.sp.gov.br/ObservatorioItem/156570' },
-  { label: 'Guia técnico', route: '/guia-tecnico' }
+  { label: 'Contato', href: 'https://observatorio.tcm.sp.gov.br/ObservatorioItem/156570' }
 ]
 </script>
 
@@ -53,7 +53,7 @@ const menuItems = [
   align-items: center;
 }
 
-/* Gradient-overlay em plano intermediário */
+/* Gradient-overlay em plano intermediǭrio */
 .gradient-overlay {
   position: absolute;
   top: 0;
@@ -86,7 +86,7 @@ const menuItems = [
 
 /* Estilos dos logos */
 .logo {
-  height: 10vh; /* Ajuste conforme necessário para manter o alinhamento com a navbar */
+  height: 10vh; /* Ajuste conforme necessǭrio para manter o alinhamento com a navbar */
 }
 
 /* Navbar ocupa toda a largura */
@@ -99,7 +99,7 @@ const menuItems = [
   align-items: center;
   justify-content: center;
   flex-wrap: nowrap;
-  overflow-x: auto; /* scroll horizontal se necessário */
+  overflow-x: auto; /* scroll horizontal se necessǭrio */
   text-transform: uppercase;
   font-size: 1.2rem;
 }
@@ -134,3 +134,4 @@ const menuItems = [
   border-radius: 1px;
 }
 </style>
+

@@ -32,14 +32,25 @@ interface Props {
   videoId: string
   title?: string
   subtitle?: string
+  autoplay?: boolean
 }
 
 const props = withDefaults(defineProps<Props>(), {
   title: '',
-  subtitle: ''
+  subtitle: '',
+  autoplay: false
 })
 
-const embedSrc = computed(() => `https://www.youtube.com/embed/${props.videoId}?rel=0&modestbranding=1&playsinline=1`)
+const embedSrc = computed(() => {
+  const base = `https://www.youtube.com/embed/${props.videoId}`
+  const params = new URLSearchParams({
+    rel: '0',
+    modestbranding: '1',
+    playsinline: '1'
+  })
+  if (props.autoplay) params.set('autoplay', '1')
+  return `${base}?${params.toString()}`
+})
 </script>
 
 <style scoped>
@@ -47,9 +58,9 @@ const embedSrc = computed(() => `https://www.youtube.com/embed/${props.videoId}?
 .dashboard-frame {
   display: flex;
   flex-direction: column;
-  height: 96vh;
-  width: calc(100vw - 4vh);
-  padding: 2vh;
+  min-height: 20rem;
+  width: 100%;
+  padding: 2rem;
   position: relative;
   z-index: 20;
 }
@@ -64,14 +75,14 @@ const embedSrc = computed(() => `https://www.youtube.com/embed/${props.videoId}?
 .frame-header h1 {
   margin: 0;
   text-transform: uppercase;
-  text-align: left;
+  text-align: center;
   font-weight: normal;
   white-space: pre-line;
 }
 .title-anchor { color: inherit; text-decoration: none; }
 .frame-subtitle {
   font-variant: small-caps;
-  text-align: left;
+  text-align: center;
   font-size: 1.3em;
 }
 .iframe-wrapper { flex: 1; }

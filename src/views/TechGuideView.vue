@@ -1,19 +1,12 @@
 ﻿<template>
   <SnapPage>
     <div class="guide">
-      <h2 class="title">Guia técnico</h2>
+      <h1 class="title">Guia técnico</h1>
       <div class="media-layout">
         <section class="feature">
-          <h3 class="feature-title">{{ featured?.title }}</h3>
+          <!-- <h3 class="feature-title">{{ featured?.title }}</h3> -->
           <div class="feature-video">
-            <iframe
-              :src="embedUrl(selectedId)"
-              title="Video em destaque"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-              referrerpolicy="strict-origin-when-cross-origin"
-            ></iframe>
+            <VideoFrame :video-id="selectedId" :autoplay="autoplay" />
           </div>
         </section>
 
@@ -41,26 +34,24 @@
 <script setup lang="ts">
 import { computed, reactive, ref } from 'vue'
 import SnapPage from '@/components/SnapPage.vue'
+import VideoFrame from '@/components/VideoFrame.vue'
 
 type Video = { id: string; title: string }
 
 const videos = reactive<Video[]>([
-  { id: 'z8Otk01Xi-U', title: 'Testamento1231' },
-  { id: 'QovocBPyQac', title: 'Testamento1232' },
-  { id: 'IXXOTatnVcA', title: 'Testamento1233' },
-  { id: 'uYIDfBbgVVI', title: 'Testamento1234' },
-  { id: 'tE80FR2EUeg', title: 'Testamento1235' }
+  { id: 'z8Otk01Xi-U', title: 'Testamento 1' },
+  { id: 'QovocBPyQac', title: 'Testamento 2' },
+  { id: 'IXXOTatnVcA', title: 'Testamento 3' },
+  { id: 'uYIDfBbgVVI', title: 'Testamento 4' }
 ])
 
 const selectedId = ref(videos[0].id)
+const autoplay = ref(false)
 const featured = computed(() => videos.find(video => video.id === selectedId.value) ?? videos[0])
 
 function select(id: string) {
   selectedId.value = id
-}
-
-function embedUrl(id: string) {
-  return `https://www.youtube.com/embed/${id}?rel=0&modestbranding=1&playsinline=1&autoplay=1`
+  autoplay.value = true
 }
 
 function thumbUrl(id: string) {
@@ -70,9 +61,11 @@ function thumbUrl(id: string) {
 
 <style scoped>
 .guide {
-  --feature-max: clamp(480px, 70vw, 960px);
-  width: min(96vw, 1280px);
-  margin: 4vh auto;
+  --feature-max: 60rem;
+  width: 100%;
+  max-width: 80rem;
+  margin: 2rem auto;
+  padding: 1em 5vw;
   color: #000000;
   display: flex;
   position: relative;
@@ -84,12 +77,12 @@ function thumbUrl(id: string) {
 
 .title {
   width: 100%;
-  max-width: var(--feature-max);
+  max-width: 100%;
   margin: 0;
   text-transform: uppercase;
   letter-spacing: 0.04em;
   font-weight: 600;
-  text-align: left;
+  text-align: center;
 }
 
 .media-layout {
@@ -112,8 +105,8 @@ function thumbUrl(id: string) {
 .feature-title {
   margin: 0;
   font-weight: 500;
-  text-align: left;
-  font-size: clamp(1rem, 2.3vh, 1.2rem);
+  text-align: center;
+  font-size: 1.125rem;
 }
 
 .feature-video {
@@ -121,12 +114,18 @@ function thumbUrl(id: string) {
   width: 100%;
   padding-top: 56.25%;
   background: #000;
-  border-radius: 12px;
+  border-radius: 0.75rem;
   overflow: hidden;
-  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.32);
+  box-shadow: 0 0.625rem 1.75rem rgba(0, 0, 0, 0.32);
 }
 
-.feature-video iframe {
+.feature-video :deep(.dashboard-frame) {
+  position: absolute;
+  inset: 0;
+  padding: 0;
+}
+
+.feature-video :deep(iframe) {
   position: absolute;
   inset: 0;
   width: 100%;
@@ -134,10 +133,11 @@ function thumbUrl(id: string) {
 }
 
 .thumb-strip {
-  flex: 0 0 240px;
+  flex: 0 0 19rem;
   width: 100%;
-  max-width: 300px;
+  max-width: 24rem;
   align-self: stretch;
+  padding-top: 2rem;
 }
 
 .thumb-grid {
@@ -146,20 +146,20 @@ function thumbUrl(id: string) {
   gap: 0.75rem;
   max-height: 100%;
   overflow-y: auto;
-  padding-right: 0.25rem;
+  padding: 3rem 0rem 0rem 3rem;
 }
 
 .thumb {
   flex: 0 0 auto;
   width: 100%;
   display: grid;
-  grid-template-columns: minmax(120px, 38%) minmax(0, 1fr);
+  grid-template-columns: minmax(9.5rem, 50%) minmax(0, 1fr);
   align-items: stretch;
   gap: 0.75rem;
   position: relative;
   background: rgba(255, 255, 255, 0.04);
   border: none;
-  border-radius: 10px;
+  border-radius: 0.625rem;
   padding: 0.5rem 0.6rem;
   cursor: pointer;
   transition: transform 0.18s ease, box-shadow 0.18s ease;
@@ -171,34 +171,43 @@ function thumbUrl(id: string) {
   content: '';
   position: absolute;
   inset: 0;
-  border: 2px solid #ffffff;
+  border: 0.125rem solid #ffffff;
   border-radius: inherit;
   pointer-events: none;
   z-index: 2;
 }
 
 .thumb[data-active='true'] {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25);
+  transform: translateX(-0.625rem);
+  box-shadow: 0 0.5rem 1.125rem rgba(0, 0, 0, 0.25);
   z-index: 3;
 }
 
 .thumb:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.75);
+  transform: translateY(-0.625rem);
+  box-shadow: 0 0.5rem 1.125rem rgba(0, 0, 0, 0.75);
   z-index: 3;
 }
 
+.thumb {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Remove outline on mouse click, keep for keyboard navigation */
 .thumb:focus {
-  outline: 2px solid #fff;
-  outline-offset: 2px;
+  outline: none;
+}
+
+.thumb:focus-visible {
+  outline: 0.125rem solid #fff;
+  outline-offset: 0.125rem;
 }
 
 .thumb img {
   width: 100%;
   aspect-ratio: 16 / 9;
   object-fit: cover;
-  border-radius: 8px;
+  border-radius: 0.5rem;
 }
 
 .thumb-label {
@@ -212,7 +221,7 @@ function thumbUrl(id: string) {
   word-break: break-word;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 60em) {
   .media-layout {
     flex-direction: column;
     align-items: center;
@@ -226,6 +235,7 @@ function thumbUrl(id: string) {
   .thumb-strip {
     flex: none;
     max-width: 100%;
+    padding-top: 0;
   }
 
   .thumb-grid {
@@ -239,9 +249,9 @@ function thumbUrl(id: string) {
   }
 
   .thumb {
-    flex: 1 1 280px;
-    max-width: 360px;
-    grid-template-columns: minmax(100px, 42%) minmax(0, 1fr);
+    flex: 1 1 20rem;
+    max-width: 26rem;
+    grid-template-columns: minmax(8.5rem, 52%) minmax(0, 1fr);
   }
 
   .thumb img {
@@ -249,9 +259,9 @@ function thumbUrl(id: string) {
   }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 45em) {
   .guide {
-    --feature-max: clamp(300px, 80vw, 440px);
+    --feature-max: 27.5rem;
     gap: 1rem;
   }
 
@@ -260,9 +270,9 @@ function thumbUrl(id: string) {
   }
 
   .thumb {
-    max-width: 320px;
+    max-width: 22rem;
     padding: 0.4rem 0.5rem;
-    grid-template-columns: minmax(90px, 45%) minmax(0, 1fr);
+    grid-template-columns: minmax(7.5rem, 60%) minmax(0, 1fr);
   }
 
   .thumb img {
