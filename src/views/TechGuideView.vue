@@ -11,17 +11,13 @@
 
         <section class="thumb-strip">
           <div class="thumb-grid">
-            <button
+            <VideoThumbnail
               v-for="video in videos"
               :key="video.id"
-              class="thumb"
-              type="button"
-              :data-active="video.id === selectedId"
-              @click="select(video.id)"
-              :aria-label="`Assistir ${video.title}`"
-            >
-              <img :src="thumbUrl(video.id)" :alt="`Miniatura de ${video.title}`" />
-            </button>
+              :video="video"
+              :is-active="video.id === selectedId"
+              @select="select"
+            />
           </div>
         </section>
       </div>
@@ -33,6 +29,7 @@
 import { computed, reactive, ref } from 'vue'
 import SnapPage from '@/components/SnapPage.vue'
 import VideoFrame from '@/components/VideoFrame.vue'
+import VideoThumbnail from '@/components/VideoThumbnail.vue'
 
 type Video = { id: string; title: string }
 
@@ -50,10 +47,6 @@ const featured = computed(() => videos.find(video => video.id === selectedId.val
 function select(id: string) {
   selectedId.value = id
   autoplay.value = true
-}
-
-function thumbUrl(id: string) {
-  return `https://img.youtube.com/vi/${id}/hqdefault.jpg`
 }
 </script>
 
@@ -141,81 +134,13 @@ function thumbUrl(id: string) {
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
-  max-height: 100%;
+  height: 100%;
   overflow-y: auto;
   padding: 3rem 0rem 3rem 3rem;
 }
 
-.thumb {
-  flex: 0 0 auto;
-  width: 100%;
-  display: grid;
-  grid-template-columns: minmax(9.5rem, 50%) minmax(0, 1fr);
-  align-items: stretch;
-  gap: 0.75rem;
-  position: relative;
-  background: rgba(255, 255, 255, 0.04);
-  border: none;
-  border-radius: 0.625rem;
-  padding: 0.5rem 0.6rem;
-  cursor: pointer;
-  transition: transform 0.18s ease, box-shadow 0.18s ease;
-  overflow: hidden;
-  z-index: 1;
-}
-
-.thumb::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  border: 0.125rem solid #ffffff;
-  border-radius: inherit;
-  pointer-events: none;
-  z-index: 2;
-}
-
-.thumb[data-active='true'] {
-  transform: translateX(-0.625rem);
-  box-shadow: -0.5rem 0 1.125rem rgba(0, 0, 0, 0.75);
-  z-index: 3;
-}
-
-.thumb:hover {
-  transform: translateX(-0.625rem);
-  box-shadow: -0.5rem 0 1.125rem rgba(0, 0, 0, 0.75);
-  z-index: 3;
-}
-
-.thumb {
-  -webkit-tap-highlight-color: transparent;
-}
-
-/* Remove outline on mouse click, keep for keyboard navigation */
-.thumb:focus {
-  outline: none;
-}
-
-.thumb:focus-visible {
-  outline: 0.125rem solid #fff;
-  outline-offset: 0.125rem;
-}
-
-.thumb img {
-  width: 100%;
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
-  border-radius: 0.5rem;
-}
-
-.thumb-label {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  font-size: 0.95rem;
-  color: #000000;
-  text-align: left;
-  line-height: 1.35;
-  word-break: break-word;
+.thumb-grid > * {
+  flex: 1;
 }
 
 @media (max-width: 60em) {
@@ -244,16 +169,6 @@ function thumbUrl(id: string) {
     overflow: visible;
     padding-right: 0;
   }
-
-  .thumb {
-    flex: 1 1 20rem;
-    max-width: 26rem;
-    grid-template-columns: minmax(8.5rem, 52%) minmax(0, 1fr);
-  }
-
-  .thumb img {
-    aspect-ratio: 16 / 9;
-  }
 }
 
 @media (max-width: 45em) {
@@ -262,18 +177,6 @@ function thumbUrl(id: string) {
     gap: 1rem;
   }
 
-  .thumb-label {
-    font-size: 0.88rem;
-  }
 
-  .thumb {
-    max-width: 22rem;
-    padding: 0.4rem 0.5rem;
-    grid-template-columns: minmax(7.5rem, 60%) minmax(0, 1fr);
-  }
-
-  .thumb img {
-    aspect-ratio: 16 / 9;
-  }
 }
 </style>
