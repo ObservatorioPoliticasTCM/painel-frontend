@@ -3,23 +3,19 @@
     <div class="guide">
       <h1 class="title">Guia técnico &mdash; {{ featured?.title }}</h1>
       <div class="media-layout">
-        <section class="feature">
-          <div class="feature-video">
-            <VideoFrame :video-id="selectedId" :autoplay="autoplay" />
-          </div>
-        </section>
+        <div class="feature-video">
+          <VideoFrame :video-id="selectedId" :autoplay="autoplay" />
+        </div>
 
-        <section class="thumb-strip">
-          <div class="thumb-grid">
-            <VideoThumbnail
-              v-for="video in videos"
-              :key="video.id"
-              :video="video"
-              :is-active="video.id === selectedId"
-              @select="select"
-            />
-          </div>
-        </section>
+        <div class="thumb-grid">
+          <VideoThumbnail
+            v-for="video in videos"
+            :key="video.id"
+            :video="video"
+            :is-active="video.id === selectedId"
+            @select="select"
+          />
+        </div>
       </div>
     </div>
   </SnapPage>
@@ -52,11 +48,9 @@ function select(id: string) {
 
 <style scoped>
 .guide {
-  --feature-max: 60rem;
-  /* width: 100%; */
-  max-width: 80rem;
-  margin: 2rem auto;
-  padding: 1em 5vw;
+  height: 96vh;
+  width: calc(100vw - 4vh);
+  padding: 2vh;
   color: #000000;
   display: flex;
   position: relative;
@@ -64,12 +58,14 @@ function select(id: string) {
   align-items: stretch;
   gap: 1.5rem;
   z-index: 30;
+  min-height: 0;
 }
 
 .title {
   width: 100%;
   max-width: 100%;
   margin: 0;
+  flex-shrink: 0;
   text-transform: uppercase;
   letter-spacing: 0.04em;
   font-weight: 600;
@@ -78,32 +74,19 @@ function select(id: string) {
 
 .media-layout {
   width: 100%;
+  flex: 1;
+  min-height: 0;
   display: flex;
-  align-items: center;
+  align-items: stretch;
   justify-content: space-between;
-  gap: 2rem;
-}
-
-.feature {
-  flex: 1 1 var(--feature-max);
-  width: 100%;
-  max-width: var(--feature-max);
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-
-.feature-title {
-  margin: 0;
-  font-weight: 500;
-  text-align: center;
-  font-size: 1.125rem;
 }
 
 .feature-video {
   position: relative;
   width: 100%;
-  padding-top: 56.25%;
+  height: 100%;
+  max-height: calc(100% - 0px);
+  aspect-ratio: 16 / 9;
   background: #000;
   border-radius: 0.75rem;
   overflow: hidden;
@@ -123,24 +106,17 @@ function select(id: string) {
   height: 100%;
 }
 
-.thumb-strip {
-  flex: 0 0 19rem;
-  /* width: 100%; */
-  max-width: 24rem;
-  align-self: stretch;
-}
-
 .thumb-grid {
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
   height: 100%;
+  max-height: 100%;
   overflow-y: auto;
-  padding: 3rem 0rem 3rem 3rem;
-}
-
-.thumb-grid > * {
-  flex: 1;
+  padding: 1rem 1rem 1rem 2rem;
+  flex: 0 0 15rem;
+  justify-content: space-between;
+  box-sizing: border-box;
 }
 
 @media (max-width: 60em) {
@@ -150,17 +126,10 @@ function select(id: string) {
     gap: 1.25rem;
   }
 
-  .feature {
-    max-width: 100%;
-  }
-
-  .thumb-strip {
+  .thumb-grid {
     flex: none;
     max-width: 100%;
     padding-top: 0;
-  }
-
-  .thumb-grid {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;

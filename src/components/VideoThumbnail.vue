@@ -57,13 +57,13 @@ function thumbUrl(id: string) {
 
 .thumb[data-active='true'] {
   transform: translateX(-0.625rem);
-  box-shadow: -0.5rem 0 1.125rem rgba(0, 0, 0, 0.75);
+  box-shadow: -0.5rem 0 1rem rgba(0, 0, 0, 0.75);
   z-index: 3;
 }
 
 .thumb:hover, .thumb:focus-visible {
   transform: translateX(-0.625rem);
-  box-shadow: -0.5rem 0 1.125rem rgba(0, 0, 0, 0.75);
+  box-shadow: -0.5rem 0 1rem rgba(0, 0, 0, 0.75);
   z-index: 3;
 }
 
