@@ -33,19 +33,19 @@
     <DashboardFrame
       appid="97daaa3e-d91e-4eaf-aa6b-1cb4772239bb"
       sheet="hJfCYXg"
-      title="Unidades habitacionais entregues ou contratadas"
+      title="Unidades habitacionais entregues ou contratadas (2024)"
       identity="6"
     />
     <DashboardFrame
       appid="2be0f077-d541-4b52-a2bf-7b05c1b72400"
       sheet="NAtPM"
-      title="Famílias beneficiadas por regularização fundiária e obras em assentamentos precários (dez/2024)"
+      title="Famílias beneficiadas por regularização fundiária e obras em assentamentos precários (2024)"
       identity="7"
     />
     <DashboardFrame
       appid="58f8b63f-5302-4e4b-9260-dc74b69c57f9"
       sheet="6fe6d2e2-43de-4c67-8aba-6bd99ad3ba74"
-      title="Famílias beneficiárias do programa de Auxílio Aluguel"
+      title="Famílias beneficiárias do programa de Auxílio Aluguel (dez/2024)"
       identity="8"
     />
     <DashboardFrame
@@ -57,7 +57,7 @@
     <DashboardFrame
       appid="f571d56a-108d-4a83-b865-45255c72b23d"
       sheet="5548d5e2-5953-4beb-aaea-1345aae8f5d1"
-      title="Realização Financeira em políticas de Acesso à Moradia Adequada"
+      title="Realização Financeira em políticas de Acesso à Moradia Adequada  &mdash; Plano Plurianual 2022-2025"
       identity="10"
     />
     <DashboardFrame
