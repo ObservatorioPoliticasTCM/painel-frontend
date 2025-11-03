@@ -12,9 +12,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. Faz o checkout do código do repositório
+      # 1. Faz o checkout do código do repositório na tag específica
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
 
       # 2. Extrai o nome da tag para usar como tag da imagem Docker
       # A variável de ambiente GITHUB_REF contém a referência que disparou o workflow.
