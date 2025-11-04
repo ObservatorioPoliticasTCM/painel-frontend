@@ -18,6 +18,12 @@
       identity="3"
       title="Variação detalhada do Orçamento por Órgão (2024)"
     />
+    <DashboardFrame
+      appid="db89e6fd-00c8-4542-ba80-787563d26598"
+      sheet="bd2c8bf9-d161-43ed-a967-b96342558630"
+      identity="4"
+      title="Comparação do Orçamento por Projeto/Atividade (2024)"
+    />
   </SnapPage>
 </template>
 
