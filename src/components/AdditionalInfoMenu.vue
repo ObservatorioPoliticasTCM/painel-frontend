@@ -1,46 +1,55 @@
 <template>
   <div class="info-menu" ref="menuRoot">
     <button class="info-button" @click="toggle">
-      Informações
+      Informações Adicionais
     </button>
     <div v-if="open" class="menu-popover">
       <ul class="menu-list">
         <li>
           <button class="menu-item" @click="openGlossary">
-            Glossário
-            <img src="@/assets/external-link.svg" alt="Abrir em nova aba" class="ext-icon" />
+            <span class="menu-label">Glossário</span>
+            <img src="@/assets/external-link-black.svg" alt="Abrir em nova aba" class="ext-icon" />
           </button>
         </li>
         <li>
           <a
-            v-if="metadataLink"
+            v-if="resolvedMethodologyLink"
             class="menu-item"
-            :href="metadataLink"
-            download
+            :href="resolvedMethodologyLink"
+            target="_blank"
+            rel="noopener noreferrer"
+            @click="closeMenu"
           >
-            Metadados
+            <span class="menu-label">Nota metodológica</span>
+            <img src="@/assets/external-link-black.svg" alt="Abrir em nova aba" class="ext-icon" />
+          </a>
+          <button v-else class="menu-item disabled" disabled>Nota metodológica</button>
+        </li>
+        <li>
+          <a
+            v-if="resolvedMetadataLink"
+            class="menu-item"
+            :href="resolvedMetadataLink"
+            target="_blank"
+            rel="noopener noreferrer"
+            @click="closeMenu"
+          >
+            <span class="menu-label">Metadados</span>
+            <img src="@/assets/download-icon.svg" alt="Abrir em nova aba" class="ext-icon" />
           </a>
           <button v-else class="menu-item disabled" disabled>Metadados</button>
         </li>
         <li>
           <button
-            v-if="methodologyLink"
-            class="menu-item"
-            @click="openMethodology"
-          >
-            Nota metodológica
-          </button>
-          <button v-else class="menu-item disabled" disabled>Nota metodológica</button>
-        </li>
-        <li>
-          <a
             v-if="downloadLink"
             class="menu-item"
             :href="downloadLink"
             download
+            @click="closeMenu"
           >
-            Download (arquivos)
-          </a>
+            <span class="menu-label">Download (arquivos)</span>
+            <img src="@/assets/download-icon.svg" alt="Abrir em nova aba" class="ext-icon" />
+          </button>
           <button v-else class="menu-item disabled" disabled>Download (arquivos)</button>
         </li>
       </ul>
@@ -49,7 +58,8 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted, onBeforeUnmount, toRefs } from 'vue'
+import { ref, onMounted, onBeforeUnmount, toRefs, computed } from 'vue'
+import defaultMetadataAsset from '@/assets/infos/metadados-datasp.xlsx?url'
 
 interface AdditionalInfoMenuProps {
   metadataLink?: string
@@ -60,10 +70,18 @@ interface AdditionalInfoMenuProps {
 const props = defineProps<AdditionalInfoMenuProps>()
 const { metadataLink, methodologyLink, downloadLink } = toRefs(props)
 
+const resolvedMetadataLink = computed(() => {
+  const provided = metadataLink.value?.trim()
+  return provided ? provided : defaultMetadataAsset
+})
+
+const resolvedMethodologyLink = computed(() => methodologyLink.value?.trim() ?? '')
+
 const open = ref(false)
 const menuRoot = ref<HTMLElement | null>(null)
 
 const toggle = () => { open.value = !open.value }
+const closeMenu = () => { open.value = false }
 const onDocClick = (ev: MouseEvent) => {
   if (!menuRoot.value) return
   if (!menuRoot.value.contains(ev.target as Node)) open.value = false
@@ -72,18 +90,18 @@ const openGlossary = () => {
   window.open('/glossario', '_blank')
   open.value = false
 }
-const openMethodology = () => {
-  if (!methodologyLink?.value) return
-  window.open(methodologyLink.value, '_blank')
-  open.value = false
-}
 
 onMounted(() => document.addEventListener('click', onDocClick))
 onBeforeUnmount(() => document.removeEventListener('click', onDocClick))
 </script>
 
 <style scoped>
-.info-menu { position: relative; }
+.info-menu {
+  position: relative;
+  margin: 0 0.05em;
+  padding: 0 0 0.35em 0;
+}
+
 .info-button {
   background-color: #213547;
   color: #fff;
@@ -93,6 +111,7 @@ onBeforeUnmount(() => document.removeEventListener('click', onDocClick))
   cursor: pointer;
   font-size: 1rem;
 }
+
 .menu-popover {
   position: absolute;
   right: 0;
@@ -105,7 +124,15 @@ onBeforeUnmount(() => document.removeEventListener('click', onDocClick))
   min-width: 16rem;
   z-index: 1000;
 }
-.menu-list { list-style: none; margin: 0; padding: 0.25rem; }
+
+.menu-list {
+  list-style: none;
+  margin: 0;
+  padding: 0.25rem;
+  border: 0.1em solid black;
+  border-radius: 8px;
+}
+
 .menu-item {
   width: 100%;
   text-align: left;
@@ -115,14 +142,34 @@ onBeforeUnmount(() => document.removeEventListener('click', onDocClick))
   font: inherit;
   padding: 0.6rem 0.75rem;
   border-radius: 6px;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr auto;
   align-items: center;
-  gap: 0.4rem;
+  column-gap: 0.4rem;
   cursor: pointer;
   text-decoration: none;
 }
-.menu-item:hover { background: rgba(0,0,0,0.04); }
-.menu-item.disabled { opacity: 0.45; cursor: not-allowed; }
-.ext-icon { width: 1rem; height: 1rem; margin-left: auto; opacity: 0.7; }
-</style>
 
+.menu-item:hover {
+  background: rgba(0,0,0,0.04);
+}
+
+.menu-item.disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.menu-label {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.ext-icon {
+  width: 1rem;
+  height: 1rem;
+  opacity: 0.7;
+  flex-shrink: 0;
+  justify-self: end;
+}
+
+</style>
