@@ -5,6 +5,7 @@
       sheet="c609507f-709a-434f-8430-5f1f74121740"
       title="Despesas municipais em ações voltadas exclusivamente a políticas de promoção aos direitos das mulheres"
       identity="1"
+      :methodology-link="DespesasPoliticas"
     />
     <DashboardFrame
       appid="aa9f4f6c-2007-47d9-ab3a-588c87a4d50e"
@@ -12,6 +13,7 @@
       title="Despesas municipais em ações parcialmente focalizadas por iniciativa discricionária da Gestão Municipal (2023)"
       subtitle="Despesas municipais em a sem foco exclusivo nas mulheres, mas que podem contribuir para essa agenda por iniciativa discricionária da Gestão Municipal, considerando a transversalidade de gênero"
       identity="2"
+      :methodology-link="DespesasDiscricionarias"
     />
     <DashboardFrame
       appid="e808b4ea-ded0-41c6-b5b0-8845934d8369"
@@ -19,6 +21,7 @@
       title="Plano Municipal de Políticas para as Mulheres - Habitação"
       subtitle="Despesas municipais em a sem foco exclusivo nas mulheres, mas que cumprem compromissos do Plano Municipal de Políticas para as Mulheres na categoria de habitação"
       identity="3"
+      :methodology-link="DespesasPMPM"
     />
     <DashboardFrame
       appid="e808b4ea-ded0-41c6-b5b0-8845934d8369"
@@ -26,6 +29,7 @@
       title="Plano Municipal de Políticas para as Mulheres - Educação"
       subtitle="Despesas municipais em a sem foco exclusivo nas mulheres, mas que cumprem compromissos do Plano Municipal de Políticas para as Mulheres na categoria de educação"
       identity="4"
+      :methodology-link="DespesasPMPM"
     />
     <DashboardFrame
       appid="e808b4ea-ded0-41c6-b5b0-8845934d8369"
@@ -33,6 +37,7 @@
       title="Plano Municipal de Políticas para as Mulheres - Assistencia Social"
       subtitle="Despesas municipais em a sem foco exclusivo nas mulheres, mas que cumprem compromissos do Plano Municipal de Políticas para as Mulheres na categoria de assistência social"
       identity="5"
+      :methodology-link="DespesasPMPM"
     />
     <DashboardFrame
       appid="e808b4ea-ded0-41c6-b5b0-8845934d8369"
@@ -40,6 +45,7 @@
       title="Plano Municipal de Políticas para as Mulheres - Direitos Humanos"
       subtitle="Despesas municipais em a sem foco exclusivo nas mulheres, mas que cumprem compromissos do Plano Municipal de Políticas para as Mulheres na categoria de direitos humanos"
       identity="6"
+      :methodology-link="DespesasPMPM"
     />
     <DashboardFrame
       appid="e808b4ea-ded0-41c6-b5b0-8845934d8369"
@@ -47,6 +53,7 @@
       title="Plano Municipal de Políticas para as Mulheres - Trabalho"
       subtitle="Despesas municipais em a sem foco exclusivo nas mulheres, mas que cumprem compromissos do Plano Municipal de Políticas para as Mulheres na categoria de trabalho"
       identity="7"
+      :methodology-link="DespesasPMPM"
     />
   </SnapPage>
 </template>
@@ -54,6 +61,9 @@
 <script setup lang="ts">
 import DashboardFrame from '../components/DashboardFrame.vue'
 import SnapPage from '../components/SnapPage.vue'
+import DespesasPMPM from '@/assets/infos/notas/genero/DESPESAS MUNICIPAIS SEM FOCO EXCLUSIVO NAS MULHERES 1.pdf'
+import DespesasDiscricionarias from '@/assets/infos/notas/genero/DESPESAS MUNICIPAIS EM AÇÕES PARCIALMENTE FOCALIZADAS POR INICIATIVA DISCRICIONÁRIA DA GESTÃO MUNICIPAL (2023).pdf'
+import DespesasPoliticas from '@/assets/infos/notas/genero/DESPESAS MUNICIPAIS EM AÇÕES VOLTADAS EXCLUSIVAMENTE A POLÍTICAS DE PROMOÇÃO AOS DIREITOS DAS MULHERES 1.pdf'
 </script>
 
 <style scoped></style>
