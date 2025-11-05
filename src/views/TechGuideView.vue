@@ -88,7 +88,7 @@ function select(id: string) {
   max-height: calc(100% - 0px);
   aspect-ratio: 16 / 9;
   background: #000;
-  border-radius: 0.75rem;
+  border-radius: 0.5rem;
   overflow: hidden;
   box-shadow: 0 0.625rem 1.75rem rgba(0, 0, 0, 0.32);
 }

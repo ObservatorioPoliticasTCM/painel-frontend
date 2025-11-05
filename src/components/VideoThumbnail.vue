@@ -38,7 +38,7 @@ function thumbUrl(id: string) {
   gap: 0.75rem;
   position: relative;
   background: transparent;
-  border-radius: 0.625rem;
+  border-radius: 0.5rem;
   padding: 0.5rem 0.6rem;
   cursor: pointer;
   transition: transform 0.18s ease, box-shadow 0.18s ease;
