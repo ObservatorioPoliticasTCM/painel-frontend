@@ -52,7 +52,6 @@
 
 <script setup lang="ts">
 import { ref, onMounted, onBeforeUnmount, toRefs, computed } from 'vue'
-import defaultMetadataAsset from '@/assets/infos/metadados-datasp.xlsx?url'
 
 interface AdditionalInfoMenuProps {
   metadataLink?: string
@@ -65,7 +64,7 @@ const { metadataLink, methodologyLink, downloadLink } = toRefs(props)
 
 const resolvedMetadataLink = computed(() => {
   const provided = metadataLink.value?.trim()
-  return provided ? provided : defaultMetadataAsset
+  return provided ? provided : '/infos/metadados-datasp.xlsx'
 })
 
 const resolvedMethodologyLink = computed(() => methodologyLink.value?.trim() ?? '')
