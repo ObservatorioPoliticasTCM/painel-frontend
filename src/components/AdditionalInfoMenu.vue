@@ -5,10 +5,10 @@
     </button>
     <div v-if="open" class="menu-popover">
       <div class="menu-list">
-        <button class="menu-item" @click="openGlossary">
+        <router-link class="menu-item" to="/glossario" @click="closeMenu" target="_blank" >
           <span class="menu-label">Glossário</span>
           <img src="@/assets/external-link-black.svg" alt="Abrir em nova aba" class="ext-icon" />
-        </button>
+        </router-link>
         
         <a
           v-if="resolvedMethodologyLink"
@@ -24,7 +24,6 @@
         <button v-else class="menu-item disabled" disabled>Nota metodológica</button>
         
         <a
-          v-if="resolvedMetadataLink"
           class="menu-item"
           :href="resolvedMetadataLink"
           target="_blank"
@@ -34,7 +33,6 @@
           <span class="menu-label">Metadados</span>
           <img src="@/assets/download-icon.svg" alt="Abrir em nova aba" class="ext-icon" />
         </a>
-        <button v-else class="menu-item disabled" disabled>Metadados</button>
         
         <button
           v-if="downloadLink"
@@ -80,10 +78,6 @@ const closeMenu = () => { open.value = false }
 const onDocClick = (ev: MouseEvent) => {
   if (!menuRoot.value) return
   if (!menuRoot.value.contains(ev.target as Node)) open.value = false
-}
-const openGlossary = () => {
-  window.open('/glossario', '_blank')
-  open.value = false
 }
 
 onMounted(() => document.addEventListener('click', onDocClick))
