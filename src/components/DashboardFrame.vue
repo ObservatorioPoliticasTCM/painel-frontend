@@ -171,6 +171,8 @@ onBeforeUnmount(() => {
   padding: 2vh;
   position: relative;
   z-index: 20;  
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
 }
 .frame-header {
   font-size: 0.6em;
