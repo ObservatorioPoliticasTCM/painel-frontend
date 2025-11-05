@@ -4,55 +4,50 @@
       Informações Adicionais
     </button>
     <div v-if="open" class="menu-popover">
-      <ul class="menu-list">
-        <li>
-          <button class="menu-item" @click="openGlossary">
-            <span class="menu-label">Glossário</span>
-            <img src="@/assets/external-link-black.svg" alt="Abrir em nova aba" class="ext-icon" />
-          </button>
-        </li>
-        <li>
-          <a
-            v-if="resolvedMethodologyLink"
-            class="menu-item"
-            :href="resolvedMethodologyLink"
-            target="_blank"
-            rel="noopener noreferrer"
-            @click="closeMenu"
-          >
-            <span class="menu-label">Nota metodológica</span>
-            <img src="@/assets/external-link-black.svg" alt="Abrir em nova aba" class="ext-icon" />
-          </a>
-          <button v-else class="menu-item disabled" disabled>Nota metodológica</button>
-        </li>
-        <li>
-          <a
-            v-if="resolvedMetadataLink"
-            class="menu-item"
-            :href="resolvedMetadataLink"
-            target="_blank"
-            rel="noopener noreferrer"
-            @click="closeMenu"
-          >
-            <span class="menu-label">Metadados</span>
-            <img src="@/assets/download-icon.svg" alt="Abrir em nova aba" class="ext-icon" />
-          </a>
-          <button v-else class="menu-item disabled" disabled>Metadados</button>
-        </li>
-        <li>
-          <button
-            v-if="downloadLink"
-            class="menu-item"
-            :href="downloadLink"
-            download
-            @click="closeMenu"
-          >
-            <span class="menu-label">Download (arquivos)</span>
-            <img src="@/assets/download-icon.svg" alt="Abrir em nova aba" class="ext-icon" />
-          </button>
-          <button v-else class="menu-item disabled" disabled>Download (arquivos)</button>
-        </li>
-      </ul>
+      <div class="menu-list">
+        <button class="menu-item" @click="openGlossary">
+          <span class="menu-label">Glossário</span>
+          <img src="@/assets/external-link-black.svg" alt="Abrir em nova aba" class="ext-icon" />
+        </button>
+        
+        <a
+          v-if="resolvedMethodologyLink"
+          class="menu-item"
+          :href="resolvedMethodologyLink"
+          target="_blank"
+          rel="noopener noreferrer"
+          @click="closeMenu"
+        >
+          <span class="menu-label">Nota metodológica</span>
+          <img src="@/assets/external-link-black.svg" alt="Abrir em nova aba" class="ext-icon" />
+        </a>
+        <button v-else class="menu-item disabled" disabled>Nota metodológica</button>
+        
+        <a
+          v-if="resolvedMetadataLink"
+          class="menu-item"
+          :href="resolvedMetadataLink"
+          target="_blank"
+          rel="noopener noreferrer"
+          @click="closeMenu"
+        >
+          <span class="menu-label">Metadados</span>
+          <img src="@/assets/download-icon.svg" alt="Abrir em nova aba" class="ext-icon" />
+        </a>
+        <button v-else class="menu-item disabled" disabled>Metadados</button>
+        
+        <button
+          v-if="downloadLink"
+          class="menu-item"
+          :href="downloadLink"
+          download
+          @click="closeMenu"
+        >
+          <span class="menu-label">Download (arquivos)</span>
+          <img src="@/assets/download-icon.svg" alt="Abrir em nova aba" class="ext-icon" />
+        </button>
+        <button v-else class="menu-item disabled" disabled>Download (arquivos)</button>
+      </div>
     </div>
   </div>
 </template>
@@ -126,7 +121,9 @@ onBeforeUnmount(() => document.removeEventListener('click', onDocClick))
 }
 
 .menu-list {
-  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
   margin: 0;
   padding: 0.25rem;
   border: 0.1em solid black;
@@ -142,12 +139,13 @@ onBeforeUnmount(() => document.removeEventListener('click', onDocClick))
   font: inherit;
   padding: 0.6rem 0.75rem;
   border-radius: 6px;
-  display: grid;
-  grid-template-columns: 1fr auto;
+  display: flex;
   align-items: center;
-  column-gap: 0.4rem;
+  justify-content: space-between;
+  gap: 0.4rem;
   cursor: pointer;
   text-decoration: none;
+  box-sizing: border-box;
 }
 
 .menu-item:hover {
@@ -162,6 +160,7 @@ onBeforeUnmount(() => document.removeEventListener('click', onDocClick))
 .menu-label {
   flex: 1 1 auto;
   min-width: 0;
+  text-align: left;
 }
 
 .ext-icon {
@@ -169,7 +168,6 @@ onBeforeUnmount(() => document.removeEventListener('click', onDocClick))
   height: 1rem;
   opacity: 0.7;
   flex-shrink: 0;
-  justify-self: end;
 }
 
 </style>
