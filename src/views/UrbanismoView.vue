@@ -5,7 +5,7 @@
       sheet="e9731105-32d5-45a6-a2ac-972df82b3d6b"
       title="População em risco geológico e hidrológico (ago/2025)"
       identity="1"
-      :methodology-link="RiscoPopulacional"
+      methodology-link="/infos/notas/Urbanismo/População em risco geológico e hidrológico (2025).pdf"
     />
     <DashboardFrame
       appid="14f47000-5a08-4b2a-b198-d7ae6b6d55b2"
@@ -24,7 +24,7 @@
       sheet="1f71d49e-422e-4314-aa8b-259b8f948658"
       title="Parques novos e requalificados, áreas permeáveis e despesas liquidadas com parques (2024)"
       identity="4"
-      :methodology-link="ParquesNovos"
+      methodology-link="/infos/notas/Urbanismo/Parques novos e requalificados, áreas permeáveis e despesas liquidadas com parques (2024).pdf"
     />
     <DashboardFrame
       appid="5894c40c-193a-4bfc-8b05-0cec25c9a09c"
@@ -74,9 +74,6 @@
 <script setup lang="ts">
 import DashboardFrame from '@/components/DashboardFrame.vue'
 import SnapPage from '@/components/SnapPage.vue'
-import RiscoPopulacional from '@/assets/infos/notas/Urbanismo/População em risco geológico e hidrológico (2025).pdf'
-import ParquesNovos from '@/assets/infos/notas/Urbanismo/Parques novos e requalificados, áreas permeáveis e despesas liquidadas com parques (2024).pdf'
-
 </script>
 
 <style scoped></style>
