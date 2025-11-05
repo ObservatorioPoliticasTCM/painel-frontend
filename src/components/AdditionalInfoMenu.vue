@@ -119,8 +119,6 @@ onBeforeUnmount(() => document.removeEventListener('click', onDocClick))
   gap: 0;
   margin: 0;
   padding: 0.25rem;
-  border: 0.1em solid black;
-  border-radius: 8px;
 }
 
 .menu-item {
