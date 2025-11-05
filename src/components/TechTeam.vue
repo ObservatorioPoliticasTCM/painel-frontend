@@ -46,7 +46,7 @@ import NameGroup from '@/components/NameGroup.vue';
 .tech-team {
     text-align: left;
     border: 0.0625rem solid rgba(255, 255, 255, 0.75);
-    border-radius: 0.75em;
+    border-radius: 0.5rem;
     padding: 0.9em 1.1em 1.2em;
 }
 

@@ -95,7 +95,7 @@ onBeforeUnmount(() => document.removeEventListener('click', onDocClick))
   color: #fff;
   border: none;
   padding: 0.5rem 0.75rem;
-  border-radius: 0.25rem;
+  border-radius: 0.5rem;
   cursor: pointer;
   font-size: 1rem;
 }
@@ -129,7 +129,7 @@ onBeforeUnmount(() => document.removeEventListener('click', onDocClick))
   color: inherit;
   font: inherit;
   padding: 0.6rem 0.75rem;
-  border-radius: 0.375rem;
+  border-radius: 0.5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
