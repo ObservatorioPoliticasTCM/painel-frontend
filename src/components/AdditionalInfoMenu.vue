@@ -95,7 +95,7 @@ onBeforeUnmount(() => document.removeEventListener('click', onDocClick))
   color: #fff;
   border: none;
   padding: 0.5rem 0.75rem;
-  border-radius: 4px;
+  border-radius: 0.25rem;
   cursor: pointer;
   font-size: 1rem;
 }
@@ -106,8 +106,8 @@ onBeforeUnmount(() => document.removeEventListener('click', onDocClick))
   top: calc(100% + 0.4rem);
   background: #ffffff;
   color: #213547;
-  border: 1px solid rgba(0,0,0,0.1);
-  border-radius: 8px;
+  border: 0.0625rem solid rgba(0,0,0,0.1);
+  border-radius: 0.5rem;
   box-shadow: 0 6px 24px rgba(0,0,0,0.15);
   min-width: 16rem;
   z-index: 1000;
@@ -129,7 +129,7 @@ onBeforeUnmount(() => document.removeEventListener('click', onDocClick))
   color: inherit;
   font: inherit;
   padding: 0.6rem 0.75rem;
-  border-radius: 6px;
+  border-radius: 0.375rem;
   display: flex;
   align-items: center;
   justify-content: space-between;

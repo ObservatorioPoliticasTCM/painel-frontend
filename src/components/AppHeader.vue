@@ -127,11 +127,11 @@ const menuItems = [
 }
 
 .dot {
-  width: 2px;
-  height: 2px;
+  width: 0.125rem;
+  height: 0.125rem;
   background-color: white;
-  margin: 1px 0;
-  border-radius: 1px;
+  margin: 0.0625rem 0;
+  border-radius: 0.0625rem;
 }
 </style>
 
