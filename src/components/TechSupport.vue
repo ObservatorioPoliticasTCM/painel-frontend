@@ -11,6 +11,15 @@
         <NameGroup name="Unidade de Informações Estratégicas" :border="false">
             <NameAndTitle name="Luciana da Cunha de Castro Guerra" title="Supervisora da Unidade" />
         </NameGroup>
+
+        <NameGroup name="Estagiários do OPP" :border="false">
+            <NameAndTitle name="Ana Stenico" title="Geografia" />
+            <NameAndTitle name="Bruna Santos" title="Geografia" />
+            <NameAndTitle name="Marcos Silva" title="Gestão de Tecnologia da Informação" />
+            <NameAndTitle name="Pedro Lima" title="Geografia" />
+            <NameAndTitle name="Rafael Bezerra" title="Análise e Desenvolvimento de Sistemas" />
+            <NameAndTitle name="Samuel Alves" title="Segurança Cibernética" />
+        </NameGroup>
     </div>
 </template>
 
