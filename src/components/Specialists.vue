@@ -10,6 +10,7 @@
     <NameAndTitle name="Nelson Marconi" title="Coordenador do curso de graduação em administração pública EAESP FGV." />
     <NameAndTitle name="Renato Eliseu Costa" title="Professor da ESALQ-USP, onde integra o Departamento de Administração e Economia e o programa de pós-graduação stricto sensu em Administração. Também atua como docente do mestrado e doutorado em Políticas Públicas da UFABC." />
     <NameAndTitle name="Roberta Peres" title="Docente da Universidade Federal do ABC. Coordenadora do Bacharelado em Ciências e Humanidades." />
+    <NameAndTitle name="Roberto Tolosa Junior" title="Coordenador de Informação em Saúde" />
     <NameAndTitle name="Ronaldo Malheiros Figueira" title="Professor do curso de pós-graduação do Grupo Ecossistema ÂNIMA e professor do Centro Universitário Sant'Anna." />
     <NameAndTitle name="Rute Alonso da Silva" title="Presidenta da União de Mulheres do Município de São Paulo e coordenadora do projeto Promotoras Legais Populares." />
     <NameAndTitle name="Tomás Wissenbach" title="Geógrafo e mestre em Geografia Humana pela USP e doutor em Administração Pública e Governo pela FGV-SP. É pesquisador e coordenador de projetos no Cebrap e professor do Cebrap.Lab." />
