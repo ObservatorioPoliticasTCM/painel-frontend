@@ -3,8 +3,8 @@
         <div class="team-title">Equipe Técnica</div>
 
         <TechGroup name="GT Educação" url="https://observatorio.tcm.sp.gov.br/Educacao/216574">
-            <NameAndTitle name="Rômulo Felipe Manzatto" title="Coordenador" remove-bottom-margin />
-            <NameAndTitle name="Fredy Miller" title="Coordenador Adjunto" remove-bottom-margin />
+            <NameAndTitle name="Fredy Miller" title="Coordenador" remove-bottom-margin />
+            <NameAndTitle name="Rômulo Felipe Manzatto" title="Coordenador Adjunto" remove-bottom-margin />
         </TechGroup>
 
         <TechGroup name="GT Gênero" url="https://observatorio.tcm.sp.gov.br/Genero/216849">
@@ -25,21 +25,12 @@
         <TechGroup name="GT Regionalização do Orçamento" url="https://observatorio.tcm.sp.gov.br/Regionalizacao/216850">
             <NameAndTitle name="Danilo Fuster" title="Coordenador" remove-bottom-margin />
         </TechGroup>
-
-        <NameGroup name="Núcleo de Tecnologia da Informação" :border="false">
-            <NameAndTitle name="Ricardo Ferreira Santos" title="Chefe do NTI" />
-        </NameGroup>
-
-        <NameGroup name="Unidade de Informações Estratégicas" :border="false">
-            <NameAndTitle name="Luciana da Cunha de Castro Guerra" title="Supervisora da Unidade" />
-        </NameGroup>
     </div>
 </template>
 
 <script setup lang="ts">
 import TechGroup from '@/components/TechGroup.vue'
 import NameAndTitle from '@/components/NameAndTitle.vue'
-import NameGroup from '@/components/NameGroup.vue';
 </script>
 
 <style scoped>
