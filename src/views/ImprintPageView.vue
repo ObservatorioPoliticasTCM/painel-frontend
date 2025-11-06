@@ -4,8 +4,9 @@
             <h1 class="imprint-title">Ficha Técnica</h1>
             <div class="imprint-grid">
                 <div class="imprint-panel col1"><TechCoord /></div>
-                <div class="imprint-panel col2"><TechTeam /></div>
-                <div class="imprint-panel col2"><Contributors /></div>
+                <div class="imprint-panel col1"><TechSupport /></div>
+                <div class="imprint-panel col2 row1"><TechTeam /></div>
+                <div class="imprint-panel col2 row2"><Contributors /></div>
                 <div class="imprint-panel col3"><Specialists /></div>
             </div>
         </div>
@@ -15,6 +16,7 @@
 <script setup lang="ts">
 import ScrollablePage from '@/components/ScrollablePage.vue'
 import TechCoord from '@/components/TechCoord.vue'
+import TechSupport from '@/components/TechSupport.vue'
 import TechTeam from '@/components/TechTeam.vue'
 import Specialists from '@/components/Specialists.vue'
 import Contributors from '@/components/Contributors.vue'
@@ -49,8 +51,16 @@ import Contributors from '@/components/Contributors.vue'
     grid-column: 2;
 }
 
+.row1 {
+    grid-row: 1 / span 2;
+}
+
+.row2 {
+    grid-row: 3;
+}
+
 .col3 {
     grid-column: 3;
-    grid-row: 1 / span 2;
+    grid-row: 1 / span 3;
 }
 </style>
