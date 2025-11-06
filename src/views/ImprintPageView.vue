@@ -2,12 +2,18 @@
     <ScrollablePage>
         <div class="imprint-wrapper">
             <h1 class="imprint-title">Ficha Técnica</h1>
-            <div class="imprint-grid">
-                <div class="imprint-panel col1"><TechCoord /></div>
-                <div class="imprint-panel col1"><TechSupport /></div>
-                <div class="imprint-panel col2 row1"><TechTeam /></div>
-                <div class="imprint-panel col2 row2"><Contributors /></div>
-                <div class="imprint-panel col3"><Specialists /></div>
+            <div class="imprint-container">
+                <div class="imprint-column">
+                    <div class="imprint-panel"><TechCoord /></div>
+                    <div class="imprint-panel"><TechSupport /></div>
+                </div>
+                <div class="imprint-column">
+                    <div class="imprint-panel"><TechTeam /></div>
+                    <div class="imprint-panel"><Contributors /></div>
+                </div>
+                <div class="imprint-column specialists-column">
+                    <div class="imprint-panel"><Specialists /></div>
+                </div>
             </div>
         </div>
     </ScrollablePage>
@@ -36,31 +42,24 @@ import Contributors from '@/components/Contributors.vue'
     margin: 0 0 0.4em;
 }
 
-.imprint-grid {
-    display: grid;
-    gap: 0 2em;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: start;
+.imprint-container {
+    display: flex;
+    gap: 2em;
+    align-items: flex-start;
 }
 
-.col1 {
-    grid-column: 1;
+.imprint-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
 }
 
-.col2 {
-    grid-column: 2;
+.specialists-column {
+    min-height: 100%;
 }
 
-.row1 {
-    grid-row: 1 / span 2;
-}
-
-.row2 {
-    grid-row: 3;
-}
-
-.col3 {
-    grid-column: 3;
-    grid-row: 1 / span 3;
+.imprint-panel {
+    margin-bottom: 0;
 }
 </style>
