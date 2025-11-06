@@ -25,23 +25,12 @@
         <TechGroup name="GT Regionalização do Orçamento" url="https://observatorio.tcm.sp.gov.br/Regionalizacao/216850">
             <NameAndTitle name="Danilo Fuster" title="Coordenador" remove-bottom-margin />
         </TechGroup>
-
-        <NameGroup name="Núcleo de Tecnologia da Informação" :border="false">
-            <NameAndTitle name="Ricardo Ferreira Santos" title="Chefe do NTI" />
-            <NameAndTitle name="Adriano Barbosa dos Santos" title="Chefe da Unidade Técnica de Desenvolvimento de Sistemas" />
-            <NameAndTitle name="Manoel Henrique Martins" title="Auxiliar Técnico de Controle Externo" />
-        </NameGroup>
-
-        <NameGroup name="Unidade de Informações Estratégicas" :border="false">
-            <NameAndTitle name="Luciana da Cunha de Castro Guerra" title="Supervisora da Unidade" />
-        </NameGroup>
     </div>
 </template>
 
 <script setup lang="ts">
 import TechGroup from '@/components/TechGroup.vue'
 import NameAndTitle from '@/components/NameAndTitle.vue'
-import NameGroup from '@/components/NameGroup.vue';
 </script>
 
 <style scoped>
