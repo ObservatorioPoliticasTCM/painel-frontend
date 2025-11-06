@@ -18,11 +18,11 @@
         },
         {
             "term": "Atenção Básica",
-            "definition": "A Atenção Básica é o conjunto de ações de saúde individuais, familiares e coletivas que envolvem promoção, prevenção, proteção, diagnóstico, tratamento, reabilitação, redução de danos, cuidados paliativos e vigilância em saúde, desenvolvida por meio de práticas de cuidado integrado e gestão qualificada, realizada com equipe multiprofissional e dirigida à população em território definido, sobre as quais as equipes assumem responsabilidade sanitária."
+            "definition": "A Atenção Básica é o conjunto de ações de saúde individuais, familiares e coletivas que envolvem promoção, prevenção, proteção, diagnóstico, tratamento, reabilitação, redução de danos, cuidados paliativos e vigilância em saúde, desenvolvida por meio de práticas de cuidado integrado e gestão qualificada, realizada com equipe multiprofissional e dirigida à população em território definido, sobre as quais as equipes assumem responsabilidade sanitária. O principal equipamento da Atenção Básica é a UBS - Unidade Básica de Saúde, e a principal política pública é a ESF - Estratégia Saúde da Família."
         },
         {
             "term": "Atenção Especializada",
-            "definition": "Atenção Especializada é o conjunto de conhecimentos, práticas assistenciais, ações, técnicas e serviços envolvidos na produção do cuidado em saúde marcados, caracteristicamente, por uma maior densidade tecnológica. A atenção especializada é dividida em dois elementos (atenção secundária e terciária), que são, respectivamente, média e alta complexidade (ambulatorial e especializada hospitalar). A média complexidade é composta por serviços especializados encontrados em hospitais e ambulatórios e envolve atendimento direcionado para áreas como pediatria, ortopedia, cardiologia, oncologia, neurologia, psiquiatria, ginecologia, oftalmologia entre outras especialidades médicas."
+            "definition": "Atenção Especializada é o conjunto de conhecimentos, práticas assistenciais, ações, técnicas e serviços envolvidos na produção do cuidado em saúde marcados, caracteristicamente, por uma maior densidade tecnológica. A atenção especializada é dividida em dois elementos (atenção secundária e terciária), que são, respectivamente, média e alta complexidade (ambulatorial e especializada hospitalar). A média complexidade é composta por serviços especializados encontrados em hospitais e ambulatórios e envolve atendimento direcionado para áreas básicas da medicina, como pediatria, ortopedia, clínica médica, cirurgia geral, ginecologia, obstetrícia e psiquiatria. A alta complexidade envolve atendimento direcionado para áreas especializadas e sub-especializadas, dependentes de recursos altamente tecnológicos, como neurocirurgia, cirurgia vascular, cirurgia cardíaca, oftalmologia, otorrinolaringologia, pneumologia, cardiologia, nefrologia, medicina intensiva, oncologia, transplantes de órgãos, entre outras especialidades médicas."
         },
         {
             "term": "Atividade",
@@ -130,11 +130,11 @@
         },
         {
             "term": "Causas Evitáveis de óbito",
-            "definition": "Mortalidade evitável: Causas de morte que podem ser evitadas principalmente por meio de intervenções eficazes de saúde pública e prevenção primária (ou seja, ANTES DO INÍCIO de doenças/lesões, para reduzir a incidência)."
+            "definition": "Mortalidade evitável: Causas de morte que podem ser evitadas principalmente por meio de intervenções eficazes de saúde pública e prevenção primária, ou seja, ANTES DO INÍCIO da doença e/ou lesão, para reduzir a incidência."
         },
         {
             "term": "Causas Tratáveis de óbito",
-            "definition": "Mortalidade tratável (ou amenizável): Causas de morte que podem ser evitadas principalmente por meio de intervenções de saúde oportunas e eficazes, incluindo prevenção e tratamento secundários (ou seja, DEPOIS DO INÍCIO das doenças, para reduzir a letalidade)."
+            "definition": "Mortalidade tratável (ou amenizável): Causas de morte que podem ser evitadas principalmente por meio de intervenções de saúde oportunas e eficazes, incluindo prevenção e tratamento secundários, ou seja, DEPOIS DO INÍCIO da doença e ou lesão, para reduzir a letalidade."
         },
         {
             "term": "Comissão estável",
@@ -284,15 +284,15 @@
     "L": [
         {
             "term": "Leitos complementares",
-            "definition": "Leitos hospitalares adicionais, além dos leitos regulares, destinados a pacientes com necessidades especiais ou que requerem cuidados específicos, como em unidades de isolamento, terapia intensiva ou semi-intensiva. Também podem ser leitos de observação, utilizados para pacientes sob supervisão médica por pelo menos 24 horas. "
+            "definition": "Leitos hospitalares adicionais, além dos leitos regulares, destinados a pacientes com necessidades especiais ou que requerem cuidados específicos, por tempo limitado a um período, o mais curto possível, durante o período total do tratamento hospitalar, como em unidades de isolamento, terapia intensiva ou semi-intensiva. Também podem ser leitos de observação, geralmente em unidades de urgência/emergência (UPA, PS) utilizados para pacientes sob observação médica por no máximo 24 horas, devendo ser dispensados ou internados após esse período."
         },
         {
             "term": "Leitos de UTI",
-            "definition": "Leito de internação hospitalar em uma área específica, projetado para pacientes graves ou potencialmente graves que requerem cuidados intensivos e monitoramento constante. Leitos de UTI são fornecidos com equipamentos de monitorização contínua, como aparelhos de suporte ventilatório, bombas de infusão, monitores cardíacos, entre outros."
+            "definition": "Leito de internação hospitalar em uma área específica, projetado para pacientes graves ou potencialmente graves que requerem cuidados intensivos e monitoramento constante durante 24 horas/ 7 dias. Leitos de UTI são fornecidos com equipamentos de monitorização contínua, como aparelhos de suporte ventilatório, bombas de infusão, monitores cardíacos, entre outros."
         },
         {
             "term": "Leitos de internação",
-            "definition": "Leitos numerados e identificados em um hospital, destinadas à permanência de pacientes durante o período de tratamento ou diagnóstico que requerem uma estadia superior a 24 horas. Eles são vinculados a uma unidade de internação específica dentro do hospital e podem ser classificados em diferentes tipos, como clínicos, cirúrgicos, obstétricos, pediátricos, etc."
+            "definition": "Leitos regulares/ permanentes, numerados e identificados em um hospital, destinadas à permanência de pacientes durante o período de tratamento ou diagnóstico que requerem uma estadia superior a 24 horas. Eles são vinculados a uma unidade de internação específica dentro do hospital e podem ser classificados em diferentes tipos, como clínicos, cirúrgicos, obstétricos, pediátricos, etc."
         },
         {
             "term": "Liquidado",
@@ -436,7 +436,7 @@
         },
         {
             "term": "Regionalização dos tipos de atenção",
-            "definition": "A regionalização envolve a criação de Regiões de Saúde , que são espaços territoriais delimitados para a organização e planejamento das ações e serviços de saúde. Essas regiões podem abranger mais de um município e até mesmo atravessar fronteiras estaduais, desde que haja uma delimitação específica e funcional. Dentro das Regiões de Saúde, são organizadas Redes de Atenção à Saúde (RAS), que conectam os diferentes pontos de atenção, desde a atenção básica até os serviços de mídia e alta complexidade. A atenção primária atua como coordenadora do cuidado, encaminhando os pacientes para os serviços especializados quando necessário. "
+            "definition": "A regionalização envolve a criação de Regiões de Saúde, que são espaços territoriais delimitados para a organização e planejamento das ações e serviços de saúde. Essas regiões podem abranger mais de um município e até mesmo atravessar fronteiras estaduais, desde que haja uma delimitação específica e funcional. Dentro das Regiões de Saúde, são organizadas Redes de Atenção à Saúde (RAS), que conectam os diferentes pontos de atenção, desde a atenção básica até os serviços de média e alta complexidade. A atenção primária atua como coordenadora do cuidado, encaminhando os pacientes para os serviços especializados quando necessário. "
         },
         {
             "term": "Regularização fundiária",

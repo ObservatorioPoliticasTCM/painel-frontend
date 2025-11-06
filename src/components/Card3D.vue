@@ -76,6 +76,7 @@ const iconSrc = computed(() => new URL(`../assets/${props.icon}`, import.meta.ur
   backface-visibility: hidden;
   background: white;
   box-shadow: 0 0.625rem 1.5625rem rgba(0, 0, 0, 0.15);
+  border-radius: 0.5rem;
   padding: 1.5rem;
   display: flex;
   flex-direction: column;

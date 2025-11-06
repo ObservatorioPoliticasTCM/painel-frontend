@@ -31,7 +31,8 @@ const menuItems = [
   { label: 'Gênero', route: '/genero' },
   { label: 'Saúde', route: '/saude' },
   { label: 'Urbanismo', route: '/urbanismo'  },
-  { label: 'Regionalização do Orçamento', route: '/orcamento' },
+  { label: 'Orçamento', route: '/orcamento' },
+  { label: 'Guia técnico', route: '/guia-tecnico' },
   { label: 'Glossário', route: '/glossario'   },
   { label: 'Contato', href: 'https://observatorio.tcm.sp.gov.br/ObservatorioItem/156570' }
 ]
@@ -52,7 +53,7 @@ const menuItems = [
   align-items: center;
 }
 
-/* Gradient-overlay em plano intermediário */
+/* Gradient-overlay em plano intermediǭrio */
 .gradient-overlay {
   position: absolute;
   top: 0;
@@ -85,7 +86,7 @@ const menuItems = [
 
 /* Estilos dos logos */
 .logo {
-  height: 10vh; /* Ajuste conforme necessário para manter o alinhamento com a navbar */
+  height: 10vh; /* Ajuste conforme necessǭrio para manter o alinhamento com a navbar */
 }
 
 /* Navbar ocupa toda a largura */
@@ -98,7 +99,7 @@ const menuItems = [
   align-items: center;
   justify-content: center;
   flex-wrap: nowrap;
-  overflow-x: auto; /* scroll horizontal se necessário */
+  overflow-x: auto; /* scroll horizontal se necessǭrio */
   text-transform: uppercase;
   font-size: 1.2rem;
 }
@@ -126,10 +127,11 @@ const menuItems = [
 }
 
 .dot {
-  width: 2px;
-  height: 2px;
+  width: 0.125rem;
+  height: 0.125rem;
   background-color: white;
-  margin: 1px 0;
-  border-radius: 1px;
+  margin: 0.0625rem 0;
+  border-radius: 0.0625rem;
 }
 </style>
+

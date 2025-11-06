@@ -21,12 +21,12 @@
 
 <script setup lang="ts">
 import { ref, computed, onMounted } from 'vue'
-import ScrollablePage from '../components/ScrollablePage.vue'
-import SearchBar from '../components/SearchBar.vue'
-import GlossaryLetter from '../components/GlossaryLetter.vue'
-import GlossaryTerm from '../components/GlossaryTerm.vue'
+import ScrollablePage from '@/components/ScrollablePage.vue'
+import SearchBar from '@/components/SearchBar.vue'
+import GlossaryLetter from '@/components/GlossaryLetter.vue'
+import GlossaryTerm from '@/components/GlossaryTerm.vue'
 import MiniSearch from 'minisearch'
-import stopwords from '../data/stopwords_ptbr'
+import stopwords from '@/data/stopwords_ptbr'
 
 const searchValue = ref('')
 const expandedTerm = ref<string | null>(null)
@@ -54,10 +54,8 @@ const miniSearch = ref<any>(null)
 
 onMounted(async () => {
   try {
-    const url = 'https://raw.githubusercontent.com/ObservatorioPoliticasTCM/painel-frontend/temp-glossary-source/src/assets/glossary.json'
-    const res = await fetch(url)
-    if (!res.ok) throw new Error(`Failed to fetch glossary: ${res.status}`)
-    const data = await res.json()
+    // Import the local glossary data instead of fetching from remote URL
+    const { default: data } = await import('@/assets/glossary.json')
     glossaryData.value = data
 
     const arr: Array<{

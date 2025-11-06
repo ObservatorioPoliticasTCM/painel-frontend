@@ -86,7 +86,7 @@ onBeforeUnmount(() => {
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
 }
-::v-slotted(*) {
+.snap-container > :slotted(*) {
   scroll-snap-align: start;
 }
 </style>
