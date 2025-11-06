@@ -3,6 +3,7 @@
     <Background />
     <SnapContainer>
       <FrontCover />
+      <VideoFrame video-id="z8Otk01Xi-U" />
       <CardGrid />
       <Sitemap />
       <Footer />
@@ -17,6 +18,7 @@ import SnapContainer from '../components/SnapContainer.vue'
 import Background from '../components/Background.vue'
 import Footer from '../components/Footer.vue'
 import Sitemap from '../components/Sitemap.vue'
+import VideoFrame from '../components/VideoFrame.vue'
 </script>
 
 <style scoped>
