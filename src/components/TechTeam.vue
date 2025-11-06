@@ -28,6 +28,8 @@
 
         <NameGroup name="Núcleo de Tecnologia da Informação" :border="false">
             <NameAndTitle name="Ricardo Ferreira Santos" title="Chefe do NTI" />
+            <NameAndTitle name="Adriano Barbosa dos Santos" title="Chefe da Unidade Técnica de Desenvolvimento de Sistemas" />
+            <NameAndTitle name="Manoel Henrique Martins" title="Auxiliar Técnico de Controle Externo" />
         </NameGroup>
 
         <NameGroup name="Unidade de Informações Estratégicas" :border="false">
