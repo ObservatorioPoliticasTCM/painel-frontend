@@ -1,16 +1,5 @@
 <template>
-  <div class="dashboard-frame">
-    <div v-if="title" class="frame-header">
-      <h1>
-        <span class="title-anchor-wrapper">
-          <span class="title-anchor">{{ title }}</span>
-        </span>
-      </h1>
-      <div class="frame-actions"></div>
-    </div>
-    <div v-if="subtitle" class="frame-subtitle">
-      <small>{{ subtitle }}</small>
-    </div>
+  <div class="dashboard-frame" ref="rootEl">
     <div class="iframe-wrapper">
       <iframe
         :src="embedSrc"
@@ -19,72 +8,151 @@
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen
         referrerpolicy="strict-origin-when-cross-origin"
-        style="border:none;width:100%;height:100%;"
       ></iframe>
     </div>
   </div>
-  </template>
+</template>
 
 <script setup lang="ts">
-import { computed } from 'vue'
+import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 
 interface Props {
   videoId: string
-  title?: string
-  subtitle?: string
   autoplay?: boolean
+  muted?: boolean
+  closedCaptions?: boolean
 }
 
 const props = withDefaults(defineProps<Props>(), {
-  title: '',
-  subtitle: '',
-  autoplay: false
+  autoplay: false,
+  muted: true,
+  closedCaptions: false
 })
+
+const rootEl = ref<HTMLElement | null>(null)
+const autoplayActive = ref(props.autoplay)
+const hasStarted = ref(props.autoplay)
+let scrollRoot: HTMLElement | null = null
+let scrollTarget: HTMLElement | Window | null = null
+let ticking = false
+
+const origin = typeof window !== 'undefined' ? window.location.origin : ''
 
 const embedSrc = computed(() => {
   const base = `https://www.youtube.com/embed/${props.videoId}`
   const params = new URLSearchParams({
     rel: '0',
     modestbranding: '1',
-    playsinline: '1'
+    playsinline: '1',
+    enablejsapi: '1'
   })
-  if (props.autoplay) params.set('autoplay', '1')
+  if (props.muted) params.set('mute', '1')
+  if (props.closedCaptions) {
+    params.set('cc_load_policy', '1')
+    params.set('cc_lang_pref', 'pt')
+  }
+  if (origin) params.set('origin', origin)
+  if (autoplayActive.value) params.set('autoplay', '1')
   return `${base}?${params.toString()}`
+})
+
+const activateAutoplay = () => {
+  if (!autoplayActive.value) {
+    autoplayActive.value = true
+  }
+  hasStarted.value = true
+}
+
+const isCenteredInViewport = (): boolean => {
+  if (!rootEl.value) return false
+  const rect = rootEl.value.getBoundingClientRect()
+  const viewportHeight = typeof window !== 'undefined' ? window.innerHeight : 0
+  if (viewportHeight === 0) return false
+  const elementCenter = rect.top + rect.height / 2
+  const viewportCenter = viewportHeight / 2
+  const visibleHeight = Math.min(rect.bottom, viewportHeight) - Math.max(rect.top, 0)
+  const minimalVisible = Math.min(rect.height, viewportHeight) * 0.6
+  return visibleHeight >= minimalVisible && Math.abs(elementCenter - viewportCenter) <= viewportHeight * 0.15
+}
+
+const evaluateVisibility = () => {
+  if (!hasStarted.value && isCenteredInViewport()) {
+    activateAutoplay()
+  }
+}
+
+const onScroll = () => {
+  if (ticking) return
+  ticking = true
+  requestAnimationFrame(() => {
+    evaluateVisibility()
+    ticking = false
+  })
+}
+
+const onResize = () => {
+  evaluateVisibility()
+}
+
+watch(() => props.autoplay, value => {
+  if (value) {
+    activateAutoplay()
+  } else {
+    autoplayActive.value = false
+    hasStarted.value = false
+    evaluateVisibility()
+  }
+})
+
+watch(() => props.videoId, () => {
+  hasStarted.value = props.autoplay
+  autoplayActive.value = props.autoplay
+  if (!props.autoplay) evaluateVisibility()
+})
+
+onMounted(() => {
+  evaluateVisibility()
+  scrollRoot = document.querySelector('.snap-container') as HTMLElement | null
+  scrollTarget = scrollRoot || window
+  scrollTarget.addEventListener('scroll', onScroll, { passive: true } as AddEventListenerOptions)
+  window.addEventListener('resize', onResize, { passive: true })
+})
+
+onBeforeUnmount(() => {
+  if (scrollTarget) {
+    scrollTarget.removeEventListener('scroll', onScroll)
+  }
+  window.removeEventListener('resize', onResize)
 })
 </script>
 
 <style scoped>
-/* Reaproveita o visual do DashboardFrame */
 .dashboard-frame {
   display: flex;
   flex-direction: column;
-  min-height: 20rem;
-  width: 100%;
-  padding: 2rem;
+  height: 96vh;
+  width: calc(100vw - 4vh);
+  padding: 2vh;
   position: relative;
   z-index: 20;
+  max-width: 100%;
+  max-height: 100%;
+  box-sizing: border-box;
 }
-.frame-header {
-  font-size: 0.6em;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-  position: relative;
-}
-.frame-header h1 {
-  margin: 0;
-  text-transform: uppercase;
-  text-align: center;
-  font-weight: normal;
-  white-space: pre-line;
-}
-.title-anchor { color: inherit; text-decoration: none; }
-.frame-subtitle {
-  font-variant: small-caps;
-  text-align: center;
-  font-size: 1.3em;
-}
-.iframe-wrapper { flex: 1; }
-</style>
 
+.iframe-wrapper {
+  flex: 1;
+  min-height: 0;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  box-shadow: 0 0.625rem 1.75rem rgba(0, 0, 0, 0.32);
+  background: #000;
+}
+
+.iframe-wrapper iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: block;
+}
+</style>

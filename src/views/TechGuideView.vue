@@ -4,7 +4,7 @@
       <h1 class="title">Guia técnico &mdash; {{ featured?.title }}</h1>
       <div class="media-layout">
         <div class="feature-video">
-          <VideoFrame :video-id="selectedId" :autoplay="autoplay" />
+          <VideoFrame :video-id="selectedId" :autoplay="autoplay" :muted="muted" :closed-captions="closedCaptions" />
         </div>
 
         <div class="thumb-grid">
@@ -38,11 +38,15 @@ const videos = reactive<Video[]>([
 
 const selectedId = ref(videos[0].id)
 const autoplay = ref(false)
+const muted = ref(true)
+const closedCaptions = ref(true)
 const featured = computed(() => videos.find(video => video.id === selectedId.value) ?? videos[0])
 
 function select(id: string) {
   selectedId.value = id
   autoplay.value = true
+  muted.value = false
+  closedCaptions.value = false
 }
 </script>
 
