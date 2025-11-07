@@ -1,9 +1,10 @@
 <template>
   <SnapPage>
-    <IntroPanel
-      title="Gênero — Introdução"
-      text="Esta seção reúne painéis sobre orçamento e políticas municipais sensíveis a gênero. Navegue para ver despesas exclusivas e parcialmente focalizadas, além de iniciativas do PMPM."
-      :icon="generoIcon"
+    <DashboardFrame
+      appid="d73227fb-7244-4216-980d-8e2b08f23f05"
+      sheet="XUzXjdp"
+      title="Visão geral de Gênero"
+      identity="0"
     />
     <DashboardFrame
       appid="e808b4ea-ded0-41c6-b5b0-8845934d8369"
