@@ -4,7 +4,7 @@
       <slot></slot>
     </div>
     <div
-      v-if="dashboardEls.length"
+      v-if="dashboardEls.length && showNavigation"
       class="snap-dots"
       aria-label="Navegacao entre secoes"
       role="tablist"
@@ -57,7 +57,7 @@
       </button>
     </div>
     <div
-      v-if="dashboardEls.length"
+      v-if="dashboardEls.length && showNavigation"
       class="snap-arrows"
       aria-hidden="false"
     >
@@ -81,6 +81,14 @@
 
 <script setup lang="ts">
 import { ref, onMounted, onBeforeUnmount, provide, nextTick, computed } from 'vue'
+
+interface Props {
+  showNavigation?: boolean
+}
+
+const props = withDefaults(defineProps<Props>(), {
+  showNavigation: true
+})
 
 const topVisible = ref(false)
 const bottomVisible = ref(false)
