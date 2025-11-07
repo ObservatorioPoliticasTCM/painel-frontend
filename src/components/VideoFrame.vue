@@ -19,10 +19,14 @@ import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 interface Props {
   videoId: string
   autoplay?: boolean
+  muted?: boolean
+  closedCaptions?: boolean
 }
 
 const props = withDefaults(defineProps<Props>(), {
-  autoplay: false
+  autoplay: false,
+  muted: true,
+  closedCaptions: false
 })
 
 const rootEl = ref<HTMLElement | null>(null)
@@ -40,9 +44,10 @@ const embedSrc = computed(() => {
     rel: '0',
     modestbranding: '1',
     playsinline: '1',
-    enablejsapi: '1',
-    mute: '1'
+    enablejsapi: '1'
   })
+  if (props.muted) params.set('mute', '1')
+  if (props.closedCaptions) params.set('cc_load_policy', '1')
   if (origin) params.set('origin', origin)
   if (autoplayActive.value) params.set('autoplay', '1')
   return `${base}?${params.toString()}`
