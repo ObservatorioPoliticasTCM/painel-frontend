@@ -1,7 +1,7 @@
 <template>
   <main class="home-view">
     <Background />
-    <SnapContainer>
+    <SnapContainer :show-navigation="false">
       <FrontCover />
       <VideoFrame video-id="z8Otk01Xi-U" :muted="true" :closed-captions="true" />
       <CardGrid />
