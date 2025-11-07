@@ -8,13 +8,8 @@
         <div class="head-text">
           <h1 v-if="title">
             <span class="title-anchor-wrapper">
-              <a
-                :id="anchorId"
-                :href="'#' + anchorId"
-                class="title-anchor"
-                title="Copiar o link para esta seÃ§Ã£o"
-                @click="copySectionLink"
-              >
+              <a :id="anchorId" :href="'#' + anchorId" class="title-anchor" title="Copiar o link para esta seÃ§Ã£o"
+                @click="copySectionLink">
                 {{ displayTitle }}
               </a>
               <transition name="fade">
@@ -45,6 +40,7 @@ interface IntroPanelProps {
   icon?: string
   fullHeight?: boolean
   usePlaceholder?: boolean
+  snap?: boolean
 }
 
 const props = withDefaults(defineProps<IntroPanelProps>(), {
@@ -53,12 +49,13 @@ const props = withDefaults(defineProps<IntroPanelProps>(), {
   text: '',
   icon: '',
   fullHeight: true,
-  usePlaceholder: true
+  usePlaceholder: true,
+  snap: true
 })
 
-const emit = defineEmits<{ (e: 'fully-visible', anchorId: string): void }>() 
+const emit = defineEmits<{ (e: 'fully-visible', anchorId: string): void }>()
 
-const { title, subtitle, text, icon, fullHeight, usePlaceholder } = toRefs(props)
+const { title, subtitle, text, icon, fullHeight, usePlaceholder, snap } = toRefs(props)
 
 const loremFallback = [
   'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat, arcu a tincidunt dignissim, nisi felis iaculis sem, non dapibus felis leo in metus.',
@@ -88,7 +85,8 @@ const anchorId = computed(() => title.value
 
 const panelClasses = computed(() => ({
   'intro-panel': true,
-  'intro-panel--static': !fullHeight.value
+  'intro-panel--static': !fullHeight.value,
+  'intro-panel--snap': snap.value
 }))
 
 const rootEl = ref<HTMLElement | null>(null)
@@ -179,15 +177,22 @@ onBeforeUnmount(() => {
 .intro-panel {
   display: flex;
   flex-direction: column;
-  min-height: 96vh;
-  width: calc(100vw - 4vh);
-  padding: 2vh;
   position: relative;
   z-index: 20;
 }
+
+.intro-panel--snap {
+  min-height: 96vh;
+  width: calc(100vw - 4vh);
+  padding: 2vh;
+}
+
 .intro-panel--static {
   min-height: auto;
   height: auto;
+}
+
+.intro-panel--static.intro-panel--snap {
   padding: clamp(1.5rem, 3vw, 3rem) clamp(1.5rem, 4vw, 3rem);
 }
 

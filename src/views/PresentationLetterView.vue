@@ -3,8 +3,14 @@
     <main class="presentation-page">
       <div class="presentation-shell">
         <section class="presentation-content">
-          <h1 class="presentation-title">Carta de apresentação do DataSP</h1>
-          <IntroPanel title="" subtitle="" :full-height="false" :use-placeholder="false">
+          <h1 class="presentation-title">Carta de apresentação</h1>
+                  <IntroPanel
+          title=""
+          subtitle=""
+          :full-height="false"
+          :use-placeholder="false"
+          :snap="false"
+        >
             <div class="letter-body">
               <p>
                 Vivemos tempos em que a informação circula em velocidade vertiginosa, mas nem sempre com a profundidade
@@ -90,7 +96,7 @@ import ScrollablePage from '@/components/ScrollablePage.vue';
 
 .presentation-title {
   font-size: 4rem;
-  margin-bottom: 0;
+  margin-bottom: 2.3rem;
   font-weight: 400;
   text-transform: uppercase;
   width: 100%;
