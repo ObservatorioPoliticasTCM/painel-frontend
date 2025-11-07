@@ -1,9 +1,9 @@
 <template>
-  <div class="dashboard-frame" ref="rootEl">
+  <div class="text-frame" ref="rootEl">
     <div v-if="title" class="frame-header">
-      <h1 v-if="title">
+      <h1 v-if="title"> 
         <span class="title-anchor-wrapper">
-          <a :id="anchorId" :href="'#' + anchorId" class="title-anchor" title="Copiar o link para este dashboard" @click="copyDashboardLink">
+          <a :id="anchorId" :href="'#' + anchorId" class="title-anchor" title="Copiar o link para esta seção" @click="copySectionLink">
             {{ displayTitle }}
             <img src="@/assets/copy-icon.svg" class="copy-icon" alt="Copiar link" />
           </a>
@@ -12,19 +12,12 @@
           </transition>
         </span>
       </h1>
-      <div class="frame-actions">
-        <AdditionalInfoMenu
-          :metadata-link="metadataLink"
-          :methodology-link="methodologyLink"
-          :download-link="downloadLink"
-        />
-      </div>
     </div>
     <div v-if="subtitle" class="frame-subtitle">
       <small v-if="subtitle">{{ subtitle }}</small>
     </div>
-    <div class="iframe-wrapper">
-      <iframe :src="iframeSrc" frameborder="0" style="border:none;width:100%;height:100%;"></iframe>
+    <div class="text-content">
+      <slot />
     </div>
   </div>
   
@@ -32,38 +25,21 @@
 
 <script setup lang="ts">
 import { computed, onMounted, onBeforeUnmount, ref, toRefs, nextTick } from 'vue'
-import AdditionalInfoMenu from './AdditionalInfoMenu.vue'
 
 const fullyVisibleEvent = 'fully-visible'
 
-interface DashboardFrameProps {
-  appid: string
-  sheet: string
-  identity?: string
+interface TextFrameProps {
   title?: string
   subtitle?: string
-  select?: string
-  metadataLink?: string
-  methodologyLink?: string
-  downloadLink?: string
 }
 
-const props = withDefaults(defineProps<DashboardFrameProps>(), {
+const props = withDefaults(defineProps<TextFrameProps>(), {
   title: '',
   subtitle: ''
 })
 const emit = defineEmits<{ (e: 'fully-visible', anchorId: string): void }>()
 
-const { appid, sheet, identity, title, subtitle, select } = toRefs(props)
-const { metadataLink, methodologyLink, downloadLink } = toRefs(props)
-
-const baseUrl = 'https://qlik.tcm.sp.gov.br/jwt/single/'
-const iframeSrc = computed(() => {
-  let url = baseUrl + `?appid=${appid.value}&sheet=${sheet.value}&theme=card&opt=ctxmenu,currsel`
-  if (identity.value) url += `&identity=${identity.value}`
-  if (select.value) url += `&secret=${select.value}`
-  return url
-})
+const { title, subtitle } = toRefs(props)
 
 const displayTitle = computed(() => title.value.replace(/\n/g, '\n'))
 
@@ -111,7 +87,7 @@ const onScroll = () => {
   })
 }
 
-const copyDashboardLink = () => {
+const copySectionLink = () => {
   const fullUrl = `${window.location.origin}${window.location.pathname}#${anchorId.value}`
   const tryClipboard = async () => {
     try {
@@ -126,9 +102,8 @@ const copyDashboardLink = () => {
       try { document.execCommand('copy') } catch { /* ignore */ }
       document.body.removeChild(temp)
     }
-    // mostrar toast
     showCopied.value = false
-    void nextTick(() => { // garantir reinício de transição
+    void nextTick(() => {
       showCopied.value = true
       if (copyToastTimeout) clearTimeout(copyToastTimeout)
       copyToastTimeout = window.setTimeout(() => { showCopied.value = false }, 1800)
@@ -163,22 +138,20 @@ onBeforeUnmount(() => {
 </script>
 
 <style scoped>
-.dashboard-frame {
+.text-frame {
   display: flex;
   flex-direction: column;
   height: 96vh;
   width: calc(100vw - 4vh);
   padding: 2vh;
   position: relative;
-  z-index: 20;  
-  scroll-snap-align: start;
-  scroll-snap-stop: always;
+  z-index: 20;
 }
 .frame-header {
   font-size: 0.6em;
   display: flex;
   align-items: center;
-  justify-content: space-between; 
+  justify-content: space-between;
   gap: 1rem;
   position: relative;
 }
@@ -189,6 +162,11 @@ onBeforeUnmount(() => {
   font-weight: normal;
   white-space: pre-line;
 }
+.frame-subtitle {
+  font-variant: small-caps;
+  text-align: left;
+  font-size: 1.3em;
+}
 .copy-icon {
   width: 1em;
   height: 1em;
@@ -196,18 +174,6 @@ onBeforeUnmount(() => {
 }
 .title-anchor { color: inherit; text-decoration: none; cursor: pointer; }
 .title-anchor:hover { text-decoration: underline; }
-.frame-subtitle {
-  font-variant: small-caps;
-  text-align: left;
-  font-size: 1.3em;
-}
-.iframe-wrapper {
-  flex: 1;
-}
-.frame-actions {
-  display: flex;
-  gap: 1rem;
-}
 .title-anchor-wrapper { position: relative; display: inline-block; }
 .copy-popup {
   position: absolute;
@@ -217,7 +183,7 @@ onBeforeUnmount(() => {
   background: #242424;
   color: #fff;
   padding: 0.4rem 0.6rem;
-  border-radius: 0.5rem;
+  border-radius: 6px;
   font-size: 0.7em;
   white-space: nowrap;
   box-shadow: 0 2px 6px rgba(0,0,0,0.25);
@@ -225,5 +191,20 @@ onBeforeUnmount(() => {
 }
 .fade-enter-active, .fade-leave-active { transition: opacity 0.5s ease; }
 .fade-enter-from, .fade-leave-to { opacity: 0; }
+
+.text-content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+}
+.text-content ::v-deep(p) {
+  max-width: 72ch;
+  line-height: 1.6;
+  margin: 0 0 1rem 0;
+  font-size: 1.2rem;
+  text-align: left;
+}
 </style>
 

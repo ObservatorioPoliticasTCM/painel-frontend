@@ -70,7 +70,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-radius: 0.75rem;
+    border-radius: 0.5rem;
     padding: 1.5rem;
     text-align: center;
     z-index: 12;

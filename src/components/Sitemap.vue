@@ -28,6 +28,7 @@
                 Metadados
               </a>
             </li>
+            <li><router-link to="/guia-tecnico">Guia técnico</router-link></li>
             <li><router-link to="/fichatecnica">Ficha Técnica</router-link></li>
             <li>
               <a href="https://observatorio.tcm.sp.gov.br/ObservatorioItem/156570" 
