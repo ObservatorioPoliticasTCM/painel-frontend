@@ -49,8 +49,9 @@
       >
         <span class="nav-dot-icon" aria-hidden="true">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M6 4v16" />
-            <path d="M6 6h12l-4 4 4 4H6" />
+            <path d="M7 7h10l-5 7z" fill="currentColor" stroke="none" />
+            <path d="M7 7h10l-5 7z" />
+            <path d="M6 18h12" />
           </svg>
         </span>
       </button>
@@ -260,10 +261,10 @@ onBeforeUnmount(() => {
   gap: 0.5rem;
 }
 .snap-dots {
-  left: 1.5rem;
+  left: 1rem;
 }
 .snap-arrows {
-  right: 1.5rem;
+  right: 1.82rem;
   gap: 0.6rem;
 }
 .nav-arrow {
