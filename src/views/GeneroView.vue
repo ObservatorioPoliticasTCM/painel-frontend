@@ -1,6 +1,12 @@
 <template>
   <SnapPage>
     <DashboardFrame
+      appid="d73227fb-7244-4216-980d-8e2b08f23f05"
+      sheet="XUzXjdp"
+      title="Visão geral de Gênero"
+      identity="0"
+    />
+    <DashboardFrame
       appid="e808b4ea-ded0-41c6-b5b0-8845934d8369"
       sheet="c609507f-709a-434f-8430-5f1f74121740"
       title="Despesas municipais sensíveis a gênero em projetos/atividades com foco exclusivo em políticas para as mulheres"
@@ -60,7 +66,6 @@
 <script setup lang="ts">
 import DashboardFrame from '../components/DashboardFrame.vue'
 import SnapPage from '../components/SnapPage.vue'
-
 const notaPMPM = '/infos/notas/genero/DESPESAS MUNICIPAIS SEM FOCO EXCLUSIVO NAS MULHERES 1.pdf'
 </script>
 
