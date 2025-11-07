@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '@/views/HomeView.vue'
+import ApresentacaoView from '@/views/ApresentacaoView.vue'
 import EducacaoView from '@/views/EducacaoView.vue'
 import GeneroView from '@/views/GeneroView.vue'
 import SaudeView from '@/views/SaudeView.vue'
@@ -19,6 +20,12 @@ const router = createRouter({
       name: 'home',
       component: HomeView,
       meta: { title: 'DataSP – Mapa de Dados da Cidade' }
+    },
+    {
+      path: '/apresentacao',
+      name: 'apresentacao',
+      component: ApresentacaoView,
+      meta: { title: 'Carta de Apresentação – DataSP' }
     },
     {
       path: '/guia-tecnico',

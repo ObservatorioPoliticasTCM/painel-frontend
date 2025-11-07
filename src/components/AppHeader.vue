@@ -26,7 +26,7 @@
 
 <script setup lang="ts">
 const menuItems = [
-  { label: 'Apresentação' },
+  { label: 'Apresentação', route: '/apresentacao' },
   { label: 'Educação', route: '/educacao' },
   { label: 'Gênero', route: '/genero' },
   { label: 'Saúde', route: '/saude' },
