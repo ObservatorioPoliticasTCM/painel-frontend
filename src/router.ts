@@ -9,6 +9,7 @@ import GlossaryView from '@/views/GlossaryView.vue'
 import NotFound from './views/NotFoundView.vue'
 import ImprintPage from '@/views/ImprintPageView.vue'
 import TechGuideView from '@/views/TechGuideView.vue'
+import PresentationLetterView from './views/PresentationLetterView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -19,6 +20,12 @@ const router = createRouter({
       name: 'home',
       component: HomeView,
       meta: { title: 'DataSP – Mapa de Dados da Cidade' }
+    },
+    {
+      path: '/apresentacao',
+      name: 'apresentacao',
+      component: PresentationLetterView,
+      meta: { title: 'Carta de Apresentação – DataSP' }
     },
     {
       path: '/guia-tecnico',

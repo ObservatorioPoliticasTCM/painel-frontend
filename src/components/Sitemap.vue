@@ -6,7 +6,7 @@
         </div>
         <div class="sitemap-column">
         <ul>
-            <li><router-link to="/">Apresentação</router-link></li>
+            <li><router-link to="/apresentacao">Apresentação</router-link></li>
         </ul>
         </div>
         <div class="sitemap-column">
@@ -29,7 +29,7 @@
               </a>
             </li>
             <li><router-link to="/guia-tecnico">Guia técnico</router-link></li>
-            <li><router-link to="/fichatecnica">Ficha Técnica</router-link></li>
+            <li><router-link to="/fichatecnica">Ficha técnica</router-link></li>
             <li>
               <a href="https://observatorio.tcm.sp.gov.br/ObservatorioItem/156570" 
               target="_blank" 

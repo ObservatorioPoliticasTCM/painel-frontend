@@ -1,5 +1,5 @@
-<template>
-  <div class="intro-panel" ref="rootEl">
+﻿<template>
+  <div :class="panelClasses" ref="rootEl">
     <div class="surface">
       <div class="surface-head">
         <div v-if="icon" class="icon-wrapper">
@@ -8,13 +8,8 @@
         <div class="head-text">
           <h1 v-if="title">
             <span class="title-anchor-wrapper">
-              <a
-                :id="anchorId"
-                :href="'#' + anchorId"
-                class="title-anchor"
-                title="Copiar o link para esta seção"
-                @click="copySectionLink"
-              >
+              <a :id="anchorId" :href="'#' + anchorId" class="title-anchor" title="Copiar o link para esta seÃ§Ã£o"
+                @click="copySectionLink">
                 {{ displayTitle }}
               </a>
               <transition name="fade">
@@ -22,6 +17,7 @@
               </transition>
             </span>
           </h1>
+          <p v-if="subtitle" class="subtitle">{{ subtitle }}</p>
           <p v-if="leadText" class="lead">{{ leadText }}</p>
           <div v-if="$slots.default" class="extra">
             <slot />
@@ -39,19 +35,27 @@ const fullyVisibleEvent = 'fully-visible'
 
 interface IntroPanelProps {
   title?: string
+  subtitle?: string
   text?: string
   icon?: string
+  fullHeight?: boolean
+  usePlaceholder?: boolean
+  snap?: boolean
 }
 
 const props = withDefaults(defineProps<IntroPanelProps>(), {
   title: '',
+  subtitle: '',
   text: '',
-  icon: ''
+  icon: '',
+  fullHeight: true,
+  usePlaceholder: true,
+  snap: true
 })
 
-const emit = defineEmits<{ (e: 'fully-visible', anchorId: string): void }>() 
+const emit = defineEmits<{ (e: 'fully-visible', anchorId: string): void }>()
 
-const { title, text, icon } = toRefs(props)
+const { title, subtitle, text, icon, fullHeight, usePlaceholder, snap } = toRefs(props)
 
 const loremFallback = [
   'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat, arcu a tincidunt dignissim, nisi felis iaculis sem, non dapibus felis leo in metus.',
@@ -62,11 +66,12 @@ const loremFallback = [
 
 const leadText = computed(() => {
   const trimmed = text.value.trim()
-  return trimmed.length > 0 ? trimmed : loremFallback
+  if (trimmed.length > 0) return trimmed
+  return usePlaceholder.value ? loremFallback : ''
 })
 
 const displayTitle = computed(() => title.value.replace(/\n/g, '\n'))
-const iconAlt = computed(() => title.value ? `Ícone da seção ${title.value}` : 'Ícone da seção')
+const iconAlt = computed(() => title.value ? `ÃÍcone da seÃ§Ã£o ${title.value}` : 'ÃÍcone da seÃ§Ã£o')
 
 const anchorId = computed(() => title.value
   .toLowerCase()
@@ -77,6 +82,12 @@ const anchorId = computed(() => title.value
   .trim()
   .replace(/\s+/g, '-')
 )
+
+const panelClasses = computed(() => ({
+  'intro-panel': true,
+  'intro-panel--static': !fullHeight.value,
+  'intro-panel--snap': snap.value
+}))
 
 const rootEl = ref<HTMLElement | null>(null)
 let scrollRoot: HTMLElement | null = null
@@ -166,20 +177,31 @@ onBeforeUnmount(() => {
 .intro-panel {
   display: flex;
   flex-direction: column;
-  height: 96vh;
-  width: calc(100vw - 4vh);
-  padding: 2vh;
   position: relative;
   z-index: 20;
+}
+
+.intro-panel--snap {
+  min-height: 96vh;
+  width: calc(100vw - 4vh);
+  padding: 2vh;
+}
+
+.intro-panel--static {
+  min-height: auto;
+  height: auto;
+}
+
+.intro-panel--static.intro-panel--snap {
+  padding: clamp(1.5rem, 3vw, 3rem) clamp(1.5rem, 4vw, 3rem);
 }
 
 .surface {
   flex: 1;
   border-radius: 1.25rem;
   background: linear-gradient(135deg, rgba(255, 255, 255, 0.2), rgba(12, 106, 255, 0.06));
-  /* backdrop-filter: blur(14px); */
   display: flex;
-  align-items: center;
+  align-items: stretch;
   justify-content: center;
   padding: clamp(1.5rem, 3vw, 3rem);
   box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.25);
@@ -211,6 +233,7 @@ onBeforeUnmount(() => {
   flex-direction: column;
   gap: 1rem;
   color: #0b0b0b;
+  width: 100%;
 }
 
 .head-text h1 {
@@ -222,25 +245,44 @@ onBeforeUnmount(() => {
   line-height: 1.2;
 }
 
+.subtitle {
+  margin: 0;
+  font-size: 1rem;
+  text-transform: none;
+  letter-spacing: 0.04em;
+  color: rgba(11, 11, 11, 0.8);
+}
+
 .lead {
   margin: 0;
   font-size: clamp(1.2rem, 1.9vw, 1.4rem);
   line-height: 1.6;
   column-count: 2;
-  column-gap: clamp(1rem, 2.5vw, 2.5rem);
+  column-gap: clamp(2rem, 4vw, 4.5rem);
+  column-fill: balance;
+  text-align: justify;
+  hyphens: auto;
+  width: 100%;
+}
+
+.extra {
+  font-size: clamp(1.05rem, 1.7vw, 1.2rem);
+  line-height: 1.65;
+  width: 100%;
+  column-count: 2;
+  column-gap: clamp(2rem, 4vw, 4.5rem);
   column-fill: balance;
   text-align: justify;
   hyphens: auto;
 }
 
-.extra {
-  font-size: clamp(1.05rem, 1.7vw, 1.2rem);
-  line-height: 1.6;
-  max-width: 70ch;
+.extra ::v-deep(p) {
+  margin: 0 0 1.2rem;
+  break-inside: avoid;
 }
 
-.extra ::v-deep(p) {
-  margin: 0;
+.extra ::v-deep(p:last-child) {
+  margin-bottom: 0;
 }
 
 .title-anchor-wrapper {
@@ -287,6 +329,7 @@ onBeforeUnmount(() => {
   .surface-head {
     flex-direction: column;
     text-align: center;
+    gap: 1.5rem;
   }
 
   .head-text h1 {
@@ -294,19 +337,11 @@ onBeforeUnmount(() => {
   }
 
   .extra {
-    max-width: none;
+    column-count: 1;
   }
-}
 
-@media (max-width: 70rem) {
   .lead {
-    column-count: 3;
-  }
-}
-
-@media (max-width: 55rem) {
-  .lead {
-    column-count: 2;
+    column-count: 1;
   }
 }
 
