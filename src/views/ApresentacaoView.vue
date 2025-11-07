@@ -1,16 +1,16 @@
 <template>
-  <main class="apresentacao-page">
+  <main class="presentation-page">
     <Background />
-    <div class="apresentacao-shell">
+    <div class="presentation-shell">
       <AppHeader />
-      <section class="apresentacao-content">
+      <section class="presentation-content">
         <IntroPanel
           title="Carta de Apresentação"
           subtitle=""
           :full-height="false"
           :use-placeholder="false"
         >
-          <div class="carta-texto">
+          <div class="letter-body">
             <p>
               Vivemos tempos em que a informação circula em velocidade vertiginosa, mas nem sempre com a profundidade necessária para iluminar o caminho da cidadania. Em meio a esse cenário, o DataSP nasce como uma resposta concreta ao desafio de tornar o conhecimento público acessível, compreensível e útil para todos — especialmente para aqueles que desejam participar ativamente da construção de uma cidade mais justa, democrática e transparente.
             </p>
@@ -32,7 +32,7 @@
             <p>
               Seja bem-vindo ao DataSP. Que este espaço seja seu, nosso, da cidade.
             </p>
-            <p class="assinatura">
+            <p class="signature">
               João Antonio da Silva Filho
               <span>Conselheiro do Tribunal de Contas do Município de São Paulo</span>
               <span>Supervisor da Escola de Contas</span>
@@ -55,13 +55,13 @@ import Sitemap from '@/components/Sitemap.vue'
 </script>
 
 <style scoped>
-.apresentacao-page {
+.presentation-page {
   position: relative;
   min-height: 100vh;
   overflow: hidden;
 }
 
-.apresentacao-shell {
+.presentation-shell {
   position: relative;
   z-index: 10;
   display: flex;
@@ -69,34 +69,34 @@ import Sitemap from '@/components/Sitemap.vue'
   gap: clamp(1.5rem, 3vw, 3rem);
 }
 
-.apresentacao-content {
+.presentation-content {
   padding: clamp(1rem, 4vw, 3rem) clamp(1.5rem, 5vw, 4rem);
   display: flex;
   justify-content: center;
 }
 
-.carta-texto {
+.letter-body {
   font-size: 1.05rem;
 }
 
-.carta-texto p {
+.letter-body p {
   margin: 0 0 1.3rem;
 }
 
-.carta-texto .assinatura {
+.letter-body .signature {
   font-weight: 600;
   line-height: 1.5;
   margin-top: 2rem;
 }
 
-.carta-texto .assinatura span {
+.letter-body .signature span {
   display: block;
   font-weight: 400;
   font-size: 0.95em;
 }
 
 @media (max-width: 48rem) {
-  .apresentacao-content {
+  .presentation-content {
     padding: clamp(1rem, 4vw, 2rem);
   }
 }
