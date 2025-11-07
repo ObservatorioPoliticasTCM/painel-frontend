@@ -47,7 +47,10 @@ const embedSrc = computed(() => {
     enablejsapi: '1'
   })
   if (props.muted) params.set('mute', '1')
-  if (props.closedCaptions) params.set('cc_load_policy', '1')
+  if (props.closedCaptions) {
+    params.set('cc_load_policy', '1')
+    params.set('cc_lang_pref', 'pt')
+  }
   if (origin) params.set('origin', origin)
   if (autoplayActive.value) params.set('autoplay', '1')
   return `${base}?${params.toString()}`
