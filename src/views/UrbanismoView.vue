@@ -52,12 +52,6 @@
     />
     <DashboardFrame
       appid="f571d56a-108d-4a83-b865-45255c72b23d"
-      sheet="avsWR"
-      title="Realização Física em políticas de Acesso à Moradia Adequada"
-      identity="9"
-    />
-    <DashboardFrame
-      appid="f571d56a-108d-4a83-b865-45255c72b23d"
       sheet="5548d5e2-5953-4beb-aaea-1345aae8f5d1"
       title="Realização Financeira em políticas de Acesso à Moradia Adequada  &mdash; Plano Plurianual 2022-2025"
       identity="10"
