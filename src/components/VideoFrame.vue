@@ -127,6 +127,9 @@ onBeforeUnmount(() => {
   padding: 2vh;
   position: relative;
   z-index: 20;
+  max-width: 100%;
+  max-height: 100%;
+  box-sizing: border-box;
 }
 
 .iframe-wrapper {
