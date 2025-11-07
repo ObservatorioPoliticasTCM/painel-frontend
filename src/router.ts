@@ -1,6 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '@/views/HomeView.vue'
-import ApresentacaoView from '@/views/ApresentacaoView.vue'
 import EducacaoView from '@/views/EducacaoView.vue'
 import GeneroView from '@/views/GeneroView.vue'
 import SaudeView from '@/views/SaudeView.vue'
@@ -10,6 +9,7 @@ import GlossaryView from '@/views/GlossaryView.vue'
 import NotFound from './views/NotFoundView.vue'
 import ImprintPage from '@/views/ImprintPageView.vue'
 import TechGuideView from '@/views/TechGuideView.vue'
+import PresentationLetterView from './views/PresentationLetterView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -24,7 +24,7 @@ const router = createRouter({
     {
       path: '/apresentacao',
       name: 'apresentacao',
-      component: ApresentacaoView,
+      component: PresentationLetterView,
       meta: { title: 'Carta de Apresentação – DataSP' }
     },
     {
