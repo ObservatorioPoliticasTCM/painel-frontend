@@ -1,5 +1,6 @@
 <template>
   <div class="mobile-warning">
+    <Background />
     <div class="warning-content">
       <!-- Logo DataSP no terço superior -->
       <div class="logo-section">
@@ -9,36 +10,33 @@
       <!-- Ícones de dispositivos -->
       <div class="devices-section">
         <div class="device-icon">
-          <svg viewBox="0 0 100 180" xmlns="http://www.w3.org/2000/svg">
+          <svg viewBox="0 0 140 180" xmlns="http://www.w3.org/2000/svg">
             <!-- Celular -->
-            <rect x="20" y="10" width="60" height="160" rx="8" fill="none" stroke="currentColor" stroke-width="3"/>
-            <rect x="25" y="20" width="50" height="130" fill="none" stroke="currentColor" stroke-width="2"/>
-            <circle cx="50" cy="160" r="5" fill="currentColor"/>
+            <rect x="20" y="10" width="100" height="160" rx="8" fill="none" stroke="black" stroke-width="3"/>
+            <rect x="30" y="20" width="80" height="130" fill="none" stroke="black" stroke-width="2"/>
+            <circle cx="70" cy="160" r="5" fill="black"/>
           </svg>
-          <p>Celular</p>
         </div>
 
         <div class="device-icon">
           <svg viewBox="0 0 160 120" xmlns="http://www.w3.org/2000/svg">
             <!-- Laptop -->
-            <rect x="20" y="10" width="120" height="80" rx="4" fill="none" stroke="currentColor" stroke-width="3"/>
-            <rect x="25" y="15" width="110" height="65" fill="none" stroke="currentColor" stroke-width="2"/>
-            <path d="M 10 95 L 150 95 L 145 100 L 15 100 Z" fill="none" stroke="currentColor" stroke-width="3"/>
-            <line x1="80" y1="90" x2="80" y2="95" stroke="currentColor" stroke-width="2"/>
+            <rect x="20" y="10" width="120" height="80" rx="4" fill="none" stroke="black" stroke-width="3"/>
+            <rect x="25" y="15" width="110" height="65" fill="none" stroke="black" stroke-width="2"/>
+            <path d="M 10 95 L 150 95 L 145 100 L 15 100 Z" fill="none" stroke="black" stroke-width="3"/>
+            <line x1="80" y1="90" x2="80" y2="95" stroke="black" stroke-width="2"/>
           </svg>
-          <p>Laptop</p>
         </div>
 
         <div class="device-icon">
           <svg viewBox="0 0 180 140" xmlns="http://www.w3.org/2000/svg">
             <!-- Desktop -->
-            <rect x="10" y="10" width="160" height="100" rx="4" fill="none" stroke="currentColor" stroke-width="3"/>
-            <rect x="15" y="15" width="150" height="85" fill="none" stroke="currentColor" stroke-width="2"/>
-            <rect x="70" y="115" width="40" height="5" rx="2" fill="currentColor"/>
-            <path d="M 50 130 L 130 130 L 125 135 L 55 135 Z" fill="none" stroke="currentColor" stroke-width="3"/>
-            <line x1="90" y1="110" x2="90" y2="115" stroke="currentColor" stroke-width="3"/>
+            <rect x="10" y="10" width="160" height="100" rx="4" fill="none" stroke="black" stroke-width="3"/>
+            <rect x="15" y="15" width="150" height="85" fill="none" stroke="black" stroke-width="2"/>
+            <rect x="70" y="115" width="40" height="5" rx="2" fill="black"/>
+            <path d="M 50 130 L 130 130 L 125 135 L 55 135 Z" fill="none" stroke="black" stroke-width="3"/>
+            <line x1="90" y1="110" x2="90" y2="115" stroke="black" stroke-width="3"/>
           </svg>
-          <p>Desktop</p>
         </div>
       </div>
 
@@ -46,12 +44,8 @@
       <div class="message-section">
         <h2>Experiência Otimizada para Telas Maiores</h2>
         <p>
-          Este painel foi desenvolvido para proporcionar a melhor experiência em 
-          <strong>laptops e desktops</strong>.
-        </p>
-        <p>
           Para visualizar todo o conteúdo e interagir com os dados de forma completa, 
-          recomendamos acessar através de um dispositivo com tela maior.
+          precisamos que o acesso seja realizado através de um dispositivo com tela maior.
         </p>
         <p class="access-info">
           Por favor, utilize um <strong>computador</strong> ou <strong>laptop</strong> 
@@ -66,6 +60,7 @@
 </template>
 
 <script setup lang="ts">
+import Background from './Background.vue'
 import Footer from './Footer.vue'
 </script>
 
@@ -76,7 +71,6 @@ import Footer from './Footer.vue'
   left: 0;
   width: 100%;
   height: 100vh;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   z-index: 9999;
   overflow-y: auto;
   display: flex;
@@ -88,14 +82,12 @@ import Footer from './Footer.vue'
   flex-direction: column;
   min-height: 100vh;
   width: 100%;
+  position: relative;
+  z-index: 10;
 }
 
 /* Logo Section - Terço superior */
 .logo-section {
-  flex: 0 0 33.33vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   padding: 2rem 1rem;
 }
 
@@ -119,7 +111,6 @@ import Footer from './Footer.vue'
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: white;
   flex: 1;
   max-width: 120px;
 }
@@ -142,8 +133,7 @@ import Footer from './Footer.vue'
 /* Message Section */
 .message-section {
   flex: 1;
-  padding: 2rem 1.5rem;
-  color: white;
+  padding: 0 1.5rem;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -155,28 +145,50 @@ import Footer from './Footer.vue'
   font-size: 1.5rem;
   margin: 0 0 1rem 0;
   font-weight: 700;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  text-shadow: 0 2px 4px rgba(255, 255, 255, 0.8);
 }
 
 .message-section p {
   font-size: 1rem;
   line-height: 1.6;
   margin: 0.5rem 0;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-}
-
-.message-section strong {
-  font-weight: 700;
-  color: #ffd700;
+  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.8);
 }
 
 .access-info {
   margin-top: 1rem;
   padding: 1rem;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.3);
   border-radius: 8px;
   backdrop-filter: blur(10px);
   font-size: 1.1rem;
+}
+
+/* Ajustes do Footer para telas pequenas */
+.mobile-warning :deep(footer) {
+  margin-top: auto;
+}
+
+.mobile-warning :deep(.footer-container) {
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.mobile-warning :deep(.footer-center) {
+  order: -1;
+  text-align: center;
+  width: 100%;
+}
+
+.mobile-warning :deep(.footer-left) {
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+.mobile-warning :deep(.footer-left img) {
+  margin: 0;
 }
 
 /* Responsividade para diferentes tamanhos de tela portrait */
