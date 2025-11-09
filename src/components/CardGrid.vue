@@ -37,7 +37,7 @@
       />
       <Card3D
         icon="orcamento.svg"
-        title="Regionalização do Orçamento"
+        title="Orçamento"
         backText="Veja como o orçamento da Prefeitura se distribuiu entre as diferentes áreas e como evoluiu ao longo de 2024."
         bgColor="#e57c76"
         navLink="/orcamento"
