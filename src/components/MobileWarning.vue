@@ -125,7 +125,7 @@ import Footer from './Footer.vue'
 }
 
 .opp-logo {
-  max-width: 128px;
+  max-width: 8rem;
   height: auto;
 }
 
@@ -154,7 +154,7 @@ import Footer from './Footer.vue'
   flex-direction: column;
   align-items: center;
   flex: 1;
-  max-width: 120px;
+  max-width: 7.5rem;
 }
 
 .device-wrapper {
@@ -168,19 +168,17 @@ import Footer from './Footer.vue'
 .device-icon svg {
   width: 100%;
   height: auto;
-  max-height: 100px;
+  max-height: 5rem;
   margin-bottom: 0.5rem;
 }
 
 .status-badge {
   position: absolute;
-  top: -8px;
-  right: -8px;
-  width: 32px;
-  height: 32px;
+  top: -0.5rem;
+  right: -0.5rem;
+  width: 2rem;
+  height: 2rem;
 }
-
-
 
 .status-badge svg {
   width: 100%;
@@ -204,7 +202,7 @@ import Footer from './Footer.vue'
   font-size: 1.5rem;
   margin: 0 0 1rem 0;
   font-weight: 700;
-  text-shadow: 0 2px 4px rgba(255, 255, 255, 0.8);
+  text-shadow: 0 0.125rem 0.25rem rgba(255, 255, 255, 0.8);
 }
 
 .message-section p {
@@ -217,8 +215,8 @@ import Footer from './Footer.vue'
   margin-top: 1rem;
   padding: 1rem;
   background: rgba(255, 255, 255, 0.3);
-  border-radius: 8px;
-  backdrop-filter: blur(1px);
+  border-radius: 0.5rem;
+  backdrop-filter: blur(0.0625rem);
   font-size: 1.1rem;
 }
 
@@ -256,22 +254,22 @@ import Footer from './Footer.vue'
   }
   
   .device-icon svg {
-    max-height: 80px;
+    max-height: 3.6rem;
   }
   
   .status-badge {
-    width: 28px;
-    height: 28px;
-    top: -6px;
-    right: 20px;
+    width: 1.75rem;
+    height: 1.75rem;
+    top: -0.375rem;
+    right: 0.8rem;
   }
 
   .laptop .status-badge {
-    right: 0;
+    right: -0.2rem;
   }
 
   .desktop .status-badge {
-    right: -14px;
+    right: -0.8rem;
   }
   
   .message-section h2 {
@@ -293,12 +291,12 @@ import Footer from './Footer.vue'
   }
   
   .device-icon {
-    max-width: 140px;
+    max-width: 8.75rem;
   }
   
   .status-badge {
-    width: 36px;
-    height: 36px;
+    width: 2.25rem;
+    height: 2.25rem;
   }
 }
 
@@ -317,18 +315,18 @@ import Footer from './Footer.vue'
   }
   
   .device-icon {
-    max-width: 160px;
+    max-width: 10rem;
   }
   
   .device-icon svg {
-    max-height: 120px;
+    max-height: 7.5rem;
   }
   
   .status-badge {
-    width: 40px;
-    height: 40px;
-    top: -10px;
-    right: -10px;
+    width: 2.5rem;
+    height: 2.5rem;
+    top: -0.625rem;
+    right: -0.625rem;
   }
   
   .message-section {
