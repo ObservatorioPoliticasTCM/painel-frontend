@@ -15,7 +15,7 @@
             <li><router-link to="/genero">Gênero</router-link></li>
             <li><router-link to="/saude">Saúde</router-link></li>
             <li><router-link to="/urbanismo">Urbanismo</router-link></li>
-            <li><router-link to="/orcamento">Regionalização do Orçamento</router-link></li>
+            <li><router-link to="/orcamento">Orçamento</router-link></li>
         </ul>
         </div>
         <div class="sitemap-column">

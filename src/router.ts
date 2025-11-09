@@ -61,7 +61,7 @@ const router = createRouter({
       path: '/orcamento',
       name: 'orcamento',
       component: OrcamentoView,
-      meta: { title: 'Regionalização do Orçamento – DataSP' }
+      meta: { title: 'Orçamento – DataSP' }
     },
     {
       path: '/glossario',
