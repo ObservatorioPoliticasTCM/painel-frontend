@@ -15,8 +15,8 @@ const checkViewport = () => {
   
   // Exibe aviso se:
   // 1. Largura menor que altura (orientação retrato)
-  // 2. Largura menor que 768px (dispositivos móveis típicos)
-  isMobileOrPortrait.value = width < height || width < 768
+  // 2. Largura menor que 1024px (dispositivos móveis típicos)
+  isMobileOrPortrait.value = width < height || width < 1024
 }
 
 onMounted(() => {
