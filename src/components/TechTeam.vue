@@ -3,8 +3,7 @@
         <div class="team-title">Equipe Técnica</div>
 
         <TechGroup name="GT Educação" url="https://observatorio.tcm.sp.gov.br/Educacao/216574">
-            <NameAndTitle name="Fredy Miller" title="Coordenador" remove-bottom-margin />
-            <NameAndTitle name="Rômulo Felipe Manzatto" title="Coordenador Adjunto" remove-bottom-margin />
+            <NameAndTitle name="Rômulo Felipe Manzatto" title="Coordenador" remove-bottom-margin />
         </TechGroup>
 
         <TechGroup name="GT Gênero" url="https://observatorio.tcm.sp.gov.br/Genero/216849">
