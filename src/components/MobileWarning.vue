@@ -2,6 +2,11 @@
   <div class="mobile-warning">
     <Background />
     <div class="warning-content">
+      <!-- Logo OPP no topo -->
+      <div class="opp-logo-section">
+        <img src="@/assets/logo-opp.svg" alt="Logo OPP" class="opp-logo" />
+      </div>
+
       <!-- Logo DataSP no terço superior -->
       <div class="logo-section">
         <img src="@/assets/logo.svg" alt="Logo DataSP" class="datasp-logo" />
@@ -15,6 +20,10 @@
             <rect x="20" y="10" width="100" height="160" rx="8" fill="none" stroke="black" stroke-width="3"/>
             <rect x="30" y="20" width="80" height="130" fill="none" stroke="black" stroke-width="2"/>
             <circle cx="70" cy="160" r="5" fill="black"/>
+            <!-- X Vermelho (dobrado) -->
+            <circle cx="110" cy="24" r="24" fill="#dc3545"/>
+            <line x1="100" y1="13" x2="120" y2="34" stroke="white" stroke-width="5" stroke-linecap="round"/>
+            <line x1="120" y1="13" x2="100" y2="34" stroke="white" stroke-width="5" stroke-linecap="round"/>
           </svg>
         </div>
 
@@ -25,6 +34,9 @@
             <rect x="25" y="15" width="110" height="65" fill="none" stroke="black" stroke-width="2"/>
             <path d="M 10 95 L 150 95 L 145 100 L 15 100 Z" fill="none" stroke="black" stroke-width="3"/>
             <line x1="80" y1="90" x2="80" y2="95" stroke="black" stroke-width="2"/>
+            <!-- Check Verde (dobrado) -->
+            <circle cx="135" cy="24" r="24" fill="#28a745"/>
+            <polyline points="120,26 128,34 150,12" fill="none" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
         </div>
 
@@ -36,6 +48,9 @@
             <rect x="70" y="115" width="40" height="5" rx="2" fill="black"/>
             <path d="M 50 130 L 130 130 L 125 135 L 55 135 Z" fill="none" stroke="black" stroke-width="3"/>
             <line x1="90" y1="110" x2="90" y2="115" stroke="black" stroke-width="3"/>
+            <!-- Check Verde (dobrado) -->
+            <circle cx="165" cy="24" r="24" fill="#28a745"/>
+            <polyline points="150,26 158,34 180,12" fill="none" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
         </div>
       </div>
@@ -86,6 +101,19 @@ import Footer from './Footer.vue'
   z-index: 10;
 }
 
+/* Logo OPP no topo */
+.opp-logo-section {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 20;
+}
+
+.opp-logo {
+  max-width: 128px;
+  height: auto;
+}
+
 /* Logo Section - Terço superior */
 .logo-section {
   padding: 2rem 1rem;
@@ -94,7 +122,6 @@ import Footer from './Footer.vue'
 .datasp-logo {
   max-width: 60%;
   height: auto;
-  filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.1));
 }
 
 /* Devices Section - Até metade da página */
@@ -120,7 +147,6 @@ import Footer from './Footer.vue'
   height: auto;
   max-height: 80px;
   margin-bottom: 0.5rem;
-  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
 }
 
 .device-icon p {
