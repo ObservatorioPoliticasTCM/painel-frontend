@@ -15,43 +15,58 @@
       <!-- Ícones de dispositivos -->
       <div class="devices-section">
         <div class="device-icon">
-          <svg viewBox="0 0 140 180" xmlns="http://www.w3.org/2000/svg">
-            <!-- Celular -->
-            <rect x="20" y="10" width="100" height="160" rx="8" fill="none" stroke="black" stroke-width="3"/>
-            <rect x="30" y="20" width="80" height="130" fill="none" stroke="black" stroke-width="2"/>
-            <circle cx="70" cy="160" r="5" fill="black"/>
-            <!-- X Vermelho (dobrado) -->
-            <circle cx="110" cy="24" r="24" fill="#dc3545"/>
-            <line x1="100" y1="13" x2="120" y2="34" stroke="white" stroke-width="5" stroke-linecap="round"/>
-            <line x1="120" y1="13" x2="100" y2="34" stroke="white" stroke-width="5" stroke-linecap="round"/>
-          </svg>
+          <div class="device-wrapper mobile">
+            <svg viewBox="0 0 100 160" xmlns="http://www.w3.org/2000/svg">
+              <!-- Celular -->
+              <rect x="10" y="0" width="80" height="140" rx="8" fill="none" stroke="black" stroke-width="3"/>
+              <rect x="18" y="8" width="64" height="115" fill="none" stroke="black" stroke-width="2"/>
+              <circle cx="50" cy="135" r="5" fill="black"/>
+            </svg>
+            <div class="status-badge error">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="12" cy="12" r="12" fill="#dc3545"/>
+                <line x1="7" y1="7" x2="17" y2="17" stroke="white" stroke-width="3" stroke-linecap="round"/>
+                <line x1="17" y1="7" x2="7" y2="17" stroke="white" stroke-width="3" stroke-linecap="round"/>
+              </svg>
+            </div>
+          </div>
         </div>
 
         <div class="device-icon">
-          <svg viewBox="0 0 160 120" xmlns="http://www.w3.org/2000/svg">
-            <!-- Laptop -->
-            <rect x="20" y="10" width="120" height="80" rx="4" fill="none" stroke="black" stroke-width="3"/>
-            <rect x="25" y="15" width="110" height="65" fill="none" stroke="black" stroke-width="2"/>
-            <path d="M 10 95 L 150 95 L 145 100 L 15 100 Z" fill="none" stroke="black" stroke-width="3"/>
-            <line x1="80" y1="90" x2="80" y2="95" stroke="black" stroke-width="2"/>
-            <!-- Check Verde (dobrado) -->
-            <circle cx="135" cy="24" r="24" fill="#28a745"/>
-            <polyline points="120,26 128,34 150,12" fill="none" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
+          <div class="device-wrapper laptop">
+            <svg viewBox="0 0 120 100" xmlns="http://www.w3.org/2000/svg">
+              <!-- Laptop -->
+              <rect x="10" y="0" width="100" height="70" rx="4" fill="none" stroke="black" stroke-width="3"/>
+              <rect x="14" y="4" width="92" height="57" fill="none" stroke="black" stroke-width="2"/>
+              <path d="M 0 75 L 120 75 L 116 82 L 4 82 Z" fill="none" stroke="black" stroke-width="3"/>
+              <line x1="60" y1="70" x2="60" y2="75" stroke="black" stroke-width="2"/>
+            </svg>
+            <div class="status-badge success">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="12" cy="12" r="12" fill="#28a745"/>
+                <polyline points="6,12 10,16 18,8" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+          </div>
         </div>
 
         <div class="device-icon">
-          <svg viewBox="0 0 180 140" xmlns="http://www.w3.org/2000/svg">
-            <!-- Desktop -->
-            <rect x="10" y="10" width="160" height="100" rx="4" fill="none" stroke="black" stroke-width="3"/>
-            <rect x="15" y="15" width="150" height="85" fill="none" stroke="black" stroke-width="2"/>
-            <rect x="70" y="115" width="40" height="5" rx="2" fill="black"/>
-            <path d="M 50 130 L 130 130 L 125 135 L 55 135 Z" fill="none" stroke="black" stroke-width="3"/>
-            <line x1="90" y1="110" x2="90" y2="115" stroke="black" stroke-width="3"/>
-            <!-- Check Verde (dobrado) -->
-            <circle cx="165" cy="24" r="24" fill="#28a745"/>
-            <polyline points="150,26 158,34 180,12" fill="none" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
+          <div class="device-wrapper desktop">
+            <svg viewBox="0 0 160 120" xmlns="http://www.w3.org/2000/svg">
+              <!-- Desktop -->
+              <rect x="0" y="0" width="160" height="90" rx="4" fill="none" stroke="black" stroke-width="3"/>
+              <rect x="4" y="4" width="152" height="78" fill="none" stroke="black" stroke-width="2"/>
+              <rect x="65" y="95" width="30" height="4" rx="2" fill="black"/>
+              <path d="M 40 112 L 120 112 L 116 118 L 44 118 Z" fill="none" stroke="black" stroke-width="3"/>
+              <line x1="80" y1="90" x2="80" y2="95" stroke="black" stroke-width="3"/>
+            </svg>
+            <div class="status-badge success">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="12" cy="12" r="12" fill="#28a745"/>
+                <polyline points="6,12 10,16 18,8" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -142,18 +157,36 @@ import Footer from './Footer.vue'
   max-width: 120px;
 }
 
+.device-wrapper {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .device-icon svg {
   width: 100%;
   height: auto;
-  max-height: 80px;
+  max-height: 100px;
   margin-bottom: 0.5rem;
 }
 
-.device-icon p {
-  font-size: 0.9rem;
-  font-weight: 500;
+.status-badge {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  width: 32px;
+  height: 32px;
+}
+
+
+
+.status-badge svg {
+  width: 100%;
+  height: 100%;
   margin: 0;
-  text-align: center;
+  max-height: none;
 }
 
 /* Message Section */
@@ -178,7 +211,6 @@ import Footer from './Footer.vue'
   font-size: 1rem;
   line-height: 1.6;
   margin: 0.5rem 0;
-  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.8);
 }
 
 .access-info {
@@ -186,7 +218,7 @@ import Footer from './Footer.vue'
   padding: 1rem;
   background: rgba(255, 255, 255, 0.3);
   border-radius: 8px;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(1px);
   font-size: 1.1rem;
 }
 
@@ -224,7 +256,22 @@ import Footer from './Footer.vue'
   }
   
   .device-icon svg {
-    max-height: 60px;
+    max-height: 80px;
+  }
+  
+  .status-badge {
+    width: 28px;
+    height: 28px;
+    top: -6px;
+    right: 20px;
+  }
+
+  .laptop .status-badge {
+    right: 0;
+  }
+
+  .desktop .status-badge {
+    right: -14px;
   }
   
   .message-section h2 {
@@ -248,6 +295,11 @@ import Footer from './Footer.vue'
   .device-icon {
     max-width: 140px;
   }
+  
+  .status-badge {
+    width: 36px;
+    height: 36px;
+  }
 }
 
 /* Ajuste para tablets em modo retrato */
@@ -269,7 +321,14 @@ import Footer from './Footer.vue'
   }
   
   .device-icon svg {
-    max-height: 100px;
+    max-height: 120px;
+  }
+  
+  .status-badge {
+    width: 40px;
+    height: 40px;
+    top: -10px;
+    right: -10px;
   }
   
   .message-section {
