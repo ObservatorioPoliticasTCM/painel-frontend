@@ -37,6 +37,7 @@
         <a
           v-if="downloadLink"
           class="menu-item"
+          target="_blank"
           :href="downloadLink"
           download
           @click="closeMenu"
