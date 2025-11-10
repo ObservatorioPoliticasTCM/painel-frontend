@@ -1,0 +1,1218 @@
+CÓDIGO_SUBFUNÇÃO;DESCRIÇÃO_SUBFUNÇÃO;CÓDIGO_FONTE;REGIÃO;SUBPREFEITURA;TIPO_REGIONALIZAÇÃO;Vl_Liquidado;sub.NOME;NIVEL_REGIONALIZAÇÃO;Vl_Orcado_Ano;Vl_Orcado_Atualizado;Ds_Fonte
+122;Administração Geral;00;Supra-Regional;Supra Subprefeitura;Despesa Não-Regionalizável;123950893,25;;Não regionalizável;0,0;0,0;Tesouro Municipal
+122;Administração Geral;00;Centro;Supra Subprefeitura Centro;Despesa Regionalizável;1818885,18;;Região;0,0;0,0;Tesouro Municipal
+122;Administração Geral;00;;;Despesa Regionalizável;0,0;ARICANDUVA-FORMOSA-CARRAO;Subprefeitura;0,0;0,0;Tesouro Municipal
+122;Administração Geral;00;;;Despesa Regionalizável;0,0;BUTANTA;Subprefeitura;0,0;0,0;Tesouro Municipal
+122;Administração Geral;00;;;Despesa Regionalizável;0,0;CAMPO LIMPO;Subprefeitura;0,0;0,0;Tesouro Municipal
+122;Administração Geral;00;;;Despesa Regionalizável;0,0;CAPELA DO SOCORRO;Subprefeitura;0,0;0,0;Tesouro Municipal
+122;Administração Geral;00;;;Despesa Regionalizável;0,0;CASA VERDE-CACHOEIRINHA;Subprefeitura;0,0;0,0;Tesouro Municipal
+122;Administração Geral;00;;;Despesa Regionalizável;0,0;CIDADE ADEMAR;Subprefeitura;0,0;0,0;Tesouro Municipal
+122;Administração Geral;00;;;Despesa Regionalizável;0,0;CIDADE TIRADENTES;Subprefeitura;0,0;0,0;Tesouro Municipal
+122;Administração Geral;00;;;Despesa Regionalizável;0,0;ERMELINO MATARAZZO;Subprefeitura;0,0;0,0;Tesouro Municipal
+122;Administração Geral;00;;;Despesa Regionalizável;0,0;FREGUESIA-BRASILANDIA;Subprefeitura;0,0;0,0;Tesouro Municipal
+122;Administração Geral;00;;;Despesa Regionalizável;0,0;GUAIANASES;Subprefeitura;0,0;0,0;Tesouro Municipal
+122;Administração Geral;00;Sul;Subprefeitura Ipiranga;Despesa Regionalizável;66461,44;IPIRANGA;Subprefeitura;0,0;0,0;Tesouro Municipal
+122;Administração Geral;00;;;Despesa Regionalizável;0,0;ITAIM PAULISTA;Subprefeitura;0,0;0,0;Tesouro Municipal
+122;Administração Geral;00;;;Despesa Regionalizável;0,0;ITAQUERA;Subprefeitura;0,0;0,0;Tesouro Municipal
+122;Administração Geral;00;;;Despesa Regionalizável;0,0;JABAQUARA;Subprefeitura;0,0;0,0;Tesouro Municipal
+122;Administração Geral;00;;;Despesa Regionalizável;0,0;JACANA-TREMEMBE;Subprefeitura;0,0;0,0;Tesouro Municipal
+122;Administração Geral;00;Oeste;Subprefeitura Lapa;Despesa Regionalizável;822754,54;LAPA;Subprefeitura;0,0;0,0;Tesouro Municipal
+122;Administração Geral;00;;;Despesa Regionalizável;0,0;M BOI MIRIM;Subprefeitura;0,0;0,0;Tesouro Municipal
+122;Administração Geral;00;;;Despesa Regionalizável;0,0;MOOCA;Subprefeitura;0,0;0,0;Tesouro Municipal
+122;Administração Geral;00;;;Despesa Regionalizável;0,0;PARELHEIROS;Subprefeitura;0,0;0,0;Tesouro Municipal
+122;Administração Geral;00;;;Despesa Regionalizável;0,0;PENHA;Subprefeitura;0,0;0,0;Tesouro Municipal
+122;Administração Geral;00;;;Despesa Regionalizável;0,0;PERUS;Subprefeitura;0,0;0,0;Tesouro Municipal
+122;Administração Geral;00;;;Despesa Regionalizável;0,0;PINHEIROS;Subprefeitura;0,0;0,0;Tesouro Municipal
+122;Administração Geral;00;;;Despesa Regionalizável;0,0;PIRITUBA-JARAGUA;Subprefeitura;0,0;0,0;Tesouro Municipal
+122;Administração Geral;00;;;Despesa Regionalizável;0,0;SANTANA-TUCURUVI;Subprefeitura;0,0;0,0;Tesouro Municipal
+122;Administração Geral;00;;;Despesa Regionalizável;0,0;SANTO AMARO;Subprefeitura;0,0;0,0;Tesouro Municipal
+122;Administração Geral;00;;;Despesa Regionalizável;0,0;SAO MATEUS;Subprefeitura;0,0;0,0;Tesouro Municipal
+122;Administração Geral;00;;;Despesa Regionalizável;0,0;SAO MIGUEL;Subprefeitura;0,0;0,0;Tesouro Municipal
+122;Administração Geral;00;;;Despesa Regionalizável;0,0;SAPOPEMBA;Subprefeitura;0,0;0,0;Tesouro Municipal
+122;Administração Geral;00;;;Despesa Regionalizável;0,0;SE;Subprefeitura;0,0;0,0;Tesouro Municipal
+122;Administração Geral;00;;;Despesa Regionalizável;0,0;VILA MARIA-VILA GUILHERME;Subprefeitura;0,0;0,0;Tesouro Municipal
+122;Administração Geral;00;Sul;Subprefeitura Vila Mariana;Despesa Regionalizável;26806,7;VILA MARIANA;Subprefeitura;0,0;0,0;Tesouro Municipal
+122;Administração Geral;00;;;Despesa Regionalizável;0,0;VILA PRUDENTE;Subprefeitura;0,0;0,0;Tesouro Municipal
+122;Administração Geral;00;;;;760847717,21;;Não detalhado;870876599,0;951817037,97;Tesouro Municipal
+122;Administração Geral;08;;;Despesa Regionalizável;0,0;ARICANDUVA-FORMOSA-CARRAO;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+122;Administração Geral;08;;;Despesa Regionalizável;0,0;BUTANTA;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+122;Administração Geral;08;;;Despesa Regionalizável;0,0;CAMPO LIMPO;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+122;Administração Geral;08;;;Despesa Regionalizável;0,0;CAPELA DO SOCORRO;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+122;Administração Geral;08;;;Despesa Regionalizável;0,0;CASA VERDE-CACHOEIRINHA;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+122;Administração Geral;08;;;Despesa Regionalizável;0,0;CIDADE ADEMAR;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+122;Administração Geral;08;;;Despesa Regionalizável;0,0;CIDADE TIRADENTES;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+122;Administração Geral;08;;;Despesa Regionalizável;0,0;ERMELINO MATARAZZO;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+122;Administração Geral;08;;;Despesa Regionalizável;0,0;FREGUESIA-BRASILANDIA;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+122;Administração Geral;08;;;Despesa Regionalizável;0,0;GUAIANASES;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+122;Administração Geral;08;;;Despesa Regionalizável;0,0;IPIRANGA;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+122;Administração Geral;08;;;Despesa Regionalizável;0,0;ITAIM PAULISTA;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+122;Administração Geral;08;;;Despesa Regionalizável;0,0;ITAQUERA;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+122;Administração Geral;08;;;Despesa Regionalizável;0,0;JABAQUARA;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+122;Administração Geral;08;;;Despesa Regionalizável;0,0;JACANA-TREMEMBE;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+122;Administração Geral;08;;;Despesa Regionalizável;0,0;LAPA;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+122;Administração Geral;08;;;Despesa Regionalizável;0,0;M BOI MIRIM;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+122;Administração Geral;08;;;Despesa Regionalizável;0,0;MOOCA;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+122;Administração Geral;08;;;Despesa Regionalizável;0,0;PARELHEIROS;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+122;Administração Geral;08;;;Despesa Regionalizável;0,0;PENHA;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+122;Administração Geral;08;;;Despesa Regionalizável;0,0;PERUS;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+122;Administração Geral;08;;;Despesa Regionalizável;0,0;PINHEIROS;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+122;Administração Geral;08;;;Despesa Regionalizável;0,0;PIRITUBA-JARAGUA;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+122;Administração Geral;08;;;Despesa Regionalizável;0,0;SANTANA-TUCURUVI;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+122;Administração Geral;08;;;Despesa Regionalizável;0,0;SANTO AMARO;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+122;Administração Geral;08;;;Despesa Regionalizável;0,0;SAO MATEUS;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+122;Administração Geral;08;;;Despesa Regionalizável;0,0;SAO MIGUEL;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+122;Administração Geral;08;;;Despesa Regionalizável;0,0;SAPOPEMBA;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+122;Administração Geral;08;;;Despesa Regionalizável;0,0;SE;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+122;Administração Geral;08;;;Despesa Regionalizável;0,0;VILA MARIA-VILA GUILHERME;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+122;Administração Geral;08;;;Despesa Regionalizável;0,0;VILA MARIANA;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+122;Administração Geral;08;;;Despesa Regionalizável;0,0;VILA PRUDENTE;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+122;Administração Geral;08;;;;0,0;;Não detalhado;1040,0;1040,0;Tesouro Municipal - Recursos Vinculados
+126;Tecnologia da Informação;00;Supra-Regional;Supra Subprefeitura;Despesa Não-Regionalizável;210747294,14;;Não regionalizável;0,0;0,0;Tesouro Municipal
+126;Tecnologia da Informação;00;Leste;Subprefeitura Aricanduva/Formosa/Carrão;Despesa Regionalizável;81321,62;ARICANDUVA-FORMOSA-CARRAO;Subprefeitura;0,0;0,0;Tesouro Municipal
+126;Tecnologia da Informação;00;Oeste;Subprefeitura Butantã;Despesa Regionalizável;81321,62;BUTANTA;Subprefeitura;0,0;0,0;Tesouro Municipal
+126;Tecnologia da Informação;00;Sul;Subprefeitura Campo Limpo;Despesa Regionalizável;574683,0;CAMPO LIMPO;Subprefeitura;0,0;0,0;Tesouro Municipal
+126;Tecnologia da Informação;00;Sul;Subprefeitura Capela do Socorro;Despesa Regionalizável;874516,0;CAPELA DO SOCORRO;Subprefeitura;0,0;0,0;Tesouro Municipal
+126;Tecnologia da Informação;00;;;Despesa Regionalizável;0,0;CASA VERDE-CACHOEIRINHA;Subprefeitura;0,0;0,0;Tesouro Municipal
+126;Tecnologia da Informação;00;Sul;Subprefeitura Cidade Ademar;Despesa Regionalizável;81321,62;CIDADE ADEMAR;Subprefeitura;0,0;0,0;Tesouro Municipal
+126;Tecnologia da Informação;00;Leste;Subprefeitura Cidade Tiradentes;Despesa Regionalizável;403175,72;CIDADE TIRADENTES;Subprefeitura;0,0;0,0;Tesouro Municipal
+126;Tecnologia da Informação;00;Leste;Subprefeitura Ermelino Matarazzo;Despesa Regionalizável;238587,93;ERMELINO MATARAZZO;Subprefeitura;0,0;0,0;Tesouro Municipal
+126;Tecnologia da Informação;00;Norte;Subprefeitura Freguesia/Brasilândia;Despesa Regionalizável;412119,84;FREGUESIA-BRASILANDIA;Subprefeitura;0,0;0,0;Tesouro Municipal
+126;Tecnologia da Informação;00;Leste;Subprefeitura de Guaianases;Despesa Regionalizável;412855,5;GUAIANASES;Subprefeitura;0,0;0,0;Tesouro Municipal
+126;Tecnologia da Informação;00;Sul;Subprefeitura Ipiranga;Despesa Regionalizável;650387,71;IPIRANGA;Subprefeitura;0,0;0,0;Tesouro Municipal
+126;Tecnologia da Informação;00;Leste;Subprefeitura Itaim Paulista;Despesa Regionalizável;412555,12;ITAIM PAULISTA;Subprefeitura;0,0;0,0;Tesouro Municipal
+126;Tecnologia da Informação;00;Leste;Subprefeitura Itaquera;Despesa Regionalizável;502171,51;ITAQUERA;Subprefeitura;0,0;0,0;Tesouro Municipal
+126;Tecnologia da Informação;00;Sul;Subprefeitura Jabaquara;Despesa Regionalizável;153421,1;JABAQUARA;Subprefeitura;0,0;0,0;Tesouro Municipal
+126;Tecnologia da Informação;00;Norte;Subprefeitura Jaçanã/Tremembé;Despesa Regionalizável;228830,5;JACANA-TREMEMBE;Subprefeitura;0,0;0,0;Tesouro Municipal
+126;Tecnologia da Informação;00;Oeste;Subprefeitura Lapa;Despesa Regionalizável;81321,62;LAPA;Subprefeitura;0,0;0,0;Tesouro Municipal
+126;Tecnologia da Informação;00;Sul;Subprefeitura M'Boi Mirim;Despesa Regionalizável;997730,77;M BOI MIRIM;Subprefeitura;0,0;0,0;Tesouro Municipal
+126;Tecnologia da Informação;00;Leste;Subprefeitura Mooca;Despesa Regionalizável;162643,22;MOOCA;Subprefeitura;0,0;0,0;Tesouro Municipal
+126;Tecnologia da Informação;00;Sul;Subprefeitura Parelheiros;Despesa Regionalizável;137570,66;PARELHEIROS;Subprefeitura;0,0;0,0;Tesouro Municipal
+126;Tecnologia da Informação;00;Leste;Subprefeitura Penha;Despesa Regionalizável;243964,84;PENHA;Subprefeitura;0,0;0,0;Tesouro Municipal
+126;Tecnologia da Informação;00;Norte;Subprefeitura Perus/Anhanguera;Despesa Regionalizável;243964,84;PERUS;Subprefeitura;0,0;0,0;Tesouro Municipal
+126;Tecnologia da Informação;00;Oeste;Subprefeitura Pinheiros;Despesa Regionalizável;13031,87;PINHEIROS;Subprefeitura;0,0;0,0;Tesouro Municipal
+126;Tecnologia da Informação;00;Norte;Subprefeitura Pirituba/Jaraguá;Despesa Regionalizável;378919,4;PIRITUBA-JARAGUA;Subprefeitura;0,0;0,0;Tesouro Municipal
+126;Tecnologia da Informação;00;Norte;Subprefeitura Santana/Tucuruvi;Despesa Regionalizável;162643,22;SANTANA-TUCURUVI;Subprefeitura;0,0;0,0;Tesouro Municipal
+126;Tecnologia da Informação;00;Sul;Subprefeitura Santo Amaro;Despesa Regionalizável;81321,62;SANTO AMARO;Subprefeitura;0,0;0,0;Tesouro Municipal
+126;Tecnologia da Informação;00;Leste;Subprefeitura São Mateus;Despesa Regionalizável;417471,64;SAO MATEUS;Subprefeitura;0,0;0,0;Tesouro Municipal
+126;Tecnologia da Informação;00;Leste;Subprefeitura São Miguel Paulista;Despesa Regionalizável;161163,69;SAO MIGUEL;Subprefeitura;0,0;0,0;Tesouro Municipal
+126;Tecnologia da Informação;00;Leste;Subprefeitura Sapopemba;Despesa Regionalizável;83147,09;SAPOPEMBA;Subprefeitura;0,0;0,0;Tesouro Municipal
+126;Tecnologia da Informação;00;Centro;Subprefeitura Sé;Despesa Regionalizável;2874306,91;SE;Subprefeitura;0,0;0,0;Tesouro Municipal
+126;Tecnologia da Informação;00;Norte;Subprefeitura Vila Maria/Vila Guilherme;Despesa Regionalizável;168155,02;VILA MARIA-VILA GUILHERME;Subprefeitura;0,0;0,0;Tesouro Municipal
+126;Tecnologia da Informação;00;Sul;Subprefeitura Vila Mariana;Despesa Regionalizável;342982,21;VILA MARIANA;Subprefeitura;0,0;0,0;Tesouro Municipal
+126;Tecnologia da Informação;00;Leste;Subprefeitura de Vila Prudente;Despesa Regionalizável;325286,31;VILA PRUDENTE;Subprefeitura;0,0;0,0;Tesouro Municipal
+126;Tecnologia da Informação;00;;;;106155,44;;Não detalhado;319260066,0;277911312,86;Tesouro Municipal
+126;Tecnologia da Informação;02;;;Despesa Regionalizável;0,0;ARICANDUVA-FORMOSA-CARRAO;Subprefeitura;0,0;0,0;Transferências Federais
+126;Tecnologia da Informação;02;;;Despesa Regionalizável;0,0;BUTANTA;Subprefeitura;0,0;0,0;Transferências Federais
+126;Tecnologia da Informação;02;;;Despesa Regionalizável;0,0;CAMPO LIMPO;Subprefeitura;0,0;0,0;Transferências Federais
+126;Tecnologia da Informação;02;;;Despesa Regionalizável;0,0;CAPELA DO SOCORRO;Subprefeitura;0,0;0,0;Transferências Federais
+126;Tecnologia da Informação;02;;;Despesa Regionalizável;0,0;CASA VERDE-CACHOEIRINHA;Subprefeitura;0,0;0,0;Transferências Federais
+126;Tecnologia da Informação;02;;;Despesa Regionalizável;0,0;CIDADE ADEMAR;Subprefeitura;0,0;0,0;Transferências Federais
+126;Tecnologia da Informação;02;;;Despesa Regionalizável;0,0;CIDADE TIRADENTES;Subprefeitura;0,0;0,0;Transferências Federais
+126;Tecnologia da Informação;02;;;Despesa Regionalizável;0,0;ERMELINO MATARAZZO;Subprefeitura;0,0;0,0;Transferências Federais
+126;Tecnologia da Informação;02;;;Despesa Regionalizável;0,0;FREGUESIA-BRASILANDIA;Subprefeitura;0,0;0,0;Transferências Federais
+126;Tecnologia da Informação;02;;;Despesa Regionalizável;0,0;GUAIANASES;Subprefeitura;0,0;0,0;Transferências Federais
+126;Tecnologia da Informação;02;;;Despesa Regionalizável;0,0;IPIRANGA;Subprefeitura;0,0;0,0;Transferências Federais
+126;Tecnologia da Informação;02;;;Despesa Regionalizável;0,0;ITAIM PAULISTA;Subprefeitura;0,0;0,0;Transferências Federais
+126;Tecnologia da Informação;02;;;Despesa Regionalizável;0,0;ITAQUERA;Subprefeitura;0,0;0,0;Transferências Federais
+126;Tecnologia da Informação;02;;;Despesa Regionalizável;0,0;JABAQUARA;Subprefeitura;0,0;0,0;Transferências Federais
+126;Tecnologia da Informação;02;;;Despesa Regionalizável;0,0;JACANA-TREMEMBE;Subprefeitura;0,0;0,0;Transferências Federais
+126;Tecnologia da Informação;02;;;Despesa Regionalizável;0,0;LAPA;Subprefeitura;0,0;0,0;Transferências Federais
+126;Tecnologia da Informação;02;;;Despesa Regionalizável;0,0;M BOI MIRIM;Subprefeitura;0,0;0,0;Transferências Federais
+126;Tecnologia da Informação;02;;;Despesa Regionalizável;0,0;MOOCA;Subprefeitura;0,0;0,0;Transferências Federais
+126;Tecnologia da Informação;02;;;Despesa Regionalizável;0,0;PARELHEIROS;Subprefeitura;0,0;0,0;Transferências Federais
+126;Tecnologia da Informação;02;;;Despesa Regionalizável;0,0;PENHA;Subprefeitura;0,0;0,0;Transferências Federais
+126;Tecnologia da Informação;02;;;Despesa Regionalizável;0,0;PERUS;Subprefeitura;0,0;0,0;Transferências Federais
+126;Tecnologia da Informação;02;;;Despesa Regionalizável;0,0;PINHEIROS;Subprefeitura;0,0;0,0;Transferências Federais
+126;Tecnologia da Informação;02;;;Despesa Regionalizável;0,0;PIRITUBA-JARAGUA;Subprefeitura;0,0;0,0;Transferências Federais
+126;Tecnologia da Informação;02;;;Despesa Regionalizável;0,0;SANTANA-TUCURUVI;Subprefeitura;0,0;0,0;Transferências Federais
+126;Tecnologia da Informação;02;;;Despesa Regionalizável;0,0;SANTO AMARO;Subprefeitura;0,0;0,0;Transferências Federais
+126;Tecnologia da Informação;02;;;Despesa Regionalizável;0,0;SAO MATEUS;Subprefeitura;0,0;0,0;Transferências Federais
+126;Tecnologia da Informação;02;;;Despesa Regionalizável;0,0;SAO MIGUEL;Subprefeitura;0,0;0,0;Transferências Federais
+126;Tecnologia da Informação;02;;;Despesa Regionalizável;0,0;SAPOPEMBA;Subprefeitura;0,0;0,0;Transferências Federais
+126;Tecnologia da Informação;02;;;Despesa Regionalizável;0,0;SE;Subprefeitura;0,0;0,0;Transferências Federais
+126;Tecnologia da Informação;02;;;Despesa Regionalizável;0,0;VILA MARIA-VILA GUILHERME;Subprefeitura;0,0;0,0;Transferências Federais
+126;Tecnologia da Informação;02;;;Despesa Regionalizável;0,0;VILA MARIANA;Subprefeitura;0,0;0,0;Transferências Federais
+126;Tecnologia da Informação;02;;;Despesa Regionalizável;0,0;VILA PRUDENTE;Subprefeitura;0,0;0,0;Transferências Federais
+126;Tecnologia da Informação;02;;;;0,0;;Não detalhado;0,0;0,0;Transferências Federais
+128;Formação de Recursos Humanos;00;Supra-Regional;Supra Subprefeitura;Despesa Não-Regionalizável;12992940,01;;Não regionalizável;0,0;0,0;Tesouro Municipal
+128;Formação de Recursos Humanos;00;;;Despesa Regionalizável;0,0;ARICANDUVA-FORMOSA-CARRAO;Subprefeitura;0,0;0,0;Tesouro Municipal
+128;Formação de Recursos Humanos;00;;;Despesa Regionalizável;0,0;BUTANTA;Subprefeitura;0,0;0,0;Tesouro Municipal
+128;Formação de Recursos Humanos;00;;;Despesa Regionalizável;0,0;CAMPO LIMPO;Subprefeitura;0,0;0,0;Tesouro Municipal
+128;Formação de Recursos Humanos;00;;;Despesa Regionalizável;0,0;CAPELA DO SOCORRO;Subprefeitura;0,0;0,0;Tesouro Municipal
+128;Formação de Recursos Humanos;00;;;Despesa Regionalizável;0,0;CASA VERDE-CACHOEIRINHA;Subprefeitura;0,0;0,0;Tesouro Municipal
+128;Formação de Recursos Humanos;00;;;Despesa Regionalizável;0,0;CIDADE ADEMAR;Subprefeitura;0,0;0,0;Tesouro Municipal
+128;Formação de Recursos Humanos;00;;;Despesa Regionalizável;0,0;CIDADE TIRADENTES;Subprefeitura;0,0;0,0;Tesouro Municipal
+128;Formação de Recursos Humanos;00;;;Despesa Regionalizável;0,0;ERMELINO MATARAZZO;Subprefeitura;0,0;0,0;Tesouro Municipal
+128;Formação de Recursos Humanos;00;;;Despesa Regionalizável;0,0;FREGUESIA-BRASILANDIA;Subprefeitura;0,0;0,0;Tesouro Municipal
+128;Formação de Recursos Humanos;00;;;Despesa Regionalizável;0,0;GUAIANASES;Subprefeitura;0,0;0,0;Tesouro Municipal
+128;Formação de Recursos Humanos;00;;;Despesa Regionalizável;0,0;IPIRANGA;Subprefeitura;0,0;0,0;Tesouro Municipal
+128;Formação de Recursos Humanos;00;;;Despesa Regionalizável;0,0;ITAIM PAULISTA;Subprefeitura;0,0;0,0;Tesouro Municipal
+128;Formação de Recursos Humanos;00;;;Despesa Regionalizável;0,0;ITAQUERA;Subprefeitura;0,0;0,0;Tesouro Municipal
+128;Formação de Recursos Humanos;00;;;Despesa Regionalizável;0,0;JABAQUARA;Subprefeitura;0,0;0,0;Tesouro Municipal
+128;Formação de Recursos Humanos;00;;;Despesa Regionalizável;0,0;JACANA-TREMEMBE;Subprefeitura;0,0;0,0;Tesouro Municipal
+128;Formação de Recursos Humanos;00;;;Despesa Regionalizável;0,0;LAPA;Subprefeitura;0,0;0,0;Tesouro Municipal
+128;Formação de Recursos Humanos;00;;;Despesa Regionalizável;0,0;M BOI MIRIM;Subprefeitura;0,0;0,0;Tesouro Municipal
+128;Formação de Recursos Humanos;00;;;Despesa Regionalizável;0,0;MOOCA;Subprefeitura;0,0;0,0;Tesouro Municipal
+128;Formação de Recursos Humanos;00;;;Despesa Regionalizável;0,0;PARELHEIROS;Subprefeitura;0,0;0,0;Tesouro Municipal
+128;Formação de Recursos Humanos;00;;;Despesa Regionalizável;0,0;PENHA;Subprefeitura;0,0;0,0;Tesouro Municipal
+128;Formação de Recursos Humanos;00;;;Despesa Regionalizável;0,0;PERUS;Subprefeitura;0,0;0,0;Tesouro Municipal
+128;Formação de Recursos Humanos;00;;;Despesa Regionalizável;0,0;PINHEIROS;Subprefeitura;0,0;0,0;Tesouro Municipal
+128;Formação de Recursos Humanos;00;;;Despesa Regionalizável;0,0;PIRITUBA-JARAGUA;Subprefeitura;0,0;0,0;Tesouro Municipal
+128;Formação de Recursos Humanos;00;;;Despesa Regionalizável;0,0;SANTANA-TUCURUVI;Subprefeitura;0,0;0,0;Tesouro Municipal
+128;Formação de Recursos Humanos;00;;;Despesa Regionalizável;0,0;SANTO AMARO;Subprefeitura;0,0;0,0;Tesouro Municipal
+128;Formação de Recursos Humanos;00;;;Despesa Regionalizável;0,0;SAO MATEUS;Subprefeitura;0,0;0,0;Tesouro Municipal
+128;Formação de Recursos Humanos;00;;;Despesa Regionalizável;0,0;SAO MIGUEL;Subprefeitura;0,0;0,0;Tesouro Municipal
+128;Formação de Recursos Humanos;00;;;Despesa Regionalizável;0,0;SAPOPEMBA;Subprefeitura;0,0;0,0;Tesouro Municipal
+128;Formação de Recursos Humanos;00;;;Despesa Regionalizável;0,0;SE;Subprefeitura;0,0;0,0;Tesouro Municipal
+128;Formação de Recursos Humanos;00;;;Despesa Regionalizável;0,0;VILA MARIA-VILA GUILHERME;Subprefeitura;0,0;0,0;Tesouro Municipal
+128;Formação de Recursos Humanos;00;;;Despesa Regionalizável;0,0;VILA MARIANA;Subprefeitura;0,0;0,0;Tesouro Municipal
+128;Formação de Recursos Humanos;00;;;Despesa Regionalizável;0,0;VILA PRUDENTE;Subprefeitura;0,0;0,0;Tesouro Municipal
+128;Formação de Recursos Humanos;00;;;;17257,3;;Não detalhado;55594753,0;17538869,05;Tesouro Municipal
+131;Comunicação Social;00;;;Despesa Regionalizável;0,0;ARICANDUVA-FORMOSA-CARRAO;Subprefeitura;0,0;0,0;Tesouro Municipal
+131;Comunicação Social;00;;;Despesa Regionalizável;0,0;BUTANTA;Subprefeitura;0,0;0,0;Tesouro Municipal
+131;Comunicação Social;00;;;Despesa Regionalizável;0,0;CAMPO LIMPO;Subprefeitura;0,0;0,0;Tesouro Municipal
+131;Comunicação Social;00;;;Despesa Regionalizável;0,0;CAPELA DO SOCORRO;Subprefeitura;0,0;0,0;Tesouro Municipal
+131;Comunicação Social;00;;;Despesa Regionalizável;0,0;CASA VERDE-CACHOEIRINHA;Subprefeitura;0,0;0,0;Tesouro Municipal
+131;Comunicação Social;00;;;Despesa Regionalizável;0,0;CIDADE ADEMAR;Subprefeitura;0,0;0,0;Tesouro Municipal
+131;Comunicação Social;00;;;Despesa Regionalizável;0,0;CIDADE TIRADENTES;Subprefeitura;0,0;0,0;Tesouro Municipal
+131;Comunicação Social;00;;;Despesa Regionalizável;0,0;ERMELINO MATARAZZO;Subprefeitura;0,0;0,0;Tesouro Municipal
+131;Comunicação Social;00;;;Despesa Regionalizável;0,0;FREGUESIA-BRASILANDIA;Subprefeitura;0,0;0,0;Tesouro Municipal
+131;Comunicação Social;00;;;Despesa Regionalizável;0,0;GUAIANASES;Subprefeitura;0,0;0,0;Tesouro Municipal
+131;Comunicação Social;00;;;Despesa Regionalizável;0,0;IPIRANGA;Subprefeitura;0,0;0,0;Tesouro Municipal
+131;Comunicação Social;00;;;Despesa Regionalizável;0,0;ITAIM PAULISTA;Subprefeitura;0,0;0,0;Tesouro Municipal
+131;Comunicação Social;00;;;Despesa Regionalizável;0,0;ITAQUERA;Subprefeitura;0,0;0,0;Tesouro Municipal
+131;Comunicação Social;00;;;Despesa Regionalizável;0,0;JABAQUARA;Subprefeitura;0,0;0,0;Tesouro Municipal
+131;Comunicação Social;00;;;Despesa Regionalizável;0,0;JACANA-TREMEMBE;Subprefeitura;0,0;0,0;Tesouro Municipal
+131;Comunicação Social;00;;;Despesa Regionalizável;0,0;LAPA;Subprefeitura;0,0;0,0;Tesouro Municipal
+131;Comunicação Social;00;;;Despesa Regionalizável;0,0;M BOI MIRIM;Subprefeitura;0,0;0,0;Tesouro Municipal
+131;Comunicação Social;00;;;Despesa Regionalizável;0,0;MOOCA;Subprefeitura;0,0;0,0;Tesouro Municipal
+131;Comunicação Social;00;;;Despesa Regionalizável;0,0;PARELHEIROS;Subprefeitura;0,0;0,0;Tesouro Municipal
+131;Comunicação Social;00;;;Despesa Regionalizável;0,0;PENHA;Subprefeitura;0,0;0,0;Tesouro Municipal
+131;Comunicação Social;00;;;Despesa Regionalizável;0,0;PERUS;Subprefeitura;0,0;0,0;Tesouro Municipal
+131;Comunicação Social;00;;;Despesa Regionalizável;0,0;PINHEIROS;Subprefeitura;0,0;0,0;Tesouro Municipal
+131;Comunicação Social;00;;;Despesa Regionalizável;0,0;PIRITUBA-JARAGUA;Subprefeitura;0,0;0,0;Tesouro Municipal
+131;Comunicação Social;00;;;Despesa Regionalizável;0,0;SANTANA-TUCURUVI;Subprefeitura;0,0;0,0;Tesouro Municipal
+131;Comunicação Social;00;;;Despesa Regionalizável;0,0;SANTO AMARO;Subprefeitura;0,0;0,0;Tesouro Municipal
+131;Comunicação Social;00;;;Despesa Regionalizável;0,0;SAO MATEUS;Subprefeitura;0,0;0,0;Tesouro Municipal
+131;Comunicação Social;00;;;Despesa Regionalizável;0,0;SAO MIGUEL;Subprefeitura;0,0;0,0;Tesouro Municipal
+131;Comunicação Social;00;;;Despesa Regionalizável;0,0;SAPOPEMBA;Subprefeitura;0,0;0,0;Tesouro Municipal
+131;Comunicação Social;00;;;Despesa Regionalizável;0,0;SE;Subprefeitura;0,0;0,0;Tesouro Municipal
+131;Comunicação Social;00;;;Despesa Regionalizável;0,0;VILA MARIA-VILA GUILHERME;Subprefeitura;0,0;0,0;Tesouro Municipal
+131;Comunicação Social;00;;;Despesa Regionalizável;0,0;VILA MARIANA;Subprefeitura;0,0;0,0;Tesouro Municipal
+131;Comunicação Social;00;;;Despesa Regionalizável;0,0;VILA PRUDENTE;Subprefeitura;0,0;0,0;Tesouro Municipal
+131;Comunicação Social;00;;;;0,0;;Não detalhado;600000,0;0,0;Tesouro Municipal
+271;Previdência Básica;00;Supra-Regional;Supra Subprefeitura;Despesa Não-Regionalizável;3763373789,16;;Não regionalizável;0,0;0,0;Tesouro Municipal
+271;Previdência Básica;00;;;Despesa Regionalizável;0,0;ARICANDUVA-FORMOSA-CARRAO;Subprefeitura;0,0;0,0;Tesouro Municipal
+271;Previdência Básica;00;;;Despesa Regionalizável;0,0;BUTANTA;Subprefeitura;0,0;0,0;Tesouro Municipal
+271;Previdência Básica;00;;;Despesa Regionalizável;0,0;CAMPO LIMPO;Subprefeitura;0,0;0,0;Tesouro Municipal
+271;Previdência Básica;00;;;Despesa Regionalizável;0,0;CAPELA DO SOCORRO;Subprefeitura;0,0;0,0;Tesouro Municipal
+271;Previdência Básica;00;;;Despesa Regionalizável;0,0;CASA VERDE-CACHOEIRINHA;Subprefeitura;0,0;0,0;Tesouro Municipal
+271;Previdência Básica;00;;;Despesa Regionalizável;0,0;CIDADE ADEMAR;Subprefeitura;0,0;0,0;Tesouro Municipal
+271;Previdência Básica;00;;;Despesa Regionalizável;0,0;CIDADE TIRADENTES;Subprefeitura;0,0;0,0;Tesouro Municipal
+271;Previdência Básica;00;;;Despesa Regionalizável;0,0;ERMELINO MATARAZZO;Subprefeitura;0,0;0,0;Tesouro Municipal
+271;Previdência Básica;00;;;Despesa Regionalizável;0,0;FREGUESIA-BRASILANDIA;Subprefeitura;0,0;0,0;Tesouro Municipal
+271;Previdência Básica;00;;;Despesa Regionalizável;0,0;GUAIANASES;Subprefeitura;0,0;0,0;Tesouro Municipal
+271;Previdência Básica;00;;;Despesa Regionalizável;0,0;IPIRANGA;Subprefeitura;0,0;0,0;Tesouro Municipal
+271;Previdência Básica;00;;;Despesa Regionalizável;0,0;ITAIM PAULISTA;Subprefeitura;0,0;0,0;Tesouro Municipal
+271;Previdência Básica;00;;;Despesa Regionalizável;0,0;ITAQUERA;Subprefeitura;0,0;0,0;Tesouro Municipal
+271;Previdência Básica;00;;;Despesa Regionalizável;0,0;JABAQUARA;Subprefeitura;0,0;0,0;Tesouro Municipal
+271;Previdência Básica;00;;;Despesa Regionalizável;0,0;JACANA-TREMEMBE;Subprefeitura;0,0;0,0;Tesouro Municipal
+271;Previdência Básica;00;;;Despesa Regionalizável;0,0;LAPA;Subprefeitura;0,0;0,0;Tesouro Municipal
+271;Previdência Básica;00;;;Despesa Regionalizável;0,0;M BOI MIRIM;Subprefeitura;0,0;0,0;Tesouro Municipal
+271;Previdência Básica;00;;;Despesa Regionalizável;0,0;MOOCA;Subprefeitura;0,0;0,0;Tesouro Municipal
+271;Previdência Básica;00;;;Despesa Regionalizável;0,0;PARELHEIROS;Subprefeitura;0,0;0,0;Tesouro Municipal
+271;Previdência Básica;00;;;Despesa Regionalizável;0,0;PENHA;Subprefeitura;0,0;0,0;Tesouro Municipal
+271;Previdência Básica;00;;;Despesa Regionalizável;0,0;PERUS;Subprefeitura;0,0;0,0;Tesouro Municipal
+271;Previdência Básica;00;;;Despesa Regionalizável;0,0;PINHEIROS;Subprefeitura;0,0;0,0;Tesouro Municipal
+271;Previdência Básica;00;;;Despesa Regionalizável;0,0;PIRITUBA-JARAGUA;Subprefeitura;0,0;0,0;Tesouro Municipal
+271;Previdência Básica;00;;;Despesa Regionalizável;0,0;SANTANA-TUCURUVI;Subprefeitura;0,0;0,0;Tesouro Municipal
+271;Previdência Básica;00;;;Despesa Regionalizável;0,0;SANTO AMARO;Subprefeitura;0,0;0,0;Tesouro Municipal
+271;Previdência Básica;00;;;Despesa Regionalizável;0,0;SAO MATEUS;Subprefeitura;0,0;0,0;Tesouro Municipal
+271;Previdência Básica;00;;;Despesa Regionalizável;0,0;SAO MIGUEL;Subprefeitura;0,0;0,0;Tesouro Municipal
+271;Previdência Básica;00;;;Despesa Regionalizável;0,0;SAPOPEMBA;Subprefeitura;0,0;0,0;Tesouro Municipal
+271;Previdência Básica;00;;;Despesa Regionalizável;0,0;SE;Subprefeitura;0,0;0,0;Tesouro Municipal
+271;Previdência Básica;00;;;Despesa Regionalizável;0,0;VILA MARIA-VILA GUILHERME;Subprefeitura;0,0;0,0;Tesouro Municipal
+271;Previdência Básica;00;;;Despesa Regionalizável;0,0;VILA MARIANA;Subprefeitura;0,0;0,0;Tesouro Municipal
+271;Previdência Básica;00;;;Despesa Regionalizável;0,0;VILA PRUDENTE;Subprefeitura;0,0;0,0;Tesouro Municipal
+271;Previdência Básica;00;;;;359,84;;Não detalhado;3852806485,0;3770576485,0;Tesouro Municipal
+306;Alimentação e Nutrição;00;Supra-Regional;Supra Subprefeitura;Despesa Não-Regionalizável;687352886,7;;Não regionalizável;0,0;0,0;Tesouro Municipal
+306;Alimentação e Nutrição;00;;;Despesa Regionalizável;0,0;ARICANDUVA-FORMOSA-CARRAO;Subprefeitura;0,0;0,0;Tesouro Municipal
+306;Alimentação e Nutrição;00;;;Despesa Regionalizável;0,0;BUTANTA;Subprefeitura;0,0;0,0;Tesouro Municipal
+306;Alimentação e Nutrição;00;;;Despesa Regionalizável;0,0;CAMPO LIMPO;Subprefeitura;0,0;0,0;Tesouro Municipal
+306;Alimentação e Nutrição;00;;;Despesa Regionalizável;0,0;CAPELA DO SOCORRO;Subprefeitura;0,0;0,0;Tesouro Municipal
+306;Alimentação e Nutrição;00;;;Despesa Regionalizável;0,0;CASA VERDE-CACHOEIRINHA;Subprefeitura;0,0;0,0;Tesouro Municipal
+306;Alimentação e Nutrição;00;;;Despesa Regionalizável;0,0;CIDADE ADEMAR;Subprefeitura;0,0;0,0;Tesouro Municipal
+306;Alimentação e Nutrição;00;;;Despesa Regionalizável;0,0;CIDADE TIRADENTES;Subprefeitura;0,0;0,0;Tesouro Municipal
+306;Alimentação e Nutrição;00;;;Despesa Regionalizável;0,0;ERMELINO MATARAZZO;Subprefeitura;0,0;0,0;Tesouro Municipal
+306;Alimentação e Nutrição;00;;;Despesa Regionalizável;0,0;FREGUESIA-BRASILANDIA;Subprefeitura;0,0;0,0;Tesouro Municipal
+306;Alimentação e Nutrição;00;;;Despesa Regionalizável;0,0;GUAIANASES;Subprefeitura;0,0;0,0;Tesouro Municipal
+306;Alimentação e Nutrição;00;;;Despesa Regionalizável;0,0;IPIRANGA;Subprefeitura;0,0;0,0;Tesouro Municipal
+306;Alimentação e Nutrição;00;;;Despesa Regionalizável;0,0;ITAIM PAULISTA;Subprefeitura;0,0;0,0;Tesouro Municipal
+306;Alimentação e Nutrição;00;;;Despesa Regionalizável;0,0;ITAQUERA;Subprefeitura;0,0;0,0;Tesouro Municipal
+306;Alimentação e Nutrição;00;;;Despesa Regionalizável;0,0;JABAQUARA;Subprefeitura;0,0;0,0;Tesouro Municipal
+306;Alimentação e Nutrição;00;;;Despesa Regionalizável;0,0;JACANA-TREMEMBE;Subprefeitura;0,0;0,0;Tesouro Municipal
+306;Alimentação e Nutrição;00;;;Despesa Regionalizável;0,0;LAPA;Subprefeitura;0,0;0,0;Tesouro Municipal
+306;Alimentação e Nutrição;00;;;Despesa Regionalizável;0,0;M BOI MIRIM;Subprefeitura;0,0;0,0;Tesouro Municipal
+306;Alimentação e Nutrição;00;;;Despesa Regionalizável;0,0;MOOCA;Subprefeitura;0,0;0,0;Tesouro Municipal
+306;Alimentação e Nutrição;00;;;Despesa Regionalizável;0,0;PARELHEIROS;Subprefeitura;0,0;0,0;Tesouro Municipal
+306;Alimentação e Nutrição;00;;;Despesa Regionalizável;0,0;PENHA;Subprefeitura;0,0;0,0;Tesouro Municipal
+306;Alimentação e Nutrição;00;;;Despesa Regionalizável;0,0;PERUS;Subprefeitura;0,0;0,0;Tesouro Municipal
+306;Alimentação e Nutrição;00;;;Despesa Regionalizável;0,0;PINHEIROS;Subprefeitura;0,0;0,0;Tesouro Municipal
+306;Alimentação e Nutrição;00;;;Despesa Regionalizável;0,0;PIRITUBA-JARAGUA;Subprefeitura;0,0;0,0;Tesouro Municipal
+306;Alimentação e Nutrição;00;;;Despesa Regionalizável;0,0;SANTANA-TUCURUVI;Subprefeitura;0,0;0,0;Tesouro Municipal
+306;Alimentação e Nutrição;00;;;Despesa Regionalizável;0,0;SANTO AMARO;Subprefeitura;0,0;0,0;Tesouro Municipal
+306;Alimentação e Nutrição;00;;;Despesa Regionalizável;0,0;SAO MATEUS;Subprefeitura;0,0;0,0;Tesouro Municipal
+306;Alimentação e Nutrição;00;;;Despesa Regionalizável;0,0;SAO MIGUEL;Subprefeitura;0,0;0,0;Tesouro Municipal
+306;Alimentação e Nutrição;00;;;Despesa Regionalizável;0,0;SAPOPEMBA;Subprefeitura;0,0;0,0;Tesouro Municipal
+306;Alimentação e Nutrição;00;;;Despesa Regionalizável;0,0;SE;Subprefeitura;0,0;0,0;Tesouro Municipal
+306;Alimentação e Nutrição;00;;;Despesa Regionalizável;0,0;VILA MARIA-VILA GUILHERME;Subprefeitura;0,0;0,0;Tesouro Municipal
+306;Alimentação e Nutrição;00;;;Despesa Regionalizável;0,0;VILA MARIANA;Subprefeitura;0,0;0,0;Tesouro Municipal
+306;Alimentação e Nutrição;00;;;Despesa Regionalizável;0,0;VILA PRUDENTE;Subprefeitura;0,0;0,0;Tesouro Municipal
+306;Alimentação e Nutrição;00;;;;4728663,92;;Não detalhado;781571041,0;881144108,33;Tesouro Municipal
+306;Alimentação e Nutrição;02;Supra-Regional;Supra Subprefeitura;Despesa Não-Regionalizável;663359537,04;;Não regionalizável;0,0;0,0;Transferências Federais
+306;Alimentação e Nutrição;02;;;Despesa Regionalizável;0,0;ARICANDUVA-FORMOSA-CARRAO;Subprefeitura;0,0;0,0;Transferências Federais
+306;Alimentação e Nutrição;02;;;Despesa Regionalizável;0,0;BUTANTA;Subprefeitura;0,0;0,0;Transferências Federais
+306;Alimentação e Nutrição;02;;;Despesa Regionalizável;0,0;CAMPO LIMPO;Subprefeitura;0,0;0,0;Transferências Federais
+306;Alimentação e Nutrição;02;;;Despesa Regionalizável;0,0;CAPELA DO SOCORRO;Subprefeitura;0,0;0,0;Transferências Federais
+306;Alimentação e Nutrição;02;;;Despesa Regionalizável;0,0;CASA VERDE-CACHOEIRINHA;Subprefeitura;0,0;0,0;Transferências Federais
+306;Alimentação e Nutrição;02;;;Despesa Regionalizável;0,0;CIDADE ADEMAR;Subprefeitura;0,0;0,0;Transferências Federais
+306;Alimentação e Nutrição;02;;;Despesa Regionalizável;0,0;CIDADE TIRADENTES;Subprefeitura;0,0;0,0;Transferências Federais
+306;Alimentação e Nutrição;02;;;Despesa Regionalizável;0,0;ERMELINO MATARAZZO;Subprefeitura;0,0;0,0;Transferências Federais
+306;Alimentação e Nutrição;02;;;Despesa Regionalizável;0,0;FREGUESIA-BRASILANDIA;Subprefeitura;0,0;0,0;Transferências Federais
+306;Alimentação e Nutrição;02;;;Despesa Regionalizável;0,0;GUAIANASES;Subprefeitura;0,0;0,0;Transferências Federais
+306;Alimentação e Nutrição;02;;;Despesa Regionalizável;0,0;IPIRANGA;Subprefeitura;0,0;0,0;Transferências Federais
+306;Alimentação e Nutrição;02;;;Despesa Regionalizável;0,0;ITAIM PAULISTA;Subprefeitura;0,0;0,0;Transferências Federais
+306;Alimentação e Nutrição;02;;;Despesa Regionalizável;0,0;ITAQUERA;Subprefeitura;0,0;0,0;Transferências Federais
+306;Alimentação e Nutrição;02;;;Despesa Regionalizável;0,0;JABAQUARA;Subprefeitura;0,0;0,0;Transferências Federais
+306;Alimentação e Nutrição;02;;;Despesa Regionalizável;0,0;JACANA-TREMEMBE;Subprefeitura;0,0;0,0;Transferências Federais
+306;Alimentação e Nutrição;02;;;Despesa Regionalizável;0,0;LAPA;Subprefeitura;0,0;0,0;Transferências Federais
+306;Alimentação e Nutrição;02;;;Despesa Regionalizável;0,0;M BOI MIRIM;Subprefeitura;0,0;0,0;Transferências Federais
+306;Alimentação e Nutrição;02;;;Despesa Regionalizável;0,0;MOOCA;Subprefeitura;0,0;0,0;Transferências Federais
+306;Alimentação e Nutrição;02;;;Despesa Regionalizável;0,0;PARELHEIROS;Subprefeitura;0,0;0,0;Transferências Federais
+306;Alimentação e Nutrição;02;;;Despesa Regionalizável;0,0;PENHA;Subprefeitura;0,0;0,0;Transferências Federais
+306;Alimentação e Nutrição;02;;;Despesa Regionalizável;0,0;PERUS;Subprefeitura;0,0;0,0;Transferências Federais
+306;Alimentação e Nutrição;02;;;Despesa Regionalizável;0,0;PINHEIROS;Subprefeitura;0,0;0,0;Transferências Federais
+306;Alimentação e Nutrição;02;;;Despesa Regionalizável;0,0;PIRITUBA-JARAGUA;Subprefeitura;0,0;0,0;Transferências Federais
+306;Alimentação e Nutrição;02;;;Despesa Regionalizável;0,0;SANTANA-TUCURUVI;Subprefeitura;0,0;0,0;Transferências Federais
+306;Alimentação e Nutrição;02;;;Despesa Regionalizável;0,0;SANTO AMARO;Subprefeitura;0,0;0,0;Transferências Federais
+306;Alimentação e Nutrição;02;;;Despesa Regionalizável;0,0;SAO MATEUS;Subprefeitura;0,0;0,0;Transferências Federais
+306;Alimentação e Nutrição;02;;;Despesa Regionalizável;0,0;SAO MIGUEL;Subprefeitura;0,0;0,0;Transferências Federais
+306;Alimentação e Nutrição;02;;;Despesa Regionalizável;0,0;SAPOPEMBA;Subprefeitura;0,0;0,0;Transferências Federais
+306;Alimentação e Nutrição;02;;;Despesa Regionalizável;0,0;SE;Subprefeitura;0,0;0,0;Transferências Federais
+306;Alimentação e Nutrição;02;;;Despesa Regionalizável;0,0;VILA MARIA-VILA GUILHERME;Subprefeitura;0,0;0,0;Transferências Federais
+306;Alimentação e Nutrição;02;;;Despesa Regionalizável;0,0;VILA MARIANA;Subprefeitura;0,0;0,0;Transferências Federais
+306;Alimentação e Nutrição;02;;;Despesa Regionalizável;0,0;VILA PRUDENTE;Subprefeitura;0,0;0,0;Transferências Federais
+306;Alimentação e Nutrição;02;;;;3912249,44;;Não detalhado;693777181,0;785746984,45;Transferências Federais
+306;Alimentação e Nutrição;07;;;Despesa Regionalizável;0,0;ARICANDUVA-FORMOSA-CARRAO;Subprefeitura;0,0;0,0;Receita Condicionada
+306;Alimentação e Nutrição;07;;;Despesa Regionalizável;0,0;BUTANTA;Subprefeitura;0,0;0,0;Receita Condicionada
+306;Alimentação e Nutrição;07;;;Despesa Regionalizável;0,0;CAMPO LIMPO;Subprefeitura;0,0;0,0;Receita Condicionada
+306;Alimentação e Nutrição;07;;;Despesa Regionalizável;0,0;CAPELA DO SOCORRO;Subprefeitura;0,0;0,0;Receita Condicionada
+306;Alimentação e Nutrição;07;;;Despesa Regionalizável;0,0;CASA VERDE-CACHOEIRINHA;Subprefeitura;0,0;0,0;Receita Condicionada
+306;Alimentação e Nutrição;07;;;Despesa Regionalizável;0,0;CIDADE ADEMAR;Subprefeitura;0,0;0,0;Receita Condicionada
+306;Alimentação e Nutrição;07;;;Despesa Regionalizável;0,0;CIDADE TIRADENTES;Subprefeitura;0,0;0,0;Receita Condicionada
+306;Alimentação e Nutrição;07;;;Despesa Regionalizável;0,0;ERMELINO MATARAZZO;Subprefeitura;0,0;0,0;Receita Condicionada
+306;Alimentação e Nutrição;07;;;Despesa Regionalizável;0,0;FREGUESIA-BRASILANDIA;Subprefeitura;0,0;0,0;Receita Condicionada
+306;Alimentação e Nutrição;07;;;Despesa Regionalizável;0,0;GUAIANASES;Subprefeitura;0,0;0,0;Receita Condicionada
+306;Alimentação e Nutrição;07;;;Despesa Regionalizável;0,0;IPIRANGA;Subprefeitura;0,0;0,0;Receita Condicionada
+306;Alimentação e Nutrição;07;;;Despesa Regionalizável;0,0;ITAIM PAULISTA;Subprefeitura;0,0;0,0;Receita Condicionada
+306;Alimentação e Nutrição;07;;;Despesa Regionalizável;0,0;ITAQUERA;Subprefeitura;0,0;0,0;Receita Condicionada
+306;Alimentação e Nutrição;07;;;Despesa Regionalizável;0,0;JABAQUARA;Subprefeitura;0,0;0,0;Receita Condicionada
+306;Alimentação e Nutrição;07;;;Despesa Regionalizável;0,0;JACANA-TREMEMBE;Subprefeitura;0,0;0,0;Receita Condicionada
+306;Alimentação e Nutrição;07;;;Despesa Regionalizável;0,0;LAPA;Subprefeitura;0,0;0,0;Receita Condicionada
+306;Alimentação e Nutrição;07;;;Despesa Regionalizável;0,0;M BOI MIRIM;Subprefeitura;0,0;0,0;Receita Condicionada
+306;Alimentação e Nutrição;07;;;Despesa Regionalizável;0,0;MOOCA;Subprefeitura;0,0;0,0;Receita Condicionada
+306;Alimentação e Nutrição;07;;;Despesa Regionalizável;0,0;PARELHEIROS;Subprefeitura;0,0;0,0;Receita Condicionada
+306;Alimentação e Nutrição;07;;;Despesa Regionalizável;0,0;PENHA;Subprefeitura;0,0;0,0;Receita Condicionada
+306;Alimentação e Nutrição;07;;;Despesa Regionalizável;0,0;PERUS;Subprefeitura;0,0;0,0;Receita Condicionada
+306;Alimentação e Nutrição;07;;;Despesa Regionalizável;0,0;PINHEIROS;Subprefeitura;0,0;0,0;Receita Condicionada
+306;Alimentação e Nutrição;07;;;Despesa Regionalizável;0,0;PIRITUBA-JARAGUA;Subprefeitura;0,0;0,0;Receita Condicionada
+306;Alimentação e Nutrição;07;;;Despesa Regionalizável;0,0;SANTANA-TUCURUVI;Subprefeitura;0,0;0,0;Receita Condicionada
+306;Alimentação e Nutrição;07;;;Despesa Regionalizável;0,0;SANTO AMARO;Subprefeitura;0,0;0,0;Receita Condicionada
+306;Alimentação e Nutrição;07;;;Despesa Regionalizável;0,0;SAO MATEUS;Subprefeitura;0,0;0,0;Receita Condicionada
+306;Alimentação e Nutrição;07;;;Despesa Regionalizável;0,0;SAO MIGUEL;Subprefeitura;0,0;0,0;Receita Condicionada
+306;Alimentação e Nutrição;07;;;Despesa Regionalizável;0,0;SAPOPEMBA;Subprefeitura;0,0;0,0;Receita Condicionada
+306;Alimentação e Nutrição;07;;;Despesa Regionalizável;0,0;SE;Subprefeitura;0,0;0,0;Receita Condicionada
+306;Alimentação e Nutrição;07;;;Despesa Regionalizável;0,0;VILA MARIA-VILA GUILHERME;Subprefeitura;0,0;0,0;Receita Condicionada
+306;Alimentação e Nutrição;07;;;Despesa Regionalizável;0,0;VILA MARIANA;Subprefeitura;0,0;0,0;Receita Condicionada
+306;Alimentação e Nutrição;07;;;Despesa Regionalizável;0,0;VILA PRUDENTE;Subprefeitura;0,0;0,0;Receita Condicionada
+306;Alimentação e Nutrição;07;;;;0,0;;Não detalhado;100000000,0;0,0;Receita Condicionada
+361;Ensino Fundamental;00;Supra-Regional;Supra Subprefeitura;Despesa Não-Regionalizável;258565695,43;;Não regionalizável;0,0;0,0;Tesouro Municipal
+361;Ensino Fundamental;00;Sul;Subprefeitura Cidade Ademar;Despesa Não-Regionalizável;1018055,86;CIDADE ADEMAR;Subprefeitura;0,0;0,0;Tesouro Municipal
+361;Ensino Fundamental;00;Sul;Subprefeitura Jabaquara;Despesa Não-Regionalizável;243830,74;JABAQUARA;Subprefeitura;0,0;0,0;Tesouro Municipal
+361;Ensino Fundamental;00;Sul;Subprefeitura Santo Amaro;Despesa Não-Regionalizável;481595,53;SANTO AMARO;Subprefeitura;0,0;0,0;Tesouro Municipal
+361;Ensino Fundamental;00;Leste;Subprefeitura São Miguel Paulista;Despesa Não-Regionalizável;203863,0;SAO MIGUEL;Subprefeitura;0,0;0,0;Tesouro Municipal
+361;Ensino Fundamental;00;Centro;Supra Subprefeitura Centro;Despesa Regionalizável;140426029,83;;Região;0,0;0,0;Tesouro Municipal
+361;Ensino Fundamental;00;Leste;Supra Subprefeitura Leste;Despesa Regionalizável;597764,81;;Região;0,0;0,0;Tesouro Municipal
+361;Ensino Fundamental;00;Oeste;Supra Subprefeitura Oeste;Despesa Regionalizável;1976678,51;;Região;0,0;0,0;Tesouro Municipal
+361;Ensino Fundamental;00;Sul;Supra Subprefeitura Sul;Despesa Regionalizável;7175170,04;;Região;0,0;0,0;Tesouro Municipal
+361;Ensino Fundamental;00;Leste;Subprefeitura Aricanduva/Formosa/Carrão;Despesa Regionalizável;5849684,6;ARICANDUVA-FORMOSA-CARRAO;Subprefeitura;0,0;0,0;Tesouro Municipal
+361;Ensino Fundamental;00;Oeste;Subprefeitura Butantã;Despesa Regionalizável;34865116,21;BUTANTA;Subprefeitura;0,0;0,0;Tesouro Municipal
+361;Ensino Fundamental;00;Sul;Subprefeitura Campo Limpo;Despesa Regionalizável;55487759,34;CAMPO LIMPO;Subprefeitura;0,0;0,0;Tesouro Municipal
+361;Ensino Fundamental;00;Sul;Subprefeitura Capela do Socorro;Despesa Regionalizável;31740536,38;CAPELA DO SOCORRO;Subprefeitura;0,0;0,0;Tesouro Municipal
+361;Ensino Fundamental;00;Norte;Subprefeitura Casa Verde/Cachoeirinha;Despesa Regionalizável;4253398,08;CASA VERDE-CACHOEIRINHA;Subprefeitura;0,0;0,0;Tesouro Municipal
+361;Ensino Fundamental;00;Sul;Subprefeitura Cidade Ademar;Despesa Regionalizável;15709926,32;CIDADE ADEMAR;Subprefeitura;0,0;0,0;Tesouro Municipal
+361;Ensino Fundamental;00;Leste;Subprefeitura Cidade Tiradentes;Despesa Regionalizável;22760221,99;CIDADE TIRADENTES;Subprefeitura;0,0;0,0;Tesouro Municipal
+361;Ensino Fundamental;00;Leste;Subprefeitura Ermelino Matarazzo;Despesa Regionalizável;9163356,07;ERMELINO MATARAZZO;Subprefeitura;0,0;0,0;Tesouro Municipal
+361;Ensino Fundamental;00;Norte;Subprefeitura Freguesia/Brasilândia;Despesa Regionalizável;12448297,88;FREGUESIA-BRASILANDIA;Subprefeitura;0,0;0,0;Tesouro Municipal
+361;Ensino Fundamental;00;Leste;Subprefeitura de Guaianases;Despesa Regionalizável;12049840,07;GUAIANASES;Subprefeitura;0,0;0,0;Tesouro Municipal
+361;Ensino Fundamental;00;Sul;Subprefeitura Ipiranga;Despesa Regionalizável;15826117,45;IPIRANGA;Subprefeitura;0,0;0,0;Tesouro Municipal
+361;Ensino Fundamental;00;Leste;Subprefeitura Itaim Paulista;Despesa Regionalizável;28503535,78;ITAIM PAULISTA;Subprefeitura;0,0;0,0;Tesouro Municipal
+361;Ensino Fundamental;00;Leste;Subprefeitura Itaquera;Despesa Regionalizável;23979541,37;ITAQUERA;Subprefeitura;0,0;0,0;Tesouro Municipal
+361;Ensino Fundamental;00;Sul;Subprefeitura Jabaquara;Despesa Regionalizável;10408705,18;JABAQUARA;Subprefeitura;0,0;0,0;Tesouro Municipal
+361;Ensino Fundamental;00;Norte;Subprefeitura Jaçanã/Tremembé;Despesa Regionalizável;21720175,05;JACANA-TREMEMBE;Subprefeitura;0,0;0,0;Tesouro Municipal
+361;Ensino Fundamental;00;Oeste;Subprefeitura Lapa;Despesa Regionalizável;6502280,27;LAPA;Subprefeitura;0,0;0,0;Tesouro Municipal
+361;Ensino Fundamental;00;Sul;Subprefeitura M'Boi Mirim;Despesa Regionalizável;11016247,91;M BOI MIRIM;Subprefeitura;0,0;0,0;Tesouro Municipal
+361;Ensino Fundamental;00;Leste;Subprefeitura Mooca;Despesa Regionalizável;8578057,55;MOOCA;Subprefeitura;0,0;0,0;Tesouro Municipal
+361;Ensino Fundamental;00;Sul;Subprefeitura Parelheiros;Despesa Regionalizável;5219086,42;PARELHEIROS;Subprefeitura;0,0;0,0;Tesouro Municipal
+361;Ensino Fundamental;00;Leste;Subprefeitura Penha;Despesa Regionalizável;17839758,37;PENHA;Subprefeitura;0,0;0,0;Tesouro Municipal
+361;Ensino Fundamental;00;Norte;Subprefeitura Perus/Anhanguera;Despesa Regionalizável;14161710,52;PERUS;Subprefeitura;0,0;0,0;Tesouro Municipal
+361;Ensino Fundamental;00;Oeste;Subprefeitura Pinheiros;Despesa Regionalizável;2682452,24;PINHEIROS;Subprefeitura;0,0;0,0;Tesouro Municipal
+361;Ensino Fundamental;00;Norte;Subprefeitura Pirituba/Jaraguá;Despesa Regionalizável;38927708,02;PIRITUBA-JARAGUA;Subprefeitura;0,0;0,0;Tesouro Municipal
+361;Ensino Fundamental;00;Norte;Subprefeitura Santana/Tucuruvi;Despesa Regionalizável;5969764,12;SANTANA-TUCURUVI;Subprefeitura;0,0;0,0;Tesouro Municipal
+361;Ensino Fundamental;00;Sul;Subprefeitura Santo Amaro;Despesa Regionalizável;11199613,24;SANTO AMARO;Subprefeitura;0,0;0,0;Tesouro Municipal
+361;Ensino Fundamental;00;Leste;Subprefeitura São Mateus;Despesa Regionalizável;28673759,13;SAO MATEUS;Subprefeitura;0,0;0,0;Tesouro Municipal
+361;Ensino Fundamental;00;Leste;Subprefeitura São Miguel Paulista;Despesa Regionalizável;30405977,37;SAO MIGUEL;Subprefeitura;0,0;0,0;Tesouro Municipal
+361;Ensino Fundamental;00;Leste;Subprefeitura Sapopemba;Despesa Regionalizável;17882011,4;SAPOPEMBA;Subprefeitura;0,0;0,0;Tesouro Municipal
+361;Ensino Fundamental;00;Centro;Subprefeitura Sé;Despesa Regionalizável;42184933,14;SE;Subprefeitura;0,0;0,0;Tesouro Municipal
+361;Ensino Fundamental;00;Norte;Subprefeitura Vila Maria/Vila Guilherme;Despesa Regionalizável;10430226,77;VILA MARIA-VILA GUILHERME;Subprefeitura;0,0;0,0;Tesouro Municipal
+361;Ensino Fundamental;00;Sul;Subprefeitura Vila Mariana;Despesa Regionalizável;3487210,42;VILA MARIANA;Subprefeitura;0,0;0,0;Tesouro Municipal
+361;Ensino Fundamental;00;Leste;Subprefeitura de Vila Prudente;Despesa Regionalizável;8076899,13;VILA PRUDENTE;Subprefeitura;0,0;0,0;Tesouro Municipal
+361;Ensino Fundamental;00;;;;1610716906,98;;Não detalhado;2473494487,0;2807451530,08;Tesouro Municipal
+361;Ensino Fundamental;02;Supra-Regional;Supra Subprefeitura;Despesa Não-Regionalizável;66158878,94;;Não regionalizável;0,0;0,0;Transferências Federais
+361;Ensino Fundamental;02;;;Despesa Regionalizável;0,0;ARICANDUVA-FORMOSA-CARRAO;Subprefeitura;0,0;0,0;Transferências Federais
+361;Ensino Fundamental;02;;;Despesa Regionalizável;0,0;BUTANTA;Subprefeitura;0,0;0,0;Transferências Federais
+361;Ensino Fundamental;02;;;Despesa Regionalizável;0,0;CAMPO LIMPO;Subprefeitura;0,0;0,0;Transferências Federais
+361;Ensino Fundamental;02;;;Despesa Regionalizável;0,0;CAPELA DO SOCORRO;Subprefeitura;0,0;0,0;Transferências Federais
+361;Ensino Fundamental;02;;;Despesa Regionalizável;0,0;CASA VERDE-CACHOEIRINHA;Subprefeitura;0,0;0,0;Transferências Federais
+361;Ensino Fundamental;02;;;Despesa Regionalizável;0,0;CIDADE ADEMAR;Subprefeitura;0,0;0,0;Transferências Federais
+361;Ensino Fundamental;02;;;Despesa Regionalizável;0,0;CIDADE TIRADENTES;Subprefeitura;0,0;0,0;Transferências Federais
+361;Ensino Fundamental;02;;;Despesa Regionalizável;0,0;ERMELINO MATARAZZO;Subprefeitura;0,0;0,0;Transferências Federais
+361;Ensino Fundamental;02;;;Despesa Regionalizável;0,0;FREGUESIA-BRASILANDIA;Subprefeitura;0,0;0,0;Transferências Federais
+361;Ensino Fundamental;02;;;Despesa Regionalizável;0,0;GUAIANASES;Subprefeitura;0,0;0,0;Transferências Federais
+361;Ensino Fundamental;02;;;Despesa Regionalizável;0,0;IPIRANGA;Subprefeitura;0,0;0,0;Transferências Federais
+361;Ensino Fundamental;02;;;Despesa Regionalizável;0,0;ITAIM PAULISTA;Subprefeitura;0,0;0,0;Transferências Federais
+361;Ensino Fundamental;02;;;Despesa Regionalizável;0,0;ITAQUERA;Subprefeitura;0,0;0,0;Transferências Federais
+361;Ensino Fundamental;02;;;Despesa Regionalizável;0,0;JABAQUARA;Subprefeitura;0,0;0,0;Transferências Federais
+361;Ensino Fundamental;02;;;Despesa Regionalizável;0,0;JACANA-TREMEMBE;Subprefeitura;0,0;0,0;Transferências Federais
+361;Ensino Fundamental;02;;;Despesa Regionalizável;0,0;LAPA;Subprefeitura;0,0;0,0;Transferências Federais
+361;Ensino Fundamental;02;;;Despesa Regionalizável;0,0;M BOI MIRIM;Subprefeitura;0,0;0,0;Transferências Federais
+361;Ensino Fundamental;02;;;Despesa Regionalizável;0,0;MOOCA;Subprefeitura;0,0;0,0;Transferências Federais
+361;Ensino Fundamental;02;;;Despesa Regionalizável;0,0;PARELHEIROS;Subprefeitura;0,0;0,0;Transferências Federais
+361;Ensino Fundamental;02;;;Despesa Regionalizável;0,0;PENHA;Subprefeitura;0,0;0,0;Transferências Federais
+361;Ensino Fundamental;02;;;Despesa Regionalizável;0,0;PERUS;Subprefeitura;0,0;0,0;Transferências Federais
+361;Ensino Fundamental;02;;;Despesa Regionalizável;0,0;PINHEIROS;Subprefeitura;0,0;0,0;Transferências Federais
+361;Ensino Fundamental;02;;;Despesa Regionalizável;0,0;PIRITUBA-JARAGUA;Subprefeitura;0,0;0,0;Transferências Federais
+361;Ensino Fundamental;02;;;Despesa Regionalizável;0,0;SANTANA-TUCURUVI;Subprefeitura;0,0;0,0;Transferências Federais
+361;Ensino Fundamental;02;;;Despesa Regionalizável;0,0;SANTO AMARO;Subprefeitura;0,0;0,0;Transferências Federais
+361;Ensino Fundamental;02;;;Despesa Regionalizável;0,0;SAO MATEUS;Subprefeitura;0,0;0,0;Transferências Federais
+361;Ensino Fundamental;02;;;Despesa Regionalizável;0,0;SAO MIGUEL;Subprefeitura;0,0;0,0;Transferências Federais
+361;Ensino Fundamental;02;;;Despesa Regionalizável;0,0;SAPOPEMBA;Subprefeitura;0,0;0,0;Transferências Federais
+361;Ensino Fundamental;02;;;Despesa Regionalizável;0,0;SE;Subprefeitura;0,0;0,0;Transferências Federais
+361;Ensino Fundamental;02;;;Despesa Regionalizável;0,0;VILA MARIA-VILA GUILHERME;Subprefeitura;0,0;0,0;Transferências Federais
+361;Ensino Fundamental;02;;;Despesa Regionalizável;0,0;VILA MARIANA;Subprefeitura;0,0;0,0;Transferências Federais
+361;Ensino Fundamental;02;;;Despesa Regionalizável;0,0;VILA PRUDENTE;Subprefeitura;0,0;0,0;Transferências Federais
+361;Ensino Fundamental;02;;;;0,0;;Não detalhado;233506,0;66392384,94;Transferências Federais
+361;Ensino Fundamental;04;;;Despesa Regionalizável;0,0;ARICANDUVA-FORMOSA-CARRAO;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+361;Ensino Fundamental;04;;;Despesa Regionalizável;0,0;BUTANTA;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+361;Ensino Fundamental;04;;;Despesa Regionalizável;0,0;CAMPO LIMPO;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+361;Ensino Fundamental;04;;;Despesa Regionalizável;0,0;CAPELA DO SOCORRO;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+361;Ensino Fundamental;04;;;Despesa Regionalizável;0,0;CASA VERDE-CACHOEIRINHA;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+361;Ensino Fundamental;04;;;Despesa Regionalizável;0,0;CIDADE ADEMAR;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+361;Ensino Fundamental;04;;;Despesa Regionalizável;0,0;CIDADE TIRADENTES;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+361;Ensino Fundamental;04;;;Despesa Regionalizável;0,0;ERMELINO MATARAZZO;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+361;Ensino Fundamental;04;;;Despesa Regionalizável;0,0;FREGUESIA-BRASILANDIA;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+361;Ensino Fundamental;04;;;Despesa Regionalizável;0,0;GUAIANASES;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+361;Ensino Fundamental;04;;;Despesa Regionalizável;0,0;IPIRANGA;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+361;Ensino Fundamental;04;;;Despesa Regionalizável;0,0;ITAIM PAULISTA;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+361;Ensino Fundamental;04;;;Despesa Regionalizável;0,0;ITAQUERA;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+361;Ensino Fundamental;04;;;Despesa Regionalizável;0,0;JABAQUARA;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+361;Ensino Fundamental;04;;;Despesa Regionalizável;0,0;JACANA-TREMEMBE;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+361;Ensino Fundamental;04;;;Despesa Regionalizável;0,0;LAPA;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+361;Ensino Fundamental;04;;;Despesa Regionalizável;0,0;M BOI MIRIM;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+361;Ensino Fundamental;04;;;Despesa Regionalizável;0,0;MOOCA;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+361;Ensino Fundamental;04;;;Despesa Regionalizável;0,0;PARELHEIROS;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+361;Ensino Fundamental;04;;;Despesa Regionalizável;0,0;PENHA;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+361;Ensino Fundamental;04;;;Despesa Regionalizável;0,0;PERUS;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+361;Ensino Fundamental;04;;;Despesa Regionalizável;0,0;PINHEIROS;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+361;Ensino Fundamental;04;;;Despesa Regionalizável;0,0;PIRITUBA-JARAGUA;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+361;Ensino Fundamental;04;;;Despesa Regionalizável;0,0;SANTANA-TUCURUVI;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+361;Ensino Fundamental;04;;;Despesa Regionalizável;0,0;SANTO AMARO;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+361;Ensino Fundamental;04;;;Despesa Regionalizável;0,0;SAO MATEUS;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+361;Ensino Fundamental;04;;;Despesa Regionalizável;0,0;SAO MIGUEL;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+361;Ensino Fundamental;04;;;Despesa Regionalizável;0,0;SAPOPEMBA;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+361;Ensino Fundamental;04;;;Despesa Regionalizável;0,0;SE;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+361;Ensino Fundamental;04;;;Despesa Regionalizável;0,0;VILA MARIA-VILA GUILHERME;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+361;Ensino Fundamental;04;;;Despesa Regionalizável;0,0;VILA MARIANA;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+361;Ensino Fundamental;04;;;Despesa Regionalizável;0,0;VILA PRUDENTE;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+361;Ensino Fundamental;04;;;;3677769295,36;;Não detalhado;3399009671,0;3736526869,8;Fundo Constitucional da Educação
+361;Ensino Fundamental;07;;;Despesa Regionalizável;0,0;ARICANDUVA-FORMOSA-CARRAO;Subprefeitura;0,0;0,0;Receita Condicionada
+361;Ensino Fundamental;07;;;Despesa Regionalizável;0,0;BUTANTA;Subprefeitura;0,0;0,0;Receita Condicionada
+361;Ensino Fundamental;07;;;Despesa Regionalizável;0,0;CAMPO LIMPO;Subprefeitura;0,0;0,0;Receita Condicionada
+361;Ensino Fundamental;07;;;Despesa Regionalizável;0,0;CAPELA DO SOCORRO;Subprefeitura;0,0;0,0;Receita Condicionada
+361;Ensino Fundamental;07;;;Despesa Regionalizável;0,0;CASA VERDE-CACHOEIRINHA;Subprefeitura;0,0;0,0;Receita Condicionada
+361;Ensino Fundamental;07;;;Despesa Regionalizável;0,0;CIDADE ADEMAR;Subprefeitura;0,0;0,0;Receita Condicionada
+361;Ensino Fundamental;07;;;Despesa Regionalizável;0,0;CIDADE TIRADENTES;Subprefeitura;0,0;0,0;Receita Condicionada
+361;Ensino Fundamental;07;;;Despesa Regionalizável;0,0;ERMELINO MATARAZZO;Subprefeitura;0,0;0,0;Receita Condicionada
+361;Ensino Fundamental;07;;;Despesa Regionalizável;0,0;FREGUESIA-BRASILANDIA;Subprefeitura;0,0;0,0;Receita Condicionada
+361;Ensino Fundamental;07;;;Despesa Regionalizável;0,0;GUAIANASES;Subprefeitura;0,0;0,0;Receita Condicionada
+361;Ensino Fundamental;07;;;Despesa Regionalizável;0,0;IPIRANGA;Subprefeitura;0,0;0,0;Receita Condicionada
+361;Ensino Fundamental;07;;;Despesa Regionalizável;0,0;ITAIM PAULISTA;Subprefeitura;0,0;0,0;Receita Condicionada
+361;Ensino Fundamental;07;;;Despesa Regionalizável;0,0;ITAQUERA;Subprefeitura;0,0;0,0;Receita Condicionada
+361;Ensino Fundamental;07;;;Despesa Regionalizável;0,0;JABAQUARA;Subprefeitura;0,0;0,0;Receita Condicionada
+361;Ensino Fundamental;07;;;Despesa Regionalizável;0,0;JACANA-TREMEMBE;Subprefeitura;0,0;0,0;Receita Condicionada
+361;Ensino Fundamental;07;;;Despesa Regionalizável;0,0;LAPA;Subprefeitura;0,0;0,0;Receita Condicionada
+361;Ensino Fundamental;07;;;Despesa Regionalizável;0,0;M BOI MIRIM;Subprefeitura;0,0;0,0;Receita Condicionada
+361;Ensino Fundamental;07;;;Despesa Regionalizável;0,0;MOOCA;Subprefeitura;0,0;0,0;Receita Condicionada
+361;Ensino Fundamental;07;;;Despesa Regionalizável;0,0;PARELHEIROS;Subprefeitura;0,0;0,0;Receita Condicionada
+361;Ensino Fundamental;07;;;Despesa Regionalizável;0,0;PENHA;Subprefeitura;0,0;0,0;Receita Condicionada
+361;Ensino Fundamental;07;;;Despesa Regionalizável;0,0;PERUS;Subprefeitura;0,0;0,0;Receita Condicionada
+361;Ensino Fundamental;07;;;Despesa Regionalizável;0,0;PINHEIROS;Subprefeitura;0,0;0,0;Receita Condicionada
+361;Ensino Fundamental;07;;;Despesa Regionalizável;0,0;PIRITUBA-JARAGUA;Subprefeitura;0,0;0,0;Receita Condicionada
+361;Ensino Fundamental;07;;;Despesa Regionalizável;0,0;SANTANA-TUCURUVI;Subprefeitura;0,0;0,0;Receita Condicionada
+361;Ensino Fundamental;07;;;Despesa Regionalizável;0,0;SANTO AMARO;Subprefeitura;0,0;0,0;Receita Condicionada
+361;Ensino Fundamental;07;;;Despesa Regionalizável;0,0;SAO MATEUS;Subprefeitura;0,0;0,0;Receita Condicionada
+361;Ensino Fundamental;07;;;Despesa Regionalizável;0,0;SAO MIGUEL;Subprefeitura;0,0;0,0;Receita Condicionada
+361;Ensino Fundamental;07;;;Despesa Regionalizável;0,0;SAPOPEMBA;Subprefeitura;0,0;0,0;Receita Condicionada
+361;Ensino Fundamental;07;;;Despesa Regionalizável;0,0;SE;Subprefeitura;0,0;0,0;Receita Condicionada
+361;Ensino Fundamental;07;;;Despesa Regionalizável;0,0;VILA MARIA-VILA GUILHERME;Subprefeitura;0,0;0,0;Receita Condicionada
+361;Ensino Fundamental;07;;;Despesa Regionalizável;0,0;VILA MARIANA;Subprefeitura;0,0;0,0;Receita Condicionada
+361;Ensino Fundamental;07;;;Despesa Regionalizável;0,0;VILA PRUDENTE;Subprefeitura;0,0;0,0;Receita Condicionada
+361;Ensino Fundamental;07;;;;0,0;;Não detalhado;25153766,0;0,0;Receita Condicionada
+362;Ensino Médio;00;Sul;Subprefeitura Cidade Ademar;Despesa Não-Regionalizável;262,17;CIDADE ADEMAR;Subprefeitura;0,0;0,0;Tesouro Municipal
+362;Ensino Médio;00;Sul;Subprefeitura Jabaquara;Despesa Não-Regionalizável;262,17;JABAQUARA;Subprefeitura;0,0;0,0;Tesouro Municipal
+362;Ensino Médio;00;Sul;Subprefeitura Santo Amaro;Despesa Não-Regionalizável;171396,22;SANTO AMARO;Subprefeitura;0,0;0,0;Tesouro Municipal
+362;Ensino Médio;00;;;Despesa Regionalizável;0,0;ARICANDUVA-FORMOSA-CARRAO;Subprefeitura;0,0;0,0;Tesouro Municipal
+362;Ensino Médio;00;;;Despesa Regionalizável;0,0;BUTANTA;Subprefeitura;0,0;0,0;Tesouro Municipal
+362;Ensino Médio;00;;;Despesa Regionalizável;0,0;CAMPO LIMPO;Subprefeitura;0,0;0,0;Tesouro Municipal
+362;Ensino Médio;00;;;Despesa Regionalizável;0,0;CAPELA DO SOCORRO;Subprefeitura;0,0;0,0;Tesouro Municipal
+362;Ensino Médio;00;;;Despesa Regionalizável;0,0;CASA VERDE-CACHOEIRINHA;Subprefeitura;0,0;0,0;Tesouro Municipal
+362;Ensino Médio;00;Sul;Subprefeitura Cidade Ademar;Despesa Regionalizável;28080,0;CIDADE ADEMAR;Subprefeitura;0,0;0,0;Tesouro Municipal
+362;Ensino Médio;00;Leste;Subprefeitura Cidade Tiradentes;Despesa Regionalizável;726708,18;CIDADE TIRADENTES;Subprefeitura;0,0;0,0;Tesouro Municipal
+362;Ensino Médio;00;;;Despesa Regionalizável;0,0;ERMELINO MATARAZZO;Subprefeitura;0,0;0,0;Tesouro Municipal
+362;Ensino Médio;00;;;Despesa Regionalizável;0,0;FREGUESIA-BRASILANDIA;Subprefeitura;0,0;0,0;Tesouro Municipal
+362;Ensino Médio;00;Leste;Subprefeitura de Guaianases;Despesa Regionalizável;90275,34;GUAIANASES;Subprefeitura;0,0;0,0;Tesouro Municipal
+362;Ensino Médio;00;;;Despesa Regionalizável;0,0;IPIRANGA;Subprefeitura;0,0;0,0;Tesouro Municipal
+362;Ensino Médio;00;Leste;Subprefeitura Itaim Paulista;Despesa Regionalizável;107719,15;ITAIM PAULISTA;Subprefeitura;0,0;0,0;Tesouro Municipal
+362;Ensino Médio;00;;;Despesa Regionalizável;0,0;ITAQUERA;Subprefeitura;0,0;0,0;Tesouro Municipal
+362;Ensino Médio;00;Sul;Subprefeitura Jabaquara;Despesa Regionalizável;183864,77;JABAQUARA;Subprefeitura;0,0;0,0;Tesouro Municipal
+362;Ensino Médio;00;Norte;Subprefeitura Jaçanã/Tremembé;Despesa Regionalizável;150127,82;JACANA-TREMEMBE;Subprefeitura;0,0;0,0;Tesouro Municipal
+362;Ensino Médio;00;Oeste;Subprefeitura Lapa;Despesa Regionalizável;13414,92;LAPA;Subprefeitura;0,0;0,0;Tesouro Municipal
+362;Ensino Médio;00;;;Despesa Regionalizável;0,0;M BOI MIRIM;Subprefeitura;0,0;0,0;Tesouro Municipal
+362;Ensino Médio;00;;;Despesa Regionalizável;0,0;MOOCA;Subprefeitura;0,0;0,0;Tesouro Municipal
+362;Ensino Médio;00;;;Despesa Regionalizável;0,0;PARELHEIROS;Subprefeitura;0,0;0,0;Tesouro Municipal
+362;Ensino Médio;00;;;Despesa Regionalizável;0,0;PENHA;Subprefeitura;0,0;0,0;Tesouro Municipal
+362;Ensino Médio;00;Norte;Subprefeitura Perus/Anhanguera;Despesa Regionalizável;34297,23;PERUS;Subprefeitura;0,0;0,0;Tesouro Municipal
+362;Ensino Médio;00;;;Despesa Regionalizável;0,0;PINHEIROS;Subprefeitura;0,0;0,0;Tesouro Municipal
+362;Ensino Médio;00;Norte;Subprefeitura Pirituba/Jaraguá;Despesa Regionalizável;1625699,44;PIRITUBA-JARAGUA;Subprefeitura;0,0;0,0;Tesouro Municipal
+362;Ensino Médio;00;Norte;Subprefeitura Santana/Tucuruvi;Despesa Regionalizável;2214216,1;SANTANA-TUCURUVI;Subprefeitura;0,0;0,0;Tesouro Municipal
+362;Ensino Médio;00;Sul;Subprefeitura Santo Amaro;Despesa Regionalizável;1828273,04;SANTO AMARO;Subprefeitura;0,0;0,0;Tesouro Municipal
+362;Ensino Médio;00;Leste;Subprefeitura São Mateus;Despesa Regionalizável;214837,04;SAO MATEUS;Subprefeitura;0,0;0,0;Tesouro Municipal
+362;Ensino Médio;00;Leste;Subprefeitura São Miguel Paulista;Despesa Regionalizável;1030257,69;SAO MIGUEL;Subprefeitura;0,0;0,0;Tesouro Municipal
+362;Ensino Médio;00;Leste;Subprefeitura Sapopemba;Despesa Regionalizável;233453,01;SAPOPEMBA;Subprefeitura;0,0;0,0;Tesouro Municipal
+362;Ensino Médio;00;Centro;Subprefeitura Sé;Despesa Regionalizável;9469238,52;SE;Subprefeitura;0,0;0,0;Tesouro Municipal
+362;Ensino Médio;00;Norte;Subprefeitura Vila Maria/Vila Guilherme;Despesa Regionalizável;52589,79;VILA MARIA-VILA GUILHERME;Subprefeitura;0,0;0,0;Tesouro Municipal
+362;Ensino Médio;00;;;Despesa Regionalizável;0,0;VILA MARIANA;Subprefeitura;0,0;0,0;Tesouro Municipal
+362;Ensino Médio;00;;;Despesa Regionalizável;0,0;VILA PRUDENTE;Subprefeitura;0,0;0,0;Tesouro Municipal
+362;Ensino Médio;00;;;;92981777,23;;Não detalhado;116724415,0;114667765,47;Tesouro Municipal
+363;Ensino Profissional;00;Supra-Regional;Supra Subprefeitura;Despesa Não-Regionalizável;49863378,2;;Não regionalizável;0,0;0,0;Tesouro Municipal
+363;Ensino Profissional;00;Centro;Supra Subprefeitura Centro;Despesa Regionalizável;6945499,55;;Região;0,0;0,0;Tesouro Municipal
+363;Ensino Profissional;00;Leste;Supra Subprefeitura Leste;Despesa Regionalizável;4026093,06;;Região;0,0;0,0;Tesouro Municipal
+363;Ensino Profissional;00;Norte;Supra Subprefeitura Norte;Despesa Regionalizável;598295,18;;Região;0,0;0,0;Tesouro Municipal
+363;Ensino Profissional;00;;;Despesa Regionalizável;0,0;ARICANDUVA-FORMOSA-CARRAO;Subprefeitura;0,0;0,0;Tesouro Municipal
+363;Ensino Profissional;00;Oeste;Subprefeitura Butantã;Despesa Regionalizável;9,95;BUTANTA;Subprefeitura;0,0;0,0;Tesouro Municipal
+363;Ensino Profissional;00;Sul;Subprefeitura Campo Limpo;Despesa Regionalizável;3,6;CAMPO LIMPO;Subprefeitura;0,0;0,0;Tesouro Municipal
+363;Ensino Profissional;00;Sul;Subprefeitura Capela do Socorro;Despesa Regionalizável;3,12;CAPELA DO SOCORRO;Subprefeitura;0,0;0,0;Tesouro Municipal
+363;Ensino Profissional;00;;;Despesa Regionalizável;0,0;CASA VERDE-CACHOEIRINHA;Subprefeitura;0,0;0,0;Tesouro Municipal
+363;Ensino Profissional;00;Sul;Subprefeitura Cidade Ademar;Despesa Regionalizável;10,47;CIDADE ADEMAR;Subprefeitura;0,0;0,0;Tesouro Municipal
+363;Ensino Profissional;00;Leste;Subprefeitura Cidade Tiradentes;Despesa Regionalizável;3,91;CIDADE TIRADENTES;Subprefeitura;0,0;0,0;Tesouro Municipal
+363;Ensino Profissional;00;Leste;Subprefeitura Ermelino Matarazzo;Despesa Regionalizável;4,58;ERMELINO MATARAZZO;Subprefeitura;0,0;0,0;Tesouro Municipal
+363;Ensino Profissional;00;;;Despesa Regionalizável;0,0;FREGUESIA-BRASILANDIA;Subprefeitura;0,0;0,0;Tesouro Municipal
+363;Ensino Profissional;00;Leste;Subprefeitura de Guaianases;Despesa Regionalizável;5,8;GUAIANASES;Subprefeitura;0,0;0,0;Tesouro Municipal
+363;Ensino Profissional;00;Sul;Subprefeitura Ipiranga;Despesa Regionalizável;3,32;IPIRANGA;Subprefeitura;0,0;0,0;Tesouro Municipal
+363;Ensino Profissional;00;Leste;Subprefeitura Itaim Paulista;Despesa Regionalizável;491483,01;ITAIM PAULISTA;Subprefeitura;0,0;0,0;Tesouro Municipal
+363;Ensino Profissional;00;Leste;Subprefeitura Itaquera;Despesa Regionalizável;10,71;ITAQUERA;Subprefeitura;0,0;0,0;Tesouro Municipal
+363;Ensino Profissional;00;;;Despesa Regionalizável;0,0;JABAQUARA;Subprefeitura;0,0;0,0;Tesouro Municipal
+363;Ensino Profissional;00;;;Despesa Regionalizável;0,0;JACANA-TREMEMBE;Subprefeitura;0,0;0,0;Tesouro Municipal
+363;Ensino Profissional;00;Oeste;Subprefeitura Lapa;Despesa Regionalizável;8,81;LAPA;Subprefeitura;0,0;0,0;Tesouro Municipal
+363;Ensino Profissional;00;;;Despesa Regionalizável;0,0;M BOI MIRIM;Subprefeitura;0,0;0,0;Tesouro Municipal
+363;Ensino Profissional;00;;;Despesa Regionalizável;0,0;MOOCA;Subprefeitura;0,0;0,0;Tesouro Municipal
+363;Ensino Profissional;00;Sul;Subprefeitura Parelheiros;Despesa Regionalizável;2,6;PARELHEIROS;Subprefeitura;0,0;0,0;Tesouro Municipal
+363;Ensino Profissional;00;Leste;Subprefeitura Penha;Despesa Regionalizável;6,02;PENHA;Subprefeitura;0,0;0,0;Tesouro Municipal
+363;Ensino Profissional;00;Norte;Subprefeitura Perus/Anhanguera;Despesa Regionalizável;4,51;PERUS;Subprefeitura;0,0;0,0;Tesouro Municipal
+363;Ensino Profissional;00;;;Despesa Regionalizável;0,0;PINHEIROS;Subprefeitura;0,0;0,0;Tesouro Municipal
+363;Ensino Profissional;00;;;Despesa Regionalizável;0,0;PIRITUBA-JARAGUA;Subprefeitura;0,0;0,0;Tesouro Municipal
+363;Ensino Profissional;00;;;Despesa Regionalizável;0,0;SANTANA-TUCURUVI;Subprefeitura;0,0;0,0;Tesouro Municipal
+363;Ensino Profissional;00;;;Despesa Regionalizável;0,0;SANTO AMARO;Subprefeitura;0,0;0,0;Tesouro Municipal
+363;Ensino Profissional;00;Leste;Subprefeitura São Mateus;Despesa Regionalizável;6,1;SAO MATEUS;Subprefeitura;0,0;0,0;Tesouro Municipal
+363;Ensino Profissional;00;Leste;Subprefeitura São Miguel Paulista;Despesa Regionalizável;471711,98;SAO MIGUEL;Subprefeitura;0,0;0,0;Tesouro Municipal
+363;Ensino Profissional;00;Leste;Subprefeitura Sapopemba;Despesa Regionalizável;5,67;SAPOPEMBA;Subprefeitura;0,0;0,0;Tesouro Municipal
+363;Ensino Profissional;00;Centro;Subprefeitura Sé;Despesa Regionalizável;7,24;SE;Subprefeitura;0,0;0,0;Tesouro Municipal
+363;Ensino Profissional;00;;;Despesa Regionalizável;0,0;VILA MARIA-VILA GUILHERME;Subprefeitura;0,0;0,0;Tesouro Municipal
+363;Ensino Profissional;00;;;Despesa Regionalizável;0,0;VILA MARIANA;Subprefeitura;0,0;0,0;Tesouro Municipal
+363;Ensino Profissional;00;;;Despesa Regionalizável;0,0;VILA PRUDENTE;Subprefeitura;0,0;0,0;Tesouro Municipal
+363;Ensino Profissional;00;;;;1313234,94;;Não detalhado;68737267,0;68333419,37;Tesouro Municipal
+363;Ensino Profissional;02;Supra-Regional;Supra Subprefeitura;Despesa Não-Regionalizável;1036,8;;Não regionalizável;0,0;0,0;Transferências Federais
+363;Ensino Profissional;02;;;Despesa Regionalizável;0,0;ARICANDUVA-FORMOSA-CARRAO;Subprefeitura;0,0;0,0;Transferências Federais
+363;Ensino Profissional;02;;;Despesa Regionalizável;0,0;BUTANTA;Subprefeitura;0,0;0,0;Transferências Federais
+363;Ensino Profissional;02;;;Despesa Regionalizável;0,0;CAMPO LIMPO;Subprefeitura;0,0;0,0;Transferências Federais
+363;Ensino Profissional;02;;;Despesa Regionalizável;0,0;CAPELA DO SOCORRO;Subprefeitura;0,0;0,0;Transferências Federais
+363;Ensino Profissional;02;;;Despesa Regionalizável;0,0;CASA VERDE-CACHOEIRINHA;Subprefeitura;0,0;0,0;Transferências Federais
+363;Ensino Profissional;02;;;Despesa Regionalizável;0,0;CIDADE ADEMAR;Subprefeitura;0,0;0,0;Transferências Federais
+363;Ensino Profissional;02;;;Despesa Regionalizável;0,0;CIDADE TIRADENTES;Subprefeitura;0,0;0,0;Transferências Federais
+363;Ensino Profissional;02;;;Despesa Regionalizável;0,0;ERMELINO MATARAZZO;Subprefeitura;0,0;0,0;Transferências Federais
+363;Ensino Profissional;02;;;Despesa Regionalizável;0,0;FREGUESIA-BRASILANDIA;Subprefeitura;0,0;0,0;Transferências Federais
+363;Ensino Profissional;02;;;Despesa Regionalizável;0,0;GUAIANASES;Subprefeitura;0,0;0,0;Transferências Federais
+363;Ensino Profissional;02;;;Despesa Regionalizável;0,0;IPIRANGA;Subprefeitura;0,0;0,0;Transferências Federais
+363;Ensino Profissional;02;;;Despesa Regionalizável;0,0;ITAIM PAULISTA;Subprefeitura;0,0;0,0;Transferências Federais
+363;Ensino Profissional;02;;;Despesa Regionalizável;0,0;ITAQUERA;Subprefeitura;0,0;0,0;Transferências Federais
+363;Ensino Profissional;02;;;Despesa Regionalizável;0,0;JABAQUARA;Subprefeitura;0,0;0,0;Transferências Federais
+363;Ensino Profissional;02;;;Despesa Regionalizável;0,0;JACANA-TREMEMBE;Subprefeitura;0,0;0,0;Transferências Federais
+363;Ensino Profissional;02;;;Despesa Regionalizável;0,0;LAPA;Subprefeitura;0,0;0,0;Transferências Federais
+363;Ensino Profissional;02;;;Despesa Regionalizável;0,0;M BOI MIRIM;Subprefeitura;0,0;0,0;Transferências Federais
+363;Ensino Profissional;02;;;Despesa Regionalizável;0,0;MOOCA;Subprefeitura;0,0;0,0;Transferências Federais
+363;Ensino Profissional;02;;;Despesa Regionalizável;0,0;PARELHEIROS;Subprefeitura;0,0;0,0;Transferências Federais
+363;Ensino Profissional;02;;;Despesa Regionalizável;0,0;PENHA;Subprefeitura;0,0;0,0;Transferências Federais
+363;Ensino Profissional;02;;;Despesa Regionalizável;0,0;PERUS;Subprefeitura;0,0;0,0;Transferências Federais
+363;Ensino Profissional;02;;;Despesa Regionalizável;0,0;PINHEIROS;Subprefeitura;0,0;0,0;Transferências Federais
+363;Ensino Profissional;02;;;Despesa Regionalizável;0,0;PIRITUBA-JARAGUA;Subprefeitura;0,0;0,0;Transferências Federais
+363;Ensino Profissional;02;;;Despesa Regionalizável;0,0;SANTANA-TUCURUVI;Subprefeitura;0,0;0,0;Transferências Federais
+363;Ensino Profissional;02;;;Despesa Regionalizável;0,0;SANTO AMARO;Subprefeitura;0,0;0,0;Transferências Federais
+363;Ensino Profissional;02;;;Despesa Regionalizável;0,0;SAO MATEUS;Subprefeitura;0,0;0,0;Transferências Federais
+363;Ensino Profissional;02;;;Despesa Regionalizável;0,0;SAO MIGUEL;Subprefeitura;0,0;0,0;Transferências Federais
+363;Ensino Profissional;02;;;Despesa Regionalizável;0,0;SAPOPEMBA;Subprefeitura;0,0;0,0;Transferências Federais
+363;Ensino Profissional;02;;;Despesa Regionalizável;0,0;SE;Subprefeitura;0,0;0,0;Transferências Federais
+363;Ensino Profissional;02;;;Despesa Regionalizável;0,0;VILA MARIA-VILA GUILHERME;Subprefeitura;0,0;0,0;Transferências Federais
+363;Ensino Profissional;02;;;Despesa Regionalizável;0,0;VILA MARIANA;Subprefeitura;0,0;0,0;Transferências Federais
+363;Ensino Profissional;02;;;Despesa Regionalizável;0,0;VILA PRUDENTE;Subprefeitura;0,0;0,0;Transferências Federais
+363;Ensino Profissional;02;;;;0,0;;Não detalhado;0,0;1402686,03;Transferências Federais
+363;Ensino Profissional;05;Supra-Regional;Supra Subprefeitura;Despesa Não-Regionalizável;6271428,22;;Não regionalizável;0,0;0,0;Outras Fontes
+363;Ensino Profissional;05;;;Despesa Regionalizável;0,0;ARICANDUVA-FORMOSA-CARRAO;Subprefeitura;0,0;0,0;Outras Fontes
+363;Ensino Profissional;05;;;Despesa Regionalizável;0,0;BUTANTA;Subprefeitura;0,0;0,0;Outras Fontes
+363;Ensino Profissional;05;;;Despesa Regionalizável;0,0;CAMPO LIMPO;Subprefeitura;0,0;0,0;Outras Fontes
+363;Ensino Profissional;05;;;Despesa Regionalizável;0,0;CAPELA DO SOCORRO;Subprefeitura;0,0;0,0;Outras Fontes
+363;Ensino Profissional;05;;;Despesa Regionalizável;0,0;CASA VERDE-CACHOEIRINHA;Subprefeitura;0,0;0,0;Outras Fontes
+363;Ensino Profissional;05;;;Despesa Regionalizável;0,0;CIDADE ADEMAR;Subprefeitura;0,0;0,0;Outras Fontes
+363;Ensino Profissional;05;;;Despesa Regionalizável;0,0;CIDADE TIRADENTES;Subprefeitura;0,0;0,0;Outras Fontes
+363;Ensino Profissional;05;;;Despesa Regionalizável;0,0;ERMELINO MATARAZZO;Subprefeitura;0,0;0,0;Outras Fontes
+363;Ensino Profissional;05;;;Despesa Regionalizável;0,0;FREGUESIA-BRASILANDIA;Subprefeitura;0,0;0,0;Outras Fontes
+363;Ensino Profissional;05;;;Despesa Regionalizável;0,0;GUAIANASES;Subprefeitura;0,0;0,0;Outras Fontes
+363;Ensino Profissional;05;;;Despesa Regionalizável;0,0;IPIRANGA;Subprefeitura;0,0;0,0;Outras Fontes
+363;Ensino Profissional;05;;;Despesa Regionalizável;0,0;ITAIM PAULISTA;Subprefeitura;0,0;0,0;Outras Fontes
+363;Ensino Profissional;05;;;Despesa Regionalizável;0,0;ITAQUERA;Subprefeitura;0,0;0,0;Outras Fontes
+363;Ensino Profissional;05;;;Despesa Regionalizável;0,0;JABAQUARA;Subprefeitura;0,0;0,0;Outras Fontes
+363;Ensino Profissional;05;;;Despesa Regionalizável;0,0;JACANA-TREMEMBE;Subprefeitura;0,0;0,0;Outras Fontes
+363;Ensino Profissional;05;;;Despesa Regionalizável;0,0;LAPA;Subprefeitura;0,0;0,0;Outras Fontes
+363;Ensino Profissional;05;;;Despesa Regionalizável;0,0;M BOI MIRIM;Subprefeitura;0,0;0,0;Outras Fontes
+363;Ensino Profissional;05;;;Despesa Regionalizável;0,0;MOOCA;Subprefeitura;0,0;0,0;Outras Fontes
+363;Ensino Profissional;05;;;Despesa Regionalizável;0,0;PARELHEIROS;Subprefeitura;0,0;0,0;Outras Fontes
+363;Ensino Profissional;05;;;Despesa Regionalizável;0,0;PENHA;Subprefeitura;0,0;0,0;Outras Fontes
+363;Ensino Profissional;05;;;Despesa Regionalizável;0,0;PERUS;Subprefeitura;0,0;0,0;Outras Fontes
+363;Ensino Profissional;05;;;Despesa Regionalizável;0,0;PINHEIROS;Subprefeitura;0,0;0,0;Outras Fontes
+363;Ensino Profissional;05;;;Despesa Regionalizável;0,0;PIRITUBA-JARAGUA;Subprefeitura;0,0;0,0;Outras Fontes
+363;Ensino Profissional;05;;;Despesa Regionalizável;0,0;SANTANA-TUCURUVI;Subprefeitura;0,0;0,0;Outras Fontes
+363;Ensino Profissional;05;;;Despesa Regionalizável;0,0;SANTO AMARO;Subprefeitura;0,0;0,0;Outras Fontes
+363;Ensino Profissional;05;;;Despesa Regionalizável;0,0;SAO MATEUS;Subprefeitura;0,0;0,0;Outras Fontes
+363;Ensino Profissional;05;;;Despesa Regionalizável;0,0;SAO MIGUEL;Subprefeitura;0,0;0,0;Outras Fontes
+363;Ensino Profissional;05;;;Despesa Regionalizável;0,0;SAPOPEMBA;Subprefeitura;0,0;0,0;Outras Fontes
+363;Ensino Profissional;05;;;Despesa Regionalizável;0,0;SE;Subprefeitura;0,0;0,0;Outras Fontes
+363;Ensino Profissional;05;;;Despesa Regionalizável;0,0;VILA MARIA-VILA GUILHERME;Subprefeitura;0,0;0,0;Outras Fontes
+363;Ensino Profissional;05;;;Despesa Regionalizável;0,0;VILA MARIANA;Subprefeitura;0,0;0,0;Outras Fontes
+363;Ensino Profissional;05;;;Despesa Regionalizável;0,0;VILA PRUDENTE;Subprefeitura;0,0;0,0;Outras Fontes
+363;Ensino Profissional;05;;;;322409,54;;Não detalhado;9791835,0;26341611,36;Outras Fontes
+363;Ensino Profissional;06;;;Despesa Regionalizável;0,0;ARICANDUVA-FORMOSA-CARRAO;Subprefeitura;0,0;0,0;Recursos Próprios da Administração Indireta
+363;Ensino Profissional;06;;;Despesa Regionalizável;0,0;BUTANTA;Subprefeitura;0,0;0,0;Recursos Próprios da Administração Indireta
+363;Ensino Profissional;06;;;Despesa Regionalizável;0,0;CAMPO LIMPO;Subprefeitura;0,0;0,0;Recursos Próprios da Administração Indireta
+363;Ensino Profissional;06;;;Despesa Regionalizável;0,0;CAPELA DO SOCORRO;Subprefeitura;0,0;0,0;Recursos Próprios da Administração Indireta
+363;Ensino Profissional;06;;;Despesa Regionalizável;0,0;CASA VERDE-CACHOEIRINHA;Subprefeitura;0,0;0,0;Recursos Próprios da Administração Indireta
+363;Ensino Profissional;06;;;Despesa Regionalizável;0,0;CIDADE ADEMAR;Subprefeitura;0,0;0,0;Recursos Próprios da Administração Indireta
+363;Ensino Profissional;06;;;Despesa Regionalizável;0,0;CIDADE TIRADENTES;Subprefeitura;0,0;0,0;Recursos Próprios da Administração Indireta
+363;Ensino Profissional;06;;;Despesa Regionalizável;0,0;ERMELINO MATARAZZO;Subprefeitura;0,0;0,0;Recursos Próprios da Administração Indireta
+363;Ensino Profissional;06;;;Despesa Regionalizável;0,0;FREGUESIA-BRASILANDIA;Subprefeitura;0,0;0,0;Recursos Próprios da Administração Indireta
+363;Ensino Profissional;06;;;Despesa Regionalizável;0,0;GUAIANASES;Subprefeitura;0,0;0,0;Recursos Próprios da Administração Indireta
+363;Ensino Profissional;06;;;Despesa Regionalizável;0,0;IPIRANGA;Subprefeitura;0,0;0,0;Recursos Próprios da Administração Indireta
+363;Ensino Profissional;06;;;Despesa Regionalizável;0,0;ITAIM PAULISTA;Subprefeitura;0,0;0,0;Recursos Próprios da Administração Indireta
+363;Ensino Profissional;06;;;Despesa Regionalizável;0,0;ITAQUERA;Subprefeitura;0,0;0,0;Recursos Próprios da Administração Indireta
+363;Ensino Profissional;06;;;Despesa Regionalizável;0,0;JABAQUARA;Subprefeitura;0,0;0,0;Recursos Próprios da Administração Indireta
+363;Ensino Profissional;06;;;Despesa Regionalizável;0,0;JACANA-TREMEMBE;Subprefeitura;0,0;0,0;Recursos Próprios da Administração Indireta
+363;Ensino Profissional;06;;;Despesa Regionalizável;0,0;LAPA;Subprefeitura;0,0;0,0;Recursos Próprios da Administração Indireta
+363;Ensino Profissional;06;;;Despesa Regionalizável;0,0;M BOI MIRIM;Subprefeitura;0,0;0,0;Recursos Próprios da Administração Indireta
+363;Ensino Profissional;06;;;Despesa Regionalizável;0,0;MOOCA;Subprefeitura;0,0;0,0;Recursos Próprios da Administração Indireta
+363;Ensino Profissional;06;;;Despesa Regionalizável;0,0;PARELHEIROS;Subprefeitura;0,0;0,0;Recursos Próprios da Administração Indireta
+363;Ensino Profissional;06;;;Despesa Regionalizável;0,0;PENHA;Subprefeitura;0,0;0,0;Recursos Próprios da Administração Indireta
+363;Ensino Profissional;06;;;Despesa Regionalizável;0,0;PERUS;Subprefeitura;0,0;0,0;Recursos Próprios da Administração Indireta
+363;Ensino Profissional;06;;;Despesa Regionalizável;0,0;PINHEIROS;Subprefeitura;0,0;0,0;Recursos Próprios da Administração Indireta
+363;Ensino Profissional;06;;;Despesa Regionalizável;0,0;PIRITUBA-JARAGUA;Subprefeitura;0,0;0,0;Recursos Próprios da Administração Indireta
+363;Ensino Profissional;06;;;Despesa Regionalizável;0,0;SANTANA-TUCURUVI;Subprefeitura;0,0;0,0;Recursos Próprios da Administração Indireta
+363;Ensino Profissional;06;;;Despesa Regionalizável;0,0;SANTO AMARO;Subprefeitura;0,0;0,0;Recursos Próprios da Administração Indireta
+363;Ensino Profissional;06;;;Despesa Regionalizável;0,0;SAO MATEUS;Subprefeitura;0,0;0,0;Recursos Próprios da Administração Indireta
+363;Ensino Profissional;06;;;Despesa Regionalizável;0,0;SAO MIGUEL;Subprefeitura;0,0;0,0;Recursos Próprios da Administração Indireta
+363;Ensino Profissional;06;;;Despesa Regionalizável;0,0;SAPOPEMBA;Subprefeitura;0,0;0,0;Recursos Próprios da Administração Indireta
+363;Ensino Profissional;06;;;Despesa Regionalizável;0,0;SE;Subprefeitura;0,0;0,0;Recursos Próprios da Administração Indireta
+363;Ensino Profissional;06;;;Despesa Regionalizável;0,0;VILA MARIA-VILA GUILHERME;Subprefeitura;0,0;0,0;Recursos Próprios da Administração Indireta
+363;Ensino Profissional;06;;;Despesa Regionalizável;0,0;VILA MARIANA;Subprefeitura;0,0;0,0;Recursos Próprios da Administração Indireta
+363;Ensino Profissional;06;;;Despesa Regionalizável;0,0;VILA PRUDENTE;Subprefeitura;0,0;0,0;Recursos Próprios da Administração Indireta
+363;Ensino Profissional;06;;;;0,0;;Não detalhado;15429,0;15429,0;Recursos Próprios da Administração Indireta
+364;Ensino Superior;00;;;Despesa Regionalizável;0,0;ARICANDUVA-FORMOSA-CARRAO;Subprefeitura;0,0;0,0;Tesouro Municipal
+364;Ensino Superior;00;;;Despesa Regionalizável;0,0;BUTANTA;Subprefeitura;0,0;0,0;Tesouro Municipal
+364;Ensino Superior;00;;;Despesa Regionalizável;0,0;CAMPO LIMPO;Subprefeitura;0,0;0,0;Tesouro Municipal
+364;Ensino Superior;00;;;Despesa Regionalizável;0,0;CAPELA DO SOCORRO;Subprefeitura;0,0;0,0;Tesouro Municipal
+364;Ensino Superior;00;;;Despesa Regionalizável;0,0;CASA VERDE-CACHOEIRINHA;Subprefeitura;0,0;0,0;Tesouro Municipal
+364;Ensino Superior;00;;;Despesa Regionalizável;0,0;CIDADE ADEMAR;Subprefeitura;0,0;0,0;Tesouro Municipal
+364;Ensino Superior;00;;;Despesa Regionalizável;0,0;CIDADE TIRADENTES;Subprefeitura;0,0;0,0;Tesouro Municipal
+364;Ensino Superior;00;;;Despesa Regionalizável;0,0;ERMELINO MATARAZZO;Subprefeitura;0,0;0,0;Tesouro Municipal
+364;Ensino Superior;00;;;Despesa Regionalizável;0,0;FREGUESIA-BRASILANDIA;Subprefeitura;0,0;0,0;Tesouro Municipal
+364;Ensino Superior;00;;;Despesa Regionalizável;0,0;GUAIANASES;Subprefeitura;0,0;0,0;Tesouro Municipal
+364;Ensino Superior;00;;;Despesa Regionalizável;0,0;IPIRANGA;Subprefeitura;0,0;0,0;Tesouro Municipal
+364;Ensino Superior;00;;;Despesa Regionalizável;0,0;ITAIM PAULISTA;Subprefeitura;0,0;0,0;Tesouro Municipal
+364;Ensino Superior;00;;;Despesa Regionalizável;0,0;ITAQUERA;Subprefeitura;0,0;0,0;Tesouro Municipal
+364;Ensino Superior;00;;;Despesa Regionalizável;0,0;JABAQUARA;Subprefeitura;0,0;0,0;Tesouro Municipal
+364;Ensino Superior;00;;;Despesa Regionalizável;0,0;JACANA-TREMEMBE;Subprefeitura;0,0;0,0;Tesouro Municipal
+364;Ensino Superior;00;;;Despesa Regionalizável;0,0;LAPA;Subprefeitura;0,0;0,0;Tesouro Municipal
+364;Ensino Superior;00;;;Despesa Regionalizável;0,0;M BOI MIRIM;Subprefeitura;0,0;0,0;Tesouro Municipal
+364;Ensino Superior;00;;;Despesa Regionalizável;0,0;MOOCA;Subprefeitura;0,0;0,0;Tesouro Municipal
+364;Ensino Superior;00;;;Despesa Regionalizável;0,0;PARELHEIROS;Subprefeitura;0,0;0,0;Tesouro Municipal
+364;Ensino Superior;00;;;Despesa Regionalizável;0,0;PENHA;Subprefeitura;0,0;0,0;Tesouro Municipal
+364;Ensino Superior;00;;;Despesa Regionalizável;0,0;PERUS;Subprefeitura;0,0;0,0;Tesouro Municipal
+364;Ensino Superior;00;;;Despesa Regionalizável;0,0;PINHEIROS;Subprefeitura;0,0;0,0;Tesouro Municipal
+364;Ensino Superior;00;;;Despesa Regionalizável;0,0;PIRITUBA-JARAGUA;Subprefeitura;0,0;0,0;Tesouro Municipal
+364;Ensino Superior;00;;;Despesa Regionalizável;0,0;SANTANA-TUCURUVI;Subprefeitura;0,0;0,0;Tesouro Municipal
+364;Ensino Superior;00;;;Despesa Regionalizável;0,0;SANTO AMARO;Subprefeitura;0,0;0,0;Tesouro Municipal
+364;Ensino Superior;00;;;Despesa Regionalizável;0,0;SAO MATEUS;Subprefeitura;0,0;0,0;Tesouro Municipal
+364;Ensino Superior;00;;;Despesa Regionalizável;0,0;SAO MIGUEL;Subprefeitura;0,0;0,0;Tesouro Municipal
+364;Ensino Superior;00;;;Despesa Regionalizável;0,0;SAPOPEMBA;Subprefeitura;0,0;0,0;Tesouro Municipal
+364;Ensino Superior;00;;;Despesa Regionalizável;0,0;SE;Subprefeitura;0,0;0,0;Tesouro Municipal
+364;Ensino Superior;00;;;Despesa Regionalizável;0,0;VILA MARIA-VILA GUILHERME;Subprefeitura;0,0;0,0;Tesouro Municipal
+364;Ensino Superior;00;;;Despesa Regionalizável;0,0;VILA MARIANA;Subprefeitura;0,0;0,0;Tesouro Municipal
+364;Ensino Superior;00;;;Despesa Regionalizável;0,0;VILA PRUDENTE;Subprefeitura;0,0;0,0;Tesouro Municipal
+364;Ensino Superior;00;;;;0,0;;Não detalhado;4425837,0;1733,0;Tesouro Municipal
+365;Educação Infantil;00;Supra-Regional;Supra Subprefeitura;Despesa Não-Regionalizável;158484989,48;;Não regionalizável;0,0;0,0;Tesouro Municipal
+365;Educação Infantil;00;Sul;Subprefeitura Cidade Ademar;Despesa Não-Regionalizável;5972107,3;CIDADE ADEMAR;Subprefeitura;0,0;0,0;Tesouro Municipal
+365;Educação Infantil;00;Sul;Subprefeitura Ipiranga;Despesa Não-Regionalizável;15516,44;IPIRANGA;Subprefeitura;0,0;0,0;Tesouro Municipal
+365;Educação Infantil;00;Leste;Subprefeitura Itaim Paulista;Despesa Não-Regionalizável;139878,0;ITAIM PAULISTA;Subprefeitura;0,0;0,0;Tesouro Municipal
+365;Educação Infantil;00;Sul;Subprefeitura Jabaquara;Despesa Não-Regionalizável;1661249,39;JABAQUARA;Subprefeitura;0,0;0,0;Tesouro Municipal
+365;Educação Infantil;00;Sul;Subprefeitura Santo Amaro;Despesa Não-Regionalizável;307944,82;SANTO AMARO;Subprefeitura;0,0;0,0;Tesouro Municipal
+365;Educação Infantil;00;Leste;Subprefeitura São Miguel Paulista;Despesa Não-Regionalizável;126938,0;SAO MIGUEL;Subprefeitura;0,0;0,0;Tesouro Municipal
+365;Educação Infantil;00;Sul;Subprefeitura Vila Mariana;Despesa Não-Regionalizável;2713,38;VILA MARIANA;Subprefeitura;0,0;0,0;Tesouro Municipal
+365;Educação Infantil;00;Centro;Supra Subprefeitura Centro;Despesa Regionalizável;93568612,07;;Região;0,0;0,0;Tesouro Municipal
+365;Educação Infantil;00;Leste;Supra Subprefeitura Leste;Despesa Regionalizável;10470120,23;;Região;0,0;0,0;Tesouro Municipal
+365;Educação Infantil;00;Norte;Supra Subprefeitura Norte;Despesa Regionalizável;2308753,51;;Região;0,0;0,0;Tesouro Municipal
+365;Educação Infantil;00;Oeste;Supra Subprefeitura Oeste;Despesa Regionalizável;610216,55;;Região;0,0;0,0;Tesouro Municipal
+365;Educação Infantil;00;Sul;Supra Subprefeitura Sul;Despesa Regionalizável;15362958,16;;Região;0,0;0,0;Tesouro Municipal
+365;Educação Infantil;00;Leste;Subprefeitura Aricanduva/Formosa/Carrão;Despesa Regionalizável;92515116,87;ARICANDUVA-FORMOSA-CARRAO;Subprefeitura;0,0;0,0;Tesouro Municipal
+365;Educação Infantil;00;Oeste;Subprefeitura Butantã;Despesa Regionalizável;318488736,03;BUTANTA;Subprefeitura;0,0;0,0;Tesouro Municipal
+365;Educação Infantil;00;Sul;Subprefeitura Campo Limpo;Despesa Regionalizável;760238851,91;CAMPO LIMPO;Subprefeitura;0,0;0,0;Tesouro Municipal
+365;Educação Infantil;00;Sul;Subprefeitura Capela do Socorro;Despesa Regionalizável;461041114,99;CAPELA DO SOCORRO;Subprefeitura;0,0;0,0;Tesouro Municipal
+365;Educação Infantil;00;Norte;Subprefeitura Casa Verde/Cachoeirinha;Despesa Regionalizável;6277596,76;CASA VERDE-CACHOEIRINHA;Subprefeitura;0,0;0,0;Tesouro Municipal
+365;Educação Infantil;00;Sul;Subprefeitura Cidade Ademar;Despesa Regionalizável;309632674,54;CIDADE ADEMAR;Subprefeitura;0,0;0,0;Tesouro Municipal
+365;Educação Infantil;00;Leste;Subprefeitura Cidade Tiradentes;Despesa Regionalizável;183458943,0;CIDADE TIRADENTES;Subprefeitura;0,0;0,0;Tesouro Municipal
+365;Educação Infantil;00;Leste;Subprefeitura Ermelino Matarazzo;Despesa Regionalizável;106672399,84;ERMELINO MATARAZZO;Subprefeitura;0,0;0,0;Tesouro Municipal
+365;Educação Infantil;00;Norte;Subprefeitura Freguesia/Brasilândia;Despesa Regionalizável;124462518,7;FREGUESIA-BRASILANDIA;Subprefeitura;0,0;0,0;Tesouro Municipal
+365;Educação Infantil;00;Leste;Subprefeitura de Guaianases;Despesa Regionalizável;314284333,45;GUAIANASES;Subprefeitura;0,0;0,0;Tesouro Municipal
+365;Educação Infantil;00;Sul;Subprefeitura Ipiranga;Despesa Regionalizável;245393119,54;IPIRANGA;Subprefeitura;0,0;0,0;Tesouro Municipal
+365;Educação Infantil;00;Leste;Subprefeitura Itaim Paulista;Despesa Regionalizável;319909819,74;ITAIM PAULISTA;Subprefeitura;0,0;0,0;Tesouro Municipal
+365;Educação Infantil;00;Leste;Subprefeitura Itaquera;Despesa Regionalizável;350173121,62;ITAQUERA;Subprefeitura;0,0;0,0;Tesouro Municipal
+365;Educação Infantil;00;Sul;Subprefeitura Jabaquara;Despesa Regionalizável;105770311,83;JABAQUARA;Subprefeitura;0,0;0,0;Tesouro Municipal
+365;Educação Infantil;00;Norte;Subprefeitura Jaçanã/Tremembé;Despesa Regionalizável;201698137,84;JACANA-TREMEMBE;Subprefeitura;0,0;0,0;Tesouro Municipal
+365;Educação Infantil;00;Oeste;Subprefeitura Lapa;Despesa Regionalizável;114993502,88;LAPA;Subprefeitura;0,0;0,0;Tesouro Municipal
+365;Educação Infantil;00;Sul;Subprefeitura M'Boi Mirim;Despesa Regionalizável;16339844,75;M BOI MIRIM;Subprefeitura;0,0;0,0;Tesouro Municipal
+365;Educação Infantil;00;Leste;Subprefeitura Mooca;Despesa Regionalizável;104389036,48;MOOCA;Subprefeitura;0,0;0,0;Tesouro Municipal
+365;Educação Infantil;00;Sul;Subprefeitura Parelheiros;Despesa Regionalizável;60528105,6;PARELHEIROS;Subprefeitura;0,0;0,0;Tesouro Municipal
+365;Educação Infantil;00;Leste;Subprefeitura Penha;Despesa Regionalizável;272893747,58;PENHA;Subprefeitura;0,0;0,0;Tesouro Municipal
+365;Educação Infantil;00;Norte;Subprefeitura Perus/Anhanguera;Despesa Regionalizável;120606794,35;PERUS;Subprefeitura;0,0;0,0;Tesouro Municipal
+365;Educação Infantil;00;Oeste;Subprefeitura Pinheiros;Despesa Regionalizável;11288425,71;PINHEIROS;Subprefeitura;0,0;0,0;Tesouro Municipal
+365;Educação Infantil;00;Norte;Subprefeitura Pirituba/Jaraguá;Despesa Regionalizável;272079715,38;PIRITUBA-JARAGUA;Subprefeitura;0,0;0,0;Tesouro Municipal
+365;Educação Infantil;00;Norte;Subprefeitura Santana/Tucuruvi;Despesa Regionalizável;55770366,72;SANTANA-TUCURUVI;Subprefeitura;0,0;0,0;Tesouro Municipal
+365;Educação Infantil;00;Sul;Subprefeitura Santo Amaro;Despesa Regionalizável;24523181,43;SANTO AMARO;Subprefeitura;0,0;0,0;Tesouro Municipal
+365;Educação Infantil;00;Leste;Subprefeitura São Mateus;Despesa Regionalizável;342976567,62;SAO MATEUS;Subprefeitura;0,0;0,0;Tesouro Municipal
+365;Educação Infantil;00;Leste;Subprefeitura São Miguel Paulista;Despesa Regionalizável;227302115,94;SAO MIGUEL;Subprefeitura;0,0;0,0;Tesouro Municipal
+365;Educação Infantil;00;Leste;Subprefeitura Sapopemba;Despesa Regionalizável;121309275,43;SAPOPEMBA;Subprefeitura;0,0;0,0;Tesouro Municipal
+365;Educação Infantil;00;Centro;Subprefeitura Sé;Despesa Regionalizável;168676035,16;SE;Subprefeitura;0,0;0,0;Tesouro Municipal
+365;Educação Infantil;00;Norte;Subprefeitura Vila Maria/Vila Guilherme;Despesa Regionalizável;161884864,33;VILA MARIA-VILA GUILHERME;Subprefeitura;0,0;0,0;Tesouro Municipal
+365;Educação Infantil;00;Sul;Subprefeitura Vila Mariana;Despesa Regionalizável;53961251,34;VILA MARIANA;Subprefeitura;0,0;0,0;Tesouro Municipal
+365;Educação Infantil;00;Leste;Subprefeitura de Vila Prudente;Despesa Regionalizável;93522446,34;VILA PRUDENTE;Subprefeitura;0,0;0,0;Tesouro Municipal
+365;Educação Infantil;00;;;;1611027898,08;;Não detalhado;7148908302,0;8332611543,51;Tesouro Municipal
+365;Educação Infantil;02;Supra-Regional;Supra Subprefeitura;Despesa Não-Regionalizável;51309442,98;;Não regionalizável;0,0;0,0;Transferências Federais
+365;Educação Infantil;02;Sul;Supra Subprefeitura Sul;Despesa Regionalizável;400000,0;;Região;0,0;0,0;Transferências Federais
+365;Educação Infantil;02;;;Despesa Regionalizável;0,0;ARICANDUVA-FORMOSA-CARRAO;Subprefeitura;0,0;0,0;Transferências Federais
+365;Educação Infantil;02;;;Despesa Regionalizável;0,0;BUTANTA;Subprefeitura;0,0;0,0;Transferências Federais
+365;Educação Infantil;02;;;Despesa Regionalizável;0,0;CAMPO LIMPO;Subprefeitura;0,0;0,0;Transferências Federais
+365;Educação Infantil;02;;;Despesa Regionalizável;0,0;CAPELA DO SOCORRO;Subprefeitura;0,0;0,0;Transferências Federais
+365;Educação Infantil;02;;;Despesa Regionalizável;0,0;CASA VERDE-CACHOEIRINHA;Subprefeitura;0,0;0,0;Transferências Federais
+365;Educação Infantil;02;;;Despesa Regionalizável;0,0;CIDADE ADEMAR;Subprefeitura;0,0;0,0;Transferências Federais
+365;Educação Infantil;02;;;Despesa Regionalizável;0,0;CIDADE TIRADENTES;Subprefeitura;0,0;0,0;Transferências Federais
+365;Educação Infantil;02;;;Despesa Regionalizável;0,0;ERMELINO MATARAZZO;Subprefeitura;0,0;0,0;Transferências Federais
+365;Educação Infantil;02;;;Despesa Regionalizável;0,0;FREGUESIA-BRASILANDIA;Subprefeitura;0,0;0,0;Transferências Federais
+365;Educação Infantil;02;;;Despesa Regionalizável;0,0;GUAIANASES;Subprefeitura;0,0;0,0;Transferências Federais
+365;Educação Infantil;02;Sul;Subprefeitura Ipiranga;Despesa Regionalizável;1644239,43;IPIRANGA;Subprefeitura;0,0;0,0;Transferências Federais
+365;Educação Infantil;02;;;Despesa Regionalizável;0,0;ITAIM PAULISTA;Subprefeitura;0,0;0,0;Transferências Federais
+365;Educação Infantil;02;;;Despesa Regionalizável;0,0;ITAQUERA;Subprefeitura;0,0;0,0;Transferências Federais
+365;Educação Infantil;02;;;Despesa Regionalizável;0,0;JABAQUARA;Subprefeitura;0,0;0,0;Transferências Federais
+365;Educação Infantil;02;;;Despesa Regionalizável;0,0;JACANA-TREMEMBE;Subprefeitura;0,0;0,0;Transferências Federais
+365;Educação Infantil;02;;;Despesa Regionalizável;0,0;LAPA;Subprefeitura;0,0;0,0;Transferências Federais
+365;Educação Infantil;02;;;Despesa Regionalizável;0,0;M BOI MIRIM;Subprefeitura;0,0;0,0;Transferências Federais
+365;Educação Infantil;02;;;Despesa Regionalizável;0,0;MOOCA;Subprefeitura;0,0;0,0;Transferências Federais
+365;Educação Infantil;02;;;Despesa Regionalizável;0,0;PARELHEIROS;Subprefeitura;0,0;0,0;Transferências Federais
+365;Educação Infantil;02;;;Despesa Regionalizável;0,0;PENHA;Subprefeitura;0,0;0,0;Transferências Federais
+365;Educação Infantil;02;;;Despesa Regionalizável;0,0;PERUS;Subprefeitura;0,0;0,0;Transferências Federais
+365;Educação Infantil;02;;;Despesa Regionalizável;0,0;PINHEIROS;Subprefeitura;0,0;0,0;Transferências Federais
+365;Educação Infantil;02;;;Despesa Regionalizável;0,0;PIRITUBA-JARAGUA;Subprefeitura;0,0;0,0;Transferências Federais
+365;Educação Infantil;02;;;Despesa Regionalizável;0,0;SANTANA-TUCURUVI;Subprefeitura;0,0;0,0;Transferências Federais
+365;Educação Infantil;02;;;Despesa Regionalizável;0,0;SANTO AMARO;Subprefeitura;0,0;0,0;Transferências Federais
+365;Educação Infantil;02;;;Despesa Regionalizável;0,0;SAO MATEUS;Subprefeitura;0,0;0,0;Transferências Federais
+365;Educação Infantil;02;;;Despesa Regionalizável;0,0;SAO MIGUEL;Subprefeitura;0,0;0,0;Transferências Federais
+365;Educação Infantil;02;;;Despesa Regionalizável;0,0;SAPOPEMBA;Subprefeitura;0,0;0,0;Transferências Federais
+365;Educação Infantil;02;;;Despesa Regionalizável;0,0;SE;Subprefeitura;0,0;0,0;Transferências Federais
+365;Educação Infantil;02;;;Despesa Regionalizável;0,0;VILA MARIA-VILA GUILHERME;Subprefeitura;0,0;0,0;Transferências Federais
+365;Educação Infantil;02;;;Despesa Regionalizável;0,0;VILA MARIANA;Subprefeitura;0,0;0,0;Transferências Federais
+365;Educação Infantil;02;;;Despesa Regionalizável;0,0;VILA PRUDENTE;Subprefeitura;0,0;0,0;Transferências Federais
+365;Educação Infantil;02;;;;0,0;;Não detalhado;19633288,0;72986970,41;Transferências Federais
+365;Educação Infantil;04;;;Despesa Regionalizável;0,0;ARICANDUVA-FORMOSA-CARRAO;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+365;Educação Infantil;04;;;Despesa Regionalizável;0,0;BUTANTA;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+365;Educação Infantil;04;;;Despesa Regionalizável;0,0;CAMPO LIMPO;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+365;Educação Infantil;04;;;Despesa Regionalizável;0,0;CAPELA DO SOCORRO;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+365;Educação Infantil;04;;;Despesa Regionalizável;0,0;CASA VERDE-CACHOEIRINHA;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+365;Educação Infantil;04;;;Despesa Regionalizável;0,0;CIDADE ADEMAR;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+365;Educação Infantil;04;;;Despesa Regionalizável;0,0;CIDADE TIRADENTES;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+365;Educação Infantil;04;;;Despesa Regionalizável;0,0;ERMELINO MATARAZZO;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+365;Educação Infantil;04;;;Despesa Regionalizável;0,0;FREGUESIA-BRASILANDIA;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+365;Educação Infantil;04;;;Despesa Regionalizável;0,0;GUAIANASES;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+365;Educação Infantil;04;;;Despesa Regionalizável;0,0;IPIRANGA;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+365;Educação Infantil;04;;;Despesa Regionalizável;0,0;ITAIM PAULISTA;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+365;Educação Infantil;04;;;Despesa Regionalizável;0,0;ITAQUERA;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+365;Educação Infantil;04;;;Despesa Regionalizável;0,0;JABAQUARA;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+365;Educação Infantil;04;;;Despesa Regionalizável;0,0;JACANA-TREMEMBE;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+365;Educação Infantil;04;;;Despesa Regionalizável;0,0;LAPA;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+365;Educação Infantil;04;;;Despesa Regionalizável;0,0;M BOI MIRIM;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+365;Educação Infantil;04;;;Despesa Regionalizável;0,0;MOOCA;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+365;Educação Infantil;04;;;Despesa Regionalizável;0,0;PARELHEIROS;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+365;Educação Infantil;04;;;Despesa Regionalizável;0,0;PENHA;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+365;Educação Infantil;04;;;Despesa Regionalizável;0,0;PERUS;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+365;Educação Infantil;04;;;Despesa Regionalizável;0,0;PINHEIROS;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+365;Educação Infantil;04;;;Despesa Regionalizável;0,0;PIRITUBA-JARAGUA;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+365;Educação Infantil;04;;;Despesa Regionalizável;0,0;SANTANA-TUCURUVI;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+365;Educação Infantil;04;;;Despesa Regionalizável;0,0;SANTO AMARO;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+365;Educação Infantil;04;;;Despesa Regionalizável;0,0;SAO MATEUS;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+365;Educação Infantil;04;;;Despesa Regionalizável;0,0;SAO MIGUEL;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+365;Educação Infantil;04;;;Despesa Regionalizável;0,0;SAPOPEMBA;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+365;Educação Infantil;04;;;Despesa Regionalizável;0,0;SE;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+365;Educação Infantil;04;;;Despesa Regionalizável;0,0;VILA MARIA-VILA GUILHERME;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+365;Educação Infantil;04;;;Despesa Regionalizável;0,0;VILA MARIANA;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+365;Educação Infantil;04;;;Despesa Regionalizável;0,0;VILA PRUDENTE;Subprefeitura;0,0;0,0;Fundo Constitucional da Educação
+365;Educação Infantil;04;;;;3953723507,8;;Não detalhado;3503130989,0;3962590676,0;Fundo Constitucional da Educação
+365;Educação Infantil;05;Leste;Supra Subprefeitura Leste;Despesa Regionalizável;323961,78;;Região;0,0;0,0;Outras Fontes
+365;Educação Infantil;05;Norte;Supra Subprefeitura Norte;Despesa Regionalizável;267962,98;;Região;0,0;0,0;Outras Fontes
+365;Educação Infantil;05;Sul;Supra Subprefeitura Sul;Despesa Regionalizável;1852457,49;;Região;0,0;0,0;Outras Fontes
+365;Educação Infantil;05;;;Despesa Regionalizável;0,0;ARICANDUVA-FORMOSA-CARRAO;Subprefeitura;0,0;0,0;Outras Fontes
+365;Educação Infantil;05;;;Despesa Regionalizável;0,0;BUTANTA;Subprefeitura;0,0;0,0;Outras Fontes
+365;Educação Infantil;05;;;Despesa Regionalizável;0,0;CAMPO LIMPO;Subprefeitura;0,0;0,0;Outras Fontes
+365;Educação Infantil;05;;;Despesa Regionalizável;0,0;CAPELA DO SOCORRO;Subprefeitura;0,0;0,0;Outras Fontes
+365;Educação Infantil;05;;;Despesa Regionalizável;0,0;CASA VERDE-CACHOEIRINHA;Subprefeitura;0,0;0,0;Outras Fontes
+365;Educação Infantil;05;;;Despesa Regionalizável;0,0;CIDADE ADEMAR;Subprefeitura;0,0;0,0;Outras Fontes
+365;Educação Infantil;05;;;Despesa Regionalizável;0,0;CIDADE TIRADENTES;Subprefeitura;0,0;0,0;Outras Fontes
+365;Educação Infantil;05;;;Despesa Regionalizável;0,0;ERMELINO MATARAZZO;Subprefeitura;0,0;0,0;Outras Fontes
+365;Educação Infantil;05;;;Despesa Regionalizável;0,0;FREGUESIA-BRASILANDIA;Subprefeitura;0,0;0,0;Outras Fontes
+365;Educação Infantil;05;;;Despesa Regionalizável;0,0;GUAIANASES;Subprefeitura;0,0;0,0;Outras Fontes
+365;Educação Infantil;05;;;Despesa Regionalizável;0,0;IPIRANGA;Subprefeitura;0,0;0,0;Outras Fontes
+365;Educação Infantil;05;;;Despesa Regionalizável;0,0;ITAIM PAULISTA;Subprefeitura;0,0;0,0;Outras Fontes
+365;Educação Infantil;05;;;Despesa Regionalizável;0,0;ITAQUERA;Subprefeitura;0,0;0,0;Outras Fontes
+365;Educação Infantil;05;;;Despesa Regionalizável;0,0;JABAQUARA;Subprefeitura;0,0;0,0;Outras Fontes
+365;Educação Infantil;05;;;Despesa Regionalizável;0,0;JACANA-TREMEMBE;Subprefeitura;0,0;0,0;Outras Fontes
+365;Educação Infantil;05;;;Despesa Regionalizável;0,0;LAPA;Subprefeitura;0,0;0,0;Outras Fontes
+365;Educação Infantil;05;;;Despesa Regionalizável;0,0;M BOI MIRIM;Subprefeitura;0,0;0,0;Outras Fontes
+365;Educação Infantil;05;;;Despesa Regionalizável;0,0;MOOCA;Subprefeitura;0,0;0,0;Outras Fontes
+365;Educação Infantil;05;;;Despesa Regionalizável;0,0;PARELHEIROS;Subprefeitura;0,0;0,0;Outras Fontes
+365;Educação Infantil;05;;;Despesa Regionalizável;0,0;PENHA;Subprefeitura;0,0;0,0;Outras Fontes
+365;Educação Infantil;05;;;Despesa Regionalizável;0,0;PERUS;Subprefeitura;0,0;0,0;Outras Fontes
+365;Educação Infantil;05;;;Despesa Regionalizável;0,0;PINHEIROS;Subprefeitura;0,0;0,0;Outras Fontes
+365;Educação Infantil;05;;;Despesa Regionalizável;0,0;PIRITUBA-JARAGUA;Subprefeitura;0,0;0,0;Outras Fontes
+365;Educação Infantil;05;;;Despesa Regionalizável;0,0;SANTANA-TUCURUVI;Subprefeitura;0,0;0,0;Outras Fontes
+365;Educação Infantil;05;;;Despesa Regionalizável;0,0;SANTO AMARO;Subprefeitura;0,0;0,0;Outras Fontes
+365;Educação Infantil;05;;;Despesa Regionalizável;0,0;SAO MATEUS;Subprefeitura;0,0;0,0;Outras Fontes
+365;Educação Infantil;05;;;Despesa Regionalizável;0,0;SAO MIGUEL;Subprefeitura;0,0;0,0;Outras Fontes
+365;Educação Infantil;05;;;Despesa Regionalizável;0,0;SAPOPEMBA;Subprefeitura;0,0;0,0;Outras Fontes
+365;Educação Infantil;05;;;Despesa Regionalizável;0,0;SE;Subprefeitura;0,0;0,0;Outras Fontes
+365;Educação Infantil;05;;;Despesa Regionalizável;0,0;VILA MARIA-VILA GUILHERME;Subprefeitura;0,0;0,0;Outras Fontes
+365;Educação Infantil;05;;;Despesa Regionalizável;0,0;VILA MARIANA;Subprefeitura;0,0;0,0;Outras Fontes
+365;Educação Infantil;05;;;Despesa Regionalizável;0,0;VILA PRUDENTE;Subprefeitura;0,0;0,0;Outras Fontes
+365;Educação Infantil;05;;;;0,0;;Não detalhado;0,0;11971627,82;Outras Fontes
+366;Educação de Jovens e Adultos;00;Supra-Regional;Supra Subprefeitura;Despesa Não-Regionalizável;10135797,64;;Não regionalizável;0,0;0,0;Tesouro Municipal
+366;Educação de Jovens e Adultos;00;Sul;Subprefeitura Cidade Ademar;Despesa Não-Regionalizável;45,51;CIDADE ADEMAR;Subprefeitura;0,0;0,0;Tesouro Municipal
+366;Educação de Jovens e Adultos;00;Sul;Subprefeitura Jabaquara;Despesa Não-Regionalizável;45,51;JABAQUARA;Subprefeitura;0,0;0,0;Tesouro Municipal
+366;Educação de Jovens e Adultos;00;Sul;Subprefeitura Santo Amaro;Despesa Não-Regionalizável;45,5;SANTO AMARO;Subprefeitura;0,0;0,0;Tesouro Municipal
+366;Educação de Jovens e Adultos;00;Leste;Subprefeitura Aricanduva/Formosa/Carrão;Despesa Regionalizável;95020,26;ARICANDUVA-FORMOSA-CARRAO;Subprefeitura;0,0;0,0;Tesouro Municipal
+366;Educação de Jovens e Adultos;00;Oeste;Subprefeitura Butantã;Despesa Regionalizável;387794,41;BUTANTA;Subprefeitura;0,0;0,0;Tesouro Municipal
+366;Educação de Jovens e Adultos;00;Sul;Subprefeitura Campo Limpo;Despesa Regionalizável;1704733,55;CAMPO LIMPO;Subprefeitura;0,0;0,0;Tesouro Municipal
+366;Educação de Jovens e Adultos;00;Sul;Subprefeitura Capela do Socorro;Despesa Regionalizável;955898,05;CAPELA DO SOCORRO;Subprefeitura;0,0;0,0;Tesouro Municipal
+366;Educação de Jovens e Adultos;00;Norte;Subprefeitura Casa Verde/Cachoeirinha;Despesa Regionalizável;12349,82;CASA VERDE-CACHOEIRINHA;Subprefeitura;0,0;0,0;Tesouro Municipal
+366;Educação de Jovens e Adultos;00;Sul;Subprefeitura Cidade Ademar;Despesa Regionalizável;837395,43;CIDADE ADEMAR;Subprefeitura;0,0;0,0;Tesouro Municipal
+366;Educação de Jovens e Adultos;00;Leste;Subprefeitura Cidade Tiradentes;Despesa Regionalizável;433373,8;CIDADE TIRADENTES;Subprefeitura;0,0;0,0;Tesouro Municipal
+366;Educação de Jovens e Adultos;00;Leste;Subprefeitura Ermelino Matarazzo;Despesa Regionalizável;638641,93;ERMELINO MATARAZZO;Subprefeitura;0,0;0,0;Tesouro Municipal
+366;Educação de Jovens e Adultos;00;Norte;Subprefeitura Freguesia/Brasilândia;Despesa Regionalizável;651764,43;FREGUESIA-BRASILANDIA;Subprefeitura;0,0;0,0;Tesouro Municipal
+366;Educação de Jovens e Adultos;00;Leste;Subprefeitura de Guaianases;Despesa Regionalizável;1500755,25;GUAIANASES;Subprefeitura;0,0;0,0;Tesouro Municipal
+366;Educação de Jovens e Adultos;00;Sul;Subprefeitura Ipiranga;Despesa Regionalizável;485571,59;IPIRANGA;Subprefeitura;0,0;0,0;Tesouro Municipal
+366;Educação de Jovens e Adultos;00;Leste;Subprefeitura Itaim Paulista;Despesa Regionalizável;439061,09;ITAIM PAULISTA;Subprefeitura;0,0;0,0;Tesouro Municipal
+366;Educação de Jovens e Adultos;00;Leste;Subprefeitura Itaquera;Despesa Regionalizável;873463,57;ITAQUERA;Subprefeitura;0,0;0,0;Tesouro Municipal
+366;Educação de Jovens e Adultos;00;Sul;Subprefeitura Jabaquara;Despesa Regionalizável;170550,33;JABAQUARA;Subprefeitura;0,0;0,0;Tesouro Municipal
+366;Educação de Jovens e Adultos;00;Norte;Subprefeitura Jaçanã/Tremembé;Despesa Regionalizável;190709,77;JACANA-TREMEMBE;Subprefeitura;0,0;0,0;Tesouro Municipal
+366;Educação de Jovens e Adultos;00;Oeste;Subprefeitura Lapa;Despesa Regionalizável;9,29;LAPA;Subprefeitura;0,0;0,0;Tesouro Municipal
+366;Educação de Jovens e Adultos;00;Sul;Subprefeitura M'Boi Mirim;Despesa Regionalizável;163,2;M BOI MIRIM;Subprefeitura;0,0;0,0;Tesouro Municipal
+366;Educação de Jovens e Adultos;00;Leste;Subprefeitura Mooca;Despesa Regionalizável;137542,41;MOOCA;Subprefeitura;0,0;0,0;Tesouro Municipal
+366;Educação de Jovens e Adultos;00;Sul;Subprefeitura Parelheiros;Despesa Regionalizável;169415,03;PARELHEIROS;Subprefeitura;0,0;0,0;Tesouro Municipal
+366;Educação de Jovens e Adultos;00;Leste;Subprefeitura Penha;Despesa Regionalizável;412880,5;PENHA;Subprefeitura;0,0;0,0;Tesouro Municipal
+366;Educação de Jovens e Adultos;00;Norte;Subprefeitura Perus/Anhanguera;Despesa Regionalizável;1150685,91;PERUS;Subprefeitura;0,0;0,0;Tesouro Municipal
+366;Educação de Jovens e Adultos;00;Oeste;Subprefeitura Pinheiros;Despesa Regionalizável;27368,8;PINHEIROS;Subprefeitura;0,0;0,0;Tesouro Municipal
+366;Educação de Jovens e Adultos;00;Norte;Subprefeitura Pirituba/Jaraguá;Despesa Regionalizável;785253,78;PIRITUBA-JARAGUA;Subprefeitura;0,0;0,0;Tesouro Municipal
+366;Educação de Jovens e Adultos;00;Norte;Subprefeitura Santana/Tucuruvi;Despesa Regionalizável;342428,18;SANTANA-TUCURUVI;Subprefeitura;0,0;0,0;Tesouro Municipal
+366;Educação de Jovens e Adultos;00;Sul;Subprefeitura Santo Amaro;Despesa Regionalizável;210872,75;SANTO AMARO;Subprefeitura;0,0;0,0;Tesouro Municipal
+366;Educação de Jovens e Adultos;00;Leste;Subprefeitura São Mateus;Despesa Regionalizável;1670232,16;SAO MATEUS;Subprefeitura;0,0;0,0;Tesouro Municipal
+366;Educação de Jovens e Adultos;00;Leste;Subprefeitura São Miguel Paulista;Despesa Regionalizável;1455437,64;SAO MIGUEL;Subprefeitura;0,0;0,0;Tesouro Municipal
+366;Educação de Jovens e Adultos;00;Leste;Subprefeitura Sapopemba;Despesa Regionalizável;77990,27;SAPOPEMBA;Subprefeitura;0,0;0,0;Tesouro Municipal
+366;Educação de Jovens e Adultos;00;Centro;Subprefeitura Sé;Despesa Regionalizável;829601,33;SE;Subprefeitura;0,0;0,0;Tesouro Municipal
+366;Educação de Jovens e Adultos;00;Norte;Subprefeitura Vila Maria/Vila Guilherme;Despesa Regionalizável;118174,62;VILA MARIA-VILA GUILHERME;Subprefeitura;0,0;0,0;Tesouro Municipal
+366;Educação de Jovens e Adultos;00;;;Despesa Regionalizável;0,0;VILA MARIANA;Subprefeitura;0,0;0,0;Tesouro Municipal
+366;Educação de Jovens e Adultos;00;;;Despesa Regionalizável;0,0;VILA PRUDENTE;Subprefeitura;0,0;0,0;Tesouro Municipal
+366;Educação de Jovens e Adultos;00;;;;1966323,08;;Não detalhado;57377787,0;32571515,47;Tesouro Municipal
+367;Educação Especial;00;Supra-Regional;Supra Subprefeitura;Despesa Não-Regionalizável;226730203,04;;Não regionalizável;0,0;0,0;Tesouro Municipal
+367;Educação Especial;00;Sul;Subprefeitura Santo Amaro;Despesa Não-Regionalizável;55379,59;SANTO AMARO;Subprefeitura;0,0;0,0;Tesouro Municipal
+367;Educação Especial;00;Centro;Subprefeitura Sé;Despesa Não-Regionalizável;5360,04;SE;Subprefeitura;0,0;0,0;Tesouro Municipal
+367;Educação Especial;00;Sul;Subprefeitura Vila Mariana;Despesa Não-Regionalizável;194590,07;VILA MARIANA;Subprefeitura;0,0;0,0;Tesouro Municipal
+367;Educação Especial;00;Leste;Subprefeitura Aricanduva/Formosa/Carrão;Despesa Regionalizável;230542,44;ARICANDUVA-FORMOSA-CARRAO;Subprefeitura;0,0;0,0;Tesouro Municipal
+367;Educação Especial;00;;;Despesa Regionalizável;0,0;BUTANTA;Subprefeitura;0,0;0,0;Tesouro Municipal
+367;Educação Especial;00;Sul;Subprefeitura Campo Limpo;Despesa Regionalizável;324,88;CAMPO LIMPO;Subprefeitura;0,0;0,0;Tesouro Municipal
+367;Educação Especial;00;Sul;Subprefeitura Capela do Socorro;Despesa Regionalizável;267965,58;CAPELA DO SOCORRO;Subprefeitura;0,0;0,0;Tesouro Municipal
+367;Educação Especial;00;Norte;Subprefeitura Casa Verde/Cachoeirinha;Despesa Regionalizável;574835,58;CASA VERDE-CACHOEIRINHA;Subprefeitura;0,0;0,0;Tesouro Municipal
+367;Educação Especial;00;Sul;Subprefeitura Cidade Ademar;Despesa Regionalizável;8964,75;CIDADE ADEMAR;Subprefeitura;0,0;0,0;Tesouro Municipal
+367;Educação Especial;00;Leste;Subprefeitura Cidade Tiradentes;Despesa Regionalizável;168,48;CIDADE TIRADENTES;Subprefeitura;0,0;0,0;Tesouro Municipal
+367;Educação Especial;00;Leste;Subprefeitura Ermelino Matarazzo;Despesa Regionalizável;518077,72;ERMELINO MATARAZZO;Subprefeitura;0,0;0,0;Tesouro Municipal
+367;Educação Especial;00;Norte;Subprefeitura Freguesia/Brasilândia;Despesa Regionalizável;1111241,48;FREGUESIA-BRASILANDIA;Subprefeitura;0,0;0,0;Tesouro Municipal
+367;Educação Especial;00;Leste;Subprefeitura de Guaianases;Despesa Regionalizável;73,64;GUAIANASES;Subprefeitura;0,0;0,0;Tesouro Municipal
+367;Educação Especial;00;Sul;Subprefeitura Ipiranga;Despesa Regionalizável;13881,1;IPIRANGA;Subprefeitura;0,0;0,0;Tesouro Municipal
+367;Educação Especial;00;;;Despesa Regionalizável;0,0;ITAIM PAULISTA;Subprefeitura;0,0;0,0;Tesouro Municipal
+367;Educação Especial;00;Leste;Subprefeitura Itaquera;Despesa Regionalizável;49,85;ITAQUERA;Subprefeitura;0,0;0,0;Tesouro Municipal
+367;Educação Especial;00;Sul;Subprefeitura Jabaquara;Despesa Regionalizável;5228,28;JABAQUARA;Subprefeitura;0,0;0,0;Tesouro Municipal
+367;Educação Especial;00;Norte;Subprefeitura Jaçanã/Tremembé;Despesa Regionalizável;185465,88;JACANA-TREMEMBE;Subprefeitura;0,0;0,0;Tesouro Municipal
+367;Educação Especial;00;Oeste;Subprefeitura Lapa;Despesa Regionalizável;12,12;LAPA;Subprefeitura;0,0;0,0;Tesouro Municipal
+367;Educação Especial;00;Sul;Subprefeitura M'Boi Mirim;Despesa Regionalizável;212,81;M BOI MIRIM;Subprefeitura;0,0;0,0;Tesouro Municipal
+367;Educação Especial;00;Leste;Subprefeitura Mooca;Despesa Regionalizável;779838,29;MOOCA;Subprefeitura;0,0;0,0;Tesouro Municipal
+367;Educação Especial;00;;;Despesa Regionalizável;0,0;PARELHEIROS;Subprefeitura;0,0;0,0;Tesouro Municipal
+367;Educação Especial;00;Leste;Subprefeitura Penha;Despesa Regionalizável;914667,78;PENHA;Subprefeitura;0,0;0,0;Tesouro Municipal
+367;Educação Especial;00;Norte;Subprefeitura Perus/Anhanguera;Despesa Regionalizável;5602,71;PERUS;Subprefeitura;0,0;0,0;Tesouro Municipal
+367;Educação Especial;00;;;Despesa Regionalizável;0,0;PINHEIROS;Subprefeitura;0,0;0,0;Tesouro Municipal
+367;Educação Especial;00;Norte;Subprefeitura Pirituba/Jaraguá;Despesa Regionalizável;381333,86;PIRITUBA-JARAGUA;Subprefeitura;0,0;0,0;Tesouro Municipal
+367;Educação Especial;00;Norte;Subprefeitura Santana/Tucuruvi;Despesa Regionalizável;116738,29;SANTANA-TUCURUVI;Subprefeitura;0,0;0,0;Tesouro Municipal
+367;Educação Especial;00;Sul;Subprefeitura Santo Amaro;Despesa Regionalizável;716042,59;SANTO AMARO;Subprefeitura;0,0;0,0;Tesouro Municipal
+367;Educação Especial;00;Leste;Subprefeitura São Mateus;Despesa Regionalizável;313829,92;SAO MATEUS;Subprefeitura;0,0;0,0;Tesouro Municipal
+367;Educação Especial;00;;;Despesa Regionalizável;0,0;SAO MIGUEL;Subprefeitura;0,0;0,0;Tesouro Municipal
+367;Educação Especial;00;;;Despesa Regionalizável;0,0;SAPOPEMBA;Subprefeitura;0,0;0,0;Tesouro Municipal
+367;Educação Especial;00;Centro;Subprefeitura Sé;Despesa Regionalizável;1306734,79;SE;Subprefeitura;0,0;0,0;Tesouro Municipal
+367;Educação Especial;00;Norte;Subprefeitura Vila Maria/Vila Guilherme;Despesa Regionalizável;1030,45;VILA MARIA-VILA GUILHERME;Subprefeitura;0,0;0,0;Tesouro Municipal
+367;Educação Especial;00;Sul;Subprefeitura Vila Mariana;Despesa Regionalizável;4102224,51;VILA MARIANA;Subprefeitura;0,0;0,0;Tesouro Municipal
+367;Educação Especial;00;Leste;Subprefeitura de Vila Prudente;Despesa Regionalizável;103285,86;VILA PRUDENTE;Subprefeitura;0,0;0,0;Tesouro Municipal
+367;Educação Especial;00;;;;65039490,63;;Não detalhado;356909866,0;328812095,0;Tesouro Municipal
+368;Educação Básica;00;Supra-Regional;Supra Subprefeitura;Despesa Não-Regionalizável;215132626,18;;Não regionalizável;0,0;0,0;Tesouro Municipal
+368;Educação Básica;00;Sul;Subprefeitura Cidade Ademar;Despesa Não-Regionalizável;193317,51;CIDADE ADEMAR;Subprefeitura;0,0;0,0;Tesouro Municipal
+368;Educação Básica;00;Sul;Subprefeitura Jabaquara;Despesa Não-Regionalizável;205709,79;JABAQUARA;Subprefeitura;0,0;0,0;Tesouro Municipal
+368;Educação Básica;00;Sul;Subprefeitura Santo Amaro;Despesa Não-Regionalizável;69659,3;SANTO AMARO;Subprefeitura;0,0;0,0;Tesouro Municipal
+368;Educação Básica;00;Centro;Subprefeitura Sé;Despesa Não-Regionalizável;292815,42;SE;Subprefeitura;0,0;0,0;Tesouro Municipal
+368;Educação Básica;00;Centro;Supra Subprefeitura Centro;Despesa Regionalizável;34036667,24;;Região;0,0;0,0;Tesouro Municipal
+368;Educação Básica;00;Leste;Supra Subprefeitura Leste;Despesa Regionalizável;244613,63;;Região;0,0;0,0;Tesouro Municipal
+368;Educação Básica;00;Oeste;Supra Subprefeitura Oeste;Despesa Regionalizável;932052,82;;Região;0,0;0,0;Tesouro Municipal
+368;Educação Básica;00;Sul;Supra Subprefeitura Sul;Despesa Regionalizável;31676265,82;;Região;0,0;0,0;Tesouro Municipal
+368;Educação Básica;00;Leste;Subprefeitura Aricanduva/Formosa/Carrão;Despesa Regionalizável;20874113,39;ARICANDUVA-FORMOSA-CARRAO;Subprefeitura;0,0;0,0;Tesouro Municipal
+368;Educação Básica;00;Oeste;Subprefeitura Butantã;Despesa Regionalizável;14168525,59;BUTANTA;Subprefeitura;0,0;0,0;Tesouro Municipal
+368;Educação Básica;00;Sul;Subprefeitura Campo Limpo;Despesa Regionalizável;39327186,2;CAMPO LIMPO;Subprefeitura;0,0;0,0;Tesouro Municipal
+368;Educação Básica;00;Sul;Subprefeitura Capela do Socorro;Despesa Regionalizável;27083832,09;CAPELA DO SOCORRO;Subprefeitura;0,0;0,0;Tesouro Municipal
+368;Educação Básica;00;Norte;Subprefeitura Casa Verde/Cachoeirinha;Despesa Regionalizável;292830,17;CASA VERDE-CACHOEIRINHA;Subprefeitura;0,0;0,0;Tesouro Municipal
+368;Educação Básica;00;Sul;Subprefeitura Cidade Ademar;Despesa Regionalizável;8030056,57;CIDADE ADEMAR;Subprefeitura;0,0;0,0;Tesouro Municipal
+368;Educação Básica;00;Leste;Subprefeitura Cidade Tiradentes;Despesa Regionalizável;36547908,58;CIDADE TIRADENTES;Subprefeitura;0,0;0,0;Tesouro Municipal
+368;Educação Básica;00;Leste;Subprefeitura Ermelino Matarazzo;Despesa Regionalizável;1607905,67;ERMELINO MATARAZZO;Subprefeitura;0,0;0,0;Tesouro Municipal
+368;Educação Básica;00;Norte;Subprefeitura Freguesia/Brasilândia;Despesa Regionalizável;31393670,21;FREGUESIA-BRASILANDIA;Subprefeitura;0,0;0,0;Tesouro Municipal
+368;Educação Básica;00;Leste;Subprefeitura de Guaianases;Despesa Regionalizável;11996342,73;GUAIANASES;Subprefeitura;0,0;0,0;Tesouro Municipal
+368;Educação Básica;00;Sul;Subprefeitura Ipiranga;Despesa Regionalizável;20548539,92;IPIRANGA;Subprefeitura;0,0;0,0;Tesouro Municipal
+368;Educação Básica;00;Leste;Subprefeitura Itaim Paulista;Despesa Regionalizável;28079231,28;ITAIM PAULISTA;Subprefeitura;0,0;0,0;Tesouro Municipal
+368;Educação Básica;00;Leste;Subprefeitura Itaquera;Despesa Regionalizável;12634795,53;ITAQUERA;Subprefeitura;0,0;0,0;Tesouro Municipal
+368;Educação Básica;00;Sul;Subprefeitura Jabaquara;Despesa Regionalizável;7111664,69;JABAQUARA;Subprefeitura;0,0;0,0;Tesouro Municipal
+368;Educação Básica;00;Norte;Subprefeitura Jaçanã/Tremembé;Despesa Regionalizável;17636949,14;JACANA-TREMEMBE;Subprefeitura;0,0;0,0;Tesouro Municipal
+368;Educação Básica;00;Oeste;Subprefeitura Lapa;Despesa Regionalizável;6443158,71;LAPA;Subprefeitura;0,0;0,0;Tesouro Municipal
+368;Educação Básica;00;Sul;Subprefeitura M'Boi Mirim;Despesa Regionalizável;16425013,33;M BOI MIRIM;Subprefeitura;0,0;0,0;Tesouro Municipal
+368;Educação Básica;00;Leste;Subprefeitura Mooca;Despesa Regionalizável;1046375,77;MOOCA;Subprefeitura;0,0;0,0;Tesouro Municipal
+368;Educação Básica;00;Sul;Subprefeitura Parelheiros;Despesa Regionalizável;4667041,1;PARELHEIROS;Subprefeitura;0,0;0,0;Tesouro Municipal
+368;Educação Básica;00;Leste;Subprefeitura Penha;Despesa Regionalizável;17410973,02;PENHA;Subprefeitura;0,0;0,0;Tesouro Municipal
+368;Educação Básica;00;Norte;Subprefeitura Perus/Anhanguera;Despesa Regionalizável;12701992,41;PERUS;Subprefeitura;0,0;0,0;Tesouro Municipal
+368;Educação Básica;00;Oeste;Subprefeitura Pinheiros;Despesa Regionalizável;101888,14;PINHEIROS;Subprefeitura;0,0;0,0;Tesouro Municipal
+368;Educação Básica;00;Norte;Subprefeitura Pirituba/Jaraguá;Despesa Regionalizável;16541625,73;PIRITUBA-JARAGUA;Subprefeitura;0,0;0,0;Tesouro Municipal
+368;Educação Básica;00;Norte;Subprefeitura Santana/Tucuruvi;Despesa Regionalizável;655444,04;SANTANA-TUCURUVI;Subprefeitura;0,0;0,0;Tesouro Municipal
+368;Educação Básica;00;Sul;Subprefeitura Santo Amaro;Despesa Regionalizável;716482,57;SANTO AMARO;Subprefeitura;0,0;0,0;Tesouro Municipal
+368;Educação Básica;00;Leste;Subprefeitura São Mateus;Despesa Regionalizável;12571993,87;SAO MATEUS;Subprefeitura;0,0;0,0;Tesouro Municipal
+368;Educação Básica;00;Leste;Subprefeitura São Miguel Paulista;Despesa Regionalizável;15829193,91;SAO MIGUEL;Subprefeitura;0,0;0,0;Tesouro Municipal
+368;Educação Básica;00;Leste;Subprefeitura Sapopemba;Despesa Regionalizável;8745431,15;SAPOPEMBA;Subprefeitura;0,0;0,0;Tesouro Municipal
+368;Educação Básica;00;Centro;Subprefeitura Sé;Despesa Regionalizável;29111218,72;SE;Subprefeitura;0,0;0,0;Tesouro Municipal
+368;Educação Básica;00;Norte;Subprefeitura Vila Maria/Vila Guilherme;Despesa Regionalizável;2247692,33;VILA MARIA-VILA GUILHERME;Subprefeitura;0,0;0,0;Tesouro Municipal
+368;Educação Básica;00;Sul;Subprefeitura Vila Mariana;Despesa Regionalizável;2676908,22;VILA MARIANA;Subprefeitura;0,0;0,0;Tesouro Municipal
+368;Educação Básica;00;Leste;Subprefeitura de Vila Prudente;Despesa Regionalizável;3253522,09;VILA PRUDENTE;Subprefeitura;0,0;0,0;Tesouro Municipal
+368;Educação Básica;00;;;;251967096,21;;Não detalhado;1892015602,0;1125848439,4;Tesouro Municipal
+368;Educação Básica;01;;;Despesa Regionalizável;0,0;ARICANDUVA-FORMOSA-CARRAO;Subprefeitura;0,0;0,0;Operações de Crédito
+368;Educação Básica;01;;;Despesa Regionalizável;0,0;BUTANTA;Subprefeitura;0,0;0,0;Operações de Crédito
+368;Educação Básica;01;;;Despesa Regionalizável;0,0;CAMPO LIMPO;Subprefeitura;0,0;0,0;Operações de Crédito
+368;Educação Básica;01;;;Despesa Regionalizável;0,0;CAPELA DO SOCORRO;Subprefeitura;0,0;0,0;Operações de Crédito
+368;Educação Básica;01;;;Despesa Regionalizável;0,0;CASA VERDE-CACHOEIRINHA;Subprefeitura;0,0;0,0;Operações de Crédito
+368;Educação Básica;01;;;Despesa Regionalizável;0,0;CIDADE ADEMAR;Subprefeitura;0,0;0,0;Operações de Crédito
+368;Educação Básica;01;;;Despesa Regionalizável;0,0;CIDADE TIRADENTES;Subprefeitura;0,0;0,0;Operações de Crédito
+368;Educação Básica;01;;;Despesa Regionalizável;0,0;ERMELINO MATARAZZO;Subprefeitura;0,0;0,0;Operações de Crédito
+368;Educação Básica;01;;;Despesa Regionalizável;0,0;FREGUESIA-BRASILANDIA;Subprefeitura;0,0;0,0;Operações de Crédito
+368;Educação Básica;01;;;Despesa Regionalizável;0,0;GUAIANASES;Subprefeitura;0,0;0,0;Operações de Crédito
+368;Educação Básica;01;;;Despesa Regionalizável;0,0;IPIRANGA;Subprefeitura;0,0;0,0;Operações de Crédito
+368;Educação Básica;01;;;Despesa Regionalizável;0,0;ITAIM PAULISTA;Subprefeitura;0,0;0,0;Operações de Crédito
+368;Educação Básica;01;;;Despesa Regionalizável;0,0;ITAQUERA;Subprefeitura;0,0;0,0;Operações de Crédito
+368;Educação Básica;01;;;Despesa Regionalizável;0,0;JABAQUARA;Subprefeitura;0,0;0,0;Operações de Crédito
+368;Educação Básica;01;;;Despesa Regionalizável;0,0;JACANA-TREMEMBE;Subprefeitura;0,0;0,0;Operações de Crédito
+368;Educação Básica;01;;;Despesa Regionalizável;0,0;LAPA;Subprefeitura;0,0;0,0;Operações de Crédito
+368;Educação Básica;01;;;Despesa Regionalizável;0,0;M BOI MIRIM;Subprefeitura;0,0;0,0;Operações de Crédito
+368;Educação Básica;01;;;Despesa Regionalizável;0,0;MOOCA;Subprefeitura;0,0;0,0;Operações de Crédito
+368;Educação Básica;01;;;Despesa Regionalizável;0,0;PARELHEIROS;Subprefeitura;0,0;0,0;Operações de Crédito
+368;Educação Básica;01;;;Despesa Regionalizável;0,0;PENHA;Subprefeitura;0,0;0,0;Operações de Crédito
+368;Educação Básica;01;;;Despesa Regionalizável;0,0;PERUS;Subprefeitura;0,0;0,0;Operações de Crédito
+368;Educação Básica;01;;;Despesa Regionalizável;0,0;PINHEIROS;Subprefeitura;0,0;0,0;Operações de Crédito
+368;Educação Básica;01;;;Despesa Regionalizável;0,0;PIRITUBA-JARAGUA;Subprefeitura;0,0;0,0;Operações de Crédito
+368;Educação Básica;01;;;Despesa Regionalizável;0,0;SANTANA-TUCURUVI;Subprefeitura;0,0;0,0;Operações de Crédito
+368;Educação Básica;01;;;Despesa Regionalizável;0,0;SANTO AMARO;Subprefeitura;0,0;0,0;Operações de Crédito
+368;Educação Básica;01;;;Despesa Regionalizável;0,0;SAO MATEUS;Subprefeitura;0,0;0,0;Operações de Crédito
+368;Educação Básica;01;;;Despesa Regionalizável;0,0;SAO MIGUEL;Subprefeitura;0,0;0,0;Operações de Crédito
+368;Educação Básica;01;;;Despesa Regionalizável;0,0;SAPOPEMBA;Subprefeitura;0,0;0,0;Operações de Crédito
+368;Educação Básica;01;;;Despesa Regionalizável;0,0;SE;Subprefeitura;0,0;0,0;Operações de Crédito
+368;Educação Básica;01;;;Despesa Regionalizável;0,0;VILA MARIA-VILA GUILHERME;Subprefeitura;0,0;0,0;Operações de Crédito
+368;Educação Básica;01;;;Despesa Regionalizável;0,0;VILA MARIANA;Subprefeitura;0,0;0,0;Operações de Crédito
+368;Educação Básica;01;;;Despesa Regionalizável;0,0;VILA PRUDENTE;Subprefeitura;0,0;0,0;Operações de Crédito
+368;Educação Básica;01;;;;0,0;;Não detalhado;0,0;26910000,0;Operações de Crédito
+368;Educação Básica;02;Supra-Regional;Supra Subprefeitura;Despesa Não-Regionalizável;14311500,09;;Não regionalizável;0,0;0,0;Transferências Federais
+368;Educação Básica;02;;;Despesa Regionalizável;0,0;ARICANDUVA-FORMOSA-CARRAO;Subprefeitura;0,0;0,0;Transferências Federais
+368;Educação Básica;02;;;Despesa Regionalizável;0,0;BUTANTA;Subprefeitura;0,0;0,0;Transferências Federais
+368;Educação Básica;02;;;Despesa Regionalizável;0,0;CAMPO LIMPO;Subprefeitura;0,0;0,0;Transferências Federais
+368;Educação Básica;02;;;Despesa Regionalizável;0,0;CAPELA DO SOCORRO;Subprefeitura;0,0;0,0;Transferências Federais
+368;Educação Básica;02;;;Despesa Regionalizável;0,0;CASA VERDE-CACHOEIRINHA;Subprefeitura;0,0;0,0;Transferências Federais
+368;Educação Básica;02;;;Despesa Regionalizável;0,0;CIDADE ADEMAR;Subprefeitura;0,0;0,0;Transferências Federais
+368;Educação Básica;02;;;Despesa Regionalizável;0,0;CIDADE TIRADENTES;Subprefeitura;0,0;0,0;Transferências Federais
+368;Educação Básica;02;;;Despesa Regionalizável;0,0;ERMELINO MATARAZZO;Subprefeitura;0,0;0,0;Transferências Federais
+368;Educação Básica;02;;;Despesa Regionalizável;0,0;FREGUESIA-BRASILANDIA;Subprefeitura;0,0;0,0;Transferências Federais
+368;Educação Básica;02;;;Despesa Regionalizável;0,0;GUAIANASES;Subprefeitura;0,0;0,0;Transferências Federais
+368;Educação Básica;02;;;Despesa Regionalizável;0,0;IPIRANGA;Subprefeitura;0,0;0,0;Transferências Federais
+368;Educação Básica;02;;;Despesa Regionalizável;0,0;ITAIM PAULISTA;Subprefeitura;0,0;0,0;Transferências Federais
+368;Educação Básica;02;;;Despesa Regionalizável;0,0;ITAQUERA;Subprefeitura;0,0;0,0;Transferências Federais
+368;Educação Básica;02;;;Despesa Regionalizável;0,0;JABAQUARA;Subprefeitura;0,0;0,0;Transferências Federais
+368;Educação Básica;02;;;Despesa Regionalizável;0,0;JACANA-TREMEMBE;Subprefeitura;0,0;0,0;Transferências Federais
+368;Educação Básica;02;;;Despesa Regionalizável;0,0;LAPA;Subprefeitura;0,0;0,0;Transferências Federais
+368;Educação Básica;02;;;Despesa Regionalizável;0,0;M BOI MIRIM;Subprefeitura;0,0;0,0;Transferências Federais
+368;Educação Básica;02;;;Despesa Regionalizável;0,0;MOOCA;Subprefeitura;0,0;0,0;Transferências Federais
+368;Educação Básica;02;;;Despesa Regionalizável;0,0;PARELHEIROS;Subprefeitura;0,0;0,0;Transferências Federais
+368;Educação Básica;02;;;Despesa Regionalizável;0,0;PENHA;Subprefeitura;0,0;0,0;Transferências Federais
+368;Educação Básica;02;;;Despesa Regionalizável;0,0;PERUS;Subprefeitura;0,0;0,0;Transferências Federais
+368;Educação Básica;02;;;Despesa Regionalizável;0,0;PINHEIROS;Subprefeitura;0,0;0,0;Transferências Federais
+368;Educação Básica;02;;;Despesa Regionalizável;0,0;PIRITUBA-JARAGUA;Subprefeitura;0,0;0,0;Transferências Federais
+368;Educação Básica;02;;;Despesa Regionalizável;0,0;SANTANA-TUCURUVI;Subprefeitura;0,0;0,0;Transferências Federais
+368;Educação Básica;02;;;Despesa Regionalizável;0,0;SANTO AMARO;Subprefeitura;0,0;0,0;Transferências Federais
+368;Educação Básica;02;;;Despesa Regionalizável;0,0;SAO MATEUS;Subprefeitura;0,0;0,0;Transferências Federais
+368;Educação Básica;02;;;Despesa Regionalizável;0,0;SAO MIGUEL;Subprefeitura;0,0;0,0;Transferências Federais
+368;Educação Básica;02;;;Despesa Regionalizável;0,0;SAPOPEMBA;Subprefeitura;0,0;0,0;Transferências Federais
+368;Educação Básica;02;;;Despesa Regionalizável;0,0;SE;Subprefeitura;0,0;0,0;Transferências Federais
+368;Educação Básica;02;;;Despesa Regionalizável;0,0;VILA MARIA-VILA GUILHERME;Subprefeitura;0,0;0,0;Transferências Federais
+368;Educação Básica;02;;;Despesa Regionalizável;0,0;VILA MARIANA;Subprefeitura;0,0;0,0;Transferências Federais
+368;Educação Básica;02;;;Despesa Regionalizável;0,0;VILA PRUDENTE;Subprefeitura;0,0;0,0;Transferências Federais
+368;Educação Básica;02;;;;6991632,04;;Não detalhado;0,0;58951848,61;Transferências Federais
+368;Educação Básica;07;;;Despesa Regionalizável;0,0;ARICANDUVA-FORMOSA-CARRAO;Subprefeitura;0,0;0,0;Receita Condicionada
+368;Educação Básica;07;;;Despesa Regionalizável;0,0;BUTANTA;Subprefeitura;0,0;0,0;Receita Condicionada
+368;Educação Básica;07;;;Despesa Regionalizável;0,0;CAMPO LIMPO;Subprefeitura;0,0;0,0;Receita Condicionada
+368;Educação Básica;07;;;Despesa Regionalizável;0,0;CAPELA DO SOCORRO;Subprefeitura;0,0;0,0;Receita Condicionada
+368;Educação Básica;07;;;Despesa Regionalizável;0,0;CASA VERDE-CACHOEIRINHA;Subprefeitura;0,0;0,0;Receita Condicionada
+368;Educação Básica;07;;;Despesa Regionalizável;0,0;CIDADE ADEMAR;Subprefeitura;0,0;0,0;Receita Condicionada
+368;Educação Básica;07;;;Despesa Regionalizável;0,0;CIDADE TIRADENTES;Subprefeitura;0,0;0,0;Receita Condicionada
+368;Educação Básica;07;;;Despesa Regionalizável;0,0;ERMELINO MATARAZZO;Subprefeitura;0,0;0,0;Receita Condicionada
+368;Educação Básica;07;;;Despesa Regionalizável;0,0;FREGUESIA-BRASILANDIA;Subprefeitura;0,0;0,0;Receita Condicionada
+368;Educação Básica;07;;;Despesa Regionalizável;0,0;GUAIANASES;Subprefeitura;0,0;0,0;Receita Condicionada
+368;Educação Básica;07;;;Despesa Regionalizável;0,0;IPIRANGA;Subprefeitura;0,0;0,0;Receita Condicionada
+368;Educação Básica;07;;;Despesa Regionalizável;0,0;ITAIM PAULISTA;Subprefeitura;0,0;0,0;Receita Condicionada
+368;Educação Básica;07;;;Despesa Regionalizável;0,0;ITAQUERA;Subprefeitura;0,0;0,0;Receita Condicionada
+368;Educação Básica;07;;;Despesa Regionalizável;0,0;JABAQUARA;Subprefeitura;0,0;0,0;Receita Condicionada
+368;Educação Básica;07;;;Despesa Regionalizável;0,0;JACANA-TREMEMBE;Subprefeitura;0,0;0,0;Receita Condicionada
+368;Educação Básica;07;;;Despesa Regionalizável;0,0;LAPA;Subprefeitura;0,0;0,0;Receita Condicionada
+368;Educação Básica;07;;;Despesa Regionalizável;0,0;M BOI MIRIM;Subprefeitura;0,0;0,0;Receita Condicionada
+368;Educação Básica;07;;;Despesa Regionalizável;0,0;MOOCA;Subprefeitura;0,0;0,0;Receita Condicionada
+368;Educação Básica;07;;;Despesa Regionalizável;0,0;PARELHEIROS;Subprefeitura;0,0;0,0;Receita Condicionada
+368;Educação Básica;07;;;Despesa Regionalizável;0,0;PENHA;Subprefeitura;0,0;0,0;Receita Condicionada
+368;Educação Básica;07;;;Despesa Regionalizável;0,0;PERUS;Subprefeitura;0,0;0,0;Receita Condicionada
+368;Educação Básica;07;;;Despesa Regionalizável;0,0;PINHEIROS;Subprefeitura;0,0;0,0;Receita Condicionada
+368;Educação Básica;07;;;Despesa Regionalizável;0,0;PIRITUBA-JARAGUA;Subprefeitura;0,0;0,0;Receita Condicionada
+368;Educação Básica;07;;;Despesa Regionalizável;0,0;SANTANA-TUCURUVI;Subprefeitura;0,0;0,0;Receita Condicionada
+368;Educação Básica;07;;;Despesa Regionalizável;0,0;SANTO AMARO;Subprefeitura;0,0;0,0;Receita Condicionada
+368;Educação Básica;07;;;Despesa Regionalizável;0,0;SAO MATEUS;Subprefeitura;0,0;0,0;Receita Condicionada
+368;Educação Básica;07;;;Despesa Regionalizável;0,0;SAO MIGUEL;Subprefeitura;0,0;0,0;Receita Condicionada
+368;Educação Básica;07;;;Despesa Regionalizável;0,0;SAPOPEMBA;Subprefeitura;0,0;0,0;Receita Condicionada
+368;Educação Básica;07;;;Despesa Regionalizável;0,0;SE;Subprefeitura;0,0;0,0;Receita Condicionada
+368;Educação Básica;07;;;Despesa Regionalizável;0,0;VILA MARIA-VILA GUILHERME;Subprefeitura;0,0;0,0;Receita Condicionada
+368;Educação Básica;07;;;Despesa Regionalizável;0,0;VILA MARIANA;Subprefeitura;0,0;0,0;Receita Condicionada
+368;Educação Básica;07;;;Despesa Regionalizável;0,0;VILA PRUDENTE;Subprefeitura;0,0;0,0;Receita Condicionada
+368;Educação Básica;07;;;;0,0;;Não detalhado;100000000,0;0,0;Receita Condicionada
+368;Educação Básica;09;;;Despesa Regionalizável;0,0;ARICANDUVA-FORMOSA-CARRAO;Subprefeitura;0,0;0,0;Recursos Próprios da Empresa Dependente
+368;Educação Básica;09;;;Despesa Regionalizável;0,0;BUTANTA;Subprefeitura;0,0;0,0;Recursos Próprios da Empresa Dependente
+368;Educação Básica;09;;;Despesa Regionalizável;0,0;CAMPO LIMPO;Subprefeitura;0,0;0,0;Recursos Próprios da Empresa Dependente
+368;Educação Básica;09;;;Despesa Regionalizável;0,0;CAPELA DO SOCORRO;Subprefeitura;0,0;0,0;Recursos Próprios da Empresa Dependente
+368;Educação Básica;09;;;Despesa Regionalizável;0,0;CASA VERDE-CACHOEIRINHA;Subprefeitura;0,0;0,0;Recursos Próprios da Empresa Dependente
+368;Educação Básica;09;;;Despesa Regionalizável;0,0;CIDADE ADEMAR;Subprefeitura;0,0;0,0;Recursos Próprios da Empresa Dependente
+368;Educação Básica;09;;;Despesa Regionalizável;0,0;CIDADE TIRADENTES;Subprefeitura;0,0;0,0;Recursos Próprios da Empresa Dependente
+368;Educação Básica;09;;;Despesa Regionalizável;0,0;ERMELINO MATARAZZO;Subprefeitura;0,0;0,0;Recursos Próprios da Empresa Dependente
+368;Educação Básica;09;;;Despesa Regionalizável;0,0;FREGUESIA-BRASILANDIA;Subprefeitura;0,0;0,0;Recursos Próprios da Empresa Dependente
+368;Educação Básica;09;;;Despesa Regionalizável;0,0;GUAIANASES;Subprefeitura;0,0;0,0;Recursos Próprios da Empresa Dependente
+368;Educação Básica;09;;;Despesa Regionalizável;0,0;IPIRANGA;Subprefeitura;0,0;0,0;Recursos Próprios da Empresa Dependente
+368;Educação Básica;09;;;Despesa Regionalizável;0,0;ITAIM PAULISTA;Subprefeitura;0,0;0,0;Recursos Próprios da Empresa Dependente
+368;Educação Básica;09;;;Despesa Regionalizável;0,0;ITAQUERA;Subprefeitura;0,0;0,0;Recursos Próprios da Empresa Dependente
+368;Educação Básica;09;;;Despesa Regionalizável;0,0;JABAQUARA;Subprefeitura;0,0;0,0;Recursos Próprios da Empresa Dependente
+368;Educação Básica;09;;;Despesa Regionalizável;0,0;JACANA-TREMEMBE;Subprefeitura;0,0;0,0;Recursos Próprios da Empresa Dependente
+368;Educação Básica;09;;;Despesa Regionalizável;0,0;LAPA;Subprefeitura;0,0;0,0;Recursos Próprios da Empresa Dependente
+368;Educação Básica;09;;;Despesa Regionalizável;0,0;M BOI MIRIM;Subprefeitura;0,0;0,0;Recursos Próprios da Empresa Dependente
+368;Educação Básica;09;;;Despesa Regionalizável;0,0;MOOCA;Subprefeitura;0,0;0,0;Recursos Próprios da Empresa Dependente
+368;Educação Básica;09;;;Despesa Regionalizável;0,0;PARELHEIROS;Subprefeitura;0,0;0,0;Recursos Próprios da Empresa Dependente
+368;Educação Básica;09;;;Despesa Regionalizável;0,0;PENHA;Subprefeitura;0,0;0,0;Recursos Próprios da Empresa Dependente
+368;Educação Básica;09;;;Despesa Regionalizável;0,0;PERUS;Subprefeitura;0,0;0,0;Recursos Próprios da Empresa Dependente
+368;Educação Básica;09;;;Despesa Regionalizável;0,0;PINHEIROS;Subprefeitura;0,0;0,0;Recursos Próprios da Empresa Dependente
+368;Educação Básica;09;;;Despesa Regionalizável;0,0;PIRITUBA-JARAGUA;Subprefeitura;0,0;0,0;Recursos Próprios da Empresa Dependente
+368;Educação Básica;09;;;Despesa Regionalizável;0,0;SANTANA-TUCURUVI;Subprefeitura;0,0;0,0;Recursos Próprios da Empresa Dependente
+368;Educação Básica;09;;;Despesa Regionalizável;0,0;SANTO AMARO;Subprefeitura;0,0;0,0;Recursos Próprios da Empresa Dependente
+368;Educação Básica;09;;;Despesa Regionalizável;0,0;SAO MATEUS;Subprefeitura;0,0;0,0;Recursos Próprios da Empresa Dependente
+368;Educação Básica;09;;;Despesa Regionalizável;0,0;SAO MIGUEL;Subprefeitura;0,0;0,0;Recursos Próprios da Empresa Dependente
+368;Educação Básica;09;;;Despesa Regionalizável;0,0;SAPOPEMBA;Subprefeitura;0,0;0,0;Recursos Próprios da Empresa Dependente
+368;Educação Básica;09;;;Despesa Regionalizável;0,0;SE;Subprefeitura;0,0;0,0;Recursos Próprios da Empresa Dependente
+368;Educação Básica;09;;;Despesa Regionalizável;0,0;VILA MARIA-VILA GUILHERME;Subprefeitura;0,0;0,0;Recursos Próprios da Empresa Dependente
+368;Educação Básica;09;;;Despesa Regionalizável;0,0;VILA MARIANA;Subprefeitura;0,0;0,0;Recursos Próprios da Empresa Dependente
+368;Educação Básica;09;;;Despesa Regionalizável;0,0;VILA PRUDENTE;Subprefeitura;0,0;0,0;Recursos Próprios da Empresa Dependente
+368;Educação Básica;09;;;;0,0;;Não detalhado;2000,0;2000,0;Recursos Próprios da Empresa Dependente
+422;Direitos Individuais, Coletivos e Difusos;00;;;Despesa Regionalizável;0,0;ARICANDUVA-FORMOSA-CARRAO;Subprefeitura;0,0;0,0;Tesouro Municipal
+422;Direitos Individuais, Coletivos e Difusos;00;;;Despesa Regionalizável;0,0;BUTANTA;Subprefeitura;0,0;0,0;Tesouro Municipal
+422;Direitos Individuais, Coletivos e Difusos;00;;;Despesa Regionalizável;0,0;CAMPO LIMPO;Subprefeitura;0,0;0,0;Tesouro Municipal
+422;Direitos Individuais, Coletivos e Difusos;00;;;Despesa Regionalizável;0,0;CAPELA DO SOCORRO;Subprefeitura;0,0;0,0;Tesouro Municipal
+422;Direitos Individuais, Coletivos e Difusos;00;;;Despesa Regionalizável;0,0;CASA VERDE-CACHOEIRINHA;Subprefeitura;0,0;0,0;Tesouro Municipal
+422;Direitos Individuais, Coletivos e Difusos;00;;;Despesa Regionalizável;0,0;CIDADE ADEMAR;Subprefeitura;0,0;0,0;Tesouro Municipal
+422;Direitos Individuais, Coletivos e Difusos;00;;;Despesa Regionalizável;0,0;CIDADE TIRADENTES;Subprefeitura;0,0;0,0;Tesouro Municipal
+422;Direitos Individuais, Coletivos e Difusos;00;;;Despesa Regionalizável;0,0;ERMELINO MATARAZZO;Subprefeitura;0,0;0,0;Tesouro Municipal
+422;Direitos Individuais, Coletivos e Difusos;00;;;Despesa Regionalizável;0,0;FREGUESIA-BRASILANDIA;Subprefeitura;0,0;0,0;Tesouro Municipal
+422;Direitos Individuais, Coletivos e Difusos;00;;;Despesa Regionalizável;0,0;GUAIANASES;Subprefeitura;0,0;0,0;Tesouro Municipal
+422;Direitos Individuais, Coletivos e Difusos;00;;;Despesa Regionalizável;0,0;IPIRANGA;Subprefeitura;0,0;0,0;Tesouro Municipal
+422;Direitos Individuais, Coletivos e Difusos;00;;;Despesa Regionalizável;0,0;ITAIM PAULISTA;Subprefeitura;0,0;0,0;Tesouro Municipal
+422;Direitos Individuais, Coletivos e Difusos;00;;;Despesa Regionalizável;0,0;ITAQUERA;Subprefeitura;0,0;0,0;Tesouro Municipal
+422;Direitos Individuais, Coletivos e Difusos;00;;;Despesa Regionalizável;0,0;JABAQUARA;Subprefeitura;0,0;0,0;Tesouro Municipal
+422;Direitos Individuais, Coletivos e Difusos;00;;;Despesa Regionalizável;0,0;JACANA-TREMEMBE;Subprefeitura;0,0;0,0;Tesouro Municipal
+422;Direitos Individuais, Coletivos e Difusos;00;;;Despesa Regionalizável;0,0;LAPA;Subprefeitura;0,0;0,0;Tesouro Municipal
+422;Direitos Individuais, Coletivos e Difusos;00;;;Despesa Regionalizável;0,0;M BOI MIRIM;Subprefeitura;0,0;0,0;Tesouro Municipal
+422;Direitos Individuais, Coletivos e Difusos;00;;;Despesa Regionalizável;0,0;MOOCA;Subprefeitura;0,0;0,0;Tesouro Municipal
+422;Direitos Individuais, Coletivos e Difusos;00;;;Despesa Regionalizável;0,0;PARELHEIROS;Subprefeitura;0,0;0,0;Tesouro Municipal
+422;Direitos Individuais, Coletivos e Difusos;00;;;Despesa Regionalizável;0,0;PENHA;Subprefeitura;0,0;0,0;Tesouro Municipal
+422;Direitos Individuais, Coletivos e Difusos;00;;;Despesa Regionalizável;0,0;PERUS;Subprefeitura;0,0;0,0;Tesouro Municipal
+422;Direitos Individuais, Coletivos e Difusos;00;;;Despesa Regionalizável;0,0;PINHEIROS;Subprefeitura;0,0;0,0;Tesouro Municipal
+422;Direitos Individuais, Coletivos e Difusos;00;;;Despesa Regionalizável;0,0;PIRITUBA-JARAGUA;Subprefeitura;0,0;0,0;Tesouro Municipal
+422;Direitos Individuais, Coletivos e Difusos;00;;;Despesa Regionalizável;0,0;SANTANA-TUCURUVI;Subprefeitura;0,0;0,0;Tesouro Municipal
+422;Direitos Individuais, Coletivos e Difusos;00;;;Despesa Regionalizável;0,0;SANTO AMARO;Subprefeitura;0,0;0,0;Tesouro Municipal
+422;Direitos Individuais, Coletivos e Difusos;00;;;Despesa Regionalizável;0,0;SAO MATEUS;Subprefeitura;0,0;0,0;Tesouro Municipal
+422;Direitos Individuais, Coletivos e Difusos;00;;;Despesa Regionalizável;0,0;SAO MIGUEL;Subprefeitura;0,0;0,0;Tesouro Municipal
+422;Direitos Individuais, Coletivos e Difusos;00;;;Despesa Regionalizável;0,0;SAPOPEMBA;Subprefeitura;0,0;0,0;Tesouro Municipal
+422;Direitos Individuais, Coletivos e Difusos;00;;;Despesa Regionalizável;0,0;SE;Subprefeitura;0,0;0,0;Tesouro Municipal
+422;Direitos Individuais, Coletivos e Difusos;00;;;Despesa Regionalizável;0,0;VILA MARIA-VILA GUILHERME;Subprefeitura;0,0;0,0;Tesouro Municipal
+422;Direitos Individuais, Coletivos e Difusos;00;;;Despesa Regionalizável;0,0;VILA MARIANA;Subprefeitura;0,0;0,0;Tesouro Municipal
+422;Direitos Individuais, Coletivos e Difusos;00;;;Despesa Regionalizável;0,0;VILA PRUDENTE;Subprefeitura;0,0;0,0;Tesouro Municipal
+422;Direitos Individuais, Coletivos e Difusos;00;;;;0,0;;Não detalhado;900000,0;0,0;Tesouro Municipal
+422;Direitos Individuais, Coletivos e Difusos;08;;;Despesa Regionalizável;0,0;ARICANDUVA-FORMOSA-CARRAO;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+422;Direitos Individuais, Coletivos e Difusos;08;;;Despesa Regionalizável;0,0;BUTANTA;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+422;Direitos Individuais, Coletivos e Difusos;08;;;Despesa Regionalizável;0,0;CAMPO LIMPO;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+422;Direitos Individuais, Coletivos e Difusos;08;;;Despesa Regionalizável;0,0;CAPELA DO SOCORRO;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+422;Direitos Individuais, Coletivos e Difusos;08;;;Despesa Regionalizável;0,0;CASA VERDE-CACHOEIRINHA;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+422;Direitos Individuais, Coletivos e Difusos;08;;;Despesa Regionalizável;0,0;CIDADE ADEMAR;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+422;Direitos Individuais, Coletivos e Difusos;08;;;Despesa Regionalizável;0,0;CIDADE TIRADENTES;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+422;Direitos Individuais, Coletivos e Difusos;08;;;Despesa Regionalizável;0,0;ERMELINO MATARAZZO;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+422;Direitos Individuais, Coletivos e Difusos;08;;;Despesa Regionalizável;0,0;FREGUESIA-BRASILANDIA;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+422;Direitos Individuais, Coletivos e Difusos;08;;;Despesa Regionalizável;0,0;GUAIANASES;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+422;Direitos Individuais, Coletivos e Difusos;08;;;Despesa Regionalizável;0,0;IPIRANGA;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+422;Direitos Individuais, Coletivos e Difusos;08;;;Despesa Regionalizável;0,0;ITAIM PAULISTA;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+422;Direitos Individuais, Coletivos e Difusos;08;;;Despesa Regionalizável;0,0;ITAQUERA;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+422;Direitos Individuais, Coletivos e Difusos;08;;;Despesa Regionalizável;0,0;JABAQUARA;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+422;Direitos Individuais, Coletivos e Difusos;08;;;Despesa Regionalizável;0,0;JACANA-TREMEMBE;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+422;Direitos Individuais, Coletivos e Difusos;08;;;Despesa Regionalizável;0,0;LAPA;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+422;Direitos Individuais, Coletivos e Difusos;08;;;Despesa Regionalizável;0,0;M BOI MIRIM;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+422;Direitos Individuais, Coletivos e Difusos;08;;;Despesa Regionalizável;0,0;MOOCA;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+422;Direitos Individuais, Coletivos e Difusos;08;;;Despesa Regionalizável;0,0;PARELHEIROS;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+422;Direitos Individuais, Coletivos e Difusos;08;;;Despesa Regionalizável;0,0;PENHA;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+422;Direitos Individuais, Coletivos e Difusos;08;;;Despesa Regionalizável;0,0;PERUS;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+422;Direitos Individuais, Coletivos e Difusos;08;;;Despesa Regionalizável;0,0;PINHEIROS;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+422;Direitos Individuais, Coletivos e Difusos;08;;;Despesa Regionalizável;0,0;PIRITUBA-JARAGUA;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+422;Direitos Individuais, Coletivos e Difusos;08;;;Despesa Regionalizável;0,0;SANTANA-TUCURUVI;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+422;Direitos Individuais, Coletivos e Difusos;08;;;Despesa Regionalizável;0,0;SANTO AMARO;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+422;Direitos Individuais, Coletivos e Difusos;08;;;Despesa Regionalizável;0,0;SAO MATEUS;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+422;Direitos Individuais, Coletivos e Difusos;08;;;Despesa Regionalizável;0,0;SAO MIGUEL;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+422;Direitos Individuais, Coletivos e Difusos;08;;;Despesa Regionalizável;0,0;SAPOPEMBA;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+422;Direitos Individuais, Coletivos e Difusos;08;;;Despesa Regionalizável;0,0;SE;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+422;Direitos Individuais, Coletivos e Difusos;08;;;Despesa Regionalizável;0,0;VILA MARIA-VILA GUILHERME;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+422;Direitos Individuais, Coletivos e Difusos;08;;;Despesa Regionalizável;0,0;VILA MARIANA;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+422;Direitos Individuais, Coletivos e Difusos;08;;;Despesa Regionalizável;0,0;VILA PRUDENTE;Subprefeitura;0,0;0,0;Tesouro Municipal - Recursos Vinculados
+422;Direitos Individuais, Coletivos e Difusos;08;;;;0,0;;Não detalhado;23000000,0;20150000,0;Tesouro Municipal - Recursos Vinculados
+451;Infra-Estrutura Urbana;00;;;Despesa Regionalizável;0,0;ARICANDUVA-FORMOSA-CARRAO;Subprefeitura;0,0;0,0;Tesouro Municipal
+451;Infra-Estrutura Urbana;00;;;Despesa Regionalizável;0,0;BUTANTA;Subprefeitura;0,0;0,0;Tesouro Municipal
+451;Infra-Estrutura Urbana;00;;;Despesa Regionalizável;0,0;CAMPO LIMPO;Subprefeitura;0,0;0,0;Tesouro Municipal
+451;Infra-Estrutura Urbana;00;;;Despesa Regionalizável;0,0;CAPELA DO SOCORRO;Subprefeitura;0,0;0,0;Tesouro Municipal
+451;Infra-Estrutura Urbana;00;;;Despesa Regionalizável;0,0;CASA VERDE-CACHOEIRINHA;Subprefeitura;0,0;0,0;Tesouro Municipal
+451;Infra-Estrutura Urbana;00;;;Despesa Regionalizável;0,0;CIDADE ADEMAR;Subprefeitura;0,0;0,0;Tesouro Municipal
+451;Infra-Estrutura Urbana;00;;;Despesa Regionalizável;0,0;CIDADE TIRADENTES;Subprefeitura;0,0;0,0;Tesouro Municipal
+451;Infra-Estrutura Urbana;00;;;Despesa Regionalizável;0,0;ERMELINO MATARAZZO;Subprefeitura;0,0;0,0;Tesouro Municipal
+451;Infra-Estrutura Urbana;00;;;Despesa Regionalizável;0,0;FREGUESIA-BRASILANDIA;Subprefeitura;0,0;0,0;Tesouro Municipal
+451;Infra-Estrutura Urbana;00;;;Despesa Regionalizável;0,0;GUAIANASES;Subprefeitura;0,0;0,0;Tesouro Municipal
+451;Infra-Estrutura Urbana;00;;;Despesa Regionalizável;0,0;IPIRANGA;Subprefeitura;0,0;0,0;Tesouro Municipal
+451;Infra-Estrutura Urbana;00;;;Despesa Regionalizável;0,0;ITAIM PAULISTA;Subprefeitura;0,0;0,0;Tesouro Municipal
+451;Infra-Estrutura Urbana;00;;;Despesa Regionalizável;0,0;ITAQUERA;Subprefeitura;0,0;0,0;Tesouro Municipal
+451;Infra-Estrutura Urbana;00;;;Despesa Regionalizável;0,0;JABAQUARA;Subprefeitura;0,0;0,0;Tesouro Municipal
+451;Infra-Estrutura Urbana;00;;;Despesa Regionalizável;0,0;JACANA-TREMEMBE;Subprefeitura;0,0;0,0;Tesouro Municipal
+451;Infra-Estrutura Urbana;00;;;Despesa Regionalizável;0,0;LAPA;Subprefeitura;0,0;0,0;Tesouro Municipal
+451;Infra-Estrutura Urbana;00;;;Despesa Regionalizável;0,0;M BOI MIRIM;Subprefeitura;0,0;0,0;Tesouro Municipal
+451;Infra-Estrutura Urbana;00;;;Despesa Regionalizável;0,0;MOOCA;Subprefeitura;0,0;0,0;Tesouro Municipal
+451;Infra-Estrutura Urbana;00;;;Despesa Regionalizável;0,0;PARELHEIROS;Subprefeitura;0,0;0,0;Tesouro Municipal
+451;Infra-Estrutura Urbana;00;;;Despesa Regionalizável;0,0;PENHA;Subprefeitura;0,0;0,0;Tesouro Municipal
+451;Infra-Estrutura Urbana;00;;;Despesa Regionalizável;0,0;PERUS;Subprefeitura;0,0;0,0;Tesouro Municipal
+451;Infra-Estrutura Urbana;00;;;Despesa Regionalizável;0,0;PINHEIROS;Subprefeitura;0,0;0,0;Tesouro Municipal
+451;Infra-Estrutura Urbana;00;;;Despesa Regionalizável;0,0;PIRITUBA-JARAGUA;Subprefeitura;0,0;0,0;Tesouro Municipal
+451;Infra-Estrutura Urbana;00;;;Despesa Regionalizável;0,0;SANTANA-TUCURUVI;Subprefeitura;0,0;0,0;Tesouro Municipal
+451;Infra-Estrutura Urbana;00;;;Despesa Regionalizável;0,0;SANTO AMARO;Subprefeitura;0,0;0,0;Tesouro Municipal
+451;Infra-Estrutura Urbana;00;;;Despesa Regionalizável;0,0;SAO MATEUS;Subprefeitura;0,0;0,0;Tesouro Municipal
+451;Infra-Estrutura Urbana;00;;;Despesa Regionalizável;0,0;SAO MIGUEL;Subprefeitura;0,0;0,0;Tesouro Municipal
+451;Infra-Estrutura Urbana;00;;;Despesa Regionalizável;0,0;SAPOPEMBA;Subprefeitura;0,0;0,0;Tesouro Municipal
+451;Infra-Estrutura Urbana;00;;;Despesa Regionalizável;0,0;SE;Subprefeitura;0,0;0,0;Tesouro Municipal
+451;Infra-Estrutura Urbana;00;;;Despesa Regionalizável;0,0;VILA MARIA-VILA GUILHERME;Subprefeitura;0,0;0,0;Tesouro Municipal
+451;Infra-Estrutura Urbana;00;;;Despesa Regionalizável;0,0;VILA MARIANA;Subprefeitura;0,0;0,0;Tesouro Municipal
+451;Infra-Estrutura Urbana;00;;;Despesa Regionalizável;0,0;VILA PRUDENTE;Subprefeitura;0,0;0,0;Tesouro Municipal
+451;Infra-Estrutura Urbana;00;;;;0,0;;Não detalhado;1000,0;0,0;Tesouro Municipal
+605;Abastecimento;00;;;Despesa Regionalizável;0,0;ARICANDUVA-FORMOSA-CARRAO;Subprefeitura;0,0;0,0;Tesouro Municipal
+605;Abastecimento;00;;;Despesa Regionalizável;0,0;BUTANTA;Subprefeitura;0,0;0,0;Tesouro Municipal
+605;Abastecimento;00;;;Despesa Regionalizável;0,0;CAMPO LIMPO;Subprefeitura;0,0;0,0;Tesouro Municipal
+605;Abastecimento;00;;;Despesa Regionalizável;0,0;CAPELA DO SOCORRO;Subprefeitura;0,0;0,0;Tesouro Municipal
+605;Abastecimento;00;;;Despesa Regionalizável;0,0;CASA VERDE-CACHOEIRINHA;Subprefeitura;0,0;0,0;Tesouro Municipal
+605;Abastecimento;00;;;Despesa Regionalizável;0,0;CIDADE ADEMAR;Subprefeitura;0,0;0,0;Tesouro Municipal
+605;Abastecimento;00;;;Despesa Regionalizável;0,0;CIDADE TIRADENTES;Subprefeitura;0,0;0,0;Tesouro Municipal
+605;Abastecimento;00;;;Despesa Regionalizável;0,0;ERMELINO MATARAZZO;Subprefeitura;0,0;0,0;Tesouro Municipal
+605;Abastecimento;00;;;Despesa Regionalizável;0,0;FREGUESIA-BRASILANDIA;Subprefeitura;0,0;0,0;Tesouro Municipal
+605;Abastecimento;00;;;Despesa Regionalizável;0,0;GUAIANASES;Subprefeitura;0,0;0,0;Tesouro Municipal
+605;Abastecimento;00;;;Despesa Regionalizável;0,0;IPIRANGA;Subprefeitura;0,0;0,0;Tesouro Municipal
+605;Abastecimento;00;;;Despesa Regionalizável;0,0;ITAIM PAULISTA;Subprefeitura;0,0;0,0;Tesouro Municipal
+605;Abastecimento;00;;;Despesa Regionalizável;0,0;ITAQUERA;Subprefeitura;0,0;0,0;Tesouro Municipal
+605;Abastecimento;00;;;Despesa Regionalizável;0,0;JABAQUARA;Subprefeitura;0,0;0,0;Tesouro Municipal
+605;Abastecimento;00;;;Despesa Regionalizável;0,0;JACANA-TREMEMBE;Subprefeitura;0,0;0,0;Tesouro Municipal
+605;Abastecimento;00;;;Despesa Regionalizável;0,0;LAPA;Subprefeitura;0,0;0,0;Tesouro Municipal
+605;Abastecimento;00;;;Despesa Regionalizável;0,0;M BOI MIRIM;Subprefeitura;0,0;0,0;Tesouro Municipal
+605;Abastecimento;00;;;Despesa Regionalizável;0,0;MOOCA;Subprefeitura;0,0;0,0;Tesouro Municipal
+605;Abastecimento;00;;;Despesa Regionalizável;0,0;PARELHEIROS;Subprefeitura;0,0;0,0;Tesouro Municipal
+605;Abastecimento;00;;;Despesa Regionalizável;0,0;PENHA;Subprefeitura;0,0;0,0;Tesouro Municipal
+605;Abastecimento;00;;;Despesa Regionalizável;0,0;PERUS;Subprefeitura;0,0;0,0;Tesouro Municipal
+605;Abastecimento;00;;;Despesa Regionalizável;0,0;PINHEIROS;Subprefeitura;0,0;0,0;Tesouro Municipal
+605;Abastecimento;00;;;Despesa Regionalizável;0,0;PIRITUBA-JARAGUA;Subprefeitura;0,0;0,0;Tesouro Municipal
+605;Abastecimento;00;;;Despesa Regionalizável;0,0;SANTANA-TUCURUVI;Subprefeitura;0,0;0,0;Tesouro Municipal
+605;Abastecimento;00;;;Despesa Regionalizável;0,0;SANTO AMARO;Subprefeitura;0,0;0,0;Tesouro Municipal
+605;Abastecimento;00;;;Despesa Regionalizável;0,0;SAO MATEUS;Subprefeitura;0,0;0,0;Tesouro Municipal
+605;Abastecimento;00;;;Despesa Regionalizável;0,0;SAO MIGUEL;Subprefeitura;0,0;0,0;Tesouro Municipal
+605;Abastecimento;00;;;Despesa Regionalizável;0,0;SAPOPEMBA;Subprefeitura;0,0;0,0;Tesouro Municipal
+605;Abastecimento;00;;;Despesa Regionalizável;0,0;SE;Subprefeitura;0,0;0,0;Tesouro Municipal
+605;Abastecimento;00;;;Despesa Regionalizável;0,0;VILA MARIA-VILA GUILHERME;Subprefeitura;0,0;0,0;Tesouro Municipal
+605;Abastecimento;00;;;Despesa Regionalizável;0,0;VILA MARIANA;Subprefeitura;0,0;0,0;Tesouro Municipal
+605;Abastecimento;00;;;Despesa Regionalizável;0,0;VILA PRUDENTE;Subprefeitura;0,0;0,0;Tesouro Municipal
+605;Abastecimento;00;;;;0,0;;Não detalhado;1151753,0;0,0;Tesouro Municipal
