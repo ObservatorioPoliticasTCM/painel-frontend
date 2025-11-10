@@ -34,16 +34,17 @@
           <img src="@/assets/download-icon.svg" alt="Abrir em nova aba" class="ext-icon" />
         </a>
         
-        <button
+        <a
           v-if="downloadLink"
           class="menu-item"
+          target="_blank"
           :href="downloadLink"
           download
           @click="closeMenu"
         >
           <span class="menu-label">Download (arquivos)</span>
           <img src="@/assets/download-icon.svg" alt="Abrir em nova aba" class="ext-icon" />
-        </button>
+        </a>
         <button v-else class="menu-item disabled" disabled>Download (arquivos)</button>
       </div>
     </div>
