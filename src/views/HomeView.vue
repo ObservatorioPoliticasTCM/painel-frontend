@@ -3,7 +3,7 @@
     <Background />
     <SnapContainer :show-navigation="false">
       <FrontCover />
-      <VideoFrame video-id="z8Otk01Xi-U" :muted="true" :closed-captions="true" />
+      <VideoFrame video-id="SSmdKtnnjiY" :muted="true" :closed-captions="true" />
       <CardGrid />
       <Sitemap />
       <Footer />
