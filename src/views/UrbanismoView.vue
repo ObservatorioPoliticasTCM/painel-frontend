@@ -13,6 +13,7 @@
       sheet="5de719a0-3b7d-4000-a4ec-64c9e35d9ad4"
       title="Despesas em Gestão dos Riscos e Promoção da Resiliência a Desastres e Eventos Críticos (2024)"
       identity="2"
+      download-link="/dados/urbanismo/despesas-em-gestao-dos-riscos-e-promocao-da-resiliencia-a-desastres-e-eventos-criticos.zip"
     />
     <DashboardFrame
       appid="b4ec6f8c-40e8-473f-b130-359e44df750e"
