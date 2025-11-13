@@ -1,5 +1,5 @@
 <template>
-  <div class="dashboard-frame" ref="rootEl">
+  <div class="snap-section" ref="rootEl">
     <div class="iframe-wrapper">
       <iframe
         :src="embedSrc"
@@ -127,7 +127,7 @@ onBeforeUnmount(() => {
 </script>
 
 <style scoped>
-.dashboard-frame {
+.snap-section {
   display: flex;
   flex-direction: column;
   height: 96vh;

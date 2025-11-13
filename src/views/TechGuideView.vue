@@ -97,7 +97,7 @@ function select(id: string) {
   box-shadow: 0 0.625rem 1.75rem rgba(0, 0, 0, 0.32);
 }
 
-.feature-video :deep(.dashboard-frame) {
+.feature-video :deep(.snap-section) {
   position: absolute;
   inset: 0;
   padding: 0;

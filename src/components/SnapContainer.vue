@@ -117,7 +117,7 @@ const sectionVisible = (id: string) => {
 provide('sectionVisible', sectionVisible)
 
 const updateDashboardRefs = (children: HTMLElement[]) => {
-  dashboardEls.value = children.filter(child => child.classList.contains('dashboard-frame'))
+  dashboardEls.value = children.filter(child => child.classList.contains('snap-section'))
   if (!dashboardEls.value.length) {
     activeDashboard.value = 0
     return
