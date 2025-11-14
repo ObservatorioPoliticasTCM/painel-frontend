@@ -13,46 +13,28 @@
         >
             <div class="letter-body">
               <p>
-                Vivemos tempos em que a informação circula em velocidade vertiginosa, mas nem sempre com a profundidade
-                necessária para iluminar o caminho da cidadania. Em meio a esse cenário, o DataSP nasce como uma
-                resposta concreta ao desafio de tornar o conhecimento público acessível, compreensível e útil para todos
-                — especialmente para aqueles que desejam participar ativamente da construção de uma cidade mais justa,
-                democrática e transparente.
+                É com grande satisfação que inauguramos um novo instrumento dedicado ao fortalecimento das iniciativas públicas e à qualificação do debate sobre políticas governamentais: o DataSP. Este portal nasce para servir de referencial àqueles que se preocupam não apenas em preservar boas práticas, mas sobretudo em construir novos caminhos para o futuro.
               </p>
               <p>
-                O DataSP é mais do que um portal de dados. É um convite à reflexão, à curiosidade e ao engajamento. Ao
-                reunir indicadores sobre educação, saúde, gênero, urbanismo, habitação e orçamento, o projeto oferece
-                aos cidadãos uma ferramenta poderosa para compreender as políticas públicas que moldam o cotidiano da
-                cidade de São Paulo. Mas ele vai além dos números: propõe uma leitura crítica e contextualizada da
-                realidade, com apoio de vídeos explicativos, glossários e notas técnicas que ajudam a decifrar o
-                vocabulário institucional e técnico que, muitas vezes, afasta o cidadão da esfera pública.
+                O DataSP, iniciativa do Observatório de Políticas Públicas, vinculado ao TCMSP, tem como propósito tornar públicos, de forma clara e acessível, os dados da execução orçamentária, relacionando-os aos resultados concretos das políticas públicas. Mais do que um simples repositório de informações, trata-se de um espaço de transparência e inteligência coletiva, que organiza indicadores sobre educação, saúde, gênero, urbanismo, habitação e orçamento, oferecendo ferramentas que permitem compreender, analisar e acompanhar a atuação do poder público. 
               </p>
               <p>
-                A nova seção Guia Técnico, por exemplo, é uma expressão clara desse compromisso. Por meio de vídeos
-                curtos e acessíveis, buscamos traduzir conceitos complexos em linguagem simples, sem perder o rigor.
-                Afinal, a democracia se fortalece quando todos têm condições de compreender e questionar as decisões que
-                impactam suas vidas.
+                O portal se propõe a ir muito além dos números. Ele oferece uma leitura crítica e contextualizada da realidade, disponibilizando vídeos explicativos, glossários e notas técnicas que facilitam a compreensão do vocabulário institucional e técnico. Assim, o DataSP busca ampliar a consciência crítica, fortalecendo o controle social e estimulando a participação cidadã.
               </p>
               <p>
-                A Escola de Contas, como braço pedagógico do Tribunal de Contas, tem como missão formar e informar. E
-                formar, aqui, não significa apenas transmitir conhecimento, mas cultivar o pensamento crítico, o senso
-                de justiça e o espírito público. O DataSP é uma extensão dessa missão — um espaço onde o controle social
-                se encontra com a educação cidadã.
+                O alcance do DataSP é amplo e estratégico. Seu público-alvo envolve a administração pública, a imprensa, a sociedade civil organizada e todos os cidadãos interessados em entender melhor as políticas que moldam a vida na cidade. 
               </p>
               <p>
-                Ao navegar pelo portal, espero que cada visitante se sinta não apenas informado, mas também inspirado.
-                Inspirado a perguntar, a propor, a participar. Porque a cidade que queremos não se constrói apenas com
-                boas intenções, mas com dados, evidências e diálogo. E o diálogo começa quando todos têm acesso às
-                mesmas informações, com clareza e respeito à diversidade de olhares.
+                Ao inspirar o cidadão a perguntar, propor e participar, o portal se apresenta como uma verdadeira ponte entre o indivíduo e o poder público — entre dados e decisões, entre presente e futuro. Ele incentiva o olhar crítico, o diálogo construtivo e o engajamento democrático.
               </p>
               <p>
-                A experiência nos ensina que o conhecimento é caminho, não âncora. Ele nos move, nos transforma, nos
-                desafia. Que o DataSP seja, portanto, um ponto de partida para novas jornadas de aprendizado e
-                participação. Que ele sirva como ponte entre o cidadão e o poder público, entre o dado e a decisão,
-                entre o presente e o futuro que desejamos construir.
+                Por isso, convidamos você a conhecer, explorar e fazer parte do DataSP.
               </p>
               <p>
-                Seja bem-vindo ao DataSP. Que este espaço seja seu, nosso, da cidade.
+                Este é um espaço que pertence a todos os que acreditam na importância da transparência, da participação social e do aperfeiçoamento contínuo das políticas públicas. 
+              </p>
+              <p>
+                O DataSP é de todos nós — e é com todos nós que ele seguirá crescendo. 
               </p>
               <p class="signature">
                 João Antonio da Silva Filho
