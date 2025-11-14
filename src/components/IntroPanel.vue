@@ -9,7 +9,7 @@
           <h1 v-if="title">
             <span class="title-anchor-wrapper">
               <a :id="anchorId" :href="'#' + anchorId" class="title-anchor" title="Copiar o link para esta seÃ§Ã£o"
-                @click="copySectionLink">
+                @click="copyAnchorLink">
                 {{ displayTitle }}
               </a>
               <transition name="fade">
@@ -29,9 +29,8 @@
 </template>
 
 <script setup lang="ts">
-import { computed, onBeforeUnmount, onMounted, ref, toRefs, nextTick } from 'vue'
-
-const fullyVisibleEvent = 'fully-visible'
+import { computed, toRefs } from 'vue'
+import { useAnchorLink } from '@/composables/useAnchorLink'
 
 interface IntroPanelProps {
   title?: string
@@ -70,18 +69,7 @@ const leadText = computed(() => {
   return usePlaceholder.value ? loremFallback : ''
 })
 
-const displayTitle = computed(() => title.value.replace(/\n/g, '\n'))
 const iconAlt = computed(() => title.value ? `ÃÍcone da seÃ§Ã£o ${title.value}` : 'ÃÍcone da seÃ§Ã£o')
-
-const anchorId = computed(() => title.value
-  .toLowerCase()
-  .replace(/\n/g, ' ')
-  .normalize('NFD')
-  .replace(/[\u0300-\u036f]/g, '')
-  .replace(/[^a-z0-9 ]/g, '')
-  .trim()
-  .replace(/\s+/g, '-')
-)
 
 const panelClasses = computed(() => ({
   'intro-panel': true,
@@ -89,88 +77,11 @@ const panelClasses = computed(() => ({
   'intro-panel--snap': snap.value
 }))
 
-const rootEl = ref<HTMLElement | null>(null)
-let scrollRoot: HTMLElement | null = null
-let scrollListenerAttached = false
-let ticking = false
-const showCopied = ref(false)
-let copyToastTimeout: number | null = null
-
-const fullyVisible = (): boolean => {
-  if (!rootEl.value) return false
-  const elRect = rootEl.value.getBoundingClientRect()
-  const rootRect = (scrollRoot
-    ? scrollRoot.getBoundingClientRect()
-    : { top: 0, bottom: window.innerHeight }) as DOMRect | { top: number; bottom: number }
-  const elTop = Math.round(elRect.top)
-  const elBottom = Math.round(elRect.bottom)
-  const rootTop = Math.round(rootRect.top)
-  const rootBottom = Math.round(rootRect.bottom)
-  return elTop >= rootTop && elBottom <= rootBottom && (elBottom - elTop) > 0
-}
-
-const onScroll = () => {
-  if (ticking) return
-  ticking = true
-  requestAnimationFrame(() => {
-    if (fullyVisible()) {
-      emit(fullyVisibleEvent, anchorId.value)
-      if (rootEl.value) {
-        rootEl.value.dispatchEvent(new CustomEvent(fullyVisibleEvent, { bubbles: true, detail: { anchorId: anchorId.value } }))
-      }
-    }
-    ticking = false
-  })
-}
-
-const copySectionLink = () => {
-  const fullUrl = `${window.location.origin}${window.location.pathname}#${anchorId.value}`
-  const tryClipboard = async () => {
-    try {
-      await navigator.clipboard.writeText(fullUrl)
-    } catch {
-      const temp = document.createElement('textarea')
-      temp.value = fullUrl
-      temp.style.position = 'fixed'
-      temp.style.opacity = '0'
-      document.body.appendChild(temp)
-      temp.select()
-      try { document.execCommand('copy') } catch { /* ignore */ }
-      document.body.removeChild(temp)
-    }
-    showCopied.value = false
-    void nextTick(() => {
-      showCopied.value = true
-      if (copyToastTimeout) clearTimeout(copyToastTimeout)
-      copyToastTimeout = window.setTimeout(() => { showCopied.value = false }, 1800)
-    })
-  }
-  void tryClipboard()
-}
-
-onMounted(() => {
-  scrollRoot = document.querySelector('.snap-container') as HTMLElement | null
-  const targetScrollEl = scrollRoot || window
-  if (!scrollListenerAttached) {
-    targetScrollEl.addEventListener('scroll', onScroll, { passive: true })
-    scrollListenerAttached = true
-  }
-  if (fullyVisible()) {
-    emit(fullyVisibleEvent, anchorId.value)
-    if (rootEl.value) {
-      rootEl.value.dispatchEvent(new CustomEvent(fullyVisibleEvent, { bubbles: true, detail: { anchorId: anchorId.value } }))
-    }
-  }
+const { anchorId, displayTitle, rootEl, showCopied, copyAnchorLink } = useAnchorLink({
+  title,
+  emitFullyVisible: (id) => emit('fully-visible', id)
 })
 
-onBeforeUnmount(() => {
-  const targetScrollEl = scrollRoot || window
-  if (scrollListenerAttached) {
-    targetScrollEl.removeEventListener('scroll', onScroll)
-    scrollListenerAttached = false
-  }
-  if (copyToastTimeout) clearTimeout(copyToastTimeout)
-})
 </script>
 
 <style scoped>
@@ -352,3 +263,5 @@ onBeforeUnmount(() => {
   }
 }
 </style>
+
+

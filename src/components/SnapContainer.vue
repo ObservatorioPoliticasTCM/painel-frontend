@@ -34,10 +34,14 @@
         class="nav-dot"
         :class="{ active: !topVisible && !bottomVisible && index === activeDashboard }"
         @click="scrollToDashboard(index)"
-        :aria-label="`Ir para o dashboard ${index + 1}`"
+        :aria-label="`Ir para ${dashboardLabel(index)}`"
         :aria-selected="!topVisible && !bottomVisible && index === activeDashboard"
         role="tab"
-      ></button>
+      >
+        <span class="nav-dot-tooltip" aria-hidden="true">
+          {{ dashboardLabel(index) }}
+        </span>
+      </button>
       <button
         type="button"
         class="nav-dot nav-end nav-icon"
@@ -100,6 +104,7 @@ const firstEl = ref<HTMLElement | null>(null)
 const lastEl = ref<HTMLElement | null>(null)
 const container = ref<HTMLElement | null>(null)
 const dashboardEls = ref<HTMLElement[]>([])
+const dashboardLabels = ref<string[]>([])
 const activeDashboard = ref(0)
 
 const totalDashboards = computed(() => dashboardEls.value.length)
@@ -116,8 +121,19 @@ const sectionVisible = (id: string) => {
 
 provide('sectionVisible', sectionVisible)
 
+const normalizeLabel = (value?: string | null) => value ? value.replace(/\s+/g, ' ').trim() : ''
+const fallbackLabel = (index: number) => `Dashboard ${index + 1}`
+const extractDashboardLabel = (element: HTMLElement, index: number) => {
+  const anchor = element.querySelector<HTMLElement>('.title-anchor')
+  const heading = element.querySelector<HTMLElement>('h1, h2, h3')
+  const label = normalizeLabel(anchor?.textContent ?? heading?.textContent ?? '')
+  return label || fallbackLabel(index)
+}
+const dashboardLabel = (index: number) => dashboardLabels.value[index] ?? fallbackLabel(index)
+
 const updateDashboardRefs = (children: HTMLElement[]) => {
   dashboardEls.value = children.filter(child => child.classList.contains('dashboard-frame'))
+  dashboardLabels.value = dashboardEls.value.map((el, idx) => extractDashboardLabel(el, idx))
   if (!dashboardEls.value.length) {
     activeDashboard.value = 0
     return
@@ -324,6 +340,7 @@ onBeforeUnmount(() => {
   align-items: center;
   justify-content: center;
   color: #213547;
+  position: relative;
 }
 .nav-dot:hover {
   background: rgba(33, 53, 71, 0.55);
@@ -369,6 +386,28 @@ onBeforeUnmount(() => {
 .nav-dot-icon svg {
   width: 100%;
   height: 100%;
+}
+.nav-dot-tooltip {
+  position: absolute;
+  left: calc(100% + 0.5rem);
+  top: 50%;
+  transform: translate(0.2rem, -50%);
+  background: rgba(33, 53, 71, 0.92);
+  color: #ffffff;
+  padding: 0.15rem 0.45rem;
+  border-radius: 0.35rem;
+  font-size: 0.65rem;
+  line-height: 1.2;
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+}
+.nav-dot:hover .nav-dot-tooltip,
+.nav-dot:focus-visible .nav-dot-tooltip {
+  opacity: 1;
+  transform: translate(0.35rem, -50%);
 }
 
 @media (max-width: 60em) {
