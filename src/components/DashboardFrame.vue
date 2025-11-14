@@ -1,5 +1,5 @@
 <template>
-  <div class="dashboard-frame" ref="rootEl">
+  <div class="snap-section" ref="rootEl">
     <div v-if="title" class="frame-header">
       <h1 v-if="title">
         <span class="title-anchor-wrapper">
@@ -163,7 +163,7 @@ onBeforeUnmount(() => {
 </script>
 
 <style scoped>
-.dashboard-frame {
+.snap-section {
   display: flex;
   flex-direction: column;
   height: 96vh;
