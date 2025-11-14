@@ -22,9 +22,7 @@
         <ul>
             <li><router-link to="/glossario">Glossário</router-link></li>
             <li>
-              <a href="https://tcmspgovbr-my.sharepoint.com/:x:/g/personal/bruno_balzano_tcmsp_tc_br/EaZTZuxZM6pEgqNZZHcW1c4BtAEThZYGRB9yXderg0DUCA?e=aEhdXF" 
-              target="_blank" 
-              rel="noopener noreferrer">
+              <a href="/infos/metadados-datasp.xlsx" target="_blank" rel="noopener noreferrer">
                 Metadados
               </a>
             </li>
