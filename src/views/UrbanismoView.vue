@@ -28,7 +28,7 @@
       title="Parques novos e requalificados, áreas permeáveis e despesas liquidadas com parques (2024)"
       identity="4"
       methodology-link="/infos/notas/Urbanismo/Parques novos e requalificados, áreas permeáveis e despesas liquidadas com parques (2024).pdf"
-      download-link="/dados/urbanismo/parques-novos-e-requalificados-area-permeavel-e-despesas-liquidadas-com-parques.zip"
+      download-link="/dados/urbanismo/parques-novos-e-requalificados-areas-permeaveis-e-despesas-liquidadas-com-parques.zip"
     />
     <DashboardFrame
       appid="5894c40c-193a-4bfc-8b05-0cec25c9a09c"
