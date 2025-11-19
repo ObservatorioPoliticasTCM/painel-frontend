@@ -8,10 +8,6 @@
             <NameAndTitle name="Manoel Henrique Martins" title="Auxiliar Técnico de Controle Externo" />
         </NameGroup>
 
-        <NameGroup name="Unidade de Informações Estratégicas" :border="false">
-            <NameAndTitle name="Luciana da Cunha de Castro Guerra" title="Supervisora da Unidade" />
-        </NameGroup>
-
         <NameGroup name="Estagiários do OPP" :border="false">
             <NameAndTitle name="Ana Stenico" title="Geografia" />
             <NameAndTitle name="Bruna Santos" title="Geografia" />
@@ -31,7 +27,7 @@
 
 <script setup lang="ts">
 import NameAndTitle from '@/components/NameAndTitle.vue'
-import NameGroup from '@/components/NameGroup.vue';
+import NameGroup from '@/components/NameGroup.vue'
 </script>
 
 <style scoped>
