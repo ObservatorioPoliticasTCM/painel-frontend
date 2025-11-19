@@ -20,6 +20,12 @@
             <NameAndTitle name="Rafael Bezerra" title="Análise e Desenvolvimento de Sistemas" />
             <NameAndTitle name="Samuel Alves" title="Segurança Cibernética" />
         </NameGroup>
+
+        <NameGroup name="Estagiárias da Comunicação" :border="false">
+            <NameAndTitle name="Anny Solon Moretti Fernandes" title="Publicidade e Propaganda" />
+            <NameAndTitle name="Eduarda Fonseca da Silva" title="Publicidade e Propaganda" />
+            <NameAndTitle name="Natália Valente Trigo" title="Publicidade e Propaganda" />
+        </NameGroup>
     </div>
 </template>
 
