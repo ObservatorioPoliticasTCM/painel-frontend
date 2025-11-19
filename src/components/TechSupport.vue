@@ -8,24 +8,26 @@
             <NameAndTitle name="Manoel Henrique Martins" title="Auxiliar Técnico de Controle Externo" />
         </NameGroup>
 
-        <NameGroup name="Unidade de Informações Estratégicas" :border="false">
-            <NameAndTitle name="Luciana da Cunha de Castro Guerra" title="Supervisora da Unidade" />
-        </NameGroup>
-
         <NameGroup name="Estagiários do OPP" :border="false">
-            <NameAndTitle name="Ana Stenico" title="Geografia" />
+            <NameAndTitle name="Ana Clara Stenico" title="Geografia" />
             <NameAndTitle name="Bruna Santos" title="Geografia" />
             <NameAndTitle name="Marcos Silva" title="Gestão de Tecnologia da Informação" />
             <NameAndTitle name="Pedro Lima" title="Geografia" />
-            <NameAndTitle name="Rafael Bezerra" title="Análise e Desenvolvimento de Sistemas" />
-            <NameAndTitle name="Samuel Alves" title="Segurança Cibernética" />
+            <NameAndTitle name="Rafael Oliveira Bezerra da Silva" title="Análise e Desenvolvimento de Sistemas" />
+            <NameAndTitle name="Samuel Bento Alves" title="Segurança Cibernética" />
+        </NameGroup>
+
+        <NameGroup name="Estagiárias da Comunicação" :border="false">
+            <NameAndTitle name="Anny Solon Moretti Fernandes" title="Publicidade e Propaganda" />
+            <NameAndTitle name="Eduarda Fonseca da Silva" title="Publicidade e Propaganda" />
+            <NameAndTitle name="Natália Valente Trigo" title="Publicidade e Propaganda" />
         </NameGroup>
     </div>
 </template>
 
 <script setup lang="ts">
 import NameAndTitle from '@/components/NameAndTitle.vue'
-import NameGroup from '@/components/NameGroup.vue';
+import NameGroup from '@/components/NameGroup.vue'
 </script>
 
 <style scoped>
