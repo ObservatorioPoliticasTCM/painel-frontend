@@ -30,10 +30,10 @@ import VideoThumbnail from '@/components/VideoThumbnail.vue'
 type Video = { id: string; title: string }
 
 const videos = reactive<Video[]>([
-  { id: 'SSmdKtnnjiY', title: 'Introdução e navegação' },
-  { id: 'TtA2pRgkMAw', title: 'Políticas Públicas' },
-  { id: 'PJPft-mlTO8', title: 'Orçamento Público' },
-  { id: 'gc1cDs7WA3o', title: 'Execução do Orçamento' }
+  { id: 'atEtU4-OKSg', title: 'Introdução e navegação' },
+  { id: 'vDKwTIejJ2M', title: 'Políticas Públicas' },
+  { id: 'KZ8QHUkkjSY', title: 'Orçamento Público' },
+  { id: 'Z6jvCsYf9Lw', title: 'Execução Orçamentária' }
 ])
 
 const selectedId = ref(videos[0].id)
