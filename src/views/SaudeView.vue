@@ -23,6 +23,7 @@
     subtitle="Inclui óbitos de residentes do município de São Paulo"
     identity="3"
     download-link="/dados/saude/mortalidade.csv"
+    :methodology-link="notasOBITO"
     />
     <DashboardFrame
       appid="585f0398-5876-4e29-98db-a53e3e013dc4"
@@ -38,6 +39,7 @@
 <script setup lang="ts">
 import DashboardFrame from '../components/DashboardFrame.vue'
 import SnapPage from '../components/SnapPage.vue'
+const notasOBITO = '/infos/notas/saude/NOTAS METODOLOGICAS SOBRE CAUSAS DE OBITO.pdf'
 </script>
 
 <style scoped></style>
