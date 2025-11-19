@@ -17,8 +17,8 @@
             <NameAndTitle name="Bruna Santos" title="Geografia" />
             <NameAndTitle name="Marcos Silva" title="Gestão de Tecnologia da Informação" />
             <NameAndTitle name="Pedro Lima" title="Geografia" />
-            <NameAndTitle name="Rafael Bezerra" title="Análise e Desenvolvimento de Sistemas" />
-            <NameAndTitle name="Samuel Alves" title="Segurança Cibernética" />
+            <NameAndTitle name="Rafael Oliveira Bezerra da Silva" title="Análise e Desenvolvimento de Sistemas" />
+            <NameAndTitle name="Samuel Bento Alves" title="Segurança Cibernética" />
         </NameGroup>
 
         <NameGroup name="Estagiárias da Comunicação" :border="false">
