@@ -9,7 +9,7 @@
         </NameGroup>
 
         <NameGroup name="Estagiários do OPP" :border="false">
-            <NameAndTitle name="Ana Stenico" title="Geografia" />
+            <NameAndTitle name="Ana Clara Stenico" title="Geografia" />
             <NameAndTitle name="Bruna Santos" title="Geografia" />
             <NameAndTitle name="Marcos Silva" title="Gestão de Tecnologia da Informação" />
             <NameAndTitle name="Pedro Lima" title="Geografia" />
