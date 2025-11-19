@@ -19,7 +19,7 @@
     <DashboardFrame
     appid="585f0398-5876-4e29-98db-a53e3e013dc4"
     sheet="hSjCf"
-    title="Óbitos (2021)"
+    title="Taxa de mortalidade (2024)"
     subtitle="Inclui óbitos de residentes do município de São Paulo"
     identity="3"
     download-link="/dados/saude/mortalidade.csv"
