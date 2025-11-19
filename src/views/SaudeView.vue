@@ -23,6 +23,7 @@
     subtitle="Inclui óbitos de residentes do município de São Paulo"
     identity="3"
     download-link="/dados/saude/mortalidade.csv"
+    methodology-link="/infos/notas/saude/taxa-de-mortalidade-2024.pdf"
     />
     <DashboardFrame
       appid="585f0398-5876-4e29-98db-a53e3e013dc4"
