@@ -1,7 +1,7 @@
 <template>
   <SnapPage>
     <IntroPanel
-          title=""
+          title="Visão geral dos dashboards de Saúde"
           subtitle=""
           :full-height="false"
           :use-placeholder="false"

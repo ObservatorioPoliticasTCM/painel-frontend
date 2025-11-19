@@ -271,7 +271,7 @@ onBeforeUnmount(() => {
 }
 
 .extra {
-  font-size: clamp(0.5rem, 2.4vh, 1rem);
+  font-size: clamp(0.5rem, 2.3vh, 1rem);
   line-height: 1.65;
   width: 100%;
   column-count: 2;
