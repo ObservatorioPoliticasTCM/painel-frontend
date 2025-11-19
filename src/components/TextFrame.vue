@@ -1,5 +1,5 @@
 <template>
-  <div class="text-frame" ref="rootEl">
+  <div class="text-frame snap-section" ref="rootEl">
     <div v-if="title" class="frame-header">
       <h1 v-if="title"> 
         <span class="title-anchor-wrapper">
@@ -28,18 +28,22 @@ import { computed, onMounted, onBeforeUnmount, ref, toRefs, nextTick } from 'vue
 
 const fullyVisibleEvent = 'fully-visible'
 
+type SnapStrategy = 'full' | 'start'
+
 interface TextFrameProps {
   title?: string
   subtitle?: string
+  snapStrategy?: SnapStrategy
 }
 
 const props = withDefaults(defineProps<TextFrameProps>(), {
   title: '',
-  subtitle: ''
+  subtitle: '',
+  snapStrategy: 'full' as SnapStrategy
 })
 const emit = defineEmits<{ (e: 'fully-visible', anchorId: string): void }>()
 
-const { title, subtitle } = toRefs(props)
+const { title, subtitle, snapStrategy } = toRefs(props)
 
 const displayTitle = computed(() => title.value.replace(/\n/g, '\n'))
 
@@ -70,6 +74,10 @@ const fullyVisible = (): boolean => {
   const elBottom = Math.round(elRect.bottom)
   const rootTop = Math.round(rootRect.top)
   const rootBottom = Math.round(rootRect.bottom)
+  if (snapStrategy.value === 'start') {
+    const margin = Math.min(180, Math.round((rootBottom - rootTop) * 0.35))
+    return elTop >= rootTop && elTop <= rootBottom - margin
+  }
   return elTop >= rootTop && elBottom <= rootBottom && (elBottom - elTop) > 0
 }
 
@@ -146,6 +154,8 @@ onBeforeUnmount(() => {
   padding: 2vh;
   position: relative;
   z-index: 20;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
 }
 .frame-header {
   font-size: 0.6em;
