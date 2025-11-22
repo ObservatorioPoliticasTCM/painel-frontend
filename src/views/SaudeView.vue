@@ -6,7 +6,7 @@
       title="Número de consultas (2024)"
       subtitle="Inclui as unidades municipais, estaduais e federais"
       identity="1"
-      download-link="/dados/saude/consultas.csv"
+      download-link="/dados/saude/consultas.zip"
     />
     <DashboardFrame
     appid="585f0398-5876-4e29-98db-a53e3e013dc4"
@@ -14,7 +14,7 @@
     title="Leitos (2024)"
     subtitle="Inclui leitos das unidades municipais, estaduais e federais"
     identity="2"
-    download-link="/dados/saude/leitos-internacao-complementares.csv"
+    download-link="/dados/saude/leitos-internacao-complementares.zip"
     />
     <DashboardFrame
     appid="585f0398-5876-4e29-98db-a53e3e013dc4"
@@ -22,7 +22,7 @@
     title="Taxa de mortalidade (2024)"
     subtitle="Inclui óbitos de residentes do município de São Paulo"
     identity="3"
-    download-link="/dados/saude/mortalidade.csv"
+    download-link="/dados/saude/mortalidade.zip"
     methodology-link="/infos/notas/saude/taxa-de-mortalidade-2024.pdf"
     />
     <DashboardFrame
@@ -31,7 +31,7 @@
       title="Despesas em atenção Básica e especializada (2024)"
       subtitle="Inclui apenas despesas municipais"
       identity="4"
-      download-link="/dados/saude/despesas.csv"
+      download-link="/dados/saude/despesas.zip"
     />
   </SnapPage>
 </template>
