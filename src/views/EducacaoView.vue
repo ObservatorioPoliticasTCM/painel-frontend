@@ -10,7 +10,7 @@
     <DashboardFrame
       appid="ee3bc48f-da4d-403a-a4fe-4da01cb29ee9"
       sheet="mSNDU"
-      title="Despesas com educação na rede pública municipal (2024)"
+      title="Despesas liquidadas na Função Educação (2024)"
       identity="3"
       methodology-link="/infos/notas/educacao/2_notas_metodologicas_despesas_ok.pdf"
       download-link="/dados/educacao/orcamento.csv"
