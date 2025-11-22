@@ -18,7 +18,7 @@
     <DashboardFrame
       appid="ee3bc48f-da4d-403a-a4fe-4da01cb29ee9"
       sheet="8a9478a1-23b6-4165-a526-12f9d736aaa0"
-      title="Número de escolas da rede pública municipal (2024)"
+      title="Número de escolas da rede municipal (2024)"
       identity="3"
       methodology-link="/infos/notas/educacao/3_notas_metodologicas_escolas_ok.pdf"
       download-link="/dados/educacao/escolas-municipais.csv"
