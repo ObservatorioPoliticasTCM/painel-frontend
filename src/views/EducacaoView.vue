@@ -34,7 +34,7 @@
     <DashboardFrame
       appid="ee3bc48f-da4d-403a-a4fe-4da01cb29ee9"
       sheet="nNpyj"
-      title="Perfil dos alunos da rede pública municipal (2024)"
+      title="Perfil dos alunos da rede municipal (2024)"
       identity="5"
       methodology-link="/infos/notas/educacao/5_notas_metodologicas_alunos_ok.pdf"
       download-link="/dados/educacao/perfil-dos-educandos.csv"
@@ -42,7 +42,7 @@
     <DashboardFrame
       appid="ee3bc48f-da4d-403a-a4fe-4da01cb29ee9"
       sheet="jRpJk"
-      title="Alunos da rede pública municipal beneficiários do Bolsa Família (2024)"
+      title="Alunos da rede municipal beneficiários do Bolsa Família (2024)"
       identity="6"
       methodology-link="/infos/notas/educacao/6_notas_metodologicas_bolsa_familia_ok.pdf"
       download-link="/dados/educacao/beneficiarios-pbf.csv"
@@ -50,7 +50,7 @@
     <DashboardFrame
       appid="ee3bc48f-da4d-403a-a4fe-4da01cb29ee9"
       sheet="PqxZb"
-      title="Alunos estrangeiros na rede pública municipal (2024)"
+      title="Alunos estrangeiros na rede municipal (2024)"
       identity="7"
       methodology-link="/infos/notas/educacao/7_notas_metodologicas_alunos_estrangeiros_ok.pdf"
       download-link="/dados/educacao/educandos-estrangeiros.csv"
