@@ -278,7 +278,11 @@ onBeforeUnmount(() => {
   column-gap: clamp(2rem, 4vw, 4.5rem);
   column-fill: balance;
   text-align: justify;
-  hyphens: auto;
+  hyphens: none;
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+  word-break: normal;
+  overflow-wrap: break-word;
 }
 
 .extra ::v-deep(p) {

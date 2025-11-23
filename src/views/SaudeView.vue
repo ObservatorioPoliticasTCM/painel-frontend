@@ -85,13 +85,3 @@ import DashboardFrame from '@/components/DashboardFrame.vue'
 import SnapPage from '@/components/SnapPage.vue'
 import IntroPanel from '@/components/IntroPanel.vue'
 </script>
-
-<style scoped>
-.intro-body {
-  hyphens: none;
-  -webkit-hyphens: none;
-  -ms-hyphens: none;
-  word-break: normal;
-  overflow-wrap: break-word;
-}
-</style>
