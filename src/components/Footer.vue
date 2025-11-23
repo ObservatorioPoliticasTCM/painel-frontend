@@ -62,6 +62,12 @@ footer {
   font-size: 0.9em;
 }
 
+.ext-icon {
+  height: 0.75em;
+  vertical-align: super;
+  margin-bottom: -0.15em;
+}
+
 .cc-logo {
   height: 1em;
   vertical-align: middle;
