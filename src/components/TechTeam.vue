@@ -27,7 +27,7 @@
 
         <NameGroup name="Unidade de Informações Estratégicas" :border="false">
             <NameAndTitle name="Luciana da Cunha de Castro Guerra" title="Supervisora da Unidade" />
-            <NameAndTitle name="Lilian Tiemi Takada" title="Auxiliar Técnico de Controle Externo" />
+            <NameAndTitle name="Lilian Tiemi Takada" title="Auxiliar Técnica de Controle Externo" />
             <NameAndTitle name="Ana Luísa Augusto do Val" title="Estagiária de Análise e Desenvolvimento de Sistemas" />
         </NameGroup>
     </div>
