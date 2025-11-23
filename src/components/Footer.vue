@@ -2,8 +2,12 @@
   <footer>
     <div class="footer-container">
       <div class="footer-left">
-        <img src="@/assets/logo-tcm.png" alt="Logo TCM" />
-        <img src="@/assets/logo-egc.svg" alt="Logo EGC" />
+        <a href="https://portal.tcm.sp.gov.br/" target="_blank" rel="noopener noreferrer" title="Acessar o portal do Tribunal de Contas do Município de São Paulo">
+          <img src="@/assets/logo-tcm.png" alt="Logo TCM" />
+        </a>
+        <a href="https://escoladecontas.tcm.sp.gov.br/" target="_blank" rel="noopener noreferrer" title="Acessar o portal da Escola Superior de Gestão e Contas Públicas">
+          <img src="@/assets/logo-egc.svg" alt="Logo EGC" />
+        </a>
       </div>
       <div class="footer-center">
         <div class="footer-license">
