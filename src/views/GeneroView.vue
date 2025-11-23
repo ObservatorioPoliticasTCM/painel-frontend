@@ -12,6 +12,7 @@
       title="Despesas municipais sensíveis a gênero em projetos/atividades com foco exclusivo em políticas para as mulheres"
       identity="1"
       methodology-link="/infos/notas/genero/DESPESAS MUNICIPAIS EM AÇÕES VOLTADAS EXCLUSIVAMENTE A POLÍTICAS DE PROMOÇÃO AOS DIREITOS DAS MULHERES 1.pdf"
+      download-link="/dados/genero/orçamento-exclusivo.csv"
     />
     <DashboardFrame
       appid="aa9f4f6c-2007-47d9-ab3a-588c87a4d50e"
@@ -19,6 +20,7 @@
       title="Despesas municipais sensíveis a gênero em projetos/atividades sem foco exclusivo em políticas para mulheres (2023)"
       identity="2"
       methodology-link="/infos/notas/genero/DESPESAS MUNICIPAIS EM AÇÕES PARCIALMENTE FOCALIZADAS POR INICIATIVA DISCRICIONÁRIA DA GESTÃO MUNICIPAL (2023).pdf"
+      download-link="/dados/genero/orçamento-não-exclusivo-2023.csv"
     />
     <DashboardFrame
       appid="e808b4ea-ded0-41c6-b5b0-8845934d8369"
@@ -27,6 +29,7 @@
       subtitle="Despesas municipais sensíveis a gênero em projeto/atividade sem foco exclusivo em políticas para as mulheres, de acordo com o PMPM (2017-2020)"
       identity="3"
       :methodology-link="notaPMPM"
+      download-link="/dados/genero/orçamento-pmpm-habitação.csv"
     />
     <DashboardFrame
       appid="e808b4ea-ded0-41c6-b5b0-8845934d8369"
@@ -35,6 +38,7 @@
       subtitle="Despesas municipais sensíveis a gênero em projeto/atividade sem foco exclusivo em políticas para as mulheres, de acordo com o PMPM (2017-2020)"
       identity="4"
       :methodology-link="notaPMPM"
+      download-link="/dados/genero/orçamento-pmpm-educação.csv"
     />
     <DashboardFrame
       appid="e808b4ea-ded0-41c6-b5b0-8845934d8369"
@@ -43,6 +47,7 @@
       subtitle="Despesas municipais sensíveis a gênero em projeto/atividade sem foco exclusivo em políticas para as mulheres, de acordo com o PMPM (2017-2020)"
       identity="5"
       :methodology-link="notaPMPM"
+      download-link="/dados/genero/orçamento-pmpm-assistência-social.csv"
     />
     <DashboardFrame
       appid="e808b4ea-ded0-41c6-b5b0-8845934d8369"
@@ -51,6 +56,7 @@
       subtitle="Despesas municipais sensíveis a gênero em projeto/atividade sem foco exclusivo em políticas para as mulheres, de acordo com o PMPM (2017-2020)"
       identity="6"
       :methodology-link="notaPMPM"
+      download-link="/dados/genero/orçamento-pmpm-direitos-humanos.csv"
     />
     <DashboardFrame
       appid="e808b4ea-ded0-41c6-b5b0-8845934d8369"
@@ -59,6 +65,7 @@
       subtitle="Despesas municipais sensíveis a gênero em projeto/atividade sem foco exclusivo em políticas para as mulheres, de acordo com o PMPM (2017-2020)"
       identity="7"
       :methodology-link="notaPMPM"
+      download-link="/dados/genero/orçamento-pmpm-trabalho.csv"
     />
   </SnapPage>
 </template>
