@@ -86,6 +86,11 @@ import ScrollablePage from '@/components/ScrollablePage.vue';
 
 .letter-body {
   font-size: 1.05rem;
+  hyphens: none;
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+  word-break: normal;
+  overflow-wrap: break-word;
 }
 
 .letter-body p {
