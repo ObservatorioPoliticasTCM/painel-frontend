@@ -8,8 +8,8 @@
       <div class="footer-center">
         <div class="footer-license">
           <p>
-          <img src="@/assets/cc-icons.svg#cc-logo" alt="CC Logo" />
-          <img src="@/assets/cc-icons.svg#cc-by" alt="CC BY" />
+          <img src="@/assets/cc-icons.svg#cc-logo" alt="CC Logo" class="cc-logo" />
+          <img src="@/assets/cc-icons.svg#cc-by" alt="CC BY" class="cc-logo" />
           Todo o conteúdo do OPP neste site está disponível sob a licença <a href='https://creativecommons.org/licenses/by/4.0/' target="_blank" rel="noopener noreferrer">Creative Commons Atribuição 4.0 Internacional</a>, exceto quando especificada outra licença.
           <br>O código-fonte da plataforma e dos tratamentos dos dados estão disponíveis no <a href="https://github.com/ObservatorioPoliticasTCM" target="_blank" rel="noopener noreferrer">GitHub <img src="@/assets/external-link.svg" alt="external link" class="ext-icon" aria-hidden="true" /></a> sob a licença MIT.</p>
         </div>
@@ -62,7 +62,7 @@ footer {
   font-size: 0.9em;
 }
 
-.footer-license img {
+.cc-logo {
   height: 1em;
   vertical-align: middle;
   margin-right: 0.3em;
