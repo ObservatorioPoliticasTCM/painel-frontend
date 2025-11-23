@@ -3,8 +3,8 @@
     <div class="gradient-overlay"></div>
     <div class="header-inner">
       <div class="logo-container">
-        <router-link to="/">
-          <img src="@/assets/logo.svg" alt="Logo" class="logo logo-left" />
+        <router-link to="/" title="Voltar para o início" >
+          <img src="@/assets/logo.svg" alt="Logo DataSP" class="logo logo-left"/>
         </router-link>
         <a href="https://observatorio.tcm.sp.gov.br/" target="_blank" rel="noopener noreferrer">
           <img src="@/assets/logo-opp.svg" alt="Logo OPP" class="logo logo-right" />
