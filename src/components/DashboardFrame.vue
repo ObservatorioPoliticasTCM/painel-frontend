@@ -40,6 +40,7 @@ interface DashboardFrameProps {
   appid: string
   sheet: string
   identity?: string
+  anchor?: string
   title?: string
   subtitle?: string
   select?: string
@@ -54,7 +55,7 @@ const props = withDefaults(defineProps<DashboardFrameProps>(), {
 })
 const emit = defineEmits<{ (e: 'fully-visible', anchorId: string): void }>()
 
-const { appid, sheet, identity, title, subtitle, select } = toRefs(props)
+const { appid, sheet, identity, anchor, title, subtitle, select } = toRefs(props)
 const { metadataLink, methodologyLink, downloadLink } = toRefs(props)
 
 const baseUrl = 'https://qlik.tcm.sp.gov.br/jwt/single/'
@@ -67,15 +68,28 @@ const iframeSrc = computed(() => {
 
 const displayTitle = computed(() => title.value.replace(/\n/g, '\n'))
 
-const anchorId = computed(() => title.value
-  .toLowerCase()
-  .replace(/\n/g, ' ')
-  .normalize('NFD')
-  .replace(/[\u0300-\u036f]/g, '')
-  .replace(/[^a-z0-9 ]/g, '')
-  .trim()
-  .replace(/\s+/g, '-')
-)
+const anchorId = computed(() => {
+  const customAnchor = anchor?.value?.trim()
+  if (customAnchor) {
+    return customAnchor
+      .toLowerCase()
+      .replace(/\n/g, ' ')
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .replace(/[^a-z0-9 -]/g, '')
+      .trim()
+      .replace(/\s+/g, '-')
+      .replace(/-+/g, '-')
+  }
+  return title.value
+    .toLowerCase()
+    .replace(/\n/g, ' ')
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9 ]/g, '')
+    .trim()
+    .replace(/\s+/g, '-')
+})
 
 const rootEl = ref<HTMLElement | null>(null)
 let scrollRoot: HTMLElement | null = null
