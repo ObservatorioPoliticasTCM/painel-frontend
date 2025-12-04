@@ -8,7 +8,7 @@
 
         <TechGroup name="GT Gênero" url="https://observatorio.tcm.sp.gov.br/Genero/556919">
             <NameAndTitle name="Maria Angélica Fernandes" title="Coordenadora" remove-bottom-margin />
-            <NameAndTitle name="Suelen Lima Benicio" title="Coordenadora Adjunta" remove-bottom-margin />
+            <NameAndTitle name="Suelem Lima Benicio" title="Coordenadora Adjunta" remove-bottom-margin />
         </TechGroup>
 
         <TechGroup name="GT Saúde" url="https://observatorio.tcm.sp.gov.br/Saude/556928">
