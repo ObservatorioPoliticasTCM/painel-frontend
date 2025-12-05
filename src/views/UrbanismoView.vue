@@ -4,6 +4,7 @@
       appid="ae6af572-20d7-4971-87ca-c472c0bde58a"
       sheet="e9731105-32d5-45a6-a2ac-972df82b3d6b"
       title="População em risco geológico e hidrológico (ago/2025)"
+      anchor="populacao-em-risco-geologico-e-hidrologico-ago2025"
       identity="1"
       methodology-link="/infos/notas/urbanismo/população-em-risco-geológico-e-hidrológico-ago2025.pdf"
       download-link="/dados/urbanismo/populacao-em-risco-geologico-e-hidrologico.zip"
@@ -26,6 +27,7 @@
       appid="22a261d9-7064-4232-956f-232f78547e51"
       sheet="1f71d49e-422e-4314-aa8b-259b8f948658"
       title="Parques novos e requalificados, áreas permeáveis e despesas liquidadas com parques (2024)"
+      anchor="parques-novos-e-requalificados-areas-permeaveis-e-despesas-liquidadas-com-parques-2024"
       identity="4"
       methodology-link="/infos/notas/urbanismo/parques-novos-e-requalificados,-áreas-permeáveis-e-despesas-liquidadas-com-parques-2024.pdf"
       download-link="/dados/urbanismo/parques-novos-e-requalificados-areas-permeaveis-e-despesas-liquidadas-com-parques.zip"
@@ -81,3 +83,4 @@ import SnapPage from '@/components/SnapPage.vue'
 </script>
 
 <style scoped></style>
+
